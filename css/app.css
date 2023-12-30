@@ -2262,22 +2262,28 @@ main >.inner {
   color: #ea716e;
 }
 .social .item.facebook::before {
-  background-color: aceboo;
+  background-color: #191717;
 }
 .social .item.facebook i {
-  color: aceboo;
+  color: #191717;
 }
 .social .item.youtube::before {
-  background-color: outub;
+  background-color: #e60026;
 }
 .social .item.youtube i {
-  color: outub;
+  color: #e60026;
 }
 .social .item.instagram::before {
-  background-color: nstagra;
+  background-color: #e60026;
 }
 .social .item.instagram i {
-  color: nstagra;
+  color: #e60026;
+}
+.social .item.telegram::before {
+  background-color: #00aff0;
+}
+.social .item.telegram i {
+  color: #00aff0;
 }
 .social .item:focus i,
 .social .item:hover i {
