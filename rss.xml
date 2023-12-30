@@ -2694,14 +2694,5 @@ int mid = left + (right – left) * (findVal – arr[left]) / (arr[right] – ar
 &lt;p&gt;​&lt;/p&gt;
  ]]></description>
         </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/2023/12/30/hello-world/</guid>
-            <title>Hello World</title>
-            <link>https://pigpigletsgo.github.io/2023/12/30/hello-world/</link>
-            <pubDate>Sat, 30 Dec 2023 03:52:02 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
- ]]></description>
-        </item>
     </channel>
 </rss>
