@@ -116,11 +116,11 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
       <div id="imgs" class="pjax">
         <ul>
           <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/a8d0ac76b87f7593653e29559d61b32d.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/5651daf17bf5de77514e658264d7cccc.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
-          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
           <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/6c7f469735b99a6a04773240429dc7e0.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/a8d0ac76b87f7593653e29559d61b32d.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
+          <li class="item" data-background-image="https://img.timelessq.com/images/2022/07/26/560306a4274d1fc26eb475dd52237387.jpg"></li>
         </ul>
       </div>
     </header>
@@ -171,7 +171,7 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
 
     <h2 id="请求"><a class="markdownIt-Anchor" href="#请求">#</a> 请求🌗</h2>
 <p>编写 ServerSocket 来充当服务器</p>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyHttpServer</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String...args)</span>&#123;</span><br><span class="line">        <span class="keyword">try</span>&#123;</span><br><span class="line">            <span class="comment">//设置接收的端口号为：8080</span></span><br><span class="line">            <span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(<span class="number">8080</span>);</span><br><span class="line">            <span class="comment">//等待接收数据，程序执行此处就会阻塞等等接收数据</span></span><br><span class="line">            <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">            <span class="comment">//打印接收到的数据对象</span></span><br><span class="line">            System.out.println(socket);</span><br><span class="line">        &#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MyHttpServer</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String...args)</span>&#123;</span><br><span class="line">        <span class="keyword">try</span>&#123;</span><br><span class="line">            <span class="comment">//设置接收的端口号为：8080</span></span><br><span class="line">            <span class="type">ServerSocket</span> <span class="variable">serverSocket</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">ServerSocket</span>(<span class="number">8080</span>);</span><br><span class="line">            <span class="comment">//等待接收数据，程序执行此处就会阻塞等等接收数据</span></span><br><span class="line">            <span class="type">Socket</span> <span class="variable">socket</span> <span class="operator">=</span> serverSocket.accept();</span><br><span class="line">            <span class="comment">//打印接收到的数据对象</span></span><br><span class="line">            System.out.println(socket);</span><br><span class="line">        &#125;<span class="keyword">catch</span>(IOException e)&#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>通过浏览器访问 ServerSocket</p>
 <figure class="highlight http"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">http://localhost:8080</span><br></pre></td></tr></table></figure>
 <p>访问后控制台打印结果：</p>
@@ -376,7 +376,7 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
       <i class="ic i-calendar-check"></i>
     </span>
     <span class="text">更新于</span>
-    <time title="修改时间：2023-12-30 16:52:37" itemprop="dateModified" datetime="2023-12-30T16:52:37+08:00">2023-12-30</time>
+    <time title="修改时间：2023-12-30 19:10:02" itemprop="dateModified" datetime="2023-12-30T19:10:02+08:00">2023-12-30</time>
   </span>
 </div>
 
@@ -441,7 +441,7 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
     <div class="item right">
       
 
-  <a href="/2023/12/30/HTML5+CSS3/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;560306a4274d1fc26eb475dd52237387.jpg" title="HTML5+CSS3">
+  <a href="/2023/12/30/HTML5+CSS3/" itemprop="url" rel="next" data-background-image="https:&#x2F;&#x2F;img.timelessq.com&#x2F;images&#x2F;2022&#x2F;07&#x2F;26&#x2F;6c7f469735b99a6a04773240429dc7e0.jpg" title="HTML5+CSS3">
   <span class="type">下一篇</span>
   <span class="category"><i class="ic i-flag"></i> web</span>
   <h3>HTML5+CSS3</h3>
@@ -579,12 +579,12 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/data-structures-and-algorithms/" title="分类于 数据结构与算法">数据结构与算法</a>
+<a href="/categories/java/" title="分类于 Java">Java</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/data-structures-and-algorithms/java/" title="分类于 Java">Java</a>
+<a href="/categories/java/web/" title="分类于 web">web</a>
 </div>
 
-    <span><a href="/2023/12/30/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/" title="数据结构与算法">数据结构与算法</a></span>
+    <span><a href="/2023/12/30/computer-science/java/web/%E7%BA%AFJava%E7%BC%96%E5%86%99%E4%BB%BF%E7%9C%9FHttp%E6%9C%8D%E5%8A%A1%E5%99%A8/" title="纯java仿写http服务器">纯java仿写http服务器</a></span>
   </li>
 
       
@@ -601,12 +601,12 @@ Dou的个人博客 = Dkx の Java 小窝 = 别怕路长梦远</title>
   <li class="item">
     
 <div class="breadcrumb">
-<a href="/categories/java/" title="分类于 Java">Java</a>
+<a href="/categories/data-structures-and-algorithms/" title="分类于 数据结构与算法">数据结构与算法</a>
 <i class="ic i-angle-right"></i>
-<a href="/categories/java/web/" title="分类于 web">web</a>
+<a href="/categories/data-structures-and-algorithms/java/" title="分类于 Java">Java</a>
 </div>
 
-    <span><a href="/2023/12/30/computer-science/java/web/%E7%BA%AFJava%E7%BC%96%E5%86%99%E4%BB%BF%E7%9C%9FHttp%E6%9C%8D%E5%8A%A1%E5%99%A8/" title="纯java仿写http服务器">纯java仿写http服务器</a></span>
+    <span><a href="/2023/12/30/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/" title="数据结构与算法">数据结构与算法</a></span>
   </li>
 
   </ul>
