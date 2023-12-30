@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pigpigletsgo.github.io</id>
-    <title>Hexo</title>
+    <title>Hexo • Posts by &#34;java&#34; category</title>
     <link href="https://pigpigletsgo.github.io" />
     <updated>2023-12-30T08:04:38.473Z</updated>
     <entry>
@@ -2487,14 +2487,5 @@ int mid = left + (right – left) * (findVal – arr[left]) / (arr[right] – ar
 &lt;p&gt;​&lt;/p&gt;
 </content>
         <updated>2023-12-30T08:04:38.473Z</updated>
-    </entry>
-    <entry>
-        <id>https://pigpigletsgo.github.io/2023/12/30/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/2023/12/30/hello-world/"/>
-        <content type="html">&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-</content>
-        <updated>2023-12-29T19:52:02.489Z</updated>
     </entry>
 </feed>

@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://pigpigletsgo.github.io</id>
-    <title>Hexo</title>
-    <link href="https://pigpigletsgo.github.io" />
-    <updated>2023-12-30T08:04:38.473Z</updated>
-    <entry>
-        <id>https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</id>
-        <title>数据结构与算法</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
-        <content type="html">&lt;h2 id=&#34;toc&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#toc&#34;&gt;#&lt;/a&gt; [toc]&lt;/h2&gt;
+<rss version="2.0">
+    <channel>
+        <title>Hexo • Posts by &#34;java&#34; category</title>
+        <link>https://pigpigletsgo.github.io</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Sat, 30 Dec 2023 16:04:38 +0800</pubDate>
+        <lastBuildDate>Sat, 30 Dec 2023 16:04:38 +0800</lastBuildDate>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</guid>
+            <title>数据结构与算法</title>
+            <link>https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</link>
+            <pubDate>Sat, 30 Dec 2023 16:04:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;toc&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#toc&#34;&gt;#&lt;/a&gt; [toc]&lt;/h2&gt;
 &lt;h2 id=&#34;数据结构和算法的重要性&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据结构和算法的重要性&#34;&gt;#&lt;/a&gt; 数据结构和算法的重要性🎄&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;ol&gt;
@@ -2485,16 +2489,7 @@ int mid = left + (right – left) * (findVal – arr[left]) / (arr[right] – ar
 &lt;p&gt;2 更新 Dis 集合，更新规则为：比较 v 到 V 集合中顶点的距离值，与 v 通过 vi 到 V 集合中顶点的距离值，保留值较小的一个 (同时也应该更新顶点的前驱节点为 vi，表明是通过 vi 到达的)&lt;/p&gt;
 &lt;p&gt;3 重复执行两步骤，直到最短路径顶点为目标顶点即可结束。&lt;/p&gt;
 &lt;p&gt;​&lt;/p&gt;
-</content>
-        <updated>2023-12-30T08:04:38.473Z</updated>
-    </entry>
-    <entry>
-        <id>https://pigpigletsgo.github.io/2023/12/30/hello-world/</id>
-        <title>Hello World</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/2023/12/30/hello-world/"/>
-        <content type="html">&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-</content>
-        <updated>2023-12-29T19:52:02.489Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
