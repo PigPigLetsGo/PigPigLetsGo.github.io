@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pigpigletsgo.github.io</id>
-    <title>Hexo • Posts by &#34;数据结构与算法&#34; category</title>
+    <title>Dkx の Java小窝 • Posts by &#34;数据结构与算法&#34; category</title>
     <link href="https://pigpigletsgo.github.io" />
     <updated>2023-12-30T08:04:38.473Z</updated>
     <entry>
-        <id>https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</id>
+        <id>https://pigpigletsgo.github.io/2023/12/30/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/</id>
         <title>数据结构与算法</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/2023/12/30/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
+        <link rel="alternate" href="https://pigpigletsgo.github.io/2023/12/30/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95/"/>
         <content type="html">&lt;h2 id=&#34;toc&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#toc&#34;&gt;#&lt;/a&gt; [toc]&lt;/h2&gt;
 &lt;h2 id=&#34;数据结构和算法的重要性&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#数据结构和算法的重要性&#34;&gt;#&lt;/a&gt; 数据结构和算法的重要性🎄&lt;/h2&gt;
 &lt;blockquote&gt;
