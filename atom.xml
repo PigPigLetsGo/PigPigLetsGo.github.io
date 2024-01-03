@@ -18,15 +18,15 @@
 &lt;ol&gt;
 &lt;li&gt;首先找到 MySQL 的官网，点击下载后进入这个页面点击如下图所示&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-05-12.png&#34; alt=&#34;image_2022-12-03-23-05-12&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031529779.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;有两个安装的路径它们的含义分别不同我们选择第二个离线安装&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-06-38.png&#34; alt=&#34;image_2022-12-03-23-06-38&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531541.png&#34; alt=&#34;image-20240103153114444&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;这里我们直接点击下载&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-07-06.png&#34; alt=&#34;image_2022-12-03-23-07-06&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531098.png&#34; alt=&#34;image_2022-12-03-23-07-06&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;安装完成后我们进入下一个阶段：安装与配置&lt;/p&gt;
@@ -43,11 +43,11 @@
 &lt;p&gt;右键安装包点击安装&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-13-07.png&#34; alt=&#34;image_2022-12-03-23-13-07&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531431.png&#34; alt=&#34;image_2022-12-03-23-13-07&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;稍等片刻后就会出现这样的一个页面&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-14-14.png&#34; alt=&#34;image_2022-12-03-23-14-14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531334.png&#34; alt=&#34;image_2022-12-03-23-14-14&#34; /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Developer Default: 安装 MySQL 服务器以及开发 MySQL 所需的工具&lt;/p&gt;
@@ -68,83 +68,83 @@
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;我们点击 Custom 进行自定义安装&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-18-32.png&#34; alt=&#34;image_2022-12-03-23-18-32&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534042.png&#34; alt=&#34;image_2022-12-03-23-18-32&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;可以看到它让我们选择所需的 MySQL 工具，但是我们怎么知道要怎么选择呢不着急这样操作&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;点击 back 退回去，并选中第一个&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-20-10.png&#34; alt=&#34;image_2022-12-03-23-20-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531954.png&#34; alt=&#34;image_2022-12-03-23-20-10&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;点击 next&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-21-03.png&#34; alt=&#34;image_2022-12-03-23-21-03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531061.png&#34; alt=&#34;image_2022-12-03-23-21-03&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;再点击 back 退回&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-21-53.png&#34; alt=&#34;image_2022-12-03-23-21-53&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531888.png&#34; alt=&#34;image_2022-12-03-23-21-53&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;选中 Custom 后点击 Next&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-22-27.png&#34; alt=&#34;image_2022-12-03-23-22-27&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532709.png&#34; alt=&#34;image-20240103153205611&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;我们可以看到它既然帮我们自己选好了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-23-00.png&#34; alt=&#34;image_2022-12-03-23-23-00&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531997.png&#34; alt=&#34;image_2022-12-03-23-23-00&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;进行下一步操作，点击右侧的工具进行添加路径&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-25-54.png&#34; alt=&#34;image_2022-12-03-23-25-54&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531352.png&#34; alt=&#34;image_2022-12-03-23-25-54&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;当然这两个路径需要自己提前创建好：D:\MySQL 和 D:\MySQLData&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-27-20.png&#34; alt=&#34;image_2022-12-03-23-27-20&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532910.png&#34; alt=&#34;image_2022-12-03-23-27-20&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;再进行下一个同样的操作&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-28-59.png&#34; alt=&#34;image_2022-12-03-23-28-59&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-30-11.png&#34; alt=&#34;image_2022-12-03-23-30-11&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-31-55.png&#34; alt=&#34;image_2022-12-03-23-31-55&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-32-34.png&#34; alt=&#34;image_2022-12-03-23-32-34&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-33-25.png&#34; alt=&#34;image_2022-12-03-23-33-25&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-34-27.png&#34; alt=&#34;image_2022-12-03-23-34-27&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-35-14.png&#34; alt=&#34;image_2022-12-03-23-35-14&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-35-47.png&#34; alt=&#34;image_2022-12-03-23-35-47&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-09.png&#34; alt=&#34;image_2022-12-03-23-36-09&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-33.png&#34; alt=&#34;image_2022-12-03-23-36-33&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-58.png&#34; alt=&#34;image_2022-12-03-23-36-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532202.png&#34; alt=&#34;image_2022-12-03-23-28-59&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533089.png&#34; alt=&#34;image_2022-12-03-23-30-11&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533608.png&#34; alt=&#34;image_2022-12-03-23-31-55&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534933.png&#34; alt=&#34;image_2022-12-03-23-32-34&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533340.png&#34; alt=&#34;image_2022-12-03-23-33-25&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533439.png&#34; alt=&#34;image_2022-12-03-23-34-27&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534929.png&#34; alt=&#34;image_2022-12-03-23-35-14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533124.png&#34; alt=&#34;image_2022-12-03-23-35-47&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533800.png&#34; alt=&#34;image_2022-12-03-23-36-09&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533597.png&#34; alt=&#34;image_2022-12-03-23-36-33&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533473.png&#34; alt=&#34;image_2022-12-03-23-36-58&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;完成后点击 Next, 选择 yes&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-40-10.png&#34; alt=&#34;image_2022-12-03-23-40-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533394.png&#34; alt=&#34;image_2022-12-03-23-40-10&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;点击 Execute&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-40-46.png&#34; alt=&#34;image_2022-12-03-23-40-46&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533453.png&#34; alt=&#34;image_2022-12-03-23-40-46&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;完成后点击 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-41-48.png&#34; alt=&#34;image_2022-12-03-23-41-48&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534750.png&#34; alt=&#34;image-20240103153445664&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这里默认就行直接 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-43-03.png&#34; alt=&#34;image_2022-12-03-23-43-03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534789.png&#34; alt=&#34;image_2022-12-03-23-43-03&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;选择第二个&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-44-10.png&#34; alt=&#34;image_2022-12-03-23-44-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533869.png&#34; alt=&#34;image_2022-12-03-23-44-10&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;设置管理员密码 一定要记住这个密码&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-46-58.png&#34; alt=&#34;image_2022-12-03-23-46-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533750.png&#34; alt=&#34;image_2022-12-03-23-46-58&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;然后一路下一步就行了&lt;/p&gt;
 &lt;p&gt;这里输入刚才设置的密码之后点击 check 验证然后通过 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-49-38.png&#34; alt=&#34;image_2022-12-03-23-49-38&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533690.png&#34; alt=&#34;image_2022-12-03-23-49-38&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;安装成功后会弹出两个窗口我们关闭了，来查看下 MySQL 的目录&lt;/p&gt;
 &lt;p&gt;这里是工具套件目录&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-52-12.png&#34; alt=&#34;image_2022-12-03-23-52-12&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533603.png&#34; alt=&#34;image_2022-12-03-23-52-12&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这里是我们安装的 MySQL 数据库目录&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-52-43.png&#34; alt=&#34;image_2022-12-03-23-52-43&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031535512.png&#34; alt=&#34;image-20240103153521470&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;我们可以切换到 D:\MySQL\MySQL Server8.0\bin 这个目录下执行以下 cmd&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-58-16.png&#34; alt=&#34;image_2022-12-03-23-58-16&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534739.png&#34; alt=&#34;image_2022-12-03-23-58-16&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;在 cmd 中输入 mysql -u root -p 然后输出刚才设置的密码就可以进入 mysql 了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-59-55.png&#34; alt=&#34;image_2022-12-03-23-59-55&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534708.png&#34; alt=&#34;image_2022-12-03-23-59-55&#34; /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;打开配置的页面，选择 path&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-04-00-02-16.png&#34; alt=&#34;image_2022-12-04-00-02-16&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534905.png&#34; alt=&#34;image_2022-12-04-00-02-16&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;path 中新建输入 mysql 的 bin 目录的路径&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-04-00-04-41.png&#34; alt=&#34;image_2022-12-04-00-04-41&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534873.png&#34; alt=&#34;image_2022-12-04-00-04-41&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;大功告成！查看下是否可以在 cmd 任意打开的位置都可以进入 mysql 了可以那么就是成功了&lt;/p&gt;
 </content>
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
         <category term="mysql" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mysql/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
         <category term="databse" scheme="https://pigpigletsgo.github.io/tags/databse/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-03T07:12:35.618Z</updated>
     </entry>
     <entry>
@@ -3167,9 +3167,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:50:49.854Z</updated>
     </entry>
     <entry>
@@ -3198,9 +3198,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:50:07.433Z</updated>
     </entry>
     <entry>
@@ -3232,9 +3232,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:49:20.925Z</updated>
     </entry>
     <entry>
@@ -3267,9 +3267,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:48:25.150Z</updated>
     </entry>
     <entry>
@@ -3287,9 +3287,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:47:38.340Z</updated>
     </entry>
     <entry>
@@ -3323,9 +3323,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:46:53.180Z</updated>
     </entry>
     <entry>
@@ -3381,9 +3381,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:46:10.638Z</updated>
     </entry>
     <entry>
@@ -3405,9 +3405,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T12:45:28.389Z</updated>
     </entry>
     <entry>
@@ -3452,9 +3452,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T03:45:28.999Z</updated>
     </entry>
     <entry>
@@ -3495,9 +3495,9 @@
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <updated>2024-01-02T03:30:09.502Z</updated>
     </entry>
 </feed>
