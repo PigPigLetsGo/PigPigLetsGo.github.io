@@ -10,15 +10,154 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
-        <lastBuildDate>Wed, 03 Jan 2024 10:58:25 +0800</lastBuildDate>
+        <pubDate>Wed, 03 Jan 2024 15:12:35 +0800</pubDate>
+        <lastBuildDate>Wed, 03 Jan 2024 15:12:35 +0800</lastBuildDate>
         <category term="java" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</guid>
+            <title>Windows安装MySQL</title>
+            <link>https://pigpigletsgo.github.io/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
+            <category term="mysql" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mysql/" />
+            <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
+            <category term="databse" scheme="https://pigpigletsgo.github.io/tags/databse/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <pubDate>Wed, 03 Jan 2024 15:12:35 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;windows安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows安装mysql&#34;&gt;#&lt;/a&gt; Windows 安装 MySQL&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;首先找到 MySQL 的官网，点击下载后进入这个页面点击如下图所示&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-05-12.png&#34; alt=&#34;image_2022-12-03-23-05-12&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;有两个安装的路径它们的含义分别不同我们选择第二个离线安装&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-06-38.png&#34; alt=&#34;image_2022-12-03-23-06-38&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;这里我们直接点击下载&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-07-06.png&#34; alt=&#34;image_2022-12-03-23-07-06&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;安装完成后我们进入下一个阶段：安装与配置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;注意事项:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;确保电脑的 UserName (用户名) 中不含有中文，如果有需要重命名更改&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;右键安装包点击安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-13-07.png&#34; alt=&#34;image_2022-12-03-23-13-07&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;6&#34;&gt;
+&lt;li&gt;稍等片刻后就会出现这样的一个页面&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-14-14.png&#34; alt=&#34;image_2022-12-03-23-14-14&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Developer Default: 安装 MySQL 服务器以及开发 MySQL 所需的工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Server only: 仅安装 MySQL 服务器&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Client only: 仅安装客户端&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full: 安装 MySQL 所有可用组件&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom:(经典) 自定义安装&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;7&#34;&gt;
+&lt;li&gt;我们点击 Custom 进行自定义安装&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-18-32.png&#34; alt=&#34;image_2022-12-03-23-18-32&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;可以看到它让我们选择所需的 MySQL 工具，但是我们怎么知道要怎么选择呢不着急这样操作&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;点击 back 退回去，并选中第一个&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-20-10.png&#34; alt=&#34;image_2022-12-03-23-20-10&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;点击 next&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-21-03.png&#34; alt=&#34;image_2022-12-03-23-21-03&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;再点击 back 退回&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-21-53.png&#34; alt=&#34;image_2022-12-03-23-21-53&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;选中 Custom 后点击 Next&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-22-27.png&#34; alt=&#34;image_2022-12-03-23-22-27&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们可以看到它既然帮我们自己选好了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-23-00.png&#34; alt=&#34;image_2022-12-03-23-23-00&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;进行下一步操作，点击右侧的工具进行添加路径&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-25-54.png&#34; alt=&#34;image_2022-12-03-23-25-54&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;当然这两个路径需要自己提前创建好：D:\MySQL 和 D:\MySQLData&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-27-20.png&#34; alt=&#34;image_2022-12-03-23-27-20&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再进行下一个同样的操作&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-28-59.png&#34; alt=&#34;image_2022-12-03-23-28-59&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-30-11.png&#34; alt=&#34;image_2022-12-03-23-30-11&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-31-55.png&#34; alt=&#34;image_2022-12-03-23-31-55&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-32-34.png&#34; alt=&#34;image_2022-12-03-23-32-34&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-33-25.png&#34; alt=&#34;image_2022-12-03-23-33-25&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-34-27.png&#34; alt=&#34;image_2022-12-03-23-34-27&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-35-14.png&#34; alt=&#34;image_2022-12-03-23-35-14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-35-47.png&#34; alt=&#34;image_2022-12-03-23-35-47&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-09.png&#34; alt=&#34;image_2022-12-03-23-36-09&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-33.png&#34; alt=&#34;image_2022-12-03-23-36-33&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-36-58.png&#34; alt=&#34;image_2022-12-03-23-36-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;完成后点击 Next, 选择 yes&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-40-10.png&#34; alt=&#34;image_2022-12-03-23-40-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击 Execute&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-40-46.png&#34; alt=&#34;image_2022-12-03-23-40-46&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;完成后点击 next&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-41-48.png&#34; alt=&#34;image_2022-12-03-23-41-48&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这里默认就行直接 next&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-43-03.png&#34; alt=&#34;image_2022-12-03-23-43-03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;选择第二个&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-44-10.png&#34; alt=&#34;image_2022-12-03-23-44-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;设置管理员密码 一定要记住这个密码&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-46-58.png&#34; alt=&#34;image_2022-12-03-23-46-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后一路下一步就行了&lt;/p&gt;
+&lt;p&gt;这里输入刚才设置的密码之后点击 check 验证然后通过 next&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-49-38.png&#34; alt=&#34;image_2022-12-03-23-49-38&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;安装成功后会弹出两个窗口我们关闭了，来查看下 MySQL 的目录&lt;/p&gt;
+&lt;p&gt;这里是工具套件目录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-52-12.png&#34; alt=&#34;image_2022-12-03-23-52-12&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这里是我们安装的 MySQL 数据库目录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-52-43.png&#34; alt=&#34;image_2022-12-03-23-52-43&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我们可以切换到 D:\MySQL\MySQL Server8.0\bin 这个目录下执行以下 cmd&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-58-16.png&#34; alt=&#34;image_2022-12-03-23-58-16&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在 cmd 中输入 mysql -u root -p 然后输出刚才设置的密码就可以进入 mysql 了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-03-23-59-55.png&#34; alt=&#34;image_2022-12-03-23-59-55&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;打开配置的页面，选择 path&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-04-00-02-16.png&#34; alt=&#34;image_2022-12-04-00-02-16&#34; /&gt;&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;path 中新建输入 mysql 的 bin 目录的路径&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://gitee.com/Doukaixin/note_image/raw/master/https://gitee.com/doukaixin/note_image/image_2022-12-04-00-04-41.png&#34; alt=&#34;image_2022-12-04-00-04-41&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;大功告成！查看下是否可以在 cmd 任意打开的位置都可以进入 mysql 了可以那么就是成功了&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E7%BB%84%E5%90%88%E5%BC%8FAPI/</guid>
             <title>vue3-组合式API</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E7%BB%84%E5%90%88%E5%BC%8FAPI/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -365,8 +504,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AEaxios/</guid>
             <title>vue3-全局配置axios与使用</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AEaxios/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -385,8 +526,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
             <title>vue3-提交前做代码检查</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E6%A3%80%E6%9F%A5%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -445,8 +588,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Vue3.3%E6%96%B0%E7%89%B9%E6%80%A7/</guid>
             <title>vue3-新特性</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Vue3.3%E6%96%B0%E7%89%B9%E6%80%A7/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -480,8 +625,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/pnpm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</guid>
             <title>vue3-pnpm 包管理器 - 创建项目</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/pnpm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -537,8 +684,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Pinia%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</guid>
             <title>vue3-什么是Pinia</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Pinia%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -663,8 +812,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Eslint%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/</guid>
             <title>vue3-Eslint配置代码风格</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/vue/vue3/Eslint%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="vue3" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/vue3/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="vue3" scheme="https://pigpigletsgo.github.io/tags/vue3/" />
             <pubDate>Wed, 03 Jan 2024 10:58:25 +0800</pubDate>
@@ -695,8 +846,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E7%A1%80/</guid>
             <title>移动端基础</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/css/%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%9F%BA%E7%A1%80/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="css" scheme="https://pigpigletsgo.github.io/categories/web/css/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="css" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/css/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="html" scheme="https://pigpigletsgo.github.io/tags/html/" />
             <category term="css" scheme="https://pigpigletsgo.github.io/tags/css/" />
@@ -2085,8 +2238,10 @@
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/web/css/CSS%E9%AB%98%E7%BA%A7/</guid>
             <title>CSS高级</title>
             <link>https://pigpigletsgo.github.io/computer-science/web/css/CSS%E9%AB%98%E7%BA%A7/</link>
-            <category term="web" scheme="https://pigpigletsgo.github.io/categories/web/" />
-            <category term="css" scheme="https://pigpigletsgo.github.io/categories/web/css/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="web" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/" />
+            <category term="css" scheme="https://pigpigletsgo.github.io/categories/computer-science/web/css/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="web" scheme="https://pigpigletsgo.github.io/tags/web/" />
             <category term="html" scheme="https://pigpigletsgo.github.io/tags/html/" />
             <category term="css" scheme="https://pigpigletsgo.github.io/tags/css/" />
@@ -3000,6 +3155,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:49 +0800</pubDate>
@@ -3026,6 +3182,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:07 +0800</pubDate>
@@ -3056,6 +3213,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:49:20 +0800</pubDate>
@@ -3089,6 +3247,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:48:25 +0800</pubDate>
@@ -3123,6 +3282,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:47:38 +0800</pubDate>
@@ -3142,6 +3302,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:46:53 +0800</pubDate>
@@ -3177,6 +3338,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:46:10 +0800</pubDate>
@@ -3234,6 +3396,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:45:28 +0800</pubDate>
@@ -3257,6 +3420,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 11:45:28 +0800</pubDate>
@@ -3303,6 +3467,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 11:30:09 +0800</pubDate>
@@ -3337,44 +3502,6 @@
 &lt;/ul&gt;
 &lt;figure class=&#34;highlight tex&#34;&gt;&lt;figcaption data-lang=&#34;TeX&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;p1   p2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;1 -&gt; 2 -&gt; 3 -&gt; null&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;代码：&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;deleteDuplicates&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;head &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;//p1 前指针 p2 后指针 两个指针 同时向后移动&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 判断 前后 两个 val 是否相同&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;val &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;val&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token comment&#34;&gt;// 相同则删除&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token comment&#34;&gt;// 如果不相同就移动 p1 指针&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9/</guid>
-            <title>删除链表的倒数第N个节点</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
-            <pubDate>Tue, 02 Jan 2024 10:51:59 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;删除链表的倒数第n个节点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除链表的倒数第n个节点&#34;&gt;#&lt;/a&gt; 删除链表的倒数第 N 个节点&lt;/h1&gt;
-&lt;p&gt;&lt;strong&gt;题目要求&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;给你一个链表，删除链表的倒数第  &lt;code&gt;n&lt;/code&gt;  个结点，并且返回链表的头结点。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401021030015.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：head = [1,2,3,4,5], n = 2
-输出：[1,2,3,5]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：head = [1], n = 1
-输出：[]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;示例 3：&lt;/strong&gt;&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;输入：head = [1,2], n = 1
-输出：[1]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;链表中结点的数目为  &lt;code&gt;sz&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;1 &amp;lt;= sz &amp;lt;= 30&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;0 &amp;lt;= Node.val &amp;lt;= 100&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;1 &amp;lt;= n &amp;lt;= sz&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;双指针快慢指针&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#双指针快慢指针&#34;&gt;#&lt;/a&gt; 双指针 (快慢指针)：&lt;/h2&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;removeNthFromEnd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; n&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; s &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; n &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token comment&#34;&gt;// 让 p2 走 n + 1 步&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 循环判断 p2 指针是否为 null&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;p2 &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token comment&#34;&gt;// 如果不为 Null 就让两个指针同时往前移动直到 p2 等于 null&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 将 p1 当前的节点指向它的下一个下一个 跳过要被移除的元素&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 返回哨兵的后一个节点开始&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;strong&gt;思路分析图&lt;/strong&gt;：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401021051336.png&#34; alt=&#34;image-20240102105128266&#34; /&gt;&lt;/p&gt;
- ]]></description>
         </item>
     </channel>
 </rss>
