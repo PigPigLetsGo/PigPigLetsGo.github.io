@@ -10,9 +10,87 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 04 Jan 2024 09:56:14 +0800</pubDate>
-        <lastBuildDate>Thu, 04 Jan 2024 09:56:14 +0800</lastBuildDate>
+        <pubDate>Thu, 04 Jan 2024 16:33:41 +0800</pubDate>
+        <lastBuildDate>Thu, 04 Jan 2024 16:33:41 +0800</lastBuildDate>
         <category term="java" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9/</guid>
+            <title>链表的中间节点</title>
+            <link>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
+            <category term="快慢指针" scheme="https://pigpigletsgo.github.io/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" />
+            <pubDate>Thu, 04 Jan 2024 16:33:41 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;链表的中间节点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#链表的中间节点&#34;&gt;#&lt;/a&gt; 链表的中间节点&lt;/h1&gt;
+&lt;p&gt;给你单链表的头结点  &lt;code&gt;head&lt;/code&gt;  ，请你找出并返回链表的中间结点。&lt;/p&gt;
+&lt;p&gt;如果有两个中间结点，则返回第二个中间结点。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401041003579.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：head = [1,2,3,4,5]
+输出：[3,4,5]
+解释：链表只有一个中间结点，值为 3 。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401041003602.jpeg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：head = [1,2,3,4,5,6]
+输出：[4,5,6]
+解释：该链表有两个中间结点，值分别为 3 和 4 ，返回第二个结点。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;链表的结点数范围是  &lt;code&gt;[1, 100]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;1 &amp;lt;= Node.val &amp;lt;= 100&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;方法1快慢指针&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#方法1快慢指针&#34;&gt;#&lt;/a&gt; 方法 1：快慢指针&lt;/h2&gt;
+&lt;p&gt;如果说我现在有链表如下，是奇数个。那么中间的节点就是 3&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;p2
+p1
+1	2	3	4	5	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;还有下面是偶数个的情况：&lt;/p&gt;
+&lt;p&gt;此时中间节点好像是 3，又好像是 4。但是题目要求是找靠右的 那么就是 4 了&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;p2
+p1
+1	2	3	4	5	6	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此时让慢指针 p1 一次走一步，让快指针 p2 一次走 两步，下面是执行过程：&lt;/p&gt;
+&lt;p&gt;第一轮循环：p1 走一步，p2 走两步&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;		p2
+	p1
+1	2	3	4	5	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;没有走到头就重复该过程 p1 走一步，p2 走两步&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;				p2
+		p1
+1	2	3	4	5	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此时 p2 的 next 为 nulll 了就停止，而现在 p1 所在的位置就是当前链表的中间节点了&lt;/p&gt;
+&lt;p&gt;这是奇数的情况，那偶数呢？&lt;/p&gt;
+&lt;p&gt;分析如下：&lt;/p&gt;
+&lt;p&gt;第一轮&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;		p2
+	p1
+1	2	3	4	5	6	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第二轮&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;				p2
+		p1
+1	2	3	4	5	6	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;第三轮&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;						p2
+			p1
+1	2	3	4	5	6	null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;此时 p2 本身就是 null 了就停止，而当前 p1 就是偶数个链表的中间节点了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每次 p1 一次走一步，p2 一次走两步。当 p2 的 next 或者 p2 的本身就是 null 时就停止移动，然后 p1 的当前位置就是中间节点&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;middleNode&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;ListNode&lt;/span&gt; p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; head&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;while&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;p2 &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p1 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          p2 &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p2&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;next&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; p1&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8/</guid>
             <title>合并K个升序链表</title>
@@ -2093,9 +2171,9 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="mysql" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mysql/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
             <category term="databse" scheme="https://pigpigletsgo.github.io/tags/databse/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <pubDate>Wed, 03 Jan 2024 15:12:35 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;windows安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows安装mysql&#34;&gt;#&lt;/a&gt; Windows 安装 MySQL&lt;/h2&gt;
 &lt;ol&gt;
@@ -5228,8 +5306,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:49 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;无重复字符的最长子串&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无重复字符的最长子串&#34;&gt;#&lt;/a&gt; 无重复字符的最长子串&lt;/h2&gt;
@@ -5255,8 +5333,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:07 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;最大子数组和&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最大子数组和&#34;&gt;#&lt;/a&gt; 最大子数组和&lt;/h2&gt;
@@ -5286,8 +5364,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:49:20 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;组合总和&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#组合总和&#34;&gt;#&lt;/a&gt; 组合总和&lt;/h2&gt;
@@ -5311,39 +5389,6 @@ mkdir -p /mongodb/single/log
 &lt;li&gt;创建 temp 集合将 list 列表添加到集合中，将候选数添加到该集合中，最后将 temp 集合添加到 dp 集合中的第 i 个位置&lt;/li&gt;
 &lt;li&gt;最终返回 dp 的 target 位置的列表&lt;/li&gt;
 &lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2/</guid>
-            <title>买卖股票的最佳时机 II</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="贪心算法" scheme="https://pigpigletsgo.github.io/tags/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" />
-            <pubDate>Tue, 02 Jan 2024 20:48:25 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;买卖股票的最佳时机-ii&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#买卖股票的最佳时机-ii&#34;&gt;#&lt;/a&gt; 买卖股票的最佳时机 II&lt;/h2&gt;
-&lt;p&gt;给你一个整数数组 prices ，其中 prices [i] 表示某支股票第 i 天的价格。&lt;/p&gt;
-&lt;p&gt;在每一天，你可以决定是否购买和 / 或出售股票。你在任何时候 &lt;strong&gt;最多&lt;/strong&gt; 只能持有 &lt;strong&gt;一股&lt;/strong&gt; 股票。你也可&lt;/p&gt;
-&lt;p&gt;以先购买，然后在 &lt;strong&gt;同一天&lt;/strong&gt; 出售。&lt;/p&gt;
-&lt;p&gt;返回 &lt;em&gt;你能获得的&lt;/em&gt; &lt;strong&gt;最大&lt;/strong&gt; &lt;em&gt;利润&lt;/em&gt; 。&lt;/p&gt;
-&lt;p&gt;输入：[1,8,6,2,5,4,8,3,7]&lt;/p&gt;
-&lt;p&gt;输出：49&lt;/p&gt;
-&lt;p&gt;解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色&lt;/p&gt;
-&lt;p&gt;部分）的最大值为 49。&lt;/p&gt;
-&lt;p&gt;输入：digits = &amp;quot;23&amp;quot;&lt;/p&gt;
-&lt;p&gt;输出：[&amp;quot;ad&amp;quot;,&amp;quot;ae&amp;quot;,&amp;quot;af&amp;quot;,&amp;quot;bd&amp;quot;,&amp;quot;be&amp;quot;,&amp;quot;bf&amp;quot;,&amp;quot;cd&amp;quot;,&amp;quot;ce&amp;quot;,&amp;quot;cf&amp;quot;]&lt;strong&gt; 示例&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;输入：prices = [7,1,5,3,6,4]&lt;/p&gt;
-&lt;p&gt;输出：7&lt;/p&gt;
-&lt;p&gt;解释：在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出，这笔交易所能获&lt;/p&gt;
-&lt;p&gt;得利润 = 5 - 1 = 4 。&lt;/p&gt;
-&lt;p&gt;随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，这笔交易&lt;/p&gt;
-&lt;p&gt;所能获得利润 = 6 - 3 = 3 。&lt;/p&gt;
-&lt;p&gt;总利润为 4 + 3 = 7 。&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;maxProfit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; prices&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; sun &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; prices&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 判断今天与明天的股票利润&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; temp &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; prices&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; prices&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;temp &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                sun &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; temp&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; sun&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;思路：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;遍历整个股票交易日价格列表 price, 策略是所有上涨交易日都买卖，(赚到所有利润). 所有下降交易日都不买卖 (永不亏钱) 1. 设 tmp 为第 i-1 日买入与第 i 日卖出赚取的利润，即 tmp=prices [i] - prices [i-1] 2. 当该天利润为正 tmp&amp;gt;0. 则将利润加入总利润 profit, 当利润为 0 或为负，则直接跳过 3. 遍历完成后，返回总利润 profit&lt;/li&gt;
-&lt;/ul&gt;
  ]]></description>
         </item>
     </channel>

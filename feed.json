@@ -7,6 +7,19 @@
     "home_page_url": "https://pigpigletsgo.github.io",
     "items": [
         {
+            "id": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9/",
+            "url": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9/",
+            "title": "链表的中间节点",
+            "date_published": "2024-01-04T08:33:41.619Z",
+            "content_html": "<h1 id=\"链表的中间节点\"><a class=\"anchor\" href=\"#链表的中间节点\">#</a> 链表的中间节点</h1>\n<p>给你单链表的头结点  <code>head</code>  ，请你找出并返回链表的中间结点。</p>\n<p>如果有两个中间结点，则返回第二个中间结点。</p>\n<p><strong>示例 1：</strong></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401041003579.jpeg\" alt=\"img\" /></p>\n<pre><code>输入：head = [1,2,3,4,5]\n输出：[3,4,5]\n解释：链表只有一个中间结点，值为 3 。\n</code></pre>\n<p><strong>示例 2：</strong></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401041003602.jpeg\" alt=\"img\" /></p>\n<pre><code>输入：head = [1,2,3,4,5,6]\n输出：[4,5,6]\n解释：该链表有两个中间结点，值分别为 3 和 4 ，返回第二个结点。\n</code></pre>\n<p><strong>提示：</strong></p>\n<ul>\n<li>链表的结点数范围是  <code>[1, 100]</code></li>\n<li><code>1 &lt;= Node.val &lt;= 100</code></li>\n</ul>\n<h2 id=\"方法1快慢指针\"><a class=\"anchor\" href=\"#方法1快慢指针\">#</a> 方法 1：快慢指针</h2>\n<p>如果说我现在有链表如下，是奇数个。那么中间的节点就是 3</p>\n<pre><code>p2\np1\n1\t2\t3\t4\t5\tnull\n</code></pre>\n<p>还有下面是偶数个的情况：</p>\n<p>此时中间节点好像是 3，又好像是 4。但是题目要求是找靠右的 那么就是 4 了</p>\n<pre><code>p2\np1\n1\t2\t3\t4\t5\t6\tnull\n</code></pre>\n<p>此时让慢指针 p1 一次走一步，让快指针 p2 一次走 两步，下面是执行过程：</p>\n<p>第一轮循环：p1 走一步，p2 走两步</p>\n<pre><code>\t\tp2\n\tp1\n1\t2\t3\t4\t5\tnull\n</code></pre>\n<p>没有走到头就重复该过程 p1 走一步，p2 走两步</p>\n<pre><code>\t\t\t\tp2\n\t\tp1\n1\t2\t3\t4\t5\tnull\n</code></pre>\n<p>此时 p2 的 next 为 nulll 了就停止，而现在 p1 所在的位置就是当前链表的中间节点了</p>\n<p>这是奇数的情况，那偶数呢？</p>\n<p>分析如下：</p>\n<p>第一轮</p>\n<pre><code>\t\tp2\n\tp1\n1\t2\t3\t4\t5\t6\tnull\n</code></pre>\n<p>第二轮</p>\n<pre><code>\t\t\t\tp2\n\t\tp1\n1\t2\t3\t4\t5\t6\tnull\n</code></pre>\n<p>第三轮</p>\n<pre><code>\t\t\t\t\t\tp2\n\t\t\tp1\n1\t2\t3\t4\t5\t6\tnull\n</code></pre>\n<p>此时 p2 本身就是 null 了就停止，而当前 p1 就是偶数个链表的中间节点了</p>\n<p><strong>总结</strong>：</p>\n<ul>\n<li>每次 p1 一次走一步，p2 一次走两步。当 p2 的 next 或者 p2 的本身就是 null 时就停止移动，然后 p1 的当前位置就是中间节点</li>\n</ul>\n<p><strong>代码</strong>：</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">public</span> <span class=\"token class-name\">ListNode</span> <span class=\"token function\">middleNode</span><span class=\"token punctuation\">(</span><span class=\"token class-name\">ListNode</span> head<span class=\"token punctuation\">)</span> <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>        <span class=\"token class-name\">ListNode</span> p1 <span class=\"token operator\">=</span> head<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>        <span class=\"token class-name\">ListNode</span> p2 <span class=\"token operator\">=</span> head<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>        <span class=\"token keyword\">while</span><span class=\"token punctuation\">(</span>p2 <span class=\"token operator\">!=</span> <span class=\"token keyword\">null</span> <span class=\"token operator\">&amp;&amp;</span> p2<span class=\"token punctuation\">.</span>next <span class=\"token operator\">!=</span> <span class=\"token keyword\">null</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>        <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>          p1 <span class=\"token operator\">=</span> p1<span class=\"token punctuation\">.</span>next<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>          p2 <span class=\"token operator\">=</span> p2<span class=\"token punctuation\">.</span>next<span class=\"token punctuation\">.</span>next<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>        <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre>        <span class=\"token keyword\">return</span> p1<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure>",
+            "tags": [
+                "计算机学科",
+                "编程题",
+                "Java",
+                "快慢指针"
+            ]
+        },
+        {
             "id": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8/",
             "url": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%90%88%E5%B9%B6K%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8/",
             "title": "合并K个升序链表",
@@ -101,9 +114,9 @@
                 "计算机学科",
                 "database",
                 "mysql",
-                "计算机学科",
                 "mysql",
-                "databse"
+                "databse",
+                "计算机学科"
             ]
         },
         {
@@ -253,8 +266,8 @@
                 "计算机学科",
                 "编程题",
                 "Java",
-                "Java",
                 "计算机学科",
+                "Java",
                 "编程题"
             ]
         },
@@ -268,8 +281,8 @@
                 "计算机学科",
                 "编程题",
                 "Java",
-                "Java",
                 "计算机学科",
+                "Java",
                 "编程题"
             ]
         },
@@ -283,22 +296,9 @@
                 "计算机学科",
                 "编程题",
                 "Java",
-                "Java",
                 "计算机学科",
+                "Java",
                 "编程题"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2/",
-            "url": "https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA2/",
-            "title": "买卖股票的最佳时机 II",
-            "date_published": "2024-01-02T12:48:25.150Z",
-            "content_html": "<h2 id=\"买卖股票的最佳时机-ii\"><a class=\"anchor\" href=\"#买卖股票的最佳时机-ii\">#</a> 买卖股票的最佳时机 II</h2>\n<p>给你一个整数数组 prices ，其中 prices [i] 表示某支股票第 i 天的价格。</p>\n<p>在每一天，你可以决定是否购买和 / 或出售股票。你在任何时候 <strong>最多</strong> 只能持有 <strong>一股</strong> 股票。你也可</p>\n<p>以先购买，然后在 <strong>同一天</strong> 出售。</p>\n<p>返回 <em>你能获得的</em> <strong>最大</strong> <em>利润</em> 。</p>\n<p>输入：[1,8,6,2,5,4,8,3,7]</p>\n<p>输出：49</p>\n<p>解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色</p>\n<p>部分）的最大值为 49。</p>\n<p>输入：digits = &quot;23&quot;</p>\n<p>输出：[&quot;ad&quot;,&quot;ae&quot;,&quot;af&quot;,&quot;bd&quot;,&quot;be&quot;,&quot;bf&quot;,&quot;cd&quot;,&quot;ce&quot;,&quot;cf&quot;]<strong> 示例</strong></p>\n<p>输入：prices = [7,1,5,3,6,4]</p>\n<p>输出：7</p>\n<p>解释：在第 2 天（股票价格 = 1）的时候买入，在第 3 天（股票价格 = 5）的时候卖出，这笔交易所能获</p>\n<p>得利润 = 5 - 1 = 4 。</p>\n<p>随后，在第 4 天（股票价格 = 3）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，这笔交易</p>\n<p>所能获得利润 = 6 - 3 = 3 。</p>\n<p>总利润为 4 + 3 = 7 。</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">public</span> <span class=\"token keyword\">int</span> <span class=\"token function\">maxProfit</span><span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span><span class=\"token punctuation\">[</span><span class=\"token punctuation\">]</span> prices<span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>    <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>        <span class=\"token keyword\">int</span> sun <span class=\"token operator\">=</span> <span class=\"token number\">0</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>        <span class=\"token keyword\">for</span> <span class=\"token punctuation\">(</span><span class=\"token keyword\">int</span> i <span class=\"token operator\">=</span> <span class=\"token number\">1</span><span class=\"token punctuation\">;</span> i <span class=\"token operator\">&lt;</span> prices<span class=\"token punctuation\">.</span>length<span class=\"token punctuation\">;</span> i<span class=\"token operator\">++</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"5\"></td><td><pre>        <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"6\"></td><td><pre>            <span class=\"token comment\">// 判断今天与明天的股票利润</span></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>            <span class=\"token keyword\">int</span> temp <span class=\"token operator\">=</span> prices<span class=\"token punctuation\">[</span>i<span class=\"token punctuation\">]</span> <span class=\"token operator\">-</span> prices<span class=\"token punctuation\">[</span>i <span class=\"token operator\">-</span> <span class=\"token number\">1</span><span class=\"token punctuation\">]</span><span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"8\"></td><td><pre>            <span class=\"token keyword\">if</span> <span class=\"token punctuation\">(</span>temp <span class=\"token operator\">></span> <span class=\"token number\">0</span><span class=\"token punctuation\">)</span></pre></td></tr><tr><td data-num=\"9\"></td><td><pre>            <span class=\"token punctuation\">&#123;</span></pre></td></tr><tr><td data-num=\"10\"></td><td><pre>                sun <span class=\"token operator\">+=</span> temp<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"11\"></td><td><pre>            <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"12\"></td><td><pre>        <span class=\"token punctuation\">&#125;</span></pre></td></tr><tr><td data-num=\"13\"></td><td><pre>        <span class=\"token keyword\">return</span> sun<span class=\"token punctuation\">;</span></pre></td></tr><tr><td data-num=\"14\"></td><td><pre>    <span class=\"token punctuation\">&#125;</span></pre></td></tr></table></figure><p>思路：</p>\n<ul>\n<li>遍历整个股票交易日价格列表 price, 策略是所有上涨交易日都买卖，(赚到所有利润). 所有下降交易日都不买卖 (永不亏钱) 1. 设 tmp 为第 i-1 日买入与第 i 日卖出赚取的利润，即 tmp=prices [i] - prices [i-1] 2. 当该天利润为正 tmp&gt;0. 则将利润加入总利润 profit, 当利润为 0 或为负，则直接跳过 3. 遍历完成后，返回总利润 profit</li>\n</ul>\n",
-            "tags": [
-                "计算机学科",
-                "编程题",
-                "Java",
-                "贪心算法"
             ]
         }
     ]
