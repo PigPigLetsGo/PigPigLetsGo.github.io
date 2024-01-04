@@ -2249,9 +2249,9 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="mysql" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mysql/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
             <category term="databse" scheme="https://pigpigletsgo.github.io/tags/databse/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <pubDate>Wed, 03 Jan 2024 15:12:35 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;windows安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows安装mysql&#34;&gt;#&lt;/a&gt; Windows 安装 MySQL&lt;/h2&gt;
 &lt;ol&gt;
@@ -5384,8 +5384,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:49 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;无重复字符的最长子串&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无重复字符的最长子串&#34;&gt;#&lt;/a&gt; 无重复字符的最长子串&lt;/h2&gt;
@@ -5411,8 +5411,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:07 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;最大子数组和&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最大子数组和&#34;&gt;#&lt;/a&gt; 最大子数组和&lt;/h2&gt;
