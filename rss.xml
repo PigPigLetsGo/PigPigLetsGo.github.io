@@ -69,8 +69,8 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
             <category term="双指针" scheme="https://pigpigletsgo.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" />
+            <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
             <pubDate>Wed, 03 Jan 2024 19:28:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;合并两个有序链表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#合并两个有序链表&#34;&gt;#&lt;/a&gt; 合并两个有序链表&lt;/h1&gt;
 &lt;p&gt;将两个升序链表合并为一个新的 &lt;strong&gt;升序&lt;/strong&gt; 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&lt;/p&gt;
