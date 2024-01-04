@@ -20,9 +20,7 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+            <category term="分而治之" scheme="https://pigpigletsgo.github.io/tags/%E5%88%86%E8%80%8C%E6%B2%BB%E4%B9%8B/" />
             <pubDate>Thu, 04 Jan 2024 09:56:14 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;合并k个升序链表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#合并k个升序链表&#34;&gt;#&lt;/a&gt; 合并 K 个升序链表&lt;/h1&gt;
 &lt;p&gt;给你一个链表数组，每个链表都已经按升序排列。&lt;/p&gt;
@@ -71,9 +69,8 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+            <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
+            <category term="双指针" scheme="https://pigpigletsgo.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/" />
             <pubDate>Wed, 03 Jan 2024 19:28:42 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;合并两个有序链表&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#合并两个有序链表&#34;&gt;#&lt;/a&gt; 合并两个有序链表&lt;/h1&gt;
 &lt;p&gt;将两个升序链表合并为一个新的 &lt;strong&gt;升序&lt;/strong&gt; 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&lt;/p&gt;
@@ -5231,8 +5228,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:49 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;无重复字符的最长子串&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#无重复字符的最长子串&#34;&gt;#&lt;/a&gt; 无重复字符的最长子串&lt;/h2&gt;
@@ -5258,8 +5255,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:50:07 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;最大子数组和&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最大子数组和&#34;&gt;#&lt;/a&gt; 最大子数组和&lt;/h2&gt;
@@ -5289,8 +5286,8 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <pubDate>Tue, 02 Jan 2024 20:49:20 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;组合总和&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#组合总和&#34;&gt;#&lt;/a&gt; 组合总和&lt;/h2&gt;
@@ -5323,9 +5320,7 @@ mkdir -p /mongodb/single/log
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/" />
             <category term="Java" scheme="https://pigpigletsgo.github.io/categories/computer-science/programming-questions/java/" />
-            <category term="Java" scheme="https://pigpigletsgo.github.io/tags/Java/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+            <category term="贪心算法" scheme="https://pigpigletsgo.github.io/tags/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" />
             <pubDate>Tue, 02 Jan 2024 20:48:25 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;买卖股票的最佳时机-ii&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#买卖股票的最佳时机-ii&#34;&gt;#&lt;/a&gt; 买卖股票的最佳时机 II&lt;/h2&gt;
 &lt;p&gt;给你一个整数数组 prices ，其中 prices [i] 表示某支股票第 i 天的价格。&lt;/p&gt;
