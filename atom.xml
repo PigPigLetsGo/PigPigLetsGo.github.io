@@ -2154,8 +2154,8 @@ g++ [-optionl] ... &amp;lt;filename&amp;gt;
         <category term="C" scheme="https://pigpigletsgo.github.io/categories/computer-science/C/" />
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
         <category term="C" scheme="https://pigpigletsgo.github.io/tags/C/" />
-        <category term="介绍" scheme="https://pigpigletsgo.github.io/tags/%E4%BB%8B%E7%BB%8D/" />
         <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
+        <category term="介绍" scheme="https://pigpigletsgo.github.io/tags/%E4%BB%8B%E7%BB%8D/" />
         <updated>2024-01-05T05:55:43.527Z</updated>
     </entry>
     <entry>
@@ -2383,7 +2383,7 @@ Response code: 200; Time: 32ms (32 ms); Content length: 987 bytes (987 B)
 &lt;li&gt;点击 + 号，再点击 &lt;code&gt;Template Group...&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;创建名称随意，建议使用名称: &lt;code&gt;Method&lt;/code&gt;  翻译为方法更为规范&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-07-53_20230323080832.png?v=1&amp;amp;type=image&amp;amp;token=V1:htGuOzt7kLT_EadQwQikp16a3QSQ_eXcJHG5ZpmU2fQ&#34; alt=&#34;image_2023-01-14-21-07-53&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051449757.png&#34; alt=&#34;image-20240105144937718&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;选中刚才创建好的 Method 再次点击 + 号，选择 Live Template&lt;/p&gt;
 &lt;p&gt;取名为: &lt;code&gt;/**&lt;/code&gt;  注意：不能随便起名建议使用这个名称&lt;/p&gt;
 &lt;p&gt;在展开 &lt;code&gt;Method&lt;/code&gt;  选项点击 &lt;code&gt;/**&lt;/code&gt;  标签&lt;/p&gt;
@@ -2418,19 +2418,19 @@ set keep-english-in-normal-and-restore-in-insert &amp;quot; 回到insert模式�
 &lt;ol&gt;
 &lt;li&gt;打开设置选择 时间和语言&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-25-15-58-30.png&#34; alt=&#34;image_2023-01-25-15-58-30&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051446260.png&#34; alt=&#34;image_2023-01-25-15-58-30&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;选择语言&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-25-15-58-50.png&#34; alt=&#34;image_2023-01-25-15-58-50&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051447704.png&#34; alt=&#34;image_2023-01-25-15-58-50&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;点击添加语言&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-25-15-59-14.png&#34; alt=&#34;image_2023-01-25-15-59-14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051447308.png&#34; alt=&#34;image_2023-01-25-15-59-14&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;搜索 &lt;code&gt;English&lt;/code&gt;  选择美国的&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-25-16-00-11.png&#34; alt=&#34;image_2023-01-25-16-00-11&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051447199.png&#34; alt=&#34;image_2023-01-25-16-00-11&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;切换按:win+Leader&lt;/p&gt;
 </content>
         <category term="问题总汇" scheme="https://pigpigletsgo.github.io/categories/bug/" />
@@ -2450,14 +2450,14 @@ set keep-english-in-normal-and-restore-in-insert &amp;quot; 回到insert模式�
 &lt;p&gt;解决方案:&lt;/p&gt;
 &lt;p&gt;将下面状态栏的 &lt;code&gt;File Encoding&lt;/code&gt;  编码将 &lt;code&gt;utf-8&lt;/code&gt;  改为 &lt;code&gt;GBK&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;弹出提示框点击 &lt;code&gt;Convert&lt;/code&gt;  没有提示 &lt;code&gt;RELOAD GBK&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-14-23-38-09.png&#34; alt=&#34;image_2023-01-14-23-38-09&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448448.png&#34; alt=&#34;image_2023-01-14-23-38-09&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;如果页面上有红线提示 &lt;code&gt;RELOAD GBK&lt;/code&gt;  直接点击 &lt;code&gt;RELOAD GBK&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;再次点击 &lt;code&gt;File EnCoding&lt;/code&gt;  切换回 &lt;code&gt;UTF-8&lt;/code&gt;  同样选择 &lt;code&gt;Convert&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;再次运行项目，正常&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-14-23-39-24.png&#34; alt=&#34;image_2023-01-14-23-39-24&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448126.png&#34; alt=&#34;image_2023-01-14-23-39-24&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;解决方案 2: 整个项目出现问题&lt;/p&gt;
 &lt;p&gt;点击 &lt;code&gt;settings --&amp;gt; 搜索 File EnCoding&lt;/code&gt;  查看是不是编码有问题如图:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;img/image_2023-01-14-23-42-25.png&#34; alt=&#34;image_2023-01-14-23-42-25&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448893.png&#34; alt=&#34;image_2023-01-14-23-42-25&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;然后 &lt;code&gt;File --&amp;gt; New Project Settings --&amp;gt; settings For New Project --&amp;gt; 搜索 File Settings&lt;/code&gt;  做同样修改&lt;/p&gt;
 &lt;p&gt;执行方案 1, 把出问题的 java 代码页修改，然后一切正常&lt;/p&gt;
 </content>
