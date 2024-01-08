@@ -304,8 +304,8 @@ stack : ]
 &lt;h3 id=&#34;基础命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础命令&#34;&gt;#&lt;/a&gt; 基础命令&lt;/h3&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm ls               &lt;span class=&#34;token comment&#34;&gt;// 查看已安装 node 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm install vXX      &lt;span class=&#34;token comment&#34;&gt;// 安装对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm uninstall vXX    &lt;span class=&#34;token comment&#34;&gt;// 卸载对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm use xxx          &lt;span class=&#34;token comment&#34;&gt;// 选择使用 XXX 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-        <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
         <category term="nodeJs" scheme="https://pigpigletsgo.github.io/tags/nodeJs/" />
+        <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
         <updated>2024-01-08T07:47:54.972Z</updated>
     </entry>
     <entry>
@@ -4240,8 +4240,8 @@ url: &amp;quot;http://127.0.0.1:81/data&amp;quot;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;http&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;postBuffer &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;924288000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="git" scheme="https://pigpigletsgo.github.io/categories/computer-science/git/" />
-        <category term="git" scheme="https://pigpigletsgo.github.io/tags/git/" />
         <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
+        <category term="git" scheme="https://pigpigletsgo.github.io/tags/git/" />
         <updated>2024-01-08T07:19:37.359Z</updated>
     </entry>
     <entry>
