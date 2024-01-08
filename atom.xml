@@ -8,8 +8,60 @@
     <author>
       <name>Dkx</name>
     </author>
-    <updated>2024-01-08T07:57:18.644Z</updated>
+    <updated>2024-01-08T08:16:49.811Z</updated>
     <category term="java" />
+    <entry>
+        <id>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/</id>
+        <title>有效的括号</title>
+        <link rel="alternate" href="https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7/"/>
+        <content type="html">&lt;h1 id=&#34;有效的括号&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#有效的括号&#34;&gt;#&lt;/a&gt; 有效的括号&lt;/h1&gt;
+&lt;p&gt;给定一个只包括  &lt;code&gt;&#39;(&#39;&lt;/code&gt; ， &lt;code&gt;&#39;)&#39;&lt;/code&gt; ， &lt;code&gt;&#39;&amp;#123;&#39;&lt;/code&gt; ， &lt;code&gt;&#39;&amp;#125;&#39;&lt;/code&gt; ， &lt;code&gt;&#39;[&#39;&lt;/code&gt; ， &lt;code&gt;&#39;]&#39;&lt;/code&gt;  的字符串  &lt;code&gt;s&lt;/code&gt;  ，判断字符串是否有效。&lt;/p&gt;
+&lt;p&gt;有效字符串需满足：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;左括号必须用相同类型的右括号闭合。&lt;/li&gt;
+&lt;li&gt;左括号必须以正确的顺序闭合。&lt;/li&gt;
+&lt;li&gt;每个右括号都有一个对应的相同类型的左括号。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：s = &amp;quot;()&amp;quot;
+输出：true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：s = &amp;quot;()[]&amp;#123;&amp;#125;&amp;quot;
+输出：true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 3：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：s = &amp;quot;(]&amp;quot;
+输出：false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;1 &amp;lt;= s.length &amp;lt;= 104&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;s&lt;/code&gt;  仅由括号  &lt;code&gt;&#39;()[]&amp;#123;&amp;#125;&#39;&lt;/code&gt;  组成&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;思路分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思路分析&#34;&gt;#&lt;/a&gt; 思路分析&lt;/h2&gt;
+&lt;p&gt;我么你可以从左到右的分析每一个字符，如果碰到的是左括号呢&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;假如遇到了一个左小括号
+str : (
+那么就将左括号配对的有小括号放到栈里，因为我期望将来要跟一个有小括号配对
+stack : )
+假如遇到了一个 左中括号
+str : [
+那么就将右中括号放到栈中，以此类推 这是遇到左括号的问题
+stack : ]
+那么如果遇到右括号呢？如果遇到右中括号，那么就将这个右中括号跟栈顶元素进行比较如果相等就说明是一个有效的括号
+因为 现有 某个左括号 栈顶才会存储 某个右括号，所以遇到某个右括号就判断栈中栈顶元素括号是否一样就行了
+当判断右括号相同时，就将栈中存储的 对应的右括号 移除
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;代码&lt;/strong&gt;：&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;isValid&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;// 创建栈 用于存储 右括号&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token class-name&#34;&gt;Stack&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Character&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; stack &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Stack&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;// 获取 每次 第 i 个字符&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;char&lt;/span&gt; c &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; s&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;charAt&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token comment&#34;&gt;// 判断是什么左括号 就 往栈里添加什么右括号&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token char&#34;&gt;&#39;(&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;)&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token char&#34;&gt;&#39;[&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;]&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;c &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token char&#34;&gt;&#39;&amp;#123;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token char&#34;&gt;&#39;&amp;#125;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token comment&#34;&gt;// 先判断 栈中 是否 为 空 然后 在判断 栈 中的括号是否 等于 c 不然会报错&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;isEmpty&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;peek&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; c&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 如果等于就将 合法的括号弹出 然后进行下一轮的比较&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;pop&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;else&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token comment&#34;&gt;// 如果栈中的括号都弹出 没有了为空了 说明是合法的返回 true，否则返回&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; stack&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;isEmpty&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+        <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+        <category term="栈" scheme="https://pigpigletsgo.github.io/tags/%E6%A0%88/" />
+        <updated>2024-01-08T08:16:49.811Z</updated>
+    </entry>
     <entry>
         <id>https://pigpigletsgo.github.io/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/</id>
         <title>KeePass的使用</title>
@@ -127,689 +179,6 @@
         <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
         <category term="windows" scheme="https://pigpigletsgo.github.io/tags/windows/" />
         <updated>2024-01-08T07:52:03.661Z</updated>
-    </entry>
-    <entry>
-        <id>https://pigpigletsgo.github.io/tools/vpn/warp+%E6%90%AD%E5%BB%BA%E8%8A%82%E7%82%B9/</id>
-        <title>warp+ 搭建节点</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/tools/vpn/warp+%E6%90%AD%E5%BB%BA%E8%8A%82%E7%82%B9/"/>
-        <content type="html">&lt;p&gt;1、访问 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly8xLjEuMS4x&#34;&gt;https://1.1.1.1&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071000192.png&#34; alt=&#34;image-20231107100049661&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;2、注册账号&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071001788.png&#34; alt=&#34;image-20231107100108413&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;3、注册完成后，访问自己的邮箱里面就会有地址&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071001855.png&#34; alt=&#34;image-20231107100140497&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;4、访问地址后进入这个页面&lt;/p&gt;
-&lt;p&gt;这个页面中会有一个创建的，由于创建过了所以找不到了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071003958.png&#34; alt=&#34;image-20231107100343792&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;5、起名称（随意）&lt;/p&gt;
-&lt;p&gt;起完名字后点击部署&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071004396.png&#34; alt=&#34;image-20231107100401361&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;6、编辑里面的代码，将它原有的代码删除&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071005692.png&#34; alt=&#34;image-20231107100502219&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;7、添加如下代码：&lt;br /&gt;
-
-```js
-// &lt;!--GAMFC--&gt;version base on commit 43fad05dcdae3b723c53c226f8181fc5bd47223e, time is 2023-06-22 15:20:02 UTC&lt;!--GAMFC-END--&gt;.
-// @ts-ignore
-import { connect } from &#39;cloudflare:sockets&#39;;
-
-// How to generate your own UUID:
-// [Windows] Press &#34;Win + R&#34;, input cmd and run:  Powershell -NoExit -Command &#34;[guid]::NewGuid()&#34;
-let userID = &#39;配置上自己生成的UUID(可以去网址上生成一个)&#39;;
-
-let proxyIP = &#39;&#39;;
-
-
-if (!isValidUUID(userID)) {
-	throw new Error(&#39;uuid is not valid&#39;);
-}
-
-export default {
-	/**
-	 * @param {import(&#34;@cloudflare/workers-types&#34;).Request} request
-	 * @param {{UUID: string, PROXYIP: string}} env
-	 * @param {import(&#34;@cloudflare/workers-types&#34;).ExecutionContext} ctx
-	 * @returns {Promise&lt;Response&gt;}
-	 */
-	async fetch(request, env, ctx) {
-		try {
-			userID = env.UUID || userID;
-			proxyIP = env.PROXYIP || proxyIP;
-			const upgradeHeader = request.headers.get(&#39;Upgrade&#39;);
-			if (!upgradeHeader || upgradeHeader !== &#39;websocket&#39;) {
-				const url = new URL(request.url);
-				switch (url.pathname) {
-					case &#39;/&#39;:
-						return new Response(JSON.stringify(request.cf), { status: 200 });
-					case `/${userID}`: {
-						const vlessConfig = getVLESSConfig(userID, request.headers.get(&#39;Host&#39;));
-						return new Response(`${vlessConfig}`, {
-							status: 200,
-							headers: {
-								&#34;Content-Type&#34;: &#34;text/plain;charset=utf-8&#34;,
-							}
-						});
-					}
-					default:
-						return new Response(&#39;Not found&#39;, { status: 404 });
-				}
-			} else {
-				return await vlessOverWSHandler(request);
-			}
-		} catch (err) {
-			/** @type {Error} */ let e = err;
-			return new Response(e.toString());
-		}
-	},
-};
-
-
-
-
-/**
- * 
- * @param {import(&#34;@cloudflare/workers-types&#34;).Request} request
- */
-async function vlessOverWSHandler(request) {
-
-	/** @type {import(&#34;@cloudflare/workers-types&#34;).WebSocket[]} */
-	// @ts-ignore
-	const webSocketPair = new WebSocketPair();
-	const [client, webSocket] = Object.values(webSocketPair);
-
-	webSocket.accept();
-
-	let address = &#39;&#39;;
-	let portWithRandomLog = &#39;&#39;;
-	const log = (/** @type {string} */ info, /** @type {string | undefined} */ event) =&gt; {
-		console.log(`[${address}:${portWithRandomLog}] ${info}`, event || &#39;&#39;);
-	};
-	const earlyDataHeader = request.headers.get(&#39;sec-websocket-protocol&#39;) || &#39;&#39;;
-
-	const readableWebSocketStream = makeReadableWebSocketStream(webSocket, earlyDataHeader, log);
-
-	/** @type {{ value: import(&#34;@cloudflare/workers-types&#34;).Socket | null}}*/
-	let remoteSocketWapper = {
-		value: null,
-	};
-	let udpStreamWrite = null;
-	let isDns = false;
-
-	// ws --&gt; remote
-	readableWebSocketStream.pipeTo(new WritableStream({
-		async write(chunk, controller) {
-			if (isDns &amp;&amp; udpStreamWrite) {
-				return udpStreamWrite(chunk);
-			}
-			if (remoteSocketWapper.value) {
-				const writer = remoteSocketWapper.value.writable.getWriter()
-				await writer.write(chunk);
-				writer.releaseLock();
-				return;
-			}
-
-			const {
-				hasError,
-				message,
-				portRemote = 443,
-				addressRemote = &#39;&#39;,
-				rawDataIndex,
-				vlessVersion = new Uint8Array([0, 0]),
-				isUDP,
-			} = processVlessHeader(chunk, userID);
-			address = addressRemote;
-			portWithRandomLog = `${portRemote}--${Math.random()} ${isUDP ? &#39;udp &#39; : &#39;tcp &#39;
-				} `;
-			if (hasError) {
-				// controller.error(message);
-				throw new Error(message); // cf seems has bug, controller.error will not end stream
-				// webSocket.close(1000, message);
-				return;
-			}
-			// if UDP but port not DNS port, close it
-			if (isUDP) {
-				if (portRemote === 53) {
-					isDns = true;
-				} else {
-					// controller.error(&#39;UDP proxy only enable for DNS which is port 53&#39;);
-					throw new Error(&#39;UDP proxy only enable for DNS which is port 53&#39;); // cf seems has bug, controller.error will not end stream
-					return;
-				}
-			}
-			// [&#34;version&#34;, &#34;附加信息长度 N&#34;]
-			const vlessResponseHeader = new Uint8Array([vlessVersion[0], 0]);
-			const rawClientData = chunk.slice(rawDataIndex);
-
-			// TODO: support udp here when cf runtime has udp support
-			if (isDns) {
-				const { write } = await handleUDPOutBound(webSocket, vlessResponseHeader, log);
-				udpStreamWrite = write;
-				udpStreamWrite(rawClientData);
-				return;
-			}
-			handleTCPOutBound(remoteSocketWapper, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log);
-		},
-		close() {
-			log(`readableWebSocketStream is close`);
-		},
-		abort(reason) {
-			log(`readableWebSocketStream is abort`, JSON.stringify(reason));
-		},
-	})).catch((err) =&gt; {
-		log(&#39;readableWebSocketStream pipeTo error&#39;, err);
-	});
-
-	return new Response(null, {
-		status: 101,
-		// @ts-ignore
-		webSocket: client,
-	});
-}
-
-/**
- * Handles outbound TCP connections.
- *
- * @param {any} remoteSocket 
- * @param {string} addressRemote The remote address to connect to.
- * @param {number} portRemote The remote port to connect to.
- * @param {Uint8Array} rawClientData The raw client data to write.
- * @param {import(&#34;@cloudflare/workers-types&#34;).WebSocket} webSocket The WebSocket to pass the remote socket to.
- * @param {Uint8Array} vlessResponseHeader The VLESS response header.
- * @param {function} log The logging function.
- * @returns {Promise&lt;void&gt;} The remote socket.
- */
-async function handleTCPOutBound(remoteSocket, addressRemote, portRemote, rawClientData, webSocket, vlessResponseHeader, log,) {
-	async function connectAndWrite(address, port) {
-		/** @type {import(&#34;@cloudflare/workers-types&#34;).Socket} */
-		const tcpSocket = connect({
-			hostname: address,
-			port: port,
-		});
-		remoteSocket.value = tcpSocket;
-		log(`connected to ${address}:${port}`);
-		const writer = tcpSocket.writable.getWriter();
-		await writer.write(rawClientData); // first write, nomal is tls client hello
-		writer.releaseLock();
-		return tcpSocket;
-	}
-
-	// if the cf connect tcp socket have no incoming data, we retry to redirect ip
-	async function retry() {
-		const tcpSocket = await connectAndWrite(proxyIP || addressRemote, portRemote)
-		// no matter retry success or not, close websocket
-		tcpSocket.closed.catch(error =&gt; {
-			console.log(&#39;retry tcpSocket closed error&#39;, error);
-		}).finally(() =&gt; {
-			safeCloseWebSocket(webSocket);
-		})
-		remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, null, log);
-	}
-
-	const tcpSocket = await connectAndWrite(addressRemote, portRemote);
-
-	// when remoteSocket is ready, pass to websocket
-	// remote--&gt; ws
-	remoteSocketToWS(tcpSocket, webSocket, vlessResponseHeader, retry, log);
-}
-
-/**
- * 
- * @param {import(&#34;@cloudflare/workers-types&#34;).WebSocket} webSocketServer
- * @param {string} earlyDataHeader for ws 0rtt
- * @param {(info: string)=&gt; void} log for ws 0rtt
- */
-function makeReadableWebSocketStream(webSocketServer, earlyDataHeader, log) {
-	let readableStreamCancel = false;
-	const stream = new ReadableStream({
-		start(controller) {
-			webSocketServer.addEventListener(&#39;message&#39;, (event) =&gt; {
-				if (readableStreamCancel) {
-					return;
-				}
-				const message = event.data;
-				controller.enqueue(message);
-			});
-
-			// The event means that the client closed the client -&gt; server stream.
-			// However, the server -&gt; client stream is still open until you call close() on the server side.
-			// The WebSocket protocol says that a separate close message must be sent in each direction to fully close the socket.
-			webSocketServer.addEventListener(&#39;close&#39;, () =&gt; {
-				// client send close, need close server
-				// if stream is cancel, skip controller.close
-				safeCloseWebSocket(webSocketServer);
-				if (readableStreamCancel) {
-					return;
-				}
-				controller.close();
-			}
-			);
-			webSocketServer.addEventListener(&#39;error&#39;, (err) =&gt; {
-				log(&#39;webSocketServer has error&#39;);
-				controller.error(err);
-			}
-			);
-			// for ws 0rtt
-			const { earlyData, error } = base64ToArrayBuffer(earlyDataHeader);
-			if (error) {
-				controller.error(error);
-			} else if (earlyData) {
-				controller.enqueue(earlyData);
-			}
-		},
-
-		pull(controller) {
-			// if ws can stop read if stream is full, we can implement backpressure
-			// https://streams.spec.whatwg.org/#example-rs-push-backpressure
-		},
-		cancel(reason) {
-			// 1. pipe WritableStream has error, this cancel will called, so ws handle server close into here
-			// 2. if readableStream is cancel, all controller.close/enqueue need skip,
-			// 3. but from testing controller.error still work even if readableStream is cancel
-			if (readableStreamCancel) {
-				return;
-			}
-			log(`ReadableStream was canceled, due to ${reason}`)
-			readableStreamCancel = true;
-			safeCloseWebSocket(webSocketServer);
-		}
-	});
-
-	return stream;
-
-}
-
-// https://xtls.github.io/development/protocols/vless.html
-// https://github.com/zizifn/excalidraw-backup/blob/main/v2ray-protocol.excalidraw
-
-/**
- * 
- * @param { ArrayBuffer} vlessBuffer 
- * @param {string} userID 
- * @returns 
- */
-function processVlessHeader(
-	vlessBuffer,
-	userID
-) {
-	if (vlessBuffer.byteLength &lt; 24) {
-		return {
-			hasError: true,
-			message: &#39;invalid data&#39;,
-		};
-	}
-	const version = new Uint8Array(vlessBuffer.slice(0, 1));
-	let isValidUser = false;
-	let isUDP = false;
-	if (stringify(new Uint8Array(vlessBuffer.slice(1, 17))) === userID) {
-		isValidUser = true;
-	}
-	if (!isValidUser) {
-		return {
-			hasError: true,
-			message: &#39;invalid user&#39;,
-		};
-	}
-
-	const optLength = new Uint8Array(vlessBuffer.slice(17, 18))[0];
-	//skip opt for now
-
-	const command = new Uint8Array(
-		vlessBuffer.slice(18 + optLength, 18 + optLength + 1)
-	)[0];
-
-	// 0x01 TCP
-	// 0x02 UDP
-	// 0x03 MUX
-	if (command === 1) {
-	} else if (command === 2) {
-		isUDP = true;
-	} else {
-		return {
-			hasError: true,
-			message: `command ${command} is not support, command 01-tcp,02-udp,03-mux`,
-		};
-	}
-	const portIndex = 18 + optLength + 1;
-	const portBuffer = vlessBuffer.slice(portIndex, portIndex + 2);
-	// port is big-Endian in raw data etc 80 == 0x005d
-	const portRemote = new DataView(portBuffer).getUint16(0);
-
-	let addressIndex = portIndex + 2;
-	const addressBuffer = new Uint8Array(
-		vlessBuffer.slice(addressIndex, addressIndex + 1)
-	);
-
-	// 1--&gt; ipv4  addressLength =4
-	// 2--&gt; domain name addressLength=addressBuffer[1]
-	// 3--&gt; ipv6  addressLength =16
-	const addressType = addressBuffer[0];
-	let addressLength = 0;
-	let addressValueIndex = addressIndex + 1;
-	let addressValue = &#39;&#39;;
-	switch (addressType) {
-		case 1:
-			addressLength = 4;
-			addressValue = new Uint8Array(
-				vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength)
-			).join(&#39;.&#39;);
-			break;
-		case 2:
-			addressLength = new Uint8Array(
-				vlessBuffer.slice(addressValueIndex, addressValueIndex + 1)
-			)[0];
-			addressValueIndex += 1;
-			addressValue = new TextDecoder().decode(
-				vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength)
-			);
-			break;
-		case 3:
-			addressLength = 16;
-			const dataView = new DataView(
-				vlessBuffer.slice(addressValueIndex, addressValueIndex + addressLength)
-			);
-			// 2001:0db8:85a3:0000:0000:8a2e:0370:7334
-			const ipv6 = [];
-			for (let i = 0; i &lt; 8; i++) {
-				ipv6.push(dataView.getUint16(i * 2).toString(16));
-			}
-			addressValue = ipv6.join(&#39;:&#39;);
-			// seems no need add [] for ipv6
-			break;
-		default:
-			return {
-				hasError: true,
-				message: `invild  addressType is ${addressType}`,
-			};
-	}
-	if (!addressValue) {
-		return {
-			hasError: true,
-			message: `addressValue is empty, addressType is ${addressType}`,
-		};
-	}
-
-	return {
-		hasError: false,
-		addressRemote: addressValue,
-		addressType,
-		portRemote,
-		rawDataIndex: addressValueIndex + addressLength,
-		vlessVersion: version,
-		isUDP,
-	};
-}
-
-
-/**
- * 
- * @param {import(&#34;@cloudflare/workers-types&#34;).Socket} remoteSocket 
- * @param {import(&#34;@cloudflare/workers-types&#34;).WebSocket} webSocket 
- * @param {ArrayBuffer} vlessResponseHeader 
- * @param {(() =&gt; Promise&lt;void&gt;) | null} retry
- * @param {*} log 
- */
-async function remoteSocketToWS(remoteSocket, webSocket, vlessResponseHeader, retry, log) {
-	// remote--&gt; ws
-	let remoteChunkCount = 0;
-	let chunks = [];
-	/** @type {ArrayBuffer | null} */
-	let vlessHeader = vlessResponseHeader;
-	let hasIncomingData = false; // check if remoteSocket has incoming data
-	await remoteSocket.readable
-		.pipeTo(
-			new WritableStream({
-				start() {
-				},
-				/**
-				 * 
-				 * @param {Uint8Array} chunk 
-				 * @param {*} controller 
-				 */
-				async write(chunk, controller) {
-					hasIncomingData = true;
-					// remoteChunkCount++;
-					if (webSocket.readyState !== WS_READY_STATE_OPEN) {
-						controller.error(
-							&#39;webSocket.readyState is not open, maybe close&#39;
-						);
-					}
-					if (vlessHeader) {
-						webSocket.send(await new Blob([vlessHeader, chunk]).arrayBuffer());
-						vlessHeader = null;
-					} else {
-						// seems no need rate limit this, CF seems fix this??..
-						// if (remoteChunkCount &gt; 20000) {
-						// 	// cf one package is 4096 byte(4kb),  4096 * 20000 = 80M
-						// 	await delay(1);
-						// }
-						webSocket.send(chunk);
-					}
-				},
-				close() {
-					log(`remoteConnection!.readable is close with hasIncomingData is ${hasIncomingData}`);
-					// safeCloseWebSocket(webSocket); // no need server close websocket frist for some case will casue HTTP ERR_CONTENT_LENGTH_MISMATCH issue, client will send close event anyway.
-				},
-				abort(reason) {
-					console.error(`remoteConnection!.readable abort`, reason);
-				},
-			})
-		)
-		.catch((error) =&gt; {
-			console.error(
-				`remoteSocketToWS has exception `,
-				error.stack || error
-			);
-			safeCloseWebSocket(webSocket);
-		});
-
-	// seems is cf connect socket have error,
-	// 1. Socket.closed will have error
-	// 2. Socket.readable will be close without any data coming
-	if (hasIncomingData === false &amp;&amp; retry) {
-		log(`retry`)
-		retry();
-	}
-}
-
-/**
- * 
- * @param {string} base64Str 
- * @returns 
- */
-function base64ToArrayBuffer(base64Str) {
-	if (!base64Str) {
-		return { error: null };
-	}
-	try {
-		// go use modified Base64 for URL rfc4648 which js atob not support
-		base64Str = base64Str.replace(/-/g, &#39;+&#39;).replace(/_/g, &#39;/&#39;);
-		const decode = atob(base64Str);
-		const arryBuffer = Uint8Array.from(decode, (c) =&gt; c.charCodeAt(0));
-		return { earlyData: arryBuffer.buffer, error: null };
-	} catch (error) {
-		return { error };
-	}
-}
-
-/**
- * This is not real UUID validation
- * @param {string} uuid 
- */
-function isValidUUID(uuid) {
-	const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[4][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-	return uuidRegex.test(uuid);
-}
-
-const WS_READY_STATE_OPEN = 1;
-const WS_READY_STATE_CLOSING = 2;
-/**
- * Normally, WebSocket will not has exceptions when close.
- * @param {import(&#34;@cloudflare/workers-types&#34;).WebSocket} socket
- */
-function safeCloseWebSocket(socket) {
-	try {
-		if (socket.readyState === WS_READY_STATE_OPEN || socket.readyState === WS_READY_STATE_CLOSING) {
-			socket.close();
-		}
-	} catch (error) {
-		console.error(&#39;safeCloseWebSocket error&#39;, error);
-	}
-}
-
-const byteToHex = [];
-for (let i = 0; i &lt; 256; ++i) {
-	byteToHex.push((i + 256).toString(16).slice(1));
-}
-function unsafeStringify(arr, offset = 0) {
-	return (byteToHex[arr[offset + 0]] + byteToHex[arr[offset + 1]] + byteToHex[arr[offset + 2]] + byteToHex[arr[offset + 3]] + &#34;-&#34; + byteToHex[arr[offset + 4]] + byteToHex[arr[offset + 5]] + &#34;-&#34; + byteToHex[arr[offset + 6]] + byteToHex[arr[offset + 7]] + &#34;-&#34; + byteToHex[arr[offset + 8]] + byteToHex[arr[offset + 9]] + &#34;-&#34; + byteToHex[arr[offset + 10]] + byteToHex[arr[offset + 11]] + byteToHex[arr[offset + 12]] + byteToHex[arr[offset + 13]] + byteToHex[arr[offset + 14]] + byteToHex[arr[offset + 15]]).toLowerCase();
-}
-function stringify(arr, offset = 0) {
-	const uuid = unsafeStringify(arr, offset);
-	if (!isValidUUID(uuid)) {
-		throw TypeError(&#34;Stringified UUID is invalid&#34;);
-	}
-	return uuid;
-}
-
-
-/**
- * 
- * @param {import(&#34;@cloudflare/workers-types&#34;).WebSocket} webSocket 
- * @param {ArrayBuffer} vlessResponseHeader 
- * @param {(string)=&gt; void} log 
- */
-async function handleUDPOutBound(webSocket, vlessResponseHeader, log) {
-
-	let isVlessHeaderSent = false;
-	const transformStream = new TransformStream({
-		start(controller) {
-
-		},
-		transform(chunk, controller) {
-			// udp message 2 byte is the the length of udp data
-			// TODO: this should have bug, beacsue maybe udp chunk can be in two websocket message
-			for (let index = 0; index &lt; chunk.byteLength;) {
-				const lengthBuffer = chunk.slice(index, index + 2);
-				const udpPakcetLength = new DataView(lengthBuffer).getUint16(0);
-				const udpData = new Uint8Array(
-					chunk.slice(index + 2, index + 2 + udpPakcetLength)
-				);
-				index = index + 2 + udpPakcetLength;
-				controller.enqueue(udpData);
-			}
-		},
-		flush(controller) {
-		}
-	});
-
-	// only handle dns udp for now
-	transformStream.readable.pipeTo(new WritableStream({
-		async write(chunk) {
-			const resp = await fetch(&#39;https://1.1.1.1/dns-query&#39;,
-				{
-					method: &#39;POST&#39;,
-					headers: {
-						&#39;content-type&#39;: &#39;application/dns-message&#39;,
-					},
-					body: chunk,
-				})
-			const dnsQueryResult = await resp.arrayBuffer();
-			const udpSize = dnsQueryResult.byteLength;
-			// console.log([...new Uint8Array(dnsQueryResult)].map((x) =&gt; x.toString(16)));
-			const udpSizeBuffer = new Uint8Array([(udpSize &gt;&gt; 8) &amp; 0xff, udpSize &amp; 0xff]);
-			if (webSocket.readyState === WS_READY_STATE_OPEN) {
-				log(`doh success and dns message length is ${udpSize}`);
-				if (isVlessHeaderSent) {
-					webSocket.send(await new Blob([udpSizeBuffer, dnsQueryResult]).arrayBuffer());
-				} else {
-					webSocket.send(await new Blob([vlessResponseHeader, udpSizeBuffer, dnsQueryResult]).arrayBuffer());
-					isVlessHeaderSent = true;
-				}
-			}
-		}
-	})).catch((error) =&gt; {
-		log(&#39;dns udp has error&#39; + error)
-	});
-
-	const writer = transformStream.writable.getWriter();
-
-	return {
-		/**
-		 * 
-		 * @param {Uint8Array} chunk 
-		 */
-		write(chunk) {
-			writer.write(chunk);
-		}
-	};
-}
-
-/**
- * 
- * @param {string} userID 
- * @param {string | null} hostName
- * @returns {string}
- */
-function getVLESSConfig(userID, hostName) {
-	const vlessMain = `vless://${userID}@${hostName}:443?encryption=none&amp;security=tls&amp;sni=${hostName}&amp;fp=randomized&amp;type=ws&amp;host=${hostName}&amp;path=%2F%3Fed%3D2048#${hostName}`
-	return `
-################################################################
-v2ray
----------------------------------------------------------------
-${vlessMain}
----------------------------------------------------------------
-################################################################
-clash-meta
----------------------------------------------------------------
-- type: vless
-  name: ${hostName}
-  server: ${hostName}
-  port: 443
-  uuid: ${userID}
-  network: ws
-  tls: true
-  udp: false
-  sni: ${hostName}
-  client-fingerprint: chrome
-  ws-opts:
-    path: &#34;/?ed=2048&#34;
-    headers:
-      host: ${hostName}
----------------------------------------------------------------
-################################################################
-`;
-}
-```
-&lt;br /&gt;
-8、访问网址生成一个 UUID：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly8xMDI0dG9vbHMuY29tL3V1aWQ=&#34;&gt;https://1024tools.com/uuid&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;复制第一行的字符串即可&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071007172.png&#34; alt=&#34;image-20231107100728944&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;将这个 uuid 替换到上面代码中需要 uuid 的地方即可&lt;/p&gt;
-&lt;p&gt;9、完成后点击保存并部署&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071008285.png&#34; alt=&#34;image-20231107100847827&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;10、&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071009012.png&#34; alt=&#34;image-20231107100912230&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;11、在网址的后面加上 ‘/’ 再黏贴刚刚复制的 ID 后回车&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071009325.png&#34; alt=&#34;image-20231107100948661&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;12、访问后就会跳转到如下页面&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071012269.png&#34; alt=&#34;image-20231107101201707&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;这样就可以复制 vess 开头的一段内容了，这就是服务器的节点，然后把这个复制到代理节点工具即可，比如如下：&lt;/p&gt;
-&lt;p&gt;双击修改端口号为：2052&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071347626.png&#34; alt=&#34;image-20231107134732597&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;通过网址获取优选 ip：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zdG9jay5ob3N0bW9uaXQuY29tL0Nsb3VkRmxhcmVZZXM=&#34;&gt;https://stock.hostmonit.com/CloudFlareYes&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;获取优选 ip 记得关掉 翻墙工具&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311071018954.png&#34; alt=&#34;image-20231107101415859&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;进行真机测试，只要不是延迟 = -1 就可以使用了，如果 - 1 可能是 端口号问题或者是 ip 地址问题。&lt;/p&gt;
-&lt;h2 id=&#34;nekoray的配置信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#nekoray的配置信息&#34;&gt;#&lt;/a&gt; nekoray 的配置信息&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202312011848512.png&#34; alt=&#34;image-20231201184805055&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;class-verge-节点转换&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#class-verge-节点转换&#34;&gt;#&lt;/a&gt; class verge 节点转换&lt;/h2&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9iaWFueXVhbi54eXov&#34;&gt;https://bianyuan.xyz/&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-        <category term="vpn" scheme="https://pigpigletsgo.github.io/categories/tools/vpn/" />
-        <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
-        <category term="vpn" scheme="https://pigpigletsgo.github.io/tags/vpn/" />
-        <updated>2024-01-08T07:51:07.702Z</updated>
     </entry>
     <entry>
         <id>https://pigpigletsgo.github.io/tools/windows/PowerShell%E9%85%8D%E7%BD%AEohmyzsh/</id>
@@ -4871,8 +4240,8 @@ url: &amp;quot;http://127.0.0.1:81/data&amp;quot;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;http&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;postBuffer &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;924288000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
         <category term="git" scheme="https://pigpigletsgo.github.io/categories/computer-science/git/" />
-        <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
         <category term="git" scheme="https://pigpigletsgo.github.io/tags/git/" />
+        <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
         <updated>2024-01-08T07:19:37.359Z</updated>
     </entry>
     <entry>
