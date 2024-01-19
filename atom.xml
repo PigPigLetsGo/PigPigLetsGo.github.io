@@ -11,10 +11,10 @@
     <updated>2024-01-19T06:10:59.459Z</updated>
     <category term="java" />
     <entry>
-        <id>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97-%E5%A0%86%E5%AE%9E%E7%8E%B0/</id>
-        <title>优先级队列-堆实现</title>
-        <link rel="alternate" href="https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97-%E5%A0%86%E5%AE%9E%E7%8E%B0/"/>
-        <content type="html">&lt;h1 id=&#34;优先级队列-堆实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优先级队列-堆实现&#34;&gt;#&lt;/a&gt; 优先级队列 - 堆实现&lt;/h1&gt;
+        <id>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97-%E5%A0%86%E5%AE%9E%E7%8E%B0-%E5%A4%A7%E9%A1%B6%E5%A0%86%E5%AE%9E%E7%8E%B0/</id>
+        <title>优先级队列-堆实现-大顶堆实现</title>
+        <link rel="alternate" href="https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97-%E5%A0%86%E5%AE%9E%E7%8E%B0-%E5%A4%A7%E9%A1%B6%E5%A0%86%E5%AE%9E%E7%8E%B0/"/>
+        <content type="html">&lt;h1 id=&#34;优先级队列-堆实现-大顶堆实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优先级队列-堆实现-大顶堆实现&#34;&gt;#&lt;/a&gt; 优先级队列 - 堆实现 - 大顶堆实现&lt;/h1&gt;
 &lt;h2 id=&#34;堆实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#堆实现&#34;&gt;#&lt;/a&gt; 堆实现&lt;/h2&gt;
 &lt;p&gt;堆本质上就是一种树，堆的方式也有很多种，通常使用的是完全二叉树实现。&lt;/p&gt;
 &lt;p&gt;计算机科学中，堆是一种基于数的数据结构，&lt;mark&gt;通常用完全二叉树实现&lt;/mark&gt;。堆的特性如下：&lt;/p&gt;
