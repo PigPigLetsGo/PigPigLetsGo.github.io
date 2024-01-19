@@ -1150,8 +1150,8 @@ stack : ]
             <link>https://pigpigletsgo.github.io/tools/nodeJs/nvm-Node%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/</link>
             <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
             <category term="nodeJs" scheme="https://pigpigletsgo.github.io/categories/tools/nodeJs/" />
-            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
             <category term="nodeJs" scheme="https://pigpigletsgo.github.io/tags/nodeJs/" />
+            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
             <pubDate>Mon, 08 Jan 2024 15:47:54 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;附：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1ub2RlJmFtcDtzcG09MTAwMS4yMTAxLjMwMDEuNzAyMA==&#34;&gt;node&lt;/span&gt; 更换版本（简单操作）&lt;br /&gt;
 安装 nvm&lt;br /&gt;
