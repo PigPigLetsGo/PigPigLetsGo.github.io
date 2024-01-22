@@ -12,7 +12,7 @@
     <category term="java" />
     <entry>
         <id>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%A0%86%E6%8E%92%E5%BA%8F/</id>
-        <title>堆-heapify2-实现其它方法</title>
+        <title>堆排序</title>
         <link rel="alternate" href="https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E5%A0%86%E6%8E%92%E5%BA%8F/"/>
         <content type="html">&lt;h1 id=&#34;堆排序&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#堆排序&#34;&gt;#&lt;/a&gt; 堆排序&lt;/h1&gt;
 &lt;p&gt;使用堆 实现排序&lt;/p&gt;
@@ -779,8 +779,8 @@ p
         <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="队列" scheme="https://pigpigletsgo.github.io/tags/%E9%98%9F%E5%88%97/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="堆" scheme="https://pigpigletsgo.github.io/tags/%E5%A0%86/" />
         <category term="优先级队列" scheme="https://pigpigletsgo.github.io/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" />
         <category term="完全二叉树" scheme="https://pigpigletsgo.github.io/tags/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/" />
@@ -911,8 +911,8 @@ p
         <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="队列" scheme="https://pigpigletsgo.github.io/tags/%E9%98%9F%E5%88%97/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="堆" scheme="https://pigpigletsgo.github.io/tags/%E5%A0%86/" />
         <category term="优先级队列" scheme="https://pigpigletsgo.github.io/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" />
         <category term="完全二叉树" scheme="https://pigpigletsgo.github.io/tags/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/" />
@@ -970,8 +970,8 @@ p
         <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="队列" scheme="https://pigpigletsgo.github.io/tags/%E9%98%9F%E5%88%97/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="优先级队列" scheme="https://pigpigletsgo.github.io/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" />
         <updated>2024-01-18T13:21:45.192Z</updated>
     </entry>
@@ -997,8 +997,8 @@ p
         <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="队列" scheme="https://pigpigletsgo.github.io/tags/%E9%98%9F%E5%88%97/" />
+        <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="优先级队列" scheme="https://pigpigletsgo.github.io/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" />
         <updated>2024-01-18T10:34:29.781Z</updated>
     </entry>
