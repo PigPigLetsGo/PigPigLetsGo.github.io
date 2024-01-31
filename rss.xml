@@ -10,9 +10,101 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 30 Jan 2024 15:12:29 +0800</pubDate>
-        <lastBuildDate>Tue, 30 Jan 2024 15:12:29 +0800</lastBuildDate>
+        <pubDate>Tue, 30 Jan 2024 19:50:46 +0800</pubDate>
+        <lastBuildDate>Tue, 30 Jan 2024 19:50:46 +0800</lastBuildDate>
         <category term="java" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%A6%82%E8%BF%B0/</guid>
+            <title>二叉搜索树的概述</title>
+            <link>https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%A6%82%E8%BF%B0/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+            <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/" />
+            <category term="二叉搜索树" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="介绍" scheme="https://pigpigletsgo.github.io/tags/%E4%BB%8B%E7%BB%8D/" />
+            <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" />
+            <category term="树结构" scheme="https://pigpigletsgo.github.io/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" />
+            <category term="二叉树搜索树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91%E6%90%9C%E7%B4%A2%E6%A0%91/" />
+            <pubDate>Tue, 30 Jan 2024 19:50:46 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;二叉搜索树的概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二叉搜索树的概述&#34;&gt;#&lt;/a&gt; 二叉搜索树的概述&lt;/h1&gt;
+&lt;p&gt;之前我们已经学过了基础的数据结构了比如说：数组，链表，队列。在这些数据结构中如果我想去从中查找一个元素，这个效率高不高呢？答：并不高！都是线性时间 也就是 O (n)&lt;/p&gt;
+&lt;p&gt;如果我的需求是必须快速查找，那么我们就需要引入一种新的算法或者数据结构了&lt;/p&gt;
+&lt;p&gt;你可能会想到之前学过的 二分查找法，它能不能提高查询效率呢？&lt;/p&gt;
+&lt;p&gt;答案：可以的！它可以达到 对数 时间，也就是 Olog (n)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不过它有限制&lt;/strong&gt;：必须是针对一个已排序的数组 进行二分查找，但是话说回来 我们对一个数组 做排序 成本还是比较高的&lt;/p&gt;
+&lt;p&gt;先去排序再去查找，好像有点得不偿失。&lt;/p&gt;
+&lt;p&gt;那么有没有一个 折中的办法呢？答：有！就是我们换一种数据结构 不采用数组了，而是采用 本章要讲的 二叉搜索树&lt;/p&gt;
+&lt;p&gt;用它既可以让我们查找效率比较高，也可以让我们在这个结构中加入新的元素时它就是已经排好序的结构&lt;/p&gt;
+&lt;p&gt;如下图就一颗二叉搜索树，也称之为 二叉排序树&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130193019818.png&#34; alt=&#34;image-20240130193019818&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;要成为 二叉搜索树 必须符合如下两个特征：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;树节点增加 key 属性，用来比较谁打谁小，key 不可以重复&lt;/li&gt;
+&lt;li&gt;对于任意一个树节点，它的 key 比左子树的 key 都大，同时也比右子树的 key 都小&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;PS&lt;/strong&gt;：而却 二叉搜索树 使用 中序遍历的结果 是一个 升序的 元素顺序，比如上图二叉搜索树 进行中序遍历结果为：1，2，3，4，5，6，7，8。&lt;/p&gt;
+&lt;p&gt;对照上面的二叉搜索树来看如果我要在二叉树中的 6 节点添加一个节点那么它应该是几呢？&lt;/p&gt;
+&lt;p&gt;首先它必须比 7 小因为 是 7 的左子树，还要比 6 大 因为是 6 的右子树。这样的话我们只能添加一个值为 6.5 的节点了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130193454111.png&#34; alt=&#34;image-20240130193454111&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;演示-二叉搜索树-的查找效率如何&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#演示-二叉搜索树-的查找效率如何&#34;&gt;#&lt;/a&gt; 演示 二叉搜索树 的查找效率如何：&lt;/h2&gt;
+&lt;p&gt;比如说 我要查找一个值为 8 的节点&lt;/p&gt;
+&lt;p&gt;先从根节点开始 比较 发现比 4 大 那就从右子树开始找，因为根据二叉搜索树的定义中 4 左子树比 4 还要小 不可能存在 8 这个值&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130193635687.png&#34; alt=&#34;image-20240130193635687&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;接下来跟 4 的右子树 的 7 进行比较 发现比 7 还大 那么就从 7 的右子树 找&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130193816974.png&#34; alt=&#34;image-20240130193816974&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;接下来 7 的右子树节点的值就是 8 到这就找到了 8 这个节点了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130193916340.png&#34; alt=&#34;image-20240130193916340&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样的话 就能看出 二叉搜索树可以 一次性 忽略一 半的 分叉 快速找到 我们想要找的节点&lt;/p&gt;
+&lt;p&gt;上面只是 二叉搜索树 长的比较好的情况下的 结果，如果二叉搜索树长的很糟糕的话 情况就大不如意 了&lt;/p&gt;
+&lt;p&gt;比如说我们看一个特殊情况：&lt;/p&gt;
+&lt;p&gt;如下 也算是一颗 二叉搜索树 根节点 5 的左子树都比它小，4 的左子树也比 4 小，3 也是，2 也是&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240130194359264.png&#34; alt=&#34;image-20240130194359264&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;但是这颗 二叉搜索树 长的比较丑，能看得出来 它&lt;mark&gt;不平衡&lt;/mark&gt; 在这种情况下 如果要查找的话 那么它的性能可能就不是那么高了。&lt;/p&gt;
+&lt;p&gt;比如说要查找 1 的话，那么就需要比较 5 次 才能找到 1 那么这时 时间复杂度 又回到线性时间了也就是 O (n) 了&lt;/p&gt;
+&lt;p&gt;所以：二叉搜索树 它的平均 时间复杂度是 对数 时间，但是它有一个最糟的情况就是上面不平衡的二叉搜索树情况这种情况下 它的时间复杂度又会下降为 O (n) 线性时间了&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+            <title>从中序与后序遍历序列构造二叉树</title>
+            <link>https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BB%8E%E4%B8%AD%E5%BA%8F%E4%B8%8E%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+            <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
+            <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
+            <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
+            <category term="还原二叉树" scheme="https://pigpigletsgo.github.io/tags/%E8%BF%98%E5%8E%9F%E4%BA%8C%E5%8F%89%E6%A0%91/" />
+            <pubDate>Tue, 30 Jan 2024 16:00:08 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;从中序与后序遍历序列构造二叉树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#从中序与后序遍历序列构造二叉树&#34;&gt;#&lt;/a&gt; 从中序与后序遍历序列构造二叉树&lt;/h1&gt;
+&lt;p&gt;给定两个整数数组  &lt;code&gt;inorder&lt;/code&gt;  和  &lt;code&gt;postorder&lt;/code&gt;  ，其中  &lt;code&gt;inorder&lt;/code&gt;  是二叉树的中序遍历，  &lt;code&gt;postorder&lt;/code&gt;  是同一棵树的后序遍历，请你构造并返回这颗 &lt;em&gt;二叉树&lt;/em&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例 1:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/tree.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
+输出：[3,9,20,null,null,15,7]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2:&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：inorder = [-1], postorder = [-1]
+输出：[-1]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;提示:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;1 &amp;lt;= inorder.length &amp;lt;= 3000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postorder.length == inorder.length&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-3000 &amp;lt;= inorder[i], postorder[i] &amp;lt;= 3000&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;inorder&lt;/code&gt;  和  &lt;code&gt;postorder&lt;/code&gt;  都由 &lt;strong&gt;不同&lt;/strong&gt; 的值组成&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postorder&lt;/code&gt;  中每一个值都在  &lt;code&gt;inorder&lt;/code&gt;  中&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;inorder&lt;/code&gt;  &lt;strong&gt;保证&lt;/strong&gt;是树的中序遍历&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;postorder&lt;/code&gt;  &lt;strong&gt;保证&lt;/strong&gt;是树的后序遍历&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;思路分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#思路分析&#34;&gt;#&lt;/a&gt; 思路分析：&lt;/h2&gt;
+&lt;p&gt;没看过 “ 从前序与中序遍历序列构造二叉树 &amp;quot; 可以先看下，从这个文章中我们知道了 前序遍历可以很容易的找到 某一层的 根节点 因为 根节点的值 是最先打印的 但是 光靠 前序遍历我们 看不出来 这个根节点它的 左右孩子 是 左边 还是右边的，所以我们需要 结合着 中序遍历 才能分辨出 左右孩子的位置&lt;/p&gt;
+&lt;p&gt;而中序遍历 配合 后序遍历 还原二叉树也比较简单，我们只需要 通过后序遍历 的 最后一个值 就是 根节点 因为 后序遍历 顺序为：左，右，值　。　然后再通过 中序遍历来分辨 根节点 左右孩子的位置即可。&lt;/p&gt;
+&lt;h2 id=&#34;代码实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#代码实现&#34;&gt;#&lt;/a&gt; 代码实现：&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Solution&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;buildTree&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; inorder&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; postorder&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 判断 中序和 后序是否有元素，如果没有就返回 null&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; postorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;     	  &lt;span class=&#34;token comment&#34;&gt;// 通过后序遍历数组的最后一个元素获取 二叉树的根节点&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; rootValue &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; postorder&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;postorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 将 root 节点存入创建的节点对象中&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt; root &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;rootValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 循环 中序数组&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; inorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token comment&#34;&gt;// 判断如果 中序数组 第 i 个索引值 等于 根节点就执行代码&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inorder&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; rootValue&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 复制一个数组 元素为：inorder 数组的 0 到 i - 1 区间的元素，也就是当前根节点的左子树&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; inLeft&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Arrays&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;copyOfRange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inorder&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 9&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 复制一个数组 元素为：inorder 数组的 i + 1 到 inorder.length - 1 区间的元素，也就是当前根节点的右子树&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; inRight&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Arrays&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;copyOfRange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inorder&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; inorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 15,20,7&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 复制一个数组，元素为：postorder 数组的 0 到 i - 1 区间的元素，也就是当前根节点的左子树&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; postLeft&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Arrays&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;copyOfRange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;postorder&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 9&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token comment&#34;&gt;// 复制一个数组，元素为：postorder 数组的 i 到 postorder.length - 1 区间的元素，也就是当前根节点的右子树&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; postRight&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Arrays&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;copyOfRange&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;postorder&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; i&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; postorder&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 15,7,20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                root&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;left &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;buildTree&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inLeft&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; postLeft&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 9&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                root&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;right &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;buildTree&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;inRight&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; postRight&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;                &lt;span class=&#34;token keyword&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; root&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/programming-questions/%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
             <title>从前序与中序遍历序列构造二叉树</title>
@@ -1052,73 +1144,6 @@
 &lt;/ol&gt;
 &lt;h3 id=&#34;基础命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础命令&#34;&gt;#&lt;/a&gt; 基础命令&lt;/h3&gt;
 &lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm ls               &lt;span class=&#34;token comment&#34;&gt;// 查看已安装 node 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm install vXX      &lt;span class=&#34;token comment&#34;&gt;// 安装对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm uninstall vXX    &lt;span class=&#34;token comment&#34;&gt;// 卸载对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm use xxx          &lt;span class=&#34;token comment&#34;&gt;// 选择使用 XXX 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/tools/idea/%E7%A0%B4%E8%A7%A3idea/</guid>
-            <title>搜索服务器使用idea</title>
-            <link>https://pigpigletsgo.github.io/tools/idea/%E7%A0%B4%E8%A7%A3idea/</link>
-            <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-            <category term="idea" scheme="https://pigpigletsgo.github.io/categories/tools/idea/" />
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;如果上方的服务器激活地址都失效了，还有个办法可以搜索网络上可用的激活服务器，一般人我不告诉他，请务必低调使用。&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;首先打开这个网站：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zZWFyY2guY2Vuc3lzLmlvLw==&#34;&gt;https://search.censys.io/&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;然后在搜索框中输入： &lt;code&gt;services.http.response.headers.location: account.jetbrains.com/fls-auth&lt;/code&gt; ，点击 &lt;code&gt;搜索&lt;/code&gt; ，网站会检索出很多 IP 地址&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309131411486.png&#34; alt=&#34;search.censys.io&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;任意点一个 IP 地址查看详情页，确保 &lt;code&gt;80/HTTP&lt;/code&gt;  地址下的 &lt;code&gt;Status Code&lt;/code&gt;  状态码为 &lt;code&gt;302&lt;/code&gt; ，这时候复制出 &lt;code&gt;Detail&lt;/code&gt;  这里的 IP 地址，作为我们的 License Server 地址&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309131411450.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;和上面一样，输入地址后点击激活&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309131412970.png&#34; alt=&#34;输入激活服务器IP地址&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果无法激活再回到搜索结果页换一个 IP 地址再次试验，小编试验了 3 次就成功了，IDEA 成功永久 激活，亲测有效&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309131412586.png&#34; alt=&#34;IEAD正版激活成功&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/tools/idea/idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E/</guid>
-            <title>idea创建类或方法自动生成注释声明</title>
-            <link>https://pigpigletsgo.github.io/tools/idea/idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E/</link>
-            <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-            <category term="idea" scheme="https://pigpigletsgo.github.io/categories/tools/idea/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
-            <category term="idea" scheme="https://pigpigletsgo.github.io/tags/idea/" />
-            <category term="项目" scheme="https://pigpigletsgo.github.io/tags/%E9%A1%B9%E7%9B%AE/" />
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;创建类时自动生成注释声明：操作步骤:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;File --&amp;gt; settings --&amp;gt; Editor --&amp;gt; File and Code Templates&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;点击 &lt;code&gt;Includes&lt;/code&gt;  选择 &lt;code&gt;File Header&lt;/code&gt;  在右边内容框中输入如下内容:&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;* @author Dkx&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;* @$&amp;#123;DATE&amp;#125;$&amp;#123;TIME&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;* @version 1.0&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;* @function&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;* @comment&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-04-28_20230323080818.png?v=1&amp;amp;type=image&amp;amp;token=V1:OyTyou1tw5AZ_pnL9RTe-fkw0H5HbvIq8k4G9iSL4wQ&#34; alt=&#34;image_2023-01-14-21-04-28&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;创建方法时自动生成注释声明：操作步骤:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;File --&amp;gt; settings --&amp;gt; Editor --&amp;gt; Live Templates&lt;/code&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;点击 + 号，再点击 &lt;code&gt;Template Group...&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;创建名称随意，建议使用名称: &lt;code&gt;Method&lt;/code&gt;  翻译为方法更为规范&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051449757.png&#34; alt=&#34;image-20240105144937718&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;选中刚才创建好的 Method 再次点击 + 号，选择 Live Template&lt;/p&gt;
-&lt;p&gt;取名为: &lt;code&gt;/**&lt;/code&gt;  注意：不能随便起名建议使用这个名称&lt;/p&gt;
-&lt;p&gt;在展开 &lt;code&gt;Method&lt;/code&gt;  选项点击 &lt;code&gt;/**&lt;/code&gt;  标签&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-09-33_20230323080843.png?v=1&amp;amp;type=image&amp;amp;token=V1:GFig0QnwaLoCcCiUdET-hb1squrrMdI7wj9-sC1e6Eg&#34; alt=&#34;image_2023-01-14-21-09-33&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在下面的内容框中输入如下内容:&lt;/p&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;/**&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*@param:$params$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*@return:$returns$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*@Date:$date$&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;*/&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-10-29_20230323080857.png?v=1&amp;amp;type=image&amp;amp;token=V1:oOF5UI_XfVYuwA4p0r6yVvsDFSuhwdzMsDlJnf4BZRM&#34; alt=&#34;image_2023-01-14-21-10-29&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;然后点击 &lt;code&gt;EDIT VARIABLES&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;设置如下设置:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-11-14_20230323080909.png?v=1&amp;amp;type=image&amp;amp;token=V1:L_nMc_WJc9fBed2PoQQBavSbR0qlPNK_SiUOE_3b66E&#34; alt=&#34;image_2023-01-14-21-11-14&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;更改调用方式为按 Enter 后触发&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;idea%E5%88%9B%E5%BB%BA%E7%B1%BB%E6%88%96%E6%96%B9%E6%B3%95%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A%E5%A3%B0%E6%98%8E_md_files/image_2023-01-14-21-11-47_20230323080922.png?v=1&amp;amp;type=image&amp;amp;token=V1:qKjGfIUD9JY-i1meZnGKDZa0GGQ7vOGDMNdeY8a6-7U&#34; alt=&#34;image_2023-01-14-21-11-47&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;点击 APPLY,OK 即可&lt;/p&gt;
- ]]></description>
         </item>
     </channel>
 </rss>
