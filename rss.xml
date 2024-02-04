@@ -10,9 +10,47 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Sun, 04 Feb 2024 17:32:20 +0800</pubDate>
-        <lastBuildDate>Sun, 04 Feb 2024 17:32:20 +0800</lastBuildDate>
+        <pubDate>Sun, 04 Feb 2024 18:01:35 +0800</pubDate>
+        <lastBuildDate>Sun, 04 Feb 2024 18:01:35 +0800</lastBuildDate>
         <category term="java" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/avl%E6%A0%91-%E6%A6%82%E8%BF%B0/</guid>
+            <title>avl树-概述</title>
+            <link>https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/avl%E6%A0%91-%E6%A6%82%E8%BF%B0/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+            <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/" />
+            <category term="avl树" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="介绍" scheme="https://pigpigletsgo.github.io/tags/%E4%BB%8B%E7%BB%8D/" />
+            <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" />
+            <category term="树结构" scheme="https://pigpigletsgo.github.io/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" />
+            <category term="avl树" scheme="https://pigpigletsgo.github.io/tags/avl%E6%A0%91/" />
+            <pubDate>Sun, 04 Feb 2024 18:01:35 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;avl树-概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#avl树-概述&#34;&gt;#&lt;/a&gt; avl 树 - 概述&lt;/h1&gt;
+&lt;p&gt;前面学习过二叉搜索树就知道，如果二叉搜索树长的不平衡，就会影响到它的查找效率&lt;/p&gt;
+&lt;p&gt;我们看如下图的  不平衡的 二叉树&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240204173801900.png&#34; alt=&#34;image-20240204173801900&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;比如我想查询 1 的元素，那我就需要从根节点开始一路向左找，才能找到 1 的元素。而它的比较次数是 O (n)&lt;/p&gt;
+&lt;p&gt;我们怎么解决这个问题呢？我们有个办法就是旋转让上面的二叉树重新变得左右平衡&lt;/p&gt;
+&lt;p&gt;也就是让 上面的二叉树 整体向右旋转一下&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240204174205969.png&#34; alt=&#34;image-20240204174205969&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这时 就比 刚才的 二叉树 平衡了一些了， 此时在查询 1 元素效率就会好一点了，而且呢。旋转也不会破坏二叉搜索树的性质&lt;/p&gt;
+&lt;p&gt;那新的问题又来了：如果判断给的二叉搜索树 是不平衡的然后让 其二叉树重新变得平衡呢？&lt;/p&gt;
+&lt;p&gt;这时，可以通过如下规则来判断：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;如果一个节点的左右孩子，高度差超过 1，则此节点失衡，才需要旋转&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;只有当 新增 或者 删除时可能会让一个平衡的二叉树变得不平衡，此时我们就需要进行旋转了。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;AVL 树的定义&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;二叉搜索树在插入和删除时，节点可能失衡&lt;/li&gt;
+&lt;li&gt;如果在插入和删除时通过旋转，始终让二叉搜索树保持平衡，称为自平衡的二叉搜索树&lt;/li&gt;
+&lt;li&gt;AVL 是平衡二叉搜索树的实现之一&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/</guid>
             <title>二叉搜索树的实现</title>
@@ -1421,67 +1459,6 @@
 &lt;p&gt;剩下的几个 bucket 都是和开发环境相关的，比如  &lt;code&gt;java&lt;/code&gt;  这个 bucket 就是为了安装 JDK 用的 bucket，这些我在这里就不过多赘述了。&lt;/p&gt;
 &lt;h2 id=&#34;备份与恢复配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#备份与恢复配置文件&#34;&gt;#&lt;/a&gt; 备份与恢复配置文件&lt;/h2&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#[备份] 导出 scoop 的 bucket，已安装 apps 和 自定义配置信息到文件 scoopfile.json 中&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token builtin class-name&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoopfile.json&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#[恢复] 从 scoopfile.json 文件中恢复信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; scoopfile.json&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</guid>
-            <title>Scoop安装mysql</title>
-            <link>https://pigpigletsgo.github.io/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</link>
-            <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-            <category term="windows" scheme="https://pigpigletsgo.github.io/categories/tools/windows/" />
-            <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
-            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
-            <category term="windows" scheme="https://pigpigletsgo.github.io/tags/windows/" />
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;scoop安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scoop安装mysql&#34;&gt;#&lt;/a&gt; Scoop 安装 mysql&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;添加仓库： &lt;code&gt;main&lt;/code&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;执行命令安装 mysql&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; mysql&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;启动 mysql 数据库&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mysqld &lt;span class=&#34;token parameter variable&#34;&gt;--console&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;这里启动的方式分为两种&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;后台启动 &lt;code&gt;--standalone&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;终端启动  &lt;code&gt;--console&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;如果报错则执行下面代码：&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;mysqld &lt;span class=&#34;token parameter variable&#34;&gt;--initialze&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;--user&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;mysql &lt;span class=&#34;token parameter variable&#34;&gt;--console&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;执行命令： &lt;code&gt;mysqld -install&lt;/code&gt;  安装服务&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;如果出现下面的情况&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040935540.png&#34; alt=&#34;image-20230904093551765&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;则执行命令： &lt;code&gt;sc delete mysql&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936057.png&#34; alt=&#34;image-20230904093618438&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;再次执行： &lt;code&gt;mysqld -install&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936016.png&#34; alt=&#34;image-20230904093638396&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;最后启动服务： &lt;code&gt;net start mysql&lt;/code&gt;  启动！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040937628.png&#34; alt=&#34;image-20230904093707195&#34; /&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;最后一步可能会想，为什么不直接去任务管理器里面的服务去启动服务呢？因为这里有可能在任务管理器中启动不了，但是终端可以。&lt;/p&gt;
-&lt;p&gt;启动后你想执行一下 sql 命令比如： &lt;code&gt;show databses;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;却报错了，不要慌它提示的是需要重置密码。&lt;/p&gt;
-&lt;p&gt;重置密码执行命令： &lt;code&gt;ALTER USER &#39;root&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;new_password&#39;;&lt;/code&gt;  然后你就可以正常的使用了。&lt;/p&gt;
- ]]></description>
         </item>
     </channel>
 </rss>

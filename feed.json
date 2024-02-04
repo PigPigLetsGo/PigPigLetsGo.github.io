@@ -7,6 +7,25 @@
     "home_page_url": "https://pigpigletsgo.github.io",
     "items": [
         {
+            "id": "https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/avl%E6%A0%91-%E6%A6%82%E8%BF%B0/",
+            "url": "https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/avl%E6%A0%91-%E6%A6%82%E8%BF%B0/",
+            "title": "avl树-概述",
+            "date_published": "2024-02-04T10:01:35.923Z",
+            "content_html": "<h1 id=\"avl树-概述\"><a class=\"anchor\" href=\"#avl树-概述\">#</a> avl 树 - 概述</h1>\n<p>前面学习过二叉搜索树就知道，如果二叉搜索树长的不平衡，就会影响到它的查找效率</p>\n<p>我们看如下图的  不平衡的 二叉树</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240204173801900.png\" alt=\"image-20240204173801900\" /></p>\n<p>比如我想查询 1 的元素，那我就需要从根节点开始一路向左找，才能找到 1 的元素。而它的比较次数是 O (n)</p>\n<p>我们怎么解决这个问题呢？我们有个办法就是旋转让上面的二叉树重新变得左右平衡</p>\n<p>也就是让 上面的二叉树 整体向右旋转一下</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240204174205969.png\" alt=\"image-20240204174205969\" /></p>\n<p>这时 就比 刚才的 二叉树 平衡了一些了， 此时在查询 1 元素效率就会好一点了，而且呢。旋转也不会破坏二叉搜索树的性质</p>\n<p>那新的问题又来了：如果判断给的二叉搜索树 是不平衡的然后让 其二叉树重新变得平衡呢？</p>\n<p>这时，可以通过如下规则来判断：</p>\n<blockquote>\n<p>如果一个节点的左右孩子，高度差超过 1，则此节点失衡，才需要旋转</p>\n</blockquote>\n<p>只有当 新增 或者 删除时可能会让一个平衡的二叉树变得不平衡，此时我们就需要进行旋转了。</p>\n<p><strong>AVL 树的定义</strong>：</p>\n<ul>\n<li>二叉搜索树在插入和删除时，节点可能失衡</li>\n<li>如果在插入和删除时通过旋转，始终让二叉搜索树保持平衡，称为自平衡的二叉搜索树</li>\n<li>AVL 是平衡二叉搜索树的实现之一</li>\n</ul>\n",
+            "tags": [
+                "计算机学科",
+                "java",
+                "数据结构与算法",
+                "avl树",
+                "java",
+                "计算机学科",
+                "介绍",
+                "数据结构与算法",
+                "树结构",
+                "avl树"
+            ]
+        },
+        {
             "id": "https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/",
             "url": "https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/",
             "title": "二叉搜索树的实现",
@@ -290,20 +309,6 @@
             "tags": [
                 "tools",
                 "windows",
-                "tools",
-                "windows"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/",
-            "url": "https://pigpigletsgo.github.io/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/",
-            "title": "Scoop安装mysql",
-            "date_published": "2024-01-24T10:48:46.993Z",
-            "content_html": "<h2 id=\"scoop安装mysql\"><a class=\"anchor\" href=\"#scoop安装mysql\">#</a> Scoop 安装 mysql</h2>\n<ol>\n<li>\n<p>添加仓库： <code>main</code></p>\n<figure class=\"highlight sh\"><figcaption data-lang=\"sh\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>scoop bucket <span class=\"token function\">add</span> main</pre></td></tr></table></figure></li>\n<li>\n<p>执行命令安装 mysql</p>\n<figure class=\"highlight sh\"><figcaption data-lang=\"sh\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>scoop <span class=\"token function\">install</span> mysql</pre></td></tr></table></figure></li>\n<li>\n<p>启动 mysql 数据库</p>\n<figure class=\"highlight sh\"><figcaption data-lang=\"sh\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>mysqld <span class=\"token parameter variable\">--console</span></pre></td></tr></table></figure><ol>\n<li>\n<p>这里启动的方式分为两种</p>\n<ol>\n<li>后台启动 <code>--standalone</code></li>\n<li>终端启动  <code>--console</code></li>\n</ol>\n</li>\n<li>\n<p>如果报错则执行下面代码：</p>\n<figure class=\"highlight sh\"><figcaption data-lang=\"sh\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>mysqld <span class=\"token parameter variable\">--initialze</span> <span class=\"token parameter variable\">--user</span><span class=\"token operator\">=</span>mysql <span class=\"token parameter variable\">--console</span></pre></td></tr></table></figure></li>\n</ol>\n</li>\n<li>\n<p>执行命令： <code>mysqld -install</code>  安装服务</p>\n<ol>\n<li>\n<p>如果出现下面的情况</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040935540.png\" alt=\"image-20230904093551765\" /></p>\n</li>\n<li>\n<p>则执行命令： <code>sc delete mysql</code></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936057.png\" alt=\"image-20230904093618438\" /></p>\n</li>\n<li>\n<p>再次执行： <code>mysqld -install</code></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936016.png\" alt=\"image-20230904093638396\" /></p>\n</li>\n</ol>\n</li>\n<li>\n<p>最后启动服务： <code>net start mysql</code>  启动！</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040937628.png\" alt=\"image-20230904093707195\" /></p>\n</li>\n</ol>\n<p>最后一步可能会想，为什么不直接去任务管理器里面的服务去启动服务呢？因为这里有可能在任务管理器中启动不了，但是终端可以。</p>\n<p>启动后你想执行一下 sql 命令比如： <code>show databses;</code></p>\n<p>却报错了，不要慌它提示的是需要重置密码。</p>\n<p>重置密码执行命令： <code>ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';</code>  然后你就可以正常的使用了。</p>\n",
-            "tags": [
-                "tools",
-                "windows",
-                "mysql",
                 "tools",
                 "windows"
             ]
