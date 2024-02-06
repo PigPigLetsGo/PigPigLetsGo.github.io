@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pigpigletsgo.github.io</id>
-    <title>Dkx の Java小窝</title>
+    <title>D の Java小窝</title>
     <subtitle>别怕路长梦远</subtitle>
     <icon>https://pigpigletsgo.github.io/images/favicon.ico</icon>
     <link href="https://pigpigletsgo.github.io" />
     <author>
-      <name>Dkx</name>
+      <name>D</name>
     </author>
     <updated>2024-02-06T09:40:10.805Z</updated>
     <category term="java" />
+    <category term="web" />
+    <category term="c" />
     <entry>
         <id>https://pigpigletsgo.github.io/pun/</id>
         <title>public</title>
@@ -887,9 +889,9 @@
         <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-        <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
         <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
         <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
+        <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
         <updated>2024-01-29T09:10:55.567Z</updated>
     </entry>
     <entry>
@@ -1522,9 +1524,9 @@
         <category term="二叉树" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
         <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
         <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+        <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
         <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" />
         <category term="树结构" scheme="https://pigpigletsgo.github.io/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" />
-        <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
         <category term="二叉树的遍历" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" />
         <updated>2024-01-27T11:58:35.132Z</updated>
     </entry>

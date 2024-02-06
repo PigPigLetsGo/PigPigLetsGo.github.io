@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Dkx の Java小窝",
+    "title": "D の Java小窝",
     "subtitle": "别怕路长梦远",
     "icon": "https://pigpigletsgo.github.io/images/favicon.ico",
     "description": "欢迎来我的博客空间",
@@ -159,9 +159,9 @@
                 "java",
                 "编程题",
                 "java",
-                "递归",
                 "编程题",
-                "二叉树"
+                "二叉树",
+                "递归"
             ]
         },
         {
@@ -272,9 +272,9 @@
                 "二叉树",
                 "java",
                 "计算机学科",
+                "二叉树",
                 "数据结构与算法",
                 "树结构",
-                "二叉树",
                 "二叉树的遍历"
             ]
         },

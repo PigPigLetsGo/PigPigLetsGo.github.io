@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>Dkx の Java小窝</title>
+        <title>D の Java小窝</title>
         <subtitle>别怕路长梦远</subtitle>
         <icon>https://pigpigletsgo.github.io/images/favicon.ico</icon>
         <link>https://pigpigletsgo.github.io</link>
         <author>
-          <name>Dkx</name>
+          <name>D</name>
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
         <pubDate>Tue, 06 Feb 2024 17:40:10 +0800</pubDate>
         <lastBuildDate>Tue, 06 Feb 2024 17:40:10 +0800</lastBuildDate>
         <category term="java" />
+        <category term="web" />
+        <category term="c" />
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/pun/</guid>
             <title>public</title>
@@ -857,9 +859,9 @@
             <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/programming-questions/" />
             <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-            <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
             <category term="编程题" scheme="https://pigpigletsgo.github.io/tags/%E7%BC%96%E7%A8%8B%E9%A2%98/" />
             <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
+            <category term="递归" scheme="https://pigpigletsgo.github.io/tags/%E9%80%92%E5%BD%92/" />
             <pubDate>Mon, 29 Jan 2024 17:10:55 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;翻转二叉树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#翻转二叉树&#34;&gt;#&lt;/a&gt; 翻转二叉树&lt;/h1&gt;
 &lt;p&gt;给你一棵二叉树的根节点  &lt;code&gt;root&lt;/code&gt;  ，翻转这棵二叉树，并返回其根节点。&lt;/p&gt;
@@ -1182,9 +1184,9 @@
             <category term="二叉树" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
             <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
             <category term="数据结构与算法" scheme="https://pigpigletsgo.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" />
             <category term="树结构" scheme="https://pigpigletsgo.github.io/tags/%E6%A0%91%E7%BB%93%E6%9E%84/" />
-            <category term="二叉树" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" />
             <category term="二叉树的遍历" scheme="https://pigpigletsgo.github.io/tags/%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/" />
             <pubDate>Sat, 27 Jan 2024 19:58:35 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;二叉树-深度优先遍历&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二叉树-深度优先遍历&#34;&gt;#&lt;/a&gt; 二叉树 - 深度优先遍历&lt;/h1&gt;
