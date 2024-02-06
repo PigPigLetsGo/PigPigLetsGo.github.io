@@ -10,9 +10,18 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Mon, 05 Feb 2024 17:32:07 +0800</pubDate>
-        <lastBuildDate>Mon, 05 Feb 2024 17:32:07 +0800</lastBuildDate>
+        <pubDate>Tue, 06 Feb 2024 17:40:10 +0800</pubDate>
+        <lastBuildDate>Tue, 06 Feb 2024 17:40:10 +0800</lastBuildDate>
         <category term="java" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/pun/</guid>
+            <title>public</title>
+            <link>https://pigpigletsgo.github.io/pun/</link>
+            <pubDate>Tue, 06 Feb 2024 17:40:10 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wYW4uYmFpZHUuY29tL3MvMUZyU21CWWtOVlRHeU5mcnp1d3gxeGc=&#34;&gt;https://pan.baidu.com/s/1FrSmBYkNVTGyNfrzuwx1xg&lt;/span&gt;&lt;br /&gt;
+ 提取码：qwe1&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/data-structures-and-algorithms/%E7%BA%A2%E9%BB%91%E6%A0%91/%E7%BA%A2%E9%BB%91%E6%A0%91-%E6%A6%82%E8%BF%B0/</guid>
             <title>红黑树-概述</title>
@@ -1556,32 +1565,6 @@
             <category term="动画电影" scheme="https://pigpigletsgo.github.io/tags/%E5%8A%A8%E7%94%BB%E7%94%B5%E5%BD%B1/" />
             <pubDate>Wed, 24 Jan 2024 18:48:47 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;div class=&#34;media-container&#34;&gt;&lt;div class=&#34;player&#34; data-type=&#34;video&#34; data-src=&#39;[{&#34;name&#34;:&#34;冰河世纪1&#34;,&#34;url&#34;:&#34;https://tuostudy-static.onmicrosoft.cn/api/raw/?path=/%F0%9F%8E%A5%20175%23%20%E7%94%B5%E5%BD%B1%E5%8A%A8%E7%94%BB/%F0%9F%90%BC%20%E5%8A%A8%E7%94%BB%E7%94%B5%E5%BD%B1/%F0%9F%93%81%20%E7%94%A8%E7%94%B5%E8%84%91%E7%9C%8B/%F0%9F%93%81%20%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA/%E5%86%B0%E5%B7%9D%E6%97%B6%E4%BB%A3.mp4&#34;},{&#34;name&#34;:&#34;冰河世纪2&#34;,&#34;url&#34;:&#34;https://tuostudy-static.onmicrosoft.cn/api/raw/?path=/%F0%9F%8E%A5%20175%23%20%E7%94%B5%E5%BD%B1%E5%8A%A8%E7%94%BB/%F0%9F%90%BC%20%E5%8A%A8%E7%94%BB%E7%94%B5%E5%BD%B1/%F0%9F%93%81%20%E7%94%A8%E7%94%B5%E8%84%91%E7%9C%8B/%F0%9F%93%81%20%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA2/%E5%86%B0%E5%B7%9D%E6%97%B6%E4%BB%A32.mp4&#34;},{&#34;name&#34;:&#34;冰河世纪3&#34;,&#34;url&#34;:&#34;https://tuostudy-static.onmicrosoft.cn/api/raw/?path=/%F0%9F%8E%A5%20175%23%20%E7%94%B5%E5%BD%B1%E5%8A%A8%E7%94%BB/%F0%9F%90%BC%20%E5%8A%A8%E7%94%BB%E7%94%B5%E5%BD%B1/%F0%9F%93%81%20%E7%94%A8%E7%94%B5%E8%84%91%E7%9C%8B/%F0%9F%93%81%20%E5%86%B0%E6%B2%B3%E4%B8%96%E7%BA%AA3/%E5%86%B0%E5%B7%9D%E6%97%B6%E4%BB%A33.mp4&#34;}]&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/</guid>
-            <title>KeePass的使用</title>
-            <link>https://pigpigletsgo.github.io/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/</link>
-            <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-            <category term="密码管理" scheme="https://pigpigletsgo.github.io/categories/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/" />
-            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
-            <category term="密码管理" scheme="https://pigpigletsgo.github.io/tags/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/" />
-            <pubDate>Wed, 24 Jan 2024 18:48:47 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;官网下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9rZWVwYXNzLmluZm8v&#34;&gt;https://keepass.info/&lt;/span&gt;&lt;/p&gt;
-&lt;h2 id=&#34;自动输入&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自动输入&#34;&gt;#&lt;/a&gt; 自动输入&lt;/h2&gt;
-&lt;p&gt;右键数据库点击编辑，然后选择自动输入并输入以下的表达式：&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;+&amp;#123;DELAY 100&amp;#125;&amp;#123;CLEARFIELD&amp;#125;&amp;#123;USERNAME&amp;#125;&amp;#123;TAB&amp;#125;&amp;#123;PASSWORD&amp;#125;&amp;#123;ENTER&amp;#125;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311211713827.png&#34; alt=&#34;image-20231121171345488&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;点击一个存储的账号密码的表然后在里面输入这个号要登录的对应的网址&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311211714992.png&#34; alt=&#34;image-20231121171446704&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;然后在点击自动输入选择我们自定义的表达式然后下面点击添加，添加对应的浏览器打开的对应网址&lt;/p&gt;
-&lt;p&gt;&amp;lt;font color=&#39;red&#39;&amp;gt; 注意 &amp;lt;/font&amp;gt;.：添加只能是这个浏览器才生效其它浏览器开启对应网址不生效&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311211716403.png&#34; alt=&#34;image-20231121171605580&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;然后点击输入框，按 &lt;code&gt;ctrl + alt + a&lt;/code&gt;  就可以实现自动输入并登录了下面进行演示。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202311211717549.gif&#34; alt=&#34;test&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如果要只输入密码快捷键为： &lt;code&gt;shift + ctrl + alt + a&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;演示如下：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401201056984.gif&#34; alt=&#34;recording&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
