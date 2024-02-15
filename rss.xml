@@ -44,8 +44,8 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解决nginx跨域问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决nginx跨域问题&#34;&gt;#&lt;/a&gt; 解决 Nginx 跨域问题&lt;/h1&gt;
 &lt;figure class=&#34;highlight nginx&#34;&gt;&lt;figcaption data-lang=&#34;nginx&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token directive&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;location&lt;/span&gt; /&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token directive&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;add_header&lt;/span&gt; Access-Control-Allow-Origin *&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token directive&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;add_header&lt;/span&gt; Access-Control-Allow-Methods &lt;span class=&#34;token string&#34;&gt;&#39;GET, POST, OPTIONS&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token directive&#34;&gt;&lt;span class=&#34;token keyword&#34;&gt;add_header&lt;/span&gt; Access-Control-Allow-Headers &lt;span class=&#34;token string&#34;&gt;&#39;DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization&#39;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这个配置做了以下几件事：&lt;/p&gt;
@@ -63,8 +63,8 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;高可用配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高可用配置&#34;&gt;#&lt;/a&gt; 高可用配置&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-02-01-14-11-02_20230225142326.png&#34; alt=&#34;image_2023-02-01-14-11-02&#34; /&gt;&lt;/p&gt;
@@ -167,8 +167,8 @@ vrrp_instance atguigu &amp;#123;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;防盗链&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#防盗链&#34;&gt;#&lt;/a&gt; 防盗链&lt;/h2&gt;
 &lt;ul&gt;
@@ -377,8 +377,8 @@ the error log for details.&amp;lt;/p&amp;gt;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;反向代理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#反向代理&#34;&gt;#&lt;/a&gt; 反向代理&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;不持支反向代理 &lt;code&gt;https&lt;/code&gt; &lt;/strong&gt; 服务器因为它是要对应证书&lt;/p&gt;
@@ -751,8 +751,8 @@ the error log for details.&amp;lt;/p&amp;gt;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h2 id=&#34;动静分离&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#动静分离&#34;&gt;#&lt;/a&gt; 动静分离&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -1213,8 +1213,8 @@ location /css &amp;#123;#优先级比/高
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;网络术语&lt;/strong&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;LNMP&lt;/strong&gt; 是指一组通常一起使用来运行动态网站或者服务器的自由软件名称首字母缩写，L 指 Linux,N 指 Nginx,M 一般指 MySQL, 也可以指 MariaDB,P 一般指 PHP, 也可以指 Perl 或 Python&lt;/p&gt;
@@ -1247,8 +1247,8 @@ location /css &amp;#123;#优先级比/高
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;访问官网地址:&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kaXNjdXoubmV0Lw==&#34;&gt;1&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-02-04-14-48-14_20230225140313.png&#34; alt=&#34;image_2023-02-04-14-48-14&#34; /&gt;&lt;/p&gt;
@@ -1277,8 +1277,8 @@ location /css &amp;#123;#优先级比/高
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;打开官网页面点击 &lt;code&gt;Download&lt;/code&gt;  ，会跳转到一个下载的页面&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-28-09-02-32_20230225140136.png&#34; alt=&#34;image_2023-01-28-09-02-32&#34; /&gt;&lt;/p&gt;
@@ -1326,8 +1326,8 @@ statically from the source with nginx by using --with-pcre=&amp;lt;path&amp;gt; 
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;最小配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#最小配置文件&#34;&gt;#&lt;/a&gt; 最小配置文件&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Worker_processes&lt;/strong&gt;&lt;/p&gt;
@@ -1537,8 +1537,8 @@ http &amp;#123;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-28-11-16-56_20230225135830.png&#34; alt=&#34;image_2023-01-28-11-16-56&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;当我们通过地址发送请求之后，Nginx 的主目录下有个 sbin/nginx 可执行文件，可执行文件启动之后开启 Master 主进程，这个主进程会把配置文件读取出来然后在进行一次校验，如果没有任何错误则会开启子进程&lt;/p&gt;
@@ -1564,8 +1564,8 @@ http &amp;#123;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;https证书配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#https证书配置&#34;&gt;#&lt;/a&gt; https 证书配置&lt;/h1&gt;
 &lt;h3 id=&#34;不安全的http协议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#不安全的http协议&#34;&gt;#&lt;/a&gt; 不安全的 http 协议&lt;/h3&gt;
@@ -1634,8 +1634,8 @@ http &amp;#123;
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/categories/computer-science/nginx/" />
             <category term="nginx" scheme="https://pigpigletsgo.github.io/tags/nginx/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
             <description><![CDATA[ &lt;h3 id=&#34;启动nginx&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#启动nginx&#34;&gt;#&lt;/a&gt; 启动 Nginx&lt;/h3&gt;
 &lt;p&gt;进入安装好的目录 &lt;code&gt;/user/local/nginx/sbin&lt;/code&gt;&lt;/p&gt;
