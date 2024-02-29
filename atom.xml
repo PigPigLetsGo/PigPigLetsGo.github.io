@@ -781,7 +781,7 @@ o2 = 王五
     </entry>
     <entry>
         <id>https://pigpigletsgo.github.io/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/TreeUtil/</id>
-        <title></title>
+        <title>TreeUtil</title>
         <link rel="alternate" href="https://pigpigletsgo.github.io/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/TreeUtil/"/>
         <content type="html">&lt;h1 id=&#34;treeutil&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#treeutil&#34;&gt;#&lt;/a&gt; TreeUtil&lt;/h1&gt;
 &lt;p&gt;导入依赖：&lt;/p&gt;
@@ -797,6 +797,13 @@ o2 = 王五
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240216193729157.png&#34; alt=&#34;image-20240216193729157&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;完毕！&lt;/p&gt;
 </content>
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+        <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+        <category term="第三方库" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+        <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
+        <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+        <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+        <category term="TreeUtil" scheme="https://pigpigletsgo.github.io/tags/TreeUtil/" />
         <updated>2024-02-16T11:28:18.091Z</updated>
     </entry>
     <entry>

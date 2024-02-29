@@ -784,8 +784,15 @@ o2 = 王五
         </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/TreeUtil/</guid>
-            <title></title>
+            <title>TreeUtil</title>
             <link>https://pigpigletsgo.github.io/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/TreeUtil/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+            <category term="第三方库" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+            <category term="TreeUtil" scheme="https://pigpigletsgo.github.io/tags/TreeUtil/" />
             <pubDate>Fri, 16 Feb 2024 19:28:18 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;treeutil&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#treeutil&#34;&gt;#&lt;/a&gt; TreeUtil&lt;/h1&gt;
 &lt;p&gt;导入依赖：&lt;/p&gt;
