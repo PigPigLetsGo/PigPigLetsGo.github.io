@@ -22,10 +22,10 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+            <category term="mybatis" scheme="https://pigpigletsgo.github.io/tags/mybatis/" />
             <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
-            <category term="Java原生工程集成Mybatis" scheme="https://pigpigletsgo.github.io/tags/Java%E5%8E%9F%E7%94%9F%E5%B7%A5%E7%A8%8B%E9%9B%86%E6%88%90Mybatis/" />
             <pubDate>Thu, 29 Feb 2024 17:14:35 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;java原生工程集成mybatis&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java原生工程集成mybatis&#34;&gt;#&lt;/a&gt; Java 原生工程集成 Mybatis&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/20210531225211611.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
