@@ -370,7 +370,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Buffer flip()&lt;/td&gt;
-&lt;td&gt;为 将缓冲区的界限设置为当前位置，并将当前位置重置为 0 0&lt;/td&gt;
+&lt;td&gt;将缓冲区的界限设置为当前位置，并将当前位置重置为 0&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;int capacity()&lt;/td&gt;
@@ -386,7 +386,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Buffer limit(int n)&lt;/td&gt;
-&lt;td&gt;将设置缓冲区界限为 n，并返回一个具有新 limit 的缓冲区对象&lt;/td&gt;
+&lt;td&gt;设置缓冲区界限为 n，并返回一个具有新 limit 的缓冲区对象&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Buffer mark()&lt;/td&gt;
@@ -398,7 +398,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Buffer position(int n)&lt;/td&gt;
-&lt;td&gt;将设置缓冲区的当前位置为 n，并返回修改后的 Buffer 对象&lt;/td&gt;
+&lt;td&gt;设置缓冲区的当前位置为 n，并返回修改后的 Buffer 对象&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;int remaining()&lt;/td&gt;
