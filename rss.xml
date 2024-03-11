@@ -1386,8 +1386,8 @@ World
             <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="多线程" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" />
-            <category term="多线程" scheme="https://pigpigletsgo.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
+            <category term="多线程" scheme="https://pigpigletsgo.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" />
             <pubDate>Mon, 04 Mar 2024 09:31:50 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;join方法的详细分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#join方法的详细分析&#34;&gt;#&lt;/a&gt; join () 方法的详细分析&lt;/h1&gt;
 &lt;p&gt;本文章来探讨 系统中运行多个线程时，join () 到底是暂停了那些线程&lt;/p&gt;
