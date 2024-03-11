@@ -137,8 +137,8 @@
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
             <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
             <category term="爬虫" scheme="https://pigpigletsgo.github.io/tags/%E7%88%AC%E8%99%AB/" />
+            <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
             <pubDate>Fri, 08 Mar 2024 18:01:04 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一-jsoup概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-jsoup概述&#34;&gt;#&lt;/a&gt; 一、jsoup 概述&lt;/h1&gt;
 &lt;p&gt;jsoup 是一款基于 Java 的 HTML 解析器，它提供了一套非常省力的 API，不但能直接解析某个 URL 地址、HTML 文本内容，而且还能通过类似于 DOM、CSS 或者 jQuery 的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用。&lt;/p&gt;
@@ -440,6 +440,7 @@
             <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
+            <category term="爬虫" scheme="https://pigpigletsgo.github.io/tags/%E7%88%AC%E8%99%AB/" />
             <pubDate>Fri, 08 Mar 2024 17:56:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;java爬取某网站所有图片案例&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#java爬取某网站所有图片案例&#34;&gt;#&lt;/a&gt; Java 爬取某网站所有图片案例&lt;/h1&gt;
 &lt;p&gt;使用 maven 工程&lt;/p&gt;
