@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pigpigletsgo.github.io</id>
-    <title>D の Java小窝</title>
+    <title>D の Java</title>
     <subtitle>别怕路长梦远</subtitle>
     <icon>https://pigpigletsgo.github.io/images/favicon.ico</icon>
     <link href="https://pigpigletsgo.github.io" />
