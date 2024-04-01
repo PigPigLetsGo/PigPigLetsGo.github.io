@@ -6,7 +6,7 @@
   <link href="https://pigpigletsgo.github.io/atom.xml" rel="self"/>
   
   <link href="https://pigpigletsgo.github.io/"/>
-  <updated>2024-04-01T01:07:17.136Z</updated>
+  <updated>2024-04-01T01:34:51.315Z</updated>
   <id>https://pigpigletsgo.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>批量删除数据库所有表</title>
+    <link href="https://pigpigletsgo.github.io/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/"/>
+    <id>https://pigpigletsgo.github.io/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/</id>
+    <published>2024-04-01T01:34:35.867Z</published>
+    <updated>2024-04-01T01:34:51.315Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="批量删除数据库所有表"><a class="anchor" href="#批量删除数据库所有表">#</a> 批量删除数据库所有表</h1><figure class="highlight sql"><figcaption data-lang="SQL"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">SELECT</span> concat<span class="token punctuation">(</span><span class="token string">'DROP TABLE IF EXISTS '</span><span class="token punctuation">,</span> table_name<span class="token punctuation">,</span> <span class="token string">';'</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">FROM</span> information_schema<span class="token punctuation">.</span><span class="token keyword">tables</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token keyword">WHERE</span> table_schema <span class="token operator">=</span> <span class="token string">'guan_duoduo'</span><span class="token punctuation">;</span></pre></td></tr></table></figure><p>执行后就会生成删除的结果集：</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240401093220361.png" alt="image-20240401093220361" /></p><p>复制上面的所有结果集 然后再执行以下就会全部删除表了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;批量删除数据库所有表&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#批量删除数据库所有表&quot;&gt;#&lt;/a&gt; 批量删除数据库所有表&lt;/h1&gt;
+&lt;figure class=&quot;highlight sql&quot;&gt;&lt;figcaption data-lang=&quot;SQL&quot;&gt;&lt;/f</summary>
+      
+    
+    
+    
+    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/"/>
+    
+    <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    
+    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
+    
+    <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>通过手机号获取归属地和运营商</title>
@@ -677,45 +710,6 @@
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
     <category term="开源项目框架" scheme="https://pigpigletsgo.github.io/tags/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%A1%86%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker一键启动和关闭，删除所有镜像</title>
-    <link href="https://pigpigletsgo.github.io/computer-science/java/spring/springcloud/Docker/docker%E5%AE%B9%E5%99%A8%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E5%92%8C%E5%85%B3%E9%97%AD/"/>
-    <id>https://pigpigletsgo.github.io/computer-science/java/spring/springcloud/Docker/docker%E5%AE%B9%E5%99%A8%E4%B8%80%E9%94%AE%E5%90%AF%E5%8A%A8%E5%92%8C%E5%85%B3%E9%97%AD/</id>
-    <published>2024-03-18T03:19:50.311Z</published>
-    <updated>2024-03-26T06:22:09.063Z</updated>
-    
-    <content type="html"><![CDATA[<p>docker 中 启动所有的容器命令</p><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">docker</span> start <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-a</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'&#123; print $1&#125;'</span> <span class="token operator">|</span> <span class="token function">tail</span> <span class="token parameter variable">-n</span> +2<span class="token variable">)</span></span></pre></td></tr></table></figure><p>docker 中    关闭所有的容器命令</p><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">docker</span> stop <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-a</span> <span class="token operator">|</span> <span class="token function">awk</span> <span class="token string">'&#123; print $1&#125;'</span> <span class="token operator">|</span> <span class="token function">tail</span> <span class="token parameter variable">-n</span> +2<span class="token variable">)</span></span></pre></td></tr></table></figure><p>docker 中 删除所有镜像</p><figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">docker</span> rmi <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> images <span class="token parameter variable">-q</span><span class="token variable">)</span></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment"># 如果删除不成功使用如下命令：</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token function">docker</span> rmi <span class="token parameter variable">-f</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> images <span class="token parameter variable">-q</span><span class="token variable">)</span></span></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;docker 中 启动所有的容器命令&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;figcaption data-lang=&quot;bash&quot;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&quot;1&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre</summary>
-      
-    
-    
-    
-    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/"/>
-    
-    <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/"/>
-    
-    <category term="spring" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/spring/"/>
-    
-    <category term="springcloud" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/spring/springcloud/"/>
-    
-    <category term="Docker" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/spring/springcloud/Docker/"/>
-    
-    
-    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
-    
-    <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
-    
-    <category term="springcloud" scheme="https://pigpigletsgo.github.io/tags/springcloud/"/>
-    
-    <category term="Docker" scheme="https://pigpigletsgo.github.io/tags/Docker/"/>
     
   </entry>
   
