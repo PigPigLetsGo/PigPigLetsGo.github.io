@@ -1,0 +1,1041 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>homepage • Posts by &#34;git&#34; category</title>
+        <link>https://pigpigletsgo.github.io/homepage</link>
+        <description>欢迎来我的博客空间</description>
+        <language>zh-CN</language>
+        <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
+        <lastBuildDate>Wed, 24 Jan 2024 18:48:45 +0800</lastBuildDate>
+        <category>mybatis</category>
+        <category>问题总汇</category>
+        <category>jdk版本问题</category>
+        <category>linux</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
+        <category>报错</category>
+        <category>编码问题</category>
+        <category>JdbcTemplate</category>
+        <category>Jwt</category>
+        <category>MyBatisPlus</category>
+        <category>版本问题</category>
+        <category>nginx</category>
+        <category>Swing</category>
+        <category>java</category>
+        <category>vim</category>
+        <category>输入法</category>
+        <category>hexo</category>
+        <category>shoka</category>
+        <category>计算机底层</category>
+        <category>math</category>
+        <category>算法</category>
+        <category>english</category>
+        <category>计算机学科</category>
+        <category>C</category>
+        <category>介绍</category>
+        <category>基础</category>
+        <category>mysql</category>
+        <category>git</category>
+        <category>web</category>
+        <category>坑点</category>
+        <category>vscode</category>
+        <category>tools</category>
+        <category>nodeJs</category>
+        <category>windows</category>
+        <category>密码管理</category>
+        <category>idea</category>
+        <category>项目</category>
+        <category>database</category>
+        <category>mongodb</category>
+        <category>JDBC</category>
+        <category>redis</category>
+        <category>navicat</category>
+        <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
+        <category>jvm</category>
+        <category>config配置类</category>
+        <category>数据结构与算法</category>
+        <category>图</category>
+        <category>递归</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>栈</category>
+        <category>数组</category>
+        <category>多路查找树</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>maven</category>
+        <category>servlet</category>
+        <category>编程题</category>
+        <category>动态规划</category>
+        <category>贪心算法</category>
+        <category>二叉树</category>
+        <category>层序遍历</category>
+        <category>后序遍历</category>
+        <category>广度优先搜索</category>
+        <category>还原二叉树</category>
+        <category>双指针</category>
+        <category>快慢指针</category>
+        <category>分而治之</category>
+        <category>对称二叉树</category>
+        <category>单调栈</category>
+        <category>堆</category>
+        <category>小顶堆</category>
+        <category>大顶堆</category>
+        <category>逆波兰表达式</category>
+        <category>spring</category>
+        <category>开源项目框架</category>
+        <category>工具类</category>
+        <category>案例Demo</category>
+        <category>网络编程</category>
+        <category>菜单数据结构</category>
+        <category>分页</category>
+        <category>多线程</category>
+        <category>lombok</category>
+        <category>爬虫</category>
+        <category>API的区别</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>hutool</category>
+        <category>Thymeleaf</category>
+        <category>七牛云</category>
+        <category>设计模式</category>
+        <category>vue3</category>
+        <category>websocket</category>
+        <category>前后端交互</category>
+        <category>数据格式</category>
+        <category>axios</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
+        <category>avl树</category>
+        <category>优先级队列</category>
+        <category>完全二叉树</category>
+        <category>二叉树搜索树</category>
+        <category>二叉树的遍历</category>
+        <category>heapify</category>
+        <category>堆排序</category>
+        <category>红黑树</category>
+        <category>动态数组</category>
+        <category>阻塞队列</category>
+        <category>进阶</category>
+        <category>SSM</category>
+        <category>springcloud</category>
+        <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>thymeleaf</category>
+        <category>源码</category>
+        <category>拦截器</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>IO</category>
+        <category>String</category>
+        <category>http</category>
+        <category>lambda</category>
+        <category>number</category>
+        <category>stream流</category>
+        <category>对象</category>
+        <category>泛型</category>
+        <category>集合</category>
+        <category>jquery</category>
+        <category>js</category>
+        <category>JSR303</category>
+        <category>Knife4j</category>
+        <category>devtools</category>
+        <category>springboot高级</category>
+        <category>Docker</category>
+        <category>Elasticsearch</category>
+        <category>Nacos</category>
+        <category>RabbitMQ</category>
+        <category>部署</category>
+        <category>OpenResty</category>
+        <category>Canal</category>
+        <category>Seata</category>
+        <category>Sentinel</category>
+        <category>持久化</category>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/git/Git/</guid>
+            <title>Git版本控制系统</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/git/Git/</link>
+            <category>基础</category>
+            <category>git</category>
+            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;git版本控制系统&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git版本控制系统&#34;&gt;#&lt;/a&gt; Git 版本控制系统&lt;/h2&gt;
+&lt;h5 id=&#34;git初始&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git初始&#34;&gt;#&lt;/a&gt; git 初始&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 概念 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;p&gt;一个免费开源，分布式的 &amp;lt;font title=&#39;red&#39;&amp;gt; 代码版本 &amp;lt;/font &amp;gt; 控制系统， 帮助开发团队维护代码&lt;/p&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 作用 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;p&gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 记录 &amp;lt;/font &amp;gt; 代码内容，&amp;lt;font title=&#39;red&#39;&amp;gt; 切换 &amp;lt;/font &amp;gt; 代码版本，多人开发时高效 &amp;lt; font title=&#39;red&#39;&amp;gt; 合并 &amp;lt;/font &amp;gt; 代码内容&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 如何学 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;个人本机使用&lt;/strong&gt;：git 基础命令和概念&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;多人共享使用&lt;/strong&gt;：团队开发同一个项目的代码版本管理&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308162135287.png&#34; alt=&#34;image-20230816213516967&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;git配置用户信息&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git配置用户信息&#34;&gt;#&lt;/a&gt; Git 配置用户信息&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;配置&lt;/strong&gt;：用户名和邮箱，应用在每次提交代码版本时&lt;mark&gt;表明自己身份&lt;/mark&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;命令&lt;/strong&gt;：&lt;/p&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config &lt;span class=&#34;token parameter variable&#34;&gt;--global&lt;/span&gt; user.name &lt;span class=&#34;token string&#34;&gt;&#39;用户名&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; config &lt;span class=&#34;token parameter variable&#34;&gt;--global&lt;/span&gt; user.email &lt;span class=&#34;token string&#34;&gt;&#39;邮箱&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;blockquote&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;为何学习 Git ?
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 管理代码版本 &amp;lt;/font&amp;gt;，记录，切换，合并代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Git 学习
+&lt;ul&gt;
+&lt;li&gt;现在本机自己使用&lt;/li&gt;
+&lt;li&gt;再学习多人共享使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;掌握git仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#掌握git仓库&#34;&gt;#&lt;/a&gt; 掌握 Git 仓库&lt;/h3&gt;
+&lt;p&gt;Git 仓库 (repository) ：记录文件 &amp;lt; font title=&#39;red&#39;&amp;gt; 状态 &amp;lt;/font &amp;gt; 内容的地方，存储着修改的 &amp;lt; font title=&#39;red&#39;&amp;gt; 历史记录 &amp;lt;/font&amp;gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;创建&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;把本地文件夹 &amp;lt;font title=&#39;red&#39;&amp;gt; 转换 &amp;lt;/font &amp;gt; 成 Git 仓库：命令：&amp;lt;font title=&#39;red&#39;&amp;gt;git init&amp;lt;/font&amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171148966.png&#34; alt=&#34;image-20230817114756556&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;从其它服务器上 &amp;lt;font title=&#39;red&#39;&amp;gt; 克隆 &amp;lt;/font&amp;gt;Git 仓库&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;需求：创建一个空白的 Git 仓库&lt;/p&gt;
+&lt;p&gt;打开 GitBash 到项目目录下，执行命令：git init&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171230894.png&#34; alt=&#34;image-20230817123047004&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看项目目录下的变化&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171231139.png&#34; alt=&#34;image-20230817123104694&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 总结 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是 Git 仓库？
+&lt;ul&gt;
+&lt;li&gt;记录文件状态内容和 &amp;lt;font title=&#39;red&#39;&amp;gt; 历史记录 &amp;lt;/font &amp;gt; 的地方 (.git 文件夹)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如何创建 Git 仓库？
+&lt;ul&gt;
+&lt;li&gt;把本地文件夹转换成 Git 仓库：命令 &amp;lt;font title=&#39;red&#39;&amp;gt;git init&amp;lt;/font&amp;gt;&lt;/li&gt;
+&lt;li&gt;从其它服务器上克隆 Git 仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git的三个区域&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git的三个区域&#34;&gt;#&lt;/a&gt; Git 的三个区域&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Git 使用时&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 工作区 &amp;lt;/span&amp;gt;：实际 &amp;lt; font title=&#39;red&#39;&amp;gt; 开发 &amp;lt;/font &amp;gt; 时操作的文件夹&lt;/p&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 暂存区 &amp;lt;/span&amp;gt;：保存之前的 &amp;lt; font title=&#39;red&#39;&amp;gt; 准备区域 &amp;lt;/font&amp;gt; (暂存改动过的文件)&lt;/p&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 版本库 &amp;lt;/span&amp;gt;：提交并 &amp;lt; font title=&#39;red&#39;&amp;gt; 保存 &amp;lt;/font &amp;gt; 暂存区中的内容，产生一个版本快照&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;git add 文件名&lt;/td&gt;
+&lt;td&gt;暂存指定文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add .&lt;/td&gt;
+&lt;td&gt;暂存所有改动的文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git commit -m ‘注释说明’&lt;/td&gt;
+&lt;td&gt;提交并保存，产生版本快照&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git ls-files&lt;/td&gt;
+&lt;td&gt;查看当前暂存区记录了哪些文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看版本库历史日志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git reflog --online&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看完整的版本库历史日志&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git rm --cached 路径/文件名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;从暂存区中移除指定文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=red &amp;gt; 注意 &amp;lt;/font&amp;gt;：图中的 git_study 也就是自己的当前项目路面 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171340651.png&#34; alt=&#34;image-20230817134010660&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：把登录页面新增后，暂存并提交&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171353405.png&#34; alt=&#34;image-20230817135326555&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Git 使用时有哪些区域？
+&lt;ul&gt;
+&lt;li&gt;工作区，暂存区，版本库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;工作区的内容，最终要如何保存在版本库中？
+&lt;ul&gt;
+&lt;li&gt;&amp;lt;font title=&#39;red&#39;&amp;gt;git add&amp;lt;/font&amp;gt; 添加到暂存区&lt;/li&gt;
+&lt;li&gt;等待时机后 &amp;lt;font title=&#39;red&#39;&amp;gt;git commit&amp;lt;/font&amp;gt; 提交保存到版本库，产生一次版本快照记录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git-文件状态&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-文件状态&#34;&gt;#&lt;/a&gt; Git 文件状态&lt;/h3&gt;
+&lt;p&gt;Git 文件 2 种状态：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;未跟踪：新文件，从未被 Git 管理过&lt;/li&gt;
+&lt;li&gt;已跟踪：Git 已经知道和管理的文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;使用&lt;/strong&gt;：修改文件，暂存，提交保存记录，如此反复&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：新增 css 文件，并使用 &amp;lt;font title=&#39;red&#39;&amp;gt;git status -s&amp;lt;/font&amp;gt; 查看文件状态，并最终提交&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;文件状态&lt;/th&gt;
+&lt;th&gt;概念&lt;/th&gt;
+&lt;th&gt;场景&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;未跟踪 (U)&lt;/td&gt;
+&lt;td&gt;从未被 Git 管理过&lt;/td&gt;
+&lt;td&gt;新文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;新添加 (A)&lt;/td&gt;
+&lt;td&gt;第一次被 Git 暂存&lt;/td&gt;
+&lt;td&gt;之前版本记录无此文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;未修改 (‘ ’)&lt;/td&gt;
+&lt;td&gt;三个区域统一&lt;/td&gt;
+&lt;td&gt;提交保存后&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;已修改 (M)&lt;/td&gt;
+&lt;td&gt;工作内容变化&lt;/td&gt;
+&lt;td&gt;修改了内容产生&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;其它的状态：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;状态&lt;/th&gt;
+&lt;th&gt;描述&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;你本地删除的文件 (服务器上还在)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;R&lt;/td&gt;
+&lt;td&gt;文件名被修改&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;T&lt;/td&gt;
+&lt;td&gt;文件的类型被修改&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;X&lt;/td&gt;
+&lt;td&gt;未知状态&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171406687.png&#34; alt=&#34;image-20230817140620456&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;第一列是暂存区状态&lt;/p&gt;
+&lt;p&gt;第二列是工作区状态&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171407660.png&#34; alt=&#34;image-20230817140706529&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;演示&lt;/strong&gt;：&lt;/p&gt;
+&lt;h4 id=&#34;1-新增一个css文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-新增一个css文件&#34;&gt;#&lt;/a&gt; 1 新增一个 css 文件&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171410453.png&#34; alt=&#34;image-20230817141012331&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;2-执行git-add&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-执行git-add&#34;&gt;#&lt;/a&gt; 2 执行：git add .&lt;/h4&gt;
+&lt;p&gt;将所有文件添加到暂存区，然后 git status -s 查看状态&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171411783.png&#34; alt=&#34;image-20230817141140352&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;css 文件处于 新添加状态 (A)&lt;/p&gt;
+&lt;h4 id=&#34;3-改动css内容&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-改动css内容&#34;&gt;#&lt;/a&gt; 3 改动 css 内容&lt;/h4&gt;
+&lt;p&gt;如果改动一下 css 文件的内容，然后执行命令：git status -s 查看状态&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171414244.png&#34; alt=&#34;image-20230817141443339&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;后面就会跟着一个 M 已修改状态 (M)  被修改过的文件。&lt;/p&gt;
+&lt;h4 id=&#34;4-改动内容同步到暂存区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-改动内容同步到暂存区&#34;&gt;#&lt;/a&gt; 4 改动内容同步到暂存区&lt;/h4&gt;
+&lt;p&gt;如果想让工作区里的改动同步到暂存区则需要再重复执行命令：git add .&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171417881.png&#34; alt=&#34;image-20230817141704591&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;工作区里面就是最新的了&lt;/p&gt;
+&lt;h4 id=&#34;5-将暂存区的文件提交到版本库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-将暂存区的文件提交到版本库&#34;&gt;#&lt;/a&gt; 5 将暂存区的文件提交到版本库&lt;/h4&gt;
+&lt;p&gt;执行命令：git commit -m ‘备注’ ，再执行 git status -s 后 可以看到当前没有任何变化的文件了，现在就是未修改状态了 (‘’) 三个区域统一。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171420856.png&#34; alt=&#34;image-20230817142029345&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果再对 css 文件进行内容的更改就有 处于 已修改状态了 (M)&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171423614.png&#34; alt=&#34;image-20230817142323012&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Git 文件状态分为哪 2 种？
+&lt;ul&gt;
+&lt;li&gt;未跟踪和已跟踪 (新添加，未修改，已修改)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如何查看暂存区和工作区文件状态？
+&lt;ul&gt;
+&lt;li&gt;git status -s&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git-暂存区使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-暂存区使用&#34;&gt;#&lt;/a&gt; Git 暂存区使用&lt;/h3&gt;
+&lt;p&gt;暂&lt;strong&gt;存区&lt;/strong&gt;：暂时存储，可以临时恢复代码内容，与版本库解耦&lt;/p&gt;
+&lt;p&gt;暂存区 -》 覆盖 -》 工作区 ，&lt;strong&gt;命令&lt;/strong&gt;：git restore 目标文件 (&amp;lt;span alt=&#39;solid&#39;&amp;gt; 注意 &amp;lt;/span&amp;gt;：&amp;lt;font title=&#39;red&#39;&amp;gt; 完全确认覆盖时使用 &amp;lt;/font&amp;gt;)&lt;/p&gt;
+&lt;p&gt;从暂存区移除文件，&lt;strong&gt;命令&lt;/strong&gt;： &lt;code&gt;git rm --cached&lt;/code&gt;  目标文件&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171430065.png&#34; alt=&#34;image-20230817143038646&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;演示&lt;/strong&gt;：&lt;/p&gt;
+&lt;h4 id=&#34;演示-git-restore&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#演示-git-restore&#34;&gt;#&lt;/a&gt; 演示 git restore&lt;/h4&gt;
+&lt;p&gt;查看暂存区的文件列表：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171433851.png&#34; alt=&#34;image-20230817143328392&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;暂存区中有两个代码文件，我想重写一个 html 文件的代码&lt;/p&gt;
+&lt;p&gt;原本的代码内容：里面是经过 webpack 打包压缩的 不过没关系 照改&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171435559.png&#34; alt=&#34;image-20230817143518094&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;更改后的代码内容：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171436138.png&#34; alt=&#34;image-20230817143625820&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看页面样式&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171436381.png&#34; alt=&#34;image-20230817143653837&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;我有觉得太丑了没有之前那个写的好，但是那么多代码和思路 ， 总不能完美复刻上一次的代码把。怎么办呢？&lt;/p&gt;
+&lt;p&gt;git 中执行命令：git restore 将 index.html 在暂存区中的那个代码文件覆盖工作区的这个 index.html&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171439985.png&#34; alt=&#34;image-20230817143945385&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看 index.html 文件的内容，可以看到之前的代码就回来了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171439980.png&#34; alt=&#34;image-20230817143917985&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;演示-git-rm-cached&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#演示-git-rm-cached&#34;&gt;#&lt;/a&gt; 演示  &lt;code&gt;git rm --cached&lt;/code&gt;&lt;/h4&gt;
+&lt;p&gt;执行命令：git ls-files 查看暂存区中的文件&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171442503.png&#34; alt=&#34;image-20230817144237248&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;将 index.css 从暂存区中移除，执行命令： &lt;code&gt;git rm --cached [目标文件]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171443352.png&#34; alt=&#34;image-20230817144355199&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;练习登录页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习登录页面&#34;&gt;#&lt;/a&gt; 练习 — 登录页面&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：新增 JS 代码并暂存提交产生新的版本快照&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;步骤&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;新增 JS 文件和内容&lt;/li&gt;
+&lt;li&gt;临时存放在暂存区&lt;/li&gt;
+&lt;li&gt;提交保存到版本库&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171454405.png&#34; alt=&#34;image-20230817145450013&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;将登录页面的项目代码拷贝到 git 仓库的目录下&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171516124.png&#34; alt=&#34;image-20230817151633818&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;使用命令将项目所有代码都添加到暂存区里面&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171517420.png&#34; alt=&#34;image-20230817151732684&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;提交到版本库中&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171518156.png&#34; alt=&#34;image-20230817151804855&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看提交的历史记录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171518633.png&#34; alt=&#34;image-20230817151835956&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;上图其中的 HEAD 表示本次提交分支，它指向了 主线 (主仓库) ，最前面的 字符串序列 是版本序列号&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git-回退版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-回退版本&#34;&gt;#&lt;/a&gt; Git 回退版本&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;概念：把版本库某个版本对应的内容快照，恢复到工作区 / 暂存区&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;查看提交历史： &lt;code&gt;git log --oneline&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171523118.png&#34; alt=&#34;image-20230817152320802&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;回退命令&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171536327.png&#34; alt=&#34;image-20230817153622766&#34; /&gt;&lt;/p&gt;
+&lt;h6 id=&#34;第一种模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第一种模式&#34;&gt;#&lt;/a&gt; 第一种模式&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;git reset --soft 版本号&lt;/code&gt;  (其它文件未跟踪)&lt;/p&gt;
+&lt;p&gt;执行命令后，会将对应 &amp;lt;font title=&#39;red&#39;&amp;gt; 版本库 &amp;lt;/font &amp;gt; 的序列号的文件以及内容 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 恢复 &amp;lt;/span &amp;gt; 到 &amp;lt;font title=&#39;red&#39;&amp;gt; 暂存区 &amp;lt;/font&amp;gt; 和 &amp;lt;font title=&#39;red&#39;&amp;gt; 工作区 &amp;lt;/font&amp;gt;&lt;sup&gt; 覆盖原有文件的内容&lt;/sup&gt; 尽可能 &amp;lt;span alt=&#39;wavy&#39;&amp;gt; 保留 工作区 和 暂存区 里面的文件 &amp;lt;/span&amp;gt; ，但是这些 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 保留的文件会变为 未被跟踪状态 &amp;lt;/span&amp;gt;(U)&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171535610.png&#34; alt=&#34;image-20230817153547119&#34; /&gt;&lt;/p&gt;
+&lt;h6 id=&#34;第二种模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二种模式&#34;&gt;#&lt;/a&gt; 第二种模式&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;git reset --hard 版本号&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;执行命令后，&amp;lt;font title=&#39;red&#39;&amp;gt; 暂存区 &amp;lt;/font &amp;gt; 就 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 只有版本库中对应的文件以及内容了其它的都会被 &amp;lt;/span&amp;gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 清除掉 &amp;lt;/font &amp;gt; 而且 &amp;lt; font title=&#39;red&#39;&amp;gt; 工作区 &amp;lt;/font &amp;gt; 也是 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 同样的效果 &amp;lt;/span&amp;gt;。这种模式 &amp;lt; span alt=&#39;solid&#39;&amp;gt; 比较彻底 &amp;lt;/span&amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171536906.png&#34; alt=&#34;image-20230817153610464&#34; /&gt;&lt;/p&gt;
+&lt;h6 id=&#34;第三种模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三种模式&#34;&gt;#&lt;/a&gt; 第三种模式&lt;/h6&gt;
+&lt;p&gt;&lt;code&gt;git reset --mixed 版本号&lt;/code&gt;  (与 git reset 等价)&lt;/p&gt;
+&lt;p&gt;执行命令后，&amp;lt;font title=&#39;red&#39;&amp;gt; 暂存区 &amp;lt;/font &amp;gt; 里面的文件以及内容 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 被版本库对应的文件覆盖 &amp;lt;/span&amp;gt;，但是在 &amp;lt; font title=&#39;red&#39;&amp;gt; 工作区 &amp;lt;/font &amp;gt; 中 &amp;lt; span alt=&#39;wavy&#39;&amp;gt; 保留它原有的文件以及内容 &amp;lt;/span&amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171536075.png&#34; alt=&#34;image-20230817153648781&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=red &amp;gt; 注意 1&amp;lt;/font&amp;gt;：只有记录在版本库的提交记录才能恢复 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=red &amp;gt; 注意 2&amp;lt;/font&amp;gt;：回退后，继续修改 -&amp;gt; 暂存 -&amp;gt; 提交操作即可 (产生新的提交记录过程)&amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;h4 id=&#34;演示&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#演示&#34;&gt;#&lt;/a&gt; 演示&lt;/h4&gt;
+&lt;h5 id=&#34;第三种模式-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第三种模式-2&#34;&gt;#&lt;/a&gt; 第三种模式&lt;/h5&gt;
+&lt;p&gt;执行命令查看暂存区中的文件：git ls-files&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171550533.png&#34; alt=&#34;image-20230817155035750&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看所有版本库对应的序列号，对应序列号进行回退&lt;/p&gt;
+&lt;p&gt;执行命令：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git reset --mixed 90d394d&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;然后查看暂存区中的文件以及内容：git ls-files 可以看到里面的文件以及内容被对应序列号版本库里面的文件以及内容覆盖了，其它的被清除掉了，但是并不会清除 工作区的文件以及内容&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171550378.png&#34; alt=&#34;image-20230817155053525&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看工作区的情况&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171553373.png&#34; alt=&#34;image-20230817155331841&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;第二种模式-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#第二种模式-2&#34;&gt;#&lt;/a&gt; 第二种模式&lt;/h5&gt;
+&lt;p&gt;执行命令进行回退： &lt;code&gt;git reset --hard 90d394d&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171555624.png&#34; alt=&#34;image-20230817155536935&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看工作区的情况&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171556134.png&#34; alt=&#34;image-20230817155624192&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;工作区没有被覆盖，但是上面说，暂存区 和 工作区 都会被覆盖 并 清除其它的文件以及内容的啊。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解释&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;因为在上面使用第三种模式回退时。暂存区 与 对应版本库 文件以及内容一致 是 未修改状态 (‘’) ，而且清除了其它的文件以及内容。而工作区 只是覆盖了 对应版本库 的文件以及内容 ，其它的文件变成了 未跟踪状态了 (U) 。所以 工作区 再执行 回退 那些 未跟踪的 文件以及 内容也不会发生任何事情。&lt;/p&gt;
+&lt;p&gt;它也是从右向左进行 对照 影响的。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;执行命令：git add . 让 工作区 与 暂存区 的文件以及内容一致 然后在进行回退&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171601944.png&#34; alt=&#34;image-20230817160110680&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看工作区情况&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171601270.png&#34; alt=&#34;image-20230817160131858&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;回退之后再进行查看版本库的历史版本&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171604957.png&#34; alt=&#34;image-20230817160430318&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;查看完整版本库历史日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查看完整版本库历史日志&#34;&gt;#&lt;/a&gt; 查看完整版本库历史日志&lt;/h4&gt;
+&lt;p&gt;因为回退到了对应的版本后之后的版本都不见了，怎么办呢？&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171607163.png&#34; alt=&#34;image-20230817160720559&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;解决&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;使用完整查看 版本库历史 日志的命令： &lt;code&gt;git reflog --online&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171607640.png&#34; alt=&#34;image-20230817160742375&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再次回退到 最新的版本库 ，也就是：登录页面 - 开发完毕 的这个&lt;/p&gt;
+&lt;p&gt;执行命令： &lt;code&gt;git reset --hard 16babbc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171609122.png&#34; alt=&#34;image-20230817160921582&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看回退之后的暂存区和工作区的情况&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171610890.png&#34; alt=&#34;image-20230817161045206&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 总结 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是 Git 回退版本？
+&lt;ul&gt;
+&lt;li&gt;把版本库某个对应的内容快照，恢复到工作区 / 暂存区&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;强制覆盖暂存区和工作区的命令？
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git reset --hard 版本号&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如何查看提交历史？
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;查看完整的： &lt;code&gt;git reflog --oneline&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;删除文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#删除文件&#34;&gt;#&lt;/a&gt; 删除文件&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：删除 editor.js 文件，并产生一次版本记录&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;步骤&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;手动删除 工作区 文件&lt;/li&gt;
+&lt;li&gt;暂存变更 / 手动删除暂存区文件造成变更
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rm -f --cached 路径/文件名&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;提交保存&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 总结 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;p&gt;工作区只要改变，都可以暂存提交产生新记录&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;忽略文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#忽略文件&#34;&gt;#&lt;/a&gt; 忽略文件&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;概念： &lt;code&gt;.gitignore&lt;/code&gt;  配置文件可以让 git 彻底 &amp;lt;font title=&#39;red&#39;&amp;gt; 忽略跟踪 &amp;lt;/font&amp;gt; 指定文件&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;：让 git 仓库更小更快，避免重复无意义的文件管理&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例如&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;系统或软件自动生成的文件&lt;/li&gt;
+&lt;li&gt;编译产生的结果文件&lt;/li&gt;
+&lt;li&gt;运行时生成的日志文件，缓存文件，临时文件等&lt;/li&gt;
+&lt;li&gt;涉密文件，密码，密钥等文件&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171629450.png&#34; alt=&#34;image-20230817162932902&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;创建&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;项目根目录新建 &lt;code&gt;.gitignore&lt;/code&gt;  文件&lt;/li&gt;
+&lt;li&gt;填入相应配置来忽略指定文件&lt;/li&gt;
+&lt;li&gt;不用管要忽略的文件在哪个位置直接写它的名字就行&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=red &amp;gt; 注意 &amp;lt;/font&amp;gt;：如果文件已经被暂存区跟踪过，可以从暂存区移除即可 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;p&gt;演示：&lt;/p&gt;
+&lt;p&gt;项目根目录创建 &lt;code&gt;.gitignore&lt;/code&gt;  忽略配置文件 里面配置 忽略 叫 password.txt 的文件&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171635902.png&#34; alt=&#34;image-20230817163519830&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在项目的 tuils 目录中有一个 password.txt 文件&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171636948.png&#34; alt=&#34;image-20230817163600805&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;之前的时候 将项目添加到暂存区的时候是有 password.txt 文件的并且 添加到了暂存区&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171637426.png&#34; alt=&#34;image-20230817163700550&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;将 password.txt 文件从暂存区中移除&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171638717.png&#34; alt=&#34;image-20230817163837250&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后再将工作区的代码 添加到暂存区 这时候是有 忽略配置文件的。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171641922.png&#34; alt=&#34;image-20230817164138303&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样 password.txt 指定要被忽略的文件就被忽略了&lt;/p&gt;
+&lt;h3 id=&#34;分支&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分支&#34;&gt;#&lt;/a&gt; 分支&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;概念：本质上是指向 &amp;lt;font title=&#39;red&#39;&amp;gt; 提交节点 &amp;lt;/font&amp;gt; 的可变 &amp;lt;font title=&#39;red&#39;&amp;gt; 指针 &amp;lt;/font&amp;gt;，默认名字是 master&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;p&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=red &amp;gt; 注意 &amp;lt;/font&amp;gt;：&amp;lt;span alt=&#39;solid&#39;&amp;gt;HEAD 指针 &amp;lt;/span&amp;gt;&amp;lt;/span &amp;gt; 影响工作区 / 暂存区的代码状态 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/p&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171644086.png&#34; alt=&#34;image-20230817164441779&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;场景&lt;/strong&gt;：开发 &amp;lt;font title=&#39;red&#39;&amp;gt; 新需求 / 修复 BUG&amp;lt;/font&amp;gt;，保证主线代码随时可用，多人协同开发提高效率&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171656807.png&#34; alt=&#34;image-20230817164853276&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;假如说公司招了一个前端新人，我想让它接着我的项目代码接着写。但是我不想让它影响到我现在已经开发完的主线代码。怎么办呢？&lt;/p&gt;
+&lt;p&gt;这就需要用到分支概念了&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;例如&lt;/strong&gt;：在现有代码上创建新分支完成内容列表业务&lt;/p&gt;
+&lt;p&gt;所以可以让在现有的分支基础上创建一个 content 分支，让这个分支下来实现内容列表业务的开发&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171656679.png&#34; alt=&#34;image-20230817165128330&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样就不会影响我 master 默认主分支的代码了。&lt;/p&gt;
+&lt;p&gt;也就是说 content 分支下暂存提交产生的版本记录不会影响 master 分支下看到的代码，开发完成后再合并回到 master 主分支下&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;突然需要紧急修复 BUG— 单独创建分支解决 BUG&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171655189.png&#34; alt=&#34;image-20230817165556763&#34; /&gt;&lt;/p&gt;
+&lt;h4 id=&#34;创建分支&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建分支&#34;&gt;#&lt;/a&gt; 创建分支&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：创建内容列表 content 分支，并产生 3 次提交记录&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;步骤&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;创建分支命令： &lt;code&gt;git branch 分支名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171658414.png&#34; alt=&#34;image-20230817165818460&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;P&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt; 创建分支以当前 HEAD 指针，指向的提交记录作为起点。将新的分支指向 HEAD 指向的提交记录 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/P&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;切换分支命令： &lt;code&gt;git checkout 分支名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171701078.png&#34; alt=&#34;image-20230817170110799&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;让 HEAD 指针指向新创建的分支，HEAD 会影响 工作区和暂存区 的代码。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;工作区 准备 代码 并暂存提交，重复 3 次&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171703585.png&#34; alt=&#34;image-20230817170330021&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;命令： &lt;code&gt;git branch&lt;/code&gt;  查看当前 git 仓库当中有哪些分支&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817170607707.png&#34; alt=&#34;image-20230817170607707&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;提交三次版本库代码&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817172211736.png&#34; alt=&#34;image-20230817172211736&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看提交记录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817172259808-1692264248011-5.png&#34; alt=&#34;image-20230817172259808&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;content 分支 新增加的代码内容&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817172420105.png&#34; alt=&#34;image-20230817172420105&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;切换到 master 主分支，切换后 content 分支创建的项目就没有了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817172500666.png&#34; alt=&#34;image-20230817172500666&#34; /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;什么是 Git 分支？
+&lt;ul&gt;
+&lt;li&gt;指针，指向提交记录&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;HEAD 指针的作用？
+&lt;ul&gt;
+&lt;li&gt;影响暂存区和工作区的代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;如何创建和切换指针？
+&lt;ul&gt;
+&lt;li&gt;git branch 分支名&lt;/li&gt;
+&lt;li&gt;git checkout 分支名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;练习登录bug修复&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#练习登录bug修复&#34;&gt;#&lt;/a&gt; 练习 — 登录 BUG 修复&lt;/h3&gt;
+&lt;p&gt;需求：新建 login-bug 分支，做 2 次提交记录 (对手机号长度，验证码长度做判断)&lt;/p&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;切回到主分支：git checkout master&lt;/li&gt;
+&lt;li&gt;创建新分支：git branch login-bug&lt;/li&gt;
+&lt;li&gt;切换新分支：git checkout login-bug&lt;/li&gt;
+&lt;li&gt;修改代码，暂存，提交产生版本记录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171732512.png&#34; alt=&#34;image-20230817173236845&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;修复点代码后添加到暂存区然后提交到版本库中&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171740320.png&#34; alt=&#34;image-20230817174037592&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;分支合并与删除&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分支合并与删除&#34;&gt;#&lt;/a&gt; 分支 — 合并与删除&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;需求&lt;/strong&gt;：把 login-bug 合并回到 master 分支并删除 login-bug 分支&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;步骤&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;切回到合入的分支上：git checkout master&lt;/li&gt;
+&lt;li&gt;合并其它分支过来：git merge login-bug&lt;/li&gt;
+&lt;li&gt;删除合并后的分支指针：git branch -d login-bug&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;合并分支：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171749315.png&#34; alt=&#34;image-20230817174655075&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171749622.png&#34; alt=&#34;image-20230817174748472&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;分支合并后 master 就拿到了 login-bug 修复 bug 后的代码了那么它的任务也就完成了。&lt;/p&gt;
+&lt;h4 id=&#34;移除分支git-branch-d-分支名&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#移除分支git-branch-d-分支名&#34;&gt;#&lt;/a&gt; 移除分支：git branch -d 分支名&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171749922.png&#34; alt=&#34;image-20230817174944702&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;分支合并与提交&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分支合并与提交&#34;&gt;#&lt;/a&gt; 分支 — 合并与提交&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;合并提交&lt;/strong&gt;：发生于 &amp;lt;font title=&#39;red&#39;&amp;gt; 原分支 &amp;lt;/font&amp;gt; 产生了 &amp;lt; font title=&#39;red&#39;&amp;gt; 新的提交 &amp;lt;/font&amp;gt; 记录后，再 &amp;lt; font title=&#39;red&#39;&amp;gt; 合并 &amp;lt;/font &amp;gt; 回去时发生，自动使用多个快照记录合并后产生一次新的提交&lt;/p&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;切回到要合入的分支上：git checkout master&lt;/li&gt;
+&lt;li&gt;合并其它分支过来：git merge content&lt;/li&gt;
+&lt;li&gt;删除合并后的分支：git branch -d content&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171758341.png&#34; alt=&#34;image-20230817175358515&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;最后合并回到主分支上时，提交记录流程图：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171758112.png&#34; alt=&#34;image-20230817175811579&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;P&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 注意 &amp;lt;/font&amp;gt;：提交记录的顺序按照产生的先后顺序排列，而非合并后的先后顺序 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/P&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171924499.png&#34; alt=&#34;image-20230817180223745&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;合并后发现，content 分支还在指向它原来的分支，在 HEAD 指向的 master 分支下，及拥有 login-bug 分支的代码，又拥有 content 提交的最新代码，它将这两个分支的代码进行了 ort 的策略的合并提交&lt;/p&gt;
+&lt;p&gt;合并后 content 分支就没有用处了，将其移除。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171927001.png&#34; alt=&#34;image-20230817192727577&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;分支合并冲突&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#分支合并冲突&#34;&gt;#&lt;/a&gt; 分支 — 合并冲突&lt;/h3&gt;
+&lt;p&gt;需求 1：基于 master 新建 publish 分支，完成发布文章业务，然后修改内容页面的 html 文件的 title 标签内容，并提交一次。&lt;/p&gt;
+&lt;p&gt;需求 2：切换到 master，也在修改内容页面的 html 文件的 title 标签修改内容，并提交一次。&lt;/p&gt;
+&lt;p&gt;冲突：把 publish 分支合并到 master 回来，产生合并冲突&lt;/p&gt;
+&lt;p&gt;概念：&amp;lt;font title=&#39;red&#39;&amp;gt; 不同分支中 &amp;lt;/font&amp;gt;，对于 &amp;lt; font title=&#39;red&#39;&amp;gt; 同一个文件 &amp;lt;/font &amp;gt; 的 &amp;lt; font title=&#39;red&#39;&amp;gt; 同一部分修改 &amp;lt;/font&amp;gt;，Git 无法干净的合并，产生合并冲突&lt;/p&gt;
+&lt;p&gt;解决：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;找到冲突文件并手动解决&lt;/li&gt;
+&lt;li&gt;解决后需要提交一次记录&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171939278.png&#34; alt=&#34;image-20230817193939951&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;演示&lt;/p&gt;
+&lt;p&gt;在 publish 分支中，在项目中创建一个 publish 目录并将黑马头条中的 publish 模块代码放入&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308171954472.png&#34; alt=&#34;image-20230817195427952&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在 publish 分支下修改 content/index.html 页面的 titile 标签内容&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817195602595.png&#34; alt=&#34;image-20230817195602595&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;提交记录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/202308171942914.png&#34; alt=&#34;image-20230817194212620&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;切换到 master 分支，并修改 content/index.html 的 title 标签的内容。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817195730476.png&#34; alt=&#34;image-20230817195730476&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817195757409.png&#34; alt=&#34;image-20230817195757409&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;提交记录&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817195855697.png&#34; alt=&#34;image-20230817195855697&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;将 publish 分支进行合并&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;./Git.assets/image-20230817200320155.png&#34; alt=&#34;image-20230817200320155&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;此时就产生了合并冲突&lt;/p&gt;
+&lt;h3 id=&#34;git常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git常用命令&#34;&gt;#&lt;/a&gt; Git 常用命令&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;th&gt;注意&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;git -v&lt;/td&gt;
+&lt;td&gt;查看 git 版本&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git init&lt;/td&gt;
+&lt;td&gt;初始化 git 仓库&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add 路径 / 文件名&lt;/td&gt;
+&lt;td&gt;暂存某个文件&lt;/td&gt;
+&lt;td&gt;文件标识以终端为起始的相对路径&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git add .&lt;/td&gt;
+&lt;td&gt;暂存所有文件&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git commit -m ‘’&lt;/td&gt;
+&lt;td&gt;提交产生版本记录&lt;/td&gt;
+&lt;td&gt;每次提交，把暂存区内容快照一份&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git status&lt;/td&gt;
+&lt;td&gt;查看文件状态 - 详细信息&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git status -s&lt;/td&gt;
+&lt;td&gt;查看文件状态 - 简略信息&lt;/td&gt;
+&lt;td&gt;第一列是暂存区状态，第二列是工作区状态&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;git ls-files&lt;/td&gt;
+&lt;td&gt;查看暂存区文件列表&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git restore 路径/文件名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;从暂存区恢复到工作区&lt;/td&gt;
+&lt;td&gt;如果文件标识为。则恢复所有文件&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git rm --cached 路径 /文件名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;从暂存区移除文件&lt;/td&gt;
+&lt;td&gt;不让 git 跟踪文件变化&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git log&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看提交记录 - 详细信息&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git log --oneline&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看提交记录 - 简略信息&lt;/td&gt;
+&lt;td&gt;版本号 分支指针 提交时说明注释&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git reflog --oneline&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看完整历史 - 简略信息&lt;/td&gt;
+&lt;td&gt;包括提交， 切换，回退等所有记录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git reset --hard 版本号&lt;/code&gt;  (常用)&lt;/td&gt;
+&lt;td&gt;切换版本代码到暂存区和工作区&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;--soft&lt;/code&gt;  模式保留暂存区和工作区原本内容 &amp;lt;br /&amp;gt; &lt;code&gt;--hard&lt;/code&gt;  模式不保留暂存区和工作区原本内容 &amp;lt;br /&amp;gt; &lt;code&gt;--mixed&lt;/code&gt;  模式不保留暂存区，工作区保留 (默认)&amp;lt;br /&amp;gt; 先覆盖到暂存区，再用暂存区对比覆盖工作区&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;创建分支&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git  branch&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看本地分支&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch -d 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;删除分支&lt;/td&gt;
+&lt;td&gt;请确保记录已经合并到别的分支下，再删除分支&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git checkout 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;切换分支&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git checkout -b 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;创建并立刻切换分支&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git merge 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;把分支提交历史记录合并到当前所在分支&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch -D 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;强制删除分支&lt;/td&gt;
+&lt;td&gt;一般不建议使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch -m 分支命名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;修改分支的名称&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;当拉去最新远程仓库代码到本地时出现：refusing to merge unrelated histories 解决办法如下：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git pull origin master --allow-unrelated-histories&lt;/code&gt;  标志来允许合并不相关的历史记录&lt;/p&gt;
+&lt;h3 id=&#34;git-远程仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-远程仓库&#34;&gt;#&lt;/a&gt; Git 远程仓库&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：托管在因特网或其它网络中的你的项目的 &amp;lt;font title=&#39;red&#39;&amp;gt; 版本库 &amp;lt;/font&amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;作用&lt;/strong&gt;：保存版本库的历史记录，多人协作&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;创建&lt;/strong&gt;：公司自己服务器 / 第三方托管平台 (Gitee，GitLab，GitHub …)&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172031783.png&#34; alt=&#34;image-20230817203135688&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;步骤&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;新建仓库得到远程仓库 Git 地址&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地 Git 仓库添加远程仓库原点地址&lt;/p&gt;
+&lt;p&gt;命令： &lt;code&gt;git remote add 远程仓库别名 远程仓库地址&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如： &lt;code&gt;git remotea add origin https://xxx.xxx.git&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;本地 Git 仓库推送版本记录到远程仓库&lt;/p&gt;
+&lt;p&gt;命令： &lt;code&gt;git push -u 远程仓库别名 本地和远程分支名&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;例如： &lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;完整写法： &lt;code&gt;git push --set-upstream origin master:master&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172037228.png&#34; alt=&#34;image-20230817203743706&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172057840.png&#34; alt=&#34;image-20230817204421000&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;命令：git remote -v 查看本地 git 仓库中都有哪些远程仓库的地址&lt;/p&gt;
+&lt;p&gt;fetch：从哪个远程仓库取来对应版本库的内容&lt;/p&gt;
+&lt;p&gt;push：往哪个远程仓库版本库里面推送&lt;/p&gt;
+&lt;p&gt;如果远程仓库的地址填错了，想要换一个不能直接再添加一次而是移除后再添加如下：&lt;/p&gt;
+&lt;p&gt;移除远程仓库的地址： &lt;code&gt;git remote remove origin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172057018.png&#34; alt=&#34;image-20230817204740674&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;推送代码到 gitee 上&lt;/p&gt;
+&lt;p&gt;执行命令： &lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172057935.png&#34; alt=&#34;image-20230817205150194&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;查看 gitee 对应的仓库的变化&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172100506.png&#34; alt=&#34;image-20230817210012892&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;第一次使用 git 的时候，它会弹出 gitee 的一个登录器，让你用账号密码登录才能推送代码，使用 https 开头的协议它需要账号，密码进行连接。如果要是换了 gitee 账号 那怎么办呢？&lt;/p&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 解决如下 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;p&gt;在 windows 上打开控制面板，进入到 凭据管理器，点击 windows 凭据 中看到有一个 git:gitee 的网址 点击展开，将其删除。我们再使用 https 开头的地址它就会再次让我们输入对应新的账号，密码了。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172058682.png&#34; alt=&#34;image-20230817205535447&#34; /&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;总结：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;远程版本库的作用？
+&lt;ul&gt;
+&lt;li&gt;保存提交历史记录，多人共享&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;远程版本库使用步骤？
+&lt;ul&gt;
+&lt;li&gt;创建远程版本库 (自己服务器 / 第三方托管平台)&lt;/li&gt;
+&lt;li&gt;本地版本库设置远程地址&lt;/li&gt;
+&lt;li&gt;推送本地版本库到远程&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;推送的命令？
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;git push -u origin master&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;git-远程仓库克隆&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-远程仓库克隆&#34;&gt;#&lt;/a&gt; Git 远程仓库 — 克隆&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;克隆&lt;/strong&gt;：拷贝一个 Git 仓库到本地，进行使用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;lt;span alt=&#39;solid&#39;&amp;gt; 得到一个 Git 仓库有两种方式 &amp;lt;/span&amp;gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 &lt;code&gt;git init&lt;/code&gt;  自己在本地转换&lt;/li&gt;
+&lt;li&gt;克隆仓库到本地使用&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;命令&lt;/strong&gt;：&amp;lt;font title=&#39;red&#39;&amp;gt;git clone 远程仓库地址 &amp;lt;/font&amp;gt;，例如： &lt;code&gt;git clone https://xxx.xxx.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt;：在运行命令所在文件夹，生成 work 项目文件夹 (包含版本库，并映射到暂存区和工作区)&lt;/p&gt;
+&lt;p&gt;&amp;lt;blockquote alt=&#39;danger&#39;&amp;gt;&lt;br /&gt;
+&amp;lt;div&amp;gt;&lt;br /&gt;
+&amp;lt;P&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 注意 1&amp;lt;/font&amp;gt;：Git 本地仓库已经建立好和远程仓库的链接 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/P&amp;gt;&lt;br /&gt;
+&amp;lt;P&amp;gt;&lt;br /&gt;
+&amp;lt;span&amp;gt;&amp;lt;font title=&#39;red&#39;&amp;gt; 注意 2&amp;lt;/font&amp;gt;：仓库公开随意克隆，推送需要身为仓库团队成员 &amp;lt;/span&amp;gt;&lt;br /&gt;
+&amp;lt;/P&amp;gt;&lt;br /&gt;
+&amp;lt;/div&amp;gt;&lt;br /&gt;
+&amp;lt;/blockquote&amp;gt;&lt;/p&gt;
+&lt;p&gt;演示：&lt;/p&gt;
+&lt;p&gt;终端 cd 到指定的目录下执行命令： &lt;code&gt;git clone https://xxx.xxx.git&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;复制要克隆的地址&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172132553.png&#34; alt=&#34;image-20230817213248571&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172138708.png&#34; alt=&#34;image-20230817213640684&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;克隆之后进入目录中，里面有一个.git 隐藏文件表示是一个仓库&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172138542.png&#34; alt=&#34;image-20230817213722667&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;执行命令查看提交的历史记录： &lt;code&gt;git log --oneline&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308172138187.png&#34; alt=&#34;image-20230817213836924&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;多人协同开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多人协同开发&#34;&gt;#&lt;/a&gt; 多人协同开发&lt;/h3&gt;
+&lt;p&gt;需求：小传新代码共享给小智&lt;/p&gt;
+&lt;p&gt;步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;小传开发代码  -&amp;gt; 工作区 -&amp;gt; 暂存区 -&amp;gt; 提交 -&amp;gt; 拉取 (可选) -&amp;gt; 推送&lt;/li&gt;
+&lt;li&gt;小智 -&amp;gt; 拉取 (后续也可以开发代码 -&amp;gt; … -&amp;gt; 推送)&lt;/li&gt;
+&lt;li&gt;想要看别人同步上去的最新内容： &lt;code&gt;git pull origin master&lt;/code&gt;  等价于
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;git fetch origin master:master&lt;/code&gt;  (获取远程分支记录到本地，未合并)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git merge origin/master&lt;/code&gt;  (把远程分支记录合并到所在分支下)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;git-命令总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#git-命令总结&#34;&gt;#&lt;/a&gt; Git 命令总结&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;作用&lt;/th&gt;
+&lt;th&gt;注意&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git remote add 远程仓库别名 远程仓库地址&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;添加远程仓库地址&lt;/td&gt;
+&lt;td&gt;别名唯一，地址是.git 结尾的网址&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git remote -v&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;查看远程仓库地址&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git remote remove 远程仓库别名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;删除远程仓库地址&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git pull 远程仓库别名 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;拉取&lt;/td&gt;
+&lt;td&gt;完整写法： &lt;code&gt;git pull&lt;/code&gt;  远程仓库别名 远程分支名：本地分支名 &amp;lt;br /&amp;gt; 等价于： &lt;code&gt;git fetch&lt;/code&gt;  和 &lt;code&gt;git merge&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git push 远程仓库别名 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;推送&lt;/td&gt;
+&lt;td&gt;完整写法： &lt;code&gt;git push&lt;/code&gt;  远程仓库别名 本地分支名：远程分支名 -u: 建立通道以后可以简写 git push&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git pull --rebase 远程仓库别名 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;拉取合并&lt;/td&gt;
+&lt;td&gt;合并没有关系的记录&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git clone 远程仓库地址&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;克隆&lt;/td&gt;
+&lt;td&gt;从 0 得到一个远程的 Git 仓库到本地使用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git push -u -f 远程仓库别名 分支名&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;强制推送&lt;/td&gt;
+&lt;td&gt;会覆盖原有的内容 慎用&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git clone -b [分支名] 远程仓库地址&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;拉取指定的分支项目&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;推送超出文件大小范围的解决方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#推送超出文件大小范围的解决方式&#34;&gt;#&lt;/a&gt; 推送超出文件大小范围的解决方式&lt;/h3&gt;
+&lt;p&gt;打开当前初始化.git 的文件里面的 config 配置文件 配置如下&lt;/p&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;http&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;postBuffer &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;924288000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>
