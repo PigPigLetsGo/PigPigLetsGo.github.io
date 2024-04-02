@@ -5,25 +5,25 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:46 +0800</lastBuildDate>
+        <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 14:23:31 +0800</lastBuildDate>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>springboot</category>
-        <category>读取配置文件</category>
+        <category>linux</category>
         <category>报错</category>
         <category>编码问题</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>JdbcTemplate</category>
+        <category>Jwt</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
-        <category>Jwt</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
         <category>计算机底层</category>
@@ -45,29 +45,21 @@
         <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>database</category>
-        <category>JDBC</category>
-        <category>mongodb</category>
-        <category>redis</category>
-        <category>navicat</category>
-        <category>集群</category>
-        <category>知识点</category>
-        <category>代码经验</category>
         <category>jvm</category>
-        <category>config配置类</category>
         <category>数据结构与算法</category>
         <category>图</category>
+        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
-        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
         <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
         <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
@@ -81,44 +73,50 @@
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
-        <category>单调栈</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
         <category>servlet</category>
         <category>spring</category>
         <category>工具类</category>
         <category>开源项目框架</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
+        <category>七牛云</category>
+        <category>设计模式</category>
         <category>案例Demo</category>
         <category>菜单数据结构</category>
         <category>网络编程</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
-        <category>爬虫</category>
+        <category>知识点</category>
         <category>API的区别</category>
-        <category>第三方库</category>
-        <category>Minio</category>
-        <category>Thymeleaf</category>
-        <category>hutool</category>
-        <category>七牛云</category>
-        <category>设计模式</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>代码经验</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>mybatisplus-join</category>
-        <category>ORM</category>
-        <category>二叉树搜索树</category>
         <category>avl树</category>
         <category>二叉树的遍历</category>
+        <category>二叉树搜索树</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
         <category>heapify</category>
-        <category>堆排序</category>
         <category>动态数组</category>
+        <category>堆排序</category>
         <category>红黑树</category>
         <category>阻塞队列</category>
         <category>进阶</category>
@@ -126,15 +124,15 @@
         <category>springcloud</category>
         <category>springmvc</category>
         <category>springsecurity</category>
-        <category>JWT</category>
         <category>MD5</category>
+        <category>JWT</category>
         <category>thymeleaf</category>
         <category>源码</category>
         <category>拦截器</category>
         <category>整合jar包</category>
         <category>Junit</category>
-        <category>IO</category>
         <category>String</category>
+        <category>IO</category>
         <category>number</category>
         <category>lambda</category>
         <category>http</category>
@@ -142,32 +140,34 @@
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
         <category>js</category>
         <category>jquery</category>
-        <category>Knife4j</category>
         <category>JSR303</category>
+        <category>Knife4j</category>
         <category>devtools</category>
+        <category>springboot高级</category>
         <category>Docker</category>
         <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
-        <category>springboot高级</category>
         <category>OpenResty</category>
         <category>Canal</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</guid>
             <title>二维数组的局部性原理</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</link>
-            <category>知识点</category>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</link>
             <category>数组</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;二维数组的局部性原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二维数组的局部性原理&#34;&gt;#&lt;/a&gt; 二维数组的局部性原理&lt;/h1&gt;
-&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; array&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;34&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;35&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081459751.png&#34; alt=&#34;image-20240108145924650&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;局部性原理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#局部性原理&#34;&gt;#&lt;/a&gt; 局部性原理&lt;/h2&gt;
+            <category>知识点</category>
+            <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;二维数组的局部性原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二维数组的局部性原理&#34;&gt;#&lt;/a&gt; 二维数组的局部性原理&lt;/h1&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; array&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;34&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;35&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081459751.png&#34; alt=&#34;image-20240108145924650&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;局部性原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#局部性原理&#34;&gt;#&lt;/a&gt; 局部性原理&lt;/h2&gt;
 &lt;p&gt;这里只讨论空间局部性&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU 读取内存 (速度慢) 数据后，会将其放入高速缓存 (速度快) 当中，如果后来的计算再用到此数据，在缓存中能读到的话，就不必读内存了&lt;/li&gt;
@@ -187,39 +187,39 @@ ns         %     Task name
 &lt;p&gt;为什么两者之间有这么大的差异？&lt;/p&gt;
 &lt;p&gt;我们分析一下如下的代码：&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ij&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; rows&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; columns&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;long&lt;/span&gt; sum &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0L&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; rows&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; columns&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         sum &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sum&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;当循环 &lt;code&gt;a[0][0]&lt;/code&gt;  时，它除了读取 0,0 索引的元素外，还会将邻近的 (后续) 元素也顺便读取进来 (局部性原理) 凑读 64 个字节给它填满一个缓存行。所以不光读了 0,0 就连 0,1 到 0,13 也都读取进来了。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081504230.png&#34; alt=&#34;image-20240108150414150&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081504230.png&#34; alt=&#34;image-20240108150414150&#34;&gt;&lt;/p&gt;
 &lt;p&gt;当读取 0,1 元素是也就是 &lt;code&gt;a[0][1]&lt;/code&gt;  时，就不需要当内存中找了，因为已经缓存起来了所以直接找缓存就行了速度就比较快了&lt;/p&gt;
 &lt;p&gt;蓝色背景代表需要找内存，灰色背景代表不需要找内存直接找缓存，可以充分利用缓存来提高效率&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081505599.png&#34; alt=&#34;image-20240108150547518&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081505599.png&#34; alt=&#34;image-20240108150547518&#34;&gt;&lt;/p&gt;
 &lt;p&gt;直到最后的 0,13，都直接找缓存中读取数据就可以了，速度很快&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081506399.png&#34; alt=&#34;image-20240108150626334&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081506399.png&#34; alt=&#34;image-20240108150626334&#34;&gt;&lt;/p&gt;
 &lt;p&gt;0~n 的这一轮就循环读取完毕了，该下一行了就是 1,0 了这时 缓存中是没有的就需要再到内存中读取了，同理读取一次后就会将邻近的元素都加载到缓存中去&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081506054.png&#34; alt=&#34;image-20240108150645962&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081506054.png&#34; alt=&#34;image-20240108150645962&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;我们发现，外层循环数组行，内层循环数组列 就能充分利用提升读取效率&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;下面再分析速度比较慢的情况，就是外层循环数组列，内层循环数组行&lt;/strong&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;ji&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; rows&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; columns&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;long&lt;/span&gt; sum &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0L&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; columns&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; i&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token keyword&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt; rows&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt; j&lt;span class=&#34;token operator&#34;&gt;++&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;         sum &lt;span class=&#34;token operator&#34;&gt;+=&lt;/span&gt; a&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;j&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;i&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;println&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;sum&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;第一次将 0,0 的元素和邻近的元素到 0,13 的所有元素都读取到缓存了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081507610.png&#34; alt=&#34;image-20240108150724520&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081507610.png&#34; alt=&#34;image-20240108150724520&#34;&gt;&lt;/p&gt;
 &lt;p&gt;但是第二次读取的是 1,0 因为 i 不变 j 变 1  &lt;code&gt;a[j][i]&lt;/code&gt;  也就是 &lt;code&gt;a[1][0]&lt;/code&gt; 。这时缓存中并没有 1,0 又要去读取内存了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508323.png&#34; alt=&#34;image-20240108150803234&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508323.png&#34; alt=&#34;image-20240108150803234&#34;&gt;&lt;/p&gt;
 &lt;p&gt;第三次读取 3,0。同样的缓存中没有需要找内存读取加载到缓存中。但是缓存是有限的，而缓存中的 0,1  1,1  2,1 都没有用上 ，数据没用上接下来超过了缓存的最大值后它就会把旧的数据被新的数据覆盖掉&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508883.png&#34; alt=&#34;image-20240108150823786&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508883.png&#34; alt=&#34;image-20240108150823786&#34;&gt;&lt;/p&gt;
 &lt;p&gt;假设我们缓存最大值是 7 行数据，而我们需要遍历 10 行数据。此时超过缓存最大之后旧的数据就会被新的数据覆盖掉如下所示：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508911.png&#34; alt=&#34;image-20240108150843755&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081508911.png&#34; alt=&#34;image-20240108150843755&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;总结&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;我们发现，外层循环数组列，内层循环数组行 会浪费掉每行缓存的数据 而 旧数据会被新数据覆盖因为缓存有限 这使得效率很低&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E7%BB%84/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E7%BB%84/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</guid>
             <title>实现动态数组</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E7%BB%84/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E7%BB%84/%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84/</link>
             <category>java</category>
             <category>计算机学科</category>
             <category>数据结构与算法</category>
             <category>动态数组</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;实现动态数组&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#实现动态数组&#34;&gt;#&lt;/a&gt; 实现动态数组&lt;/h1&gt;
+            <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;实现动态数组&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#实现动态数组&#34;&gt;#&lt;/a&gt; 实现动态数组&lt;/h1&gt;
 &lt;p&gt;简单的动态数组类  &lt;code&gt;DynamicArray&lt;/code&gt; ，以下是对其概述思想的介绍：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;初始状态和基本参数：&lt;/strong&gt;

@@ -5,25 +5,25 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:46 +0800</lastBuildDate>
+        <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 14:23:32 +0800</lastBuildDate>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>springboot</category>
-        <category>读取配置文件</category>
+        <category>linux</category>
         <category>报错</category>
         <category>编码问题</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>JdbcTemplate</category>
+        <category>Jwt</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
-        <category>Jwt</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
         <category>计算机底层</category>
@@ -45,29 +45,21 @@
         <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>database</category>
-        <category>JDBC</category>
-        <category>mongodb</category>
-        <category>redis</category>
-        <category>navicat</category>
-        <category>集群</category>
-        <category>知识点</category>
-        <category>代码经验</category>
         <category>jvm</category>
-        <category>config配置类</category>
         <category>数据结构与算法</category>
         <category>图</category>
+        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
-        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
         <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
         <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
@@ -81,44 +73,50 @@
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
-        <category>单调栈</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
         <category>servlet</category>
         <category>spring</category>
         <category>工具类</category>
         <category>开源项目框架</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
+        <category>七牛云</category>
+        <category>设计模式</category>
         <category>案例Demo</category>
         <category>菜单数据结构</category>
         <category>网络编程</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
-        <category>爬虫</category>
+        <category>知识点</category>
         <category>API的区别</category>
-        <category>第三方库</category>
-        <category>Minio</category>
-        <category>Thymeleaf</category>
-        <category>hutool</category>
-        <category>七牛云</category>
-        <category>设计模式</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>代码经验</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>mybatisplus-join</category>
-        <category>ORM</category>
-        <category>二叉树搜索树</category>
         <category>avl树</category>
         <category>二叉树的遍历</category>
+        <category>二叉树搜索树</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
         <category>heapify</category>
-        <category>堆排序</category>
         <category>动态数组</category>
+        <category>堆排序</category>
         <category>红黑树</category>
         <category>阻塞队列</category>
         <category>进阶</category>
@@ -126,15 +124,15 @@
         <category>springcloud</category>
         <category>springmvc</category>
         <category>springsecurity</category>
-        <category>JWT</category>
         <category>MD5</category>
+        <category>JWT</category>
         <category>thymeleaf</category>
         <category>源码</category>
         <category>拦截器</category>
         <category>整合jar包</category>
         <category>Junit</category>
-        <category>IO</category>
         <category>String</category>
+        <category>IO</category>
         <category>number</category>
         <category>lambda</category>
         <category>http</category>
@@ -142,37 +140,39 @@
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
         <category>js</category>
         <category>jquery</category>
-        <category>Knife4j</category>
         <category>JSR303</category>
+        <category>Knife4j</category>
         <category>devtools</category>
+        <category>springboot高级</category>
         <category>Docker</category>
         <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
-        <category>springboot高级</category>
         <category>OpenResty</category>
         <category>Canal</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</guid>
             <title>欧几里得算法</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</link>
             <category>math</category>
             <category>算法</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;欧几里得算法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#欧几里得算法&#34;&gt;#&lt;/a&gt; 欧几里得算法&lt;/h1&gt;
+            <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;欧几里得算法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#欧几里得算法&#34;&gt;#&lt;/a&gt; 欧几里得算法&lt;/h1&gt;
 &lt;p&gt;也被称为：辗转相除法，其特征包括如下：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;有效性：辗转相除法 是一种有效的方法，能够找到两个整数的最大公约数&lt;/li&gt;
 &lt;li&gt;递归性质：该算法可以通过递归方式实现，也可以用迭代方式&lt;/li&gt;
 &lt;li&gt;基于整数除法：辗转相除法的核心操作是整数除法，通过计算余数和更新被除数，除数，直至余数为零，找到最大公约数&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id=&#34;详细说明如下&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#详细说明如下&#34;&gt;#&lt;/a&gt; 详细说明如下：&lt;/h2&gt;
+&lt;h2 id=&#34;详细说明如下&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#详细说明如下&#34;&gt;#&lt;/a&gt; 详细说明如下：&lt;/h2&gt;
 &lt;p&gt;当我们有两个整数 p 和 q，我们可以使用欧几里得算法求它们的最大公约数 (GCD)。这个算法的基本思想是：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;若 q 为 0，则最大公约数为 p&lt;/li&gt;
@@ -188,7 +188,7 @@
 最大公约数为 6。
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;在这个例子中，直到除数可以整数时的最大除数 就是 最大公约数，比如例子中的 12 / 6 = 2 余数为 0 是一个可以整数的除数 而且 也是唯一最大能整出的除数 所以 6 就是 最大公约数&lt;/p&gt;
-&lt;h2 id=&#34;使用java语言描述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用java语言描述&#34;&gt;#&lt;/a&gt; 使用 Java 语言描述&lt;/h2&gt;
+&lt;h2 id=&#34;使用java语言描述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用java语言描述&#34;&gt;#&lt;/a&gt; 使用 Java 语言描述&lt;/h2&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;gcd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; q&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;q &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; r &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt; q&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;gcd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;q&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; r&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;其中 q == 0 就直接返回 p 这是因为 0 不能除以任何数 所以 直接 返回 p 作为最大公约数&lt;/p&gt;
 &lt;p&gt;int r = p % q 就是取 被除数 和 除数 之间的余数&lt;/p&gt;
 &lt;p&gt;return gcd (q, r) 就是通过递归 逐步的缩小问题规模 得到最终的 最大公约数&lt;/p&gt;

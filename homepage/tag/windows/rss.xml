@@ -5,25 +5,25 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:46 +0800</lastBuildDate>
+        <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 14:23:32 +0800</lastBuildDate>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>springboot</category>
-        <category>读取配置文件</category>
+        <category>linux</category>
         <category>报错</category>
         <category>编码问题</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>JdbcTemplate</category>
+        <category>Jwt</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
-        <category>Jwt</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
         <category>计算机底层</category>
@@ -45,29 +45,21 @@
         <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>database</category>
-        <category>JDBC</category>
-        <category>mongodb</category>
-        <category>redis</category>
-        <category>navicat</category>
-        <category>集群</category>
-        <category>知识点</category>
-        <category>代码经验</category>
         <category>jvm</category>
-        <category>config配置类</category>
         <category>数据结构与算法</category>
         <category>图</category>
+        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
-        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
         <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
         <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
@@ -81,44 +73,50 @@
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
-        <category>单调栈</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
         <category>servlet</category>
         <category>spring</category>
         <category>工具类</category>
         <category>开源项目框架</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
+        <category>七牛云</category>
+        <category>设计模式</category>
         <category>案例Demo</category>
         <category>菜单数据结构</category>
         <category>网络编程</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
-        <category>爬虫</category>
+        <category>知识点</category>
         <category>API的区别</category>
-        <category>第三方库</category>
-        <category>Minio</category>
-        <category>Thymeleaf</category>
-        <category>hutool</category>
-        <category>七牛云</category>
-        <category>设计模式</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>代码经验</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>mybatisplus-join</category>
-        <category>ORM</category>
-        <category>二叉树搜索树</category>
         <category>avl树</category>
         <category>二叉树的遍历</category>
+        <category>二叉树搜索树</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
         <category>heapify</category>
-        <category>堆排序</category>
         <category>动态数组</category>
+        <category>堆排序</category>
         <category>红黑树</category>
         <category>阻塞队列</category>
         <category>进阶</category>
@@ -126,15 +124,15 @@
         <category>springcloud</category>
         <category>springmvc</category>
         <category>springsecurity</category>
-        <category>JWT</category>
         <category>MD5</category>
+        <category>JWT</category>
         <category>thymeleaf</category>
         <category>源码</category>
         <category>拦截器</category>
         <category>整合jar包</category>
         <category>Junit</category>
-        <category>IO</category>
         <category>String</category>
+        <category>IO</category>
         <category>number</category>
         <category>lambda</category>
         <category>http</category>
@@ -142,30 +140,32 @@
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
         <category>js</category>
         <category>jquery</category>
-        <category>Knife4j</category>
         <category>JSR303</category>
+        <category>Knife4j</category>
         <category>devtools</category>
+        <category>springboot高级</category>
         <category>Docker</category>
         <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
-        <category>springboot高级</category>
         <category>OpenResty</category>
         <category>Canal</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/%E5%AE%89%E8%A3%85scoop/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/%E5%AE%89%E8%A3%85scoop/</guid>
             <title>安装和使用scoop</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/%E5%AE%89%E8%A3%85scoop/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/%E5%AE%89%E8%A3%85scoop/</link>
             <category>tools</category>
             <category>windows</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; 常用命令&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;常用命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#常用命令&#34;&gt;#&lt;/a&gt; 常用命令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;寻找软件： &lt;code&gt;scoop search 软件名&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;安装软件： &lt;code&gt;scoop install 软件名&lt;/code&gt;&lt;/li&gt;
@@ -177,20 +177,20 @@
 &lt;/ul&gt;
 &lt;p&gt;1 打开 PowerShell 输入，执行策略更改为 RemoteSigned&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;set-executionpolicy RemoteSigned&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;2 输入命令进行安装&lt;/p&gt;
-&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;iex &lt;span class=&#34;token string&#34;&gt;&#34;&amp;amp; &amp;#123;&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;irm get.scoop.sh&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&amp;#125; -RunAsAdmin&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;中国用户专享&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中国用户专享&#34;&gt;#&lt;/a&gt; 中国用户专享&lt;/h3&gt;
+&lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;iex &lt;span class=&#34;token string&#34;&gt;&#34;&amp;amp; &amp;#123;&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token variable&#34;&gt;$(&lt;/span&gt;irm get.scoop.sh&lt;span class=&#34;token variable&#34;&gt;)&lt;/span&gt;&lt;/span&gt;&amp;#125; -RunAsAdmin&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;中国用户专享&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#中国用户专享&#34;&gt;#&lt;/a&gt; 中国用户专享&lt;/h3&gt;
 &lt;p&gt;如果访问 Github 有问题，下载资源失败可以尝试一下方式：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;设置 Scoop 代理。在命令行中输入 (PowerShell 或 CMD 中都行)，： &lt;code&gt;scoop config proxy 127.0.0.1:7890&lt;/code&gt;  让 scoop 网络连接走代理，后面的 ip 地址和端口号根据自己的代理设置。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;更改scoop的默认安装路径&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#更改scoop的默认安装路径&#34;&gt;#&lt;/a&gt; 更改 scoop 的默认安装路径&lt;/h3&gt;
+&lt;h3 id=&#34;更改scoop的默认安装路径&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#更改scoop的默认安装路径&#34;&gt;#&lt;/a&gt; 更改 scoop 的默认安装路径&lt;/h3&gt;
 &lt;p&gt;在终端输入：&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;environment&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;::setEnvironmentVariable&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;SCOOP_GLOBAL&#39;&lt;/span&gt;,&lt;span class=&#34;token string&#34;&gt;&#39;F:\GlobalScoopApps&#39;&lt;/span&gt;,&lt;span class=&#34;token string&#34;&gt;&#39;Machine&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token variable&#34;&gt;$env&lt;/span&gt;:SCOOP_GLOBAL&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;F:\GlobalScoopApps&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;路径自己创建存放的文件夹自己改路径&lt;/li&gt;
-&lt;li&gt;当使用 scoop 命令进行安装时，注意加 -g ， scoop install &amp;lt;app&amp;gt; -g&lt;/li&gt;
+&lt;li&gt;当使用 scoop 命令进行安装时，注意加 -g ， scoop install &lt;app&gt; -g&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;建议安装程序aria2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#建议安装程序aria2&#34;&gt;#&lt;/a&gt; 建议安装程序 aria2&lt;/h2&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Installed apps:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Name           Version  Source Updated             Info&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;----           -------  ------ -------             ----&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;7zip           &lt;span class=&#34;token number&#34;&gt;23.01&lt;/span&gt;    main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:16:05&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;            &lt;span class=&#34;token number&#34;&gt;2.41&lt;/span&gt;.0.2 main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:16:42&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;neofetch       &lt;span class=&#34;token number&#34;&gt;7.1&lt;/span&gt;.0    main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:17:26&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt;            &lt;span class=&#34;token number&#34;&gt;9.0&lt;/span&gt;      main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:24:45&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;aria2          &lt;span class=&#34;token number&#34;&gt;1.36&lt;/span&gt;.0-1 main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:06:50 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;quicklook      &lt;span class=&#34;token number&#34;&gt;3.7&lt;/span&gt;.3    extras &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;:38:35 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;youtube-dl-gui &lt;span class=&#34;token number&#34;&gt;1.8&lt;/span&gt;.5    extras &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:52:11 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; aria2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;使用bucket让windows软件包管理器变得更加强大&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用bucket让windows软件包管理器变得更加强大&#34;&gt;#&lt;/a&gt; 使用 bucket 让 windows 软件包管理器变得更加强大&lt;/h2&gt;
-&lt;h4 id=&#34;什么是bucket&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#什么是bucket&#34;&gt;#&lt;/a&gt; 什么是 bucket?&lt;/h4&gt;
+&lt;h2 id=&#34;建议安装程序aria2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#建议安装程序aria2&#34;&gt;#&lt;/a&gt; 建议安装程序 aria2&lt;/h2&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop list&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Installed apps:&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Name           Version  Source Updated             Info&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;----           -------  ------ -------             ----&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;7zip           &lt;span class=&#34;token number&#34;&gt;23.01&lt;/span&gt;    main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:16:05&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt;            &lt;span class=&#34;token number&#34;&gt;2.41&lt;/span&gt;.0.2 main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:16:42&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;neofetch       &lt;span class=&#34;token number&#34;&gt;7.1&lt;/span&gt;.0    main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:17:26&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;vim&lt;/span&gt;            &lt;span class=&#34;token number&#34;&gt;9.0&lt;/span&gt;      main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-07-14 00:24:45&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;aria2          &lt;span class=&#34;token number&#34;&gt;1.36&lt;/span&gt;.0-1 main   &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:06:50 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;quicklook      &lt;span class=&#34;token number&#34;&gt;3.7&lt;/span&gt;.3    extras &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;:38:35 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;youtube-dl-gui &lt;span class=&#34;token number&#34;&gt;1.8&lt;/span&gt;.5    extras &lt;span class=&#34;token number&#34;&gt;2023&lt;/span&gt;-08-26 &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:52:11 Global &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; aria2&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;使用bucket让windows软件包管理器变得更加强大&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用bucket让windows软件包管理器变得更加强大&#34;&gt;#&lt;/a&gt; 使用 bucket 让 windows 软件包管理器变得更加强大&lt;/h2&gt;
+&lt;h4 id=&#34;什么是bucket&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#什么是bucket&#34;&gt;#&lt;/a&gt; 什么是 bucket?&lt;/h4&gt;
 &lt;p&gt;在 Scoop 里面，bucket 就是一个软件仓库。Scoop 将一个个仓库缓存至本地，当我们想要安装一个软件的时候，Scoop 就从本地的仓库中挑选出我们想要安装的软件的安装配置文件，并依照这个配置文件进行软件的安装工作，包括：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;从哪里下载软件&lt;/li&gt;
@@ -198,47 +198,47 @@
 &lt;li&gt;安装之前、之后都要做什么准备（善后）工作&lt;/li&gt;
 &lt;li&gt;……&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;添加一个bucket&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#添加一个bucket&#34;&gt;#&lt;/a&gt; 添加一个 bucket&lt;/h4&gt;
+&lt;h4 id=&#34;添加一个bucket&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#添加一个bucket&#34;&gt;#&lt;/a&gt; 添加一个 bucket&lt;/h4&gt;
 &lt;p&gt;首先，Scoop 给我们提供了很多可以直接使用的 bucket，就是为了方便我们安装更为常见的带有 GUI 的软件。一个最为常见，也是我推荐大家添加的 bucket 是  &lt;code&gt;extras&lt;/code&gt; ，这里面基本涵盖了大部分不符合 main bucket 收录条件的常用软件，包括我们熟悉的：各个版本的 Firefox、福昕阅读器、Geek Uninstaller、Inkscape、Snipaste 等等。（甚至有 Steam，但是不推荐用这样的方式安装。）&lt;/p&gt;
 &lt;p&gt;我们可以通过下面这个命令来添加  &lt;code&gt;extras&lt;/code&gt;  这个 bucket：&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; extras&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261124794.png&#34; alt=&#34;image-20230826112430785&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;之后，我们就可以下载更多更多常见的软件了。比方说，我们要下载 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vcG9zdC80MDU1Ng==&#34;&gt;ScreenToGif&lt;/span&gt; 这个极为好用的 Gif 屏幕录制软件：&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; screentogif&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;官方维护的-bucket&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#官方维护的-bucket&#34;&gt;#&lt;/a&gt; 官方维护的 bucket&lt;/h3&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; extras&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261124794.png&#34; alt=&#34;image-20230826112430785&#34;&gt;&lt;/p&gt;
+&lt;p&gt;之后，我们就可以下载更多更多常见的软件了。比方说，我们要下载 &lt;a href=&#34;https://sspai.com/post/40556&#34;&gt;ScreenToGif&lt;/a&gt; 这个极为好用的 Gif 屏幕录制软件：&lt;/p&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; screentogif&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;官方维护的-bucket&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#官方维护的-bucket&#34;&gt;#&lt;/a&gt; 官方维护的 bucket&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;extras&lt;/code&gt;  这个 bucket 是最有用，也是我们大部分人肯定会用到的仓库。除此之外，我们可以通过这个命令查看 Scoop 还能直接识别哪些 bucket：&lt;/p&gt;
-&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket known&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261126217.png&#34; alt=&#34;image-20230826112605419&#34; /&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket known&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261126217.png&#34; alt=&#34;image-20230826112605419&#34;&gt;&lt;/p&gt;
 &lt;p&gt;下面列出的这几个仓库就是 Scoop 可以直接识别并添加的 bucket，即我们可以通过下面这个命令直接添加相应的 bucket：&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;仓库名&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;比如：&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop bucket known&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;main&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;extras&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;versions&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nirsoft&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;sysinternals&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;php&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nerd-fonts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nonportable&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;java&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;games&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; mages&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Unknown bucket &lt;span class=&#34;token string&#34;&gt;&#39;mages&#39;&lt;/span&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt; Try specifying &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;repo&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;usage: scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;name&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;repo&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoop bucket &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; games&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Checking repo&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;. OK&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;The games bucket was added successfully.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;PS C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Administrator&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;这里面，我来介绍一下和开发环境的安装没有太大关系的几个仓库：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;extras&lt;/code&gt; ：就是我刚刚介绍的，Scoop 官方维护的一个仓库，涵盖了大部分因为种种原因不能被收录进主仓库的常用软件。地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vbGluaz90YXJnZXQ9aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGbHVrZXNhbXBzb24lMkZzY29vcC1leHRyYXMlMkZ0cmVlJTJGbWFzdGVyJTJGYnVja2V0&#34;&gt;lukesampson/scoop-extras&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;extras&lt;/code&gt; ：就是我刚刚介绍的，Scoop 官方维护的一个仓库，涵盖了大部分因为种种原因不能被收录进主仓库的常用软件。地址：&lt;a href=&#34;https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2Flukesampson%2Fscoop-extras%2Ftree%2Fmaster%2Fbucket&#34;&gt;lukesampson/scoop-extras&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;code&gt;nirsoft&lt;/code&gt; ：是一个 NirSoft 开发的小工具的安装合集。NirSoft 制作了大量的（dozens and dozens）小工具，包括系统工具、网络工具、密码恢复等等，孜孜不倦、持续更新。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;ul&gt;
-&lt;li&gt;Bucket 地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vbGluaz90YXJnZXQ9aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGa29keWJyb3duJTJGc2Nvb3Atbmlyc29mdA==&#34;&gt;kodybrown/scoop-nirsoft&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;NirSoft 官网地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vbGluaz90YXJnZXQ9aHR0cCUzQSUyRiUyRnd3dy5uaXJzb2Z0Lm5ldCUyRg==&#34;&gt;NirSoft&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Bucket 地址：&lt;a href=&#34;https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2Fkodybrown%2Fscoop-nirsoft&#34;&gt;kodybrown/scoop-nirsoft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NirSoft 官网地址：&lt;a href=&#34;https://sspai.com/link?target=http%3A%2F%2Fwww.nirsoft.net%2F&#34;&gt;NirSoft&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;code&gt;games&lt;/code&gt; ：顾名思义，是游戏（和与游戏相关的工具）合集。包含了大量免费 / 开源的小游戏，地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zc3BhaS5jb20vbGluaz90YXJnZXQ9aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGQ2FsaW5vdSUyRnNjb29wLWdhbWVz&#34;&gt;Calinou/scoop-games&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;games&lt;/code&gt; ：顾名思义，是游戏（和与游戏相关的工具）合集。包含了大量免费 / 开源的小游戏，地址：&lt;a href=&#34;https://sspai.com/link?target=https%3A%2F%2Fgithub.com%2FCalinou%2Fscoop-games&#34;&gt;Calinou/scoop-games&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;剩下的几个 bucket 都是和开发环境相关的，比如  &lt;code&gt;java&lt;/code&gt;  这个 bucket 就是为了安装 JDK 用的 bucket，这些我在这里就不过多赘述了。&lt;/p&gt;
-&lt;h2 id=&#34;备份与恢复配置文件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#备份与恢复配置文件&#34;&gt;#&lt;/a&gt; 备份与恢复配置文件&lt;/h2&gt;
+&lt;h2 id=&#34;备份与恢复配置文件&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#备份与恢复配置文件&#34;&gt;#&lt;/a&gt; 备份与恢复配置文件&lt;/h2&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#[备份] 导出 scoop 的 bucket，已安装 apps 和 自定义配置信息到文件 scoopfile.json 中&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token builtin class-name&#34;&gt;export&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; scoopfile.json&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#[恢复] 从 scoopfile.json 文件中恢复信息&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;scoop &lt;span class=&#34;token function&#34;&gt;import&lt;/span&gt; scoopfile.json&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</guid>
             <title>Scoop安装mysql</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/scoop%E5%AE%89%E8%A3%85mysql/</link>
             <category>mysql</category>
             <category>tools</category>
             <category>windows</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;scoop安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#scoop安装mysql&#34;&gt;#&lt;/a&gt; Scoop 安装 mysql&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;scoop安装mysql&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#scoop安装mysql&#34;&gt;#&lt;/a&gt; Scoop 安装 mysql&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;添加仓库： &lt;code&gt;main&lt;/code&gt;&lt;/p&gt;
@@ -266,21 +266,21 @@
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;如果出现下面的情况&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040935540.png&#34; alt=&#34;image-20230904093551765&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040935540.png&#34; alt=&#34;image-20230904093551765&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;则执行命令： &lt;code&gt;sc delete mysql&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936057.png&#34; alt=&#34;image-20230904093618438&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936057.png&#34; alt=&#34;image-20230904093618438&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;再次执行： &lt;code&gt;mysqld -install&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936016.png&#34; alt=&#34;image-20230904093638396&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040936016.png&#34; alt=&#34;image-20230904093638396&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;最后启动服务： &lt;code&gt;net start mysql&lt;/code&gt;  启动！&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040937628.png&#34; alt=&#34;image-20230904093707195&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202309040937628.png&#34; alt=&#34;image-20230904093707195&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;最后一步可能会想，为什么不直接去任务管理器里面的服务去启动服务呢？因为这里有可能在任务管理器中启动不了，但是终端可以。&lt;/p&gt;
@@ -290,29 +290,29 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/PowerShell%E9%85%8D%E7%BD%AEohmyzsh/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/PowerShell%E9%85%8D%E7%BD%AEohmyzsh/</guid>
             <title>PowerShell配置ohmyzsh</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/tools/windows/PowerShell%E9%85%8D%E7%BD%AEohmyzsh/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/tools/windows/PowerShell%E9%85%8D%E7%BD%AEohmyzsh/</link>
             <category>tools</category>
             <category>windows</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
+            <pubDate>Tue, 02 Apr 2024 14:23:32 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;第一步&lt;/p&gt;
 &lt;p&gt;windows 应用商店安装 WindowsTerminal&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261938192.png&#34; alt=&#34;image-20230826193816724&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261938192.png&#34; alt=&#34;image-20230826193816724&#34;&gt;&lt;/p&gt;
 &lt;p&gt;确保自己电脑有 PowerShell, 或者去下载一个也是在应用商店&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261938122.png&#34; alt=&#34;image-20230826193848906&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;安装字体否则一些显示有问题：字体上传到了云端可以去拉取获取下载链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9vaG15cG9zaC5kZXYvZG9jcy9pbnN0YWxsYXRpb24vZm9udHMlRTclODIlQjklRTUlODclQkI=&#34;&gt;https://ohmyposh.dev/docs/installation/fonts 点击&lt;/span&gt; &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL3J5YW5vYXNpcy9uZXJkLWZvbnRzL3JlbGVhc2VzL2Rvd25sb2FkL3YzLjAuMi9NZXNsby56aXA=&#34;&gt;Meslo LGM NF&lt;/span&gt; 即可下载字体包&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261938122.png&#34; alt=&#34;image-20230826193848906&#34;&gt;&lt;/p&gt;
+&lt;p&gt;安装字体否则一些显示有问题：字体上传到了云端可以去拉取获取下载链接：&lt;a href=&#34;https://ohmyposh.dev/docs/installation/fonts%E7%82%B9%E5%87%BB&#34;&gt;https://ohmyposh.dev/docs/installation/fonts 点击&lt;/a&gt; &lt;a href=&#34;https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Meslo.zip&#34;&gt;Meslo LGM NF&lt;/a&gt; 即可下载字体包&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 安装 oh-my-posh&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;winget &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; JanDeDobbeleer.OhMyPosh &lt;span class=&#34;token parameter variable&#34;&gt;-s&lt;/span&gt; winget&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 使用的是哪个 shell&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh get shell&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 直接加载：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;ScriptBlock&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;::Create&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;((&lt;/span&gt;oh&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;my&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;posh init pwsh &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;config &#34;$env&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;POSH_THEMES_PATH\night&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;owl.omp.json&#34; &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;print&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;join &#34;`n&#34;&lt;span class=&#34;token punctuation&#34;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 编辑 PowerShell 配置文件脚本，每次启动之后自动加载&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;notepad &lt;span class=&#34;token variable&#34;&gt;$PROFILE&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 当上述命令出错时，请确保先创建配置文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;New-Item &lt;span class=&#34;token parameter variable&#34;&gt;-Path&lt;/span&gt; &lt;span class=&#34;token variable&#34;&gt;$PROFILE&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-Type&lt;/span&gt; File &lt;span class=&#34;token parameter variable&#34;&gt;-Force&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在配置文件里添加以下行：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;ScriptBlock&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;::Create&lt;span class=&#34;token variable&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;((&lt;/span&gt;oh&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;my&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;posh init pwsh &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;config &#34;$env&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt;POSH_THEMES_PATH\night&lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;owl.omp.json&#34; &lt;span class=&#34;token operator&#34;&gt;--&lt;/span&gt;print&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;-&lt;/span&gt;join &#34;`n&#34;&lt;span class=&#34;token punctuation&#34;&gt;))&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;或者添加这行：&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh init pwsh &lt;span class=&#34;token parameter variable&#34;&gt;--config&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;$env:POSH_THEMES_PATH\night-owl.omp.json&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; Invoke-Expression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 重新加载配置文件以使更改生效&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt; &lt;span class=&#34;token variable&#34;&gt;$PROFILE&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 查看所有 themes:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Get-PoshThemes&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#运行上面命令后，最后 3 行显示如下：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# ---theme 存放的位置：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Themes location: C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;admin&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;AppData&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Local&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Programs&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;oh-my-posh&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;themes&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# --- 如果输入 $profile, 得出的路径跟以下是一致的：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;To change your theme, adjust the init script &lt;span class=&#34;token keyword&#34;&gt;in&lt;/span&gt; C:&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Users&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;admin&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Documents&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;PowerShell&lt;span class=&#34;token punctuation&#34;&gt;\&lt;/span&gt;Microsoft.PowerShell_profile.ps1.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# --- 之前 $profile 配置文件，也可以改成以下这句（之前这句，向防病毒软件添加例外）里面路径写自己对应的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh init pwsh &lt;span class=&#34;token parameter variable&#34;&gt;--config&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\themes\night-owl.omp.json&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; Invoke-Expression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 安装文件图标库&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Install-Module &lt;span class=&#34;token parameter variable&#34;&gt;-Name&lt;/span&gt; Terminal-Icons &lt;span class=&#34;token parameter variable&#34;&gt;-Repository&lt;/span&gt; PSGallery&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#使用图标，可以把以下这条命令加到 $PROFILE 里（保存，.$profile 使生效），单独运行就是一次性：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Import-Module &lt;span class=&#34;token parameter variable&#34;&gt;-Name&lt;/span&gt; Terminal-Icons&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#BONUS：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 设置随机主题：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 在 powershell 输入 code $profile，输入下面的脚本命令：&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh init pwsh &lt;span class=&#34;token parameter variable&#34;&gt;--config&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\themes\night-owl.omp.json&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; Invoke-Expression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果命令操作中出现创建文件的错误问题而无法解决则自己去对应的路径下创建一个如下：然后将下面配置信息写入&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh init pwsh &lt;span class=&#34;token parameter variable&#34;&gt;--config&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\themes\night-owl.omp.json&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; Invoke-Expression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;注意&lt;/strong&gt;：里面的路径按照自己执行命令：Get-PoshThemes 的时候最后一行看到的填写打开路径的目录可以按照自己喜欢的样式改。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261939548.png&#34; alt=&#34;image-20230826193942959&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261939548.png&#34; alt=&#34;image-20230826193942959&#34;&gt;&lt;/p&gt;
 &lt;p&gt;最后就是 Windows Terminal 的配置了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942396.png&#34; alt=&#34;image-20230826194133851&#34; /&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942154.png&#34; alt=&#34;image-20230826194150186&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942041.png&#34; alt=&#34;image-20230826194225862&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308271651695.png&#34; alt=&#34;image-20230827165110165&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942396.png&#34; alt=&#34;image-20230826194133851&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942154.png&#34; alt=&#34;image-20230826194150186&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308261942041.png&#34; alt=&#34;image-20230826194225862&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308271651695.png&#34; alt=&#34;image-20230827165110165&#34;&gt;&lt;/p&gt;
 &lt;p&gt;效果&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308280929677.png&#34; alt=&#34;image-20230828092941987&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202308280929677.png&#34; alt=&#34;image-20230828092941987&#34;&gt;&lt;/p&gt;
 &lt;p&gt;也可以配合着 neofetch 使用&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;oh-my-posh init pwsh &lt;span class=&#34;token parameter variable&#34;&gt;--config&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;C:\Users\Administrator\AppData\Local\Programs\oh-my-posh\themes\night-owl.omp.json&#39;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; Invoke-Expression&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;neofetch &lt;span class=&#34;token parameter variable&#34;&gt;--ascii_distro&lt;/span&gt; Mac&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>

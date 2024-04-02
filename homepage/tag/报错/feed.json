@@ -5,25 +5,25 @@
     "home_page_url": "https://pigpigletsgo.github.io/homepage",
     "items": [
         {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/01/24/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/01/24/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
-            "title": "Java-IDEA错误-Error-java-非法字符-ufeff-Error-java-需要class-interface或enum",
-            "date_published": "2024-01-24T10:48:45.490Z",
-            "content_html": "<p>问题描述:</p>\n<pre><code>Java-IDEA错误-Error: java: 非法字符: ‘\\ufeff‘ Error: java: 需要class, interface或enum\n</code></pre>\n<p>错误原因：字符编码问题，转换下字符编码即可</p>\n<p>解决方案:</p>\n<p>将下面状态栏的 <code>File Encoding</code>  编码将 <code>utf-8</code>  改为 <code>GBK</code></p>\n<p>弹出提示框点击 <code>Convert</code>  没有提示 <code>RELOAD GBK</code></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448448.png\" alt=\"image_2023-01-14-23-38-09\" /></p>\n<p>如果页面上有红线提示 <code>RELOAD GBK</code>  直接点击 <code>RELOAD GBK</code></p>\n<p>再次点击 <code>File EnCoding</code>  切换回 <code>UTF-8</code>  同样选择 <code>Convert</code></p>\n<p>再次运行项目，正常</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448126.png\" alt=\"image_2023-01-14-23-39-24\" /></p>\n<p>解决方案 2: 整个项目出现问题</p>\n<p>点击 <code>settings --&gt; 搜索 File EnCoding</code>  查看是不是编码有问题如图:</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448893.png\" alt=\"image_2023-01-14-23-42-25\" /></p>\n<p>然后 <code>File --&gt; New Project Settings --&gt; settings For New Project --&gt; 搜索 File Settings</code>  做同样修改</p>\n<p>执行方案 1, 把出问题的 java 代码页修改，然后一切正常</p>\n",
-            "tags": [
-                "报错",
-                "编码问题"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/01/24/bug/Unreachable-statement/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/01/24/bug/Unreachable-statement/",
+            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Unreachable-statement/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Unreachable-statement/",
             "title": "Java出现unreachable statement异常 原因检查",
-            "date_published": "2024-01-24T10:48:45.482Z",
-            "content_html": "<h1 id=\"java出现unreachable-statement异常-原因检查\"><a class=\"anchor\" href=\"#java出现unreachable-statement异常-原因检查\">#</a> Java 出现 unreachable statement 异常 原因检查</h1>\n<p>问题描述:</p>\n<pre><code>unreachable statement异常：\n</code></pre>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081447369.png\" alt=\"image_2023-01-23-21-21-25\" /></p>\n<p>我这个问题很显然了就是上面 truen 所导致的下面查看下会导致这种情况的规则:</p>\n<h2 id=\"原因一\"><a class=\"anchor\" href=\"#原因一\">#</a> 原因一</h2>\n<blockquote>\n<p>&lt;font style=&quot;color:red&quot;&gt;java 编译器 &lt;/font &gt; 把 unreachable statement 标记为运行时错误，一个 unreachable statement 就是编译器决定永远不会执行它</p>\n</blockquote>\n<p>下面的几种情况会出现: <code>unreachable statement</code></p>\n<ol>\n<li>\n<p>在 return 语句后写语句</p>\n</li>\n<li>\n<p>在 throw 语句后写语句</p>\n</li>\n<li>\n<p>break,continue 语句之后定义语句</p>\n</li>\n<li>\n<p>&quot;\\u10100&quot;  <code>//合法</code> ，相当于 '\\u1010' 和字符串 &quot;0&quot;</p>\n</li>\n<li>\n<p>移动位运算符可以用于 long int char short byte</p>\n</li>\n<li>\n<p>类的访问控制符可以是 public, 或什么都不加</p>\n</li>\n<li>\n<p>goto 是保留字但不是关键字，then 什么都不是</p>\n</li>\n<li>\n<p>把超类的类型强制转换后赋予子类的对象时，编译无异常，但运行时会出现异常</p>\n</li>\n</ol>\n<h2 id=\"原因二\"><a class=\"anchor\" href=\"#原因二\">#</a> 原因二</h2>\n<blockquote>\n<p>不可达语句的造成是因为:<strong> 在此语句前面有一个返回操作，或者其它操作导致不管什么条件都无法执行到这一语句</strong> &lt;br&gt; 最重要的是:<strong> 检查最前面语句是否有返回，并查看是否因为自己的疏忽，即使没有语法等错误，导致的任何条件都会在此语句前返回</strong></p>\n</blockquote>\n<p>因为自己的疏忽，好几次在 if 或 for 条件后面加了 <code>;</code>  导致下面的 return 语句不会执行之后的任何语句就会返回 1;</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081447316.png\" alt=\"image_2023-01-23-21-30-27\" /></p>\n<p>千万要细心再细心</p>\n",
+            "date_published": "2024-04-02T06:23:29.847Z",
+            "content_html": "<h1 id=\"java出现unreachable-statement异常-原因检查\"><a class=\"markdownIt-Anchor\" href=\"#java出现unreachable-statement异常-原因检查\">#</a> Java 出现 unreachable statement 异常 原因检查</h1>\n<p>问题描述:</p>\n<pre><code>unreachable statement异常：\n</code></pre>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081447369.png\" alt=\"image_2023-01-23-21-21-25\"></p>\n<p>我这个问题很显然了就是上面 truen 所导致的下面查看下会导致这种情况的规则:</p>\n<h2 id=\"原因一\"><a class=\"markdownIt-Anchor\" href=\"#原因一\">#</a> 原因一</h2>\n<blockquote>\n<p><font style=\"color:red\">java 编译器</font>把 unreachable statement 标记为运行时错误，一个 unreachable statement 就是编译器决定永远不会执行它</p>\n</blockquote>\n<p>下面的几种情况会出现: <code>unreachable statement</code></p>\n<ol>\n<li>\n<p>在 return 语句后写语句</p>\n</li>\n<li>\n<p>在 throw 语句后写语句</p>\n</li>\n<li>\n<p>break,continue 语句之后定义语句</p>\n</li>\n<li>\n<p>“\\u10100”  <code>//合法</code> ，相当于’\\u1010’和字符串 &quot;0&quot;</p>\n</li>\n<li>\n<p>移动位运算符可以用于 long int char short byte</p>\n</li>\n<li>\n<p>类的访问控制符可以是 public, 或什么都不加</p>\n</li>\n<li>\n<p>goto 是保留字但不是关键字，then 什么都不是</p>\n</li>\n<li>\n<p>把超类的类型强制转换后赋予子类的对象时，编译无异常，但运行时会出现异常</p>\n</li>\n</ol>\n<h2 id=\"原因二\"><a class=\"markdownIt-Anchor\" href=\"#原因二\">#</a> 原因二</h2>\n<blockquote>\n<p>不可达语句的造成是因为:<strong> 在此语句前面有一个返回操作，或者其它操作导致不管什么条件都无法执行到这一语句</strong> <br>最重要的是:<strong> 检查最前面语句是否有返回，并查看是否因为自己的疏忽，即使没有语法等错误，导致的任何条件都会在此语句前返回</strong></p>\n</blockquote>\n<p>因为自己的疏忽，好几次在 if 或 for 条件后面加了 <code>;</code>  导致下面的 return 语句不会执行之后的任何语句就会返回 1;</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081447316.png\" alt=\"image_2023-01-23-21-30-27\"></p>\n<p>千万要细心再细心</p>\n",
             "tags": [
                 "问题总汇",
                 "报错"
+            ]
+        },
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
+            "title": "Java-IDEA错误-Error-java-非法字符-ufeff-Error-java-需要class-interface或enum",
+            "date_published": "2024-04-02T06:23:29.797Z",
+            "content_html": "<p>问题描述:</p>\n<pre><code>Java-IDEA错误-Error: java: 非法字符: ‘\\ufeff‘ Error: java: 需要class, interface或enum\n</code></pre>\n<p>错误原因：字符编码问题，转换下字符编码即可</p>\n<p>解决方案:</p>\n<p>将下面状态栏的 <code>File Encoding</code>  编码将 <code>utf-8</code>  改为 <code>GBK</code></p>\n<p>弹出提示框点击 <code>Convert</code>  没有提示 <code>RELOAD GBK</code></p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448448.png\" alt=\"image_2023-01-14-23-38-09\"></p>\n<p>如果页面上有红线提示 <code>RELOAD GBK</code>  直接点击 <code>RELOAD GBK</code></p>\n<p>再次点击 <code>File EnCoding</code>  切换回 <code>UTF-8</code>  同样选择 <code>Convert</code></p>\n<p>再次运行项目，正常</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448126.png\" alt=\"image_2023-01-14-23-39-24\"></p>\n<p>解决方案 2: 整个项目出现问题</p>\n<p>点击 <code>settings --&gt; 搜索 File EnCoding</code>  查看是不是编码有问题如图:</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448893.png\" alt=\"image_2023-01-14-23-42-25\"></p>\n<p>然后 <code>File --&gt; New Project Settings --&gt; settings For New Project --&gt; 搜索 File Settings</code>  做同样修改</p>\n<p>执行方案 1, 把出问题的 java 代码页修改，然后一切正常</p>\n",
+            "tags": [
+                "报错",
+                "编码问题"
             ]
         }
     ]
