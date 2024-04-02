@@ -5,13 +5,14 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 02 Apr 2024 14:23:29 +0800</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2024 14:23:29 +0800</lastBuildDate>
+        <pubDate>Tue, 20 Feb 2024 09:03:48 +0800</pubDate>
+        <lastBuildDate>Tue, 20 Feb 2024 09:03:48 +0800</lastBuildDate>
+        <category>english</category>
         <category>计算机底层</category>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
+        <category>linux</category>
         <category>springboot</category>
         <category>读取配置文件</category>
         <category>报错</category>
@@ -27,7 +28,6 @@
         <category>输入法</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>english</category>
         <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
@@ -37,72 +37,72 @@
         <category>mysql</category>
         <category>git</category>
         <category>web</category>
+        <category>坑点</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
-        <category>坑点</category>
         <category>vscode</category>
         <category>nodeJs</category>
-        <category>密码管理</category>
         <category>windows</category>
+        <category>密码管理</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
+        <category>navicat</category>
         <category>redis</category>
         <category>集群</category>
-        <category>navicat</category>
         <category>知识点</category>
-        <category>config配置类</category>
         <category>jvm</category>
-        <category>数据结构与算法</category>
-        <category>图</category>
-        <category>多路查找树</category>
-        <category>排序</category>
-        <category>查找</category>
-        <category>哈希表</category>
-        <category>递归</category>
-        <category>链表</category>
-        <category>队列</category>
-        <category>栈</category>
-        <category>数组</category>
-        <category>树结构</category>
-        <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
+        <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
         <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
         <category>后序遍历</category>
-        <category>广度优先搜索</category>
         <category>还原二叉树</category>
+        <category>广度优先搜索</category>
+        <category>递归</category>
         <category>双指针</category>
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
         <category>大顶堆</category>
-        <category>单调栈</category>
+        <category>栈</category>
         <category>逆波兰表达式</category>
-        <category>maven</category>
-        <category>servlet</category>
         <category>spring</category>
+        <category>数据结构与算法</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>数组</category>
+        <category>多路查找树</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>图</category>
+        <category>servlet</category>
         <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>菜单数据结构</category>
         <category>网络编程</category>
+        <category>菜单数据结构</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
         <category>第三方库</category>
         <category>Minio</category>
         <category>Thymeleaf</category>
-        <category>hutool</category>
         <category>爬虫</category>
+        <category>hutool</category>
         <category>七牛云</category>
-        <category>API的区别</category>
         <category>设计模式</category>
+        <category>API的区别</category>
         <category>代码经验</category>
         <category>vue3</category>
         <category>前后端交互</category>
@@ -111,6 +111,18 @@
         <category>axios</category>
         <category>ORM</category>
         <category>mybatisplus-join</category>
+        <category>进阶</category>
+        <category>SSM</category>
+        <category>springcloud</category>
+        <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>源码</category>
+        <category>thymeleaf</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
         <category>二叉树的遍历</category>
         <category>avl树</category>
         <category>二叉树搜索树</category>
@@ -118,27 +130,15 @@
         <category>完全二叉树</category>
         <category>heapify</category>
         <category>堆排序</category>
-        <category>阻塞队列</category>
         <category>动态数组</category>
         <category>红黑树</category>
-        <category>进阶</category>
-        <category>SSM</category>
-        <category>springmvc</category>
-        <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>JWT</category>
-        <category>MD5</category>
-        <category>thymeleaf</category>
-        <category>源码</category>
-        <category>拦截器</category>
-        <category>整合jar包</category>
-        <category>Junit</category>
+        <category>阻塞队列</category>
         <category>IO</category>
         <category>String</category>
         <category>http</category>
+        <category>lambda</category>
         <category>number</category>
         <category>stream流</category>
-        <category>lambda</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
@@ -147,27 +147,27 @@
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
+        <category>springboot高级</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Elasticsearch</category>
+        <category>Nacos</category>
         <category>OpenResty</category>
         <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/20/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</guid>
             <title>NoClassDefFoundError: javax/xml/bind/DatatypeConverter</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/20/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</link>
             <category>问题总汇</category>
             <category>jdk版本问题</category>
             <category>springboot</category>
             <category>Jwt</category>
-            <pubDate>Tue, 02 Apr 2024 14:23:29 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;#&lt;/a&gt; NoClassDefFoundError: javax/xml/bind/DatatypeConverter&lt;/h1&gt;
+            <pubDate>Tue, 20 Feb 2024 09:03:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;#&lt;/a&gt; NoClassDefFoundError: javax/xml/bind/DatatypeConverter&lt;/h1&gt;
 &lt;p&gt;问题描述：&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;错误  &lt;code&gt;NoClassDefFoundError: javax/xml/bind/DatatypeConverter&lt;/code&gt;  通常是因为  &lt;code&gt;javax.xml.bind&lt;/code&gt;  包不在 Java 11 及更高版本中可用。这个包包含了  &lt;code&gt;DatatypeConverter&lt;/code&gt;  类。如果你正在使用 Java 11 或更高版本，并且你的代码中使用了  &lt;code&gt;DatatypeConverter&lt;/code&gt; ，你可能会遇到这个错误。你可以考虑使用其他类，如  &lt;code&gt;java.util.Base64&lt;/code&gt; ，来替换  &lt;code&gt;DatatypeConverter&lt;/code&gt;  的功能。&lt;/p&gt;
@@ -183,19 +183,19 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/ClassNotFoundException/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/bug/ClassNotFoundException/</guid>
             <title>java.lang.ClassNotFoundException:javax.xml.bind.DatatypeConverter</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/ClassNotFoundException/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/bug/ClassNotFoundException/</link>
             <category>问题总汇</category>
             <category>jdk版本问题</category>
-            <pubDate>Tue, 02 Apr 2024 14:23:29 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;javalangclassnotfoundexceptionjavaxxmlbinddatatypeconverter&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#javalangclassnotfoundexceptionjavaxxmlbinddatatypeconverter&#34;&gt;#&lt;/a&gt; java.lang.ClassNotFoundException:javax.xml.bind.DatatypeConverter&lt;/h3&gt;
+            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
+            <description><![CDATA[ &lt;h3 id=&#34;javalangclassnotfoundexceptionjavaxxmlbinddatatypeconverter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#javalangclassnotfoundexceptionjavaxxmlbinddatatypeconverter&#34;&gt;#&lt;/a&gt; java.lang.ClassNotFoundException:javax.xml.bind.DatatypeConverter&lt;/h3&gt;
 &lt;p&gt;报错描述：&lt;/p&gt;
 &lt;p&gt;java.lang.ClassNotFoundException:javax.xml.bind.DatatypeConverter&lt;/p&gt;
 &lt;p&gt;原因：可能是因为 SpringBoot 项目结合 JWT 进行登录时出现的问题，因为 jdk 版本太高导致的。&lt;/p&gt;
-&lt;h4 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案：&lt;/h4&gt;
-&lt;h5 id=&#34;一降低jdk版本&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一降低jdk版本&#34;&gt;#&lt;/a&gt; 一，降低 jdk 版本&lt;/h5&gt;
-&lt;h5 id=&#34;二在maven中添加依赖&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二在maven中添加依赖&#34;&gt;#&lt;/a&gt; 二，在 maven 中添加依赖&lt;/h5&gt;
+&lt;h4 id=&#34;解决方案&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决方案&#34;&gt;#&lt;/a&gt; 解决方案：&lt;/h4&gt;
+&lt;h5 id=&#34;一降低jdk版本&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一降低jdk版本&#34;&gt;#&lt;/a&gt; 一，降低 jdk 版本&lt;/h5&gt;
+&lt;h5 id=&#34;二在maven中添加依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二在maven中添加依赖&#34;&gt;#&lt;/a&gt; 二，在 maven 中添加依赖&lt;/h5&gt;
 &lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;javax.xml.bind&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;jaxb-api&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;2.3.1&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;因为 javax.xml.bind 在 jdk8 中 有，但是在更高版本就没有了，所以我们加上就行了。&lt;/p&gt;
  ]]></description>
         </item>

@@ -5,13 +5,14 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2024 14:23:30 +0800</lastBuildDate>
+        <pubDate>Mon, 12 Feb 2024 19:20:10 +0800</pubDate>
+        <lastBuildDate>Mon, 12 Feb 2024 19:20:10 +0800</lastBuildDate>
+        <category>english</category>
         <category>计算机底层</category>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
+        <category>linux</category>
         <category>springboot</category>
         <category>读取配置文件</category>
         <category>报错</category>
@@ -27,7 +28,6 @@
         <category>输入法</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>english</category>
         <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
@@ -37,72 +37,72 @@
         <category>mysql</category>
         <category>git</category>
         <category>web</category>
+        <category>坑点</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
-        <category>坑点</category>
         <category>vscode</category>
         <category>nodeJs</category>
-        <category>密码管理</category>
         <category>windows</category>
+        <category>密码管理</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
+        <category>navicat</category>
         <category>redis</category>
         <category>集群</category>
-        <category>navicat</category>
         <category>知识点</category>
-        <category>config配置类</category>
         <category>jvm</category>
-        <category>数据结构与算法</category>
-        <category>图</category>
-        <category>多路查找树</category>
-        <category>排序</category>
-        <category>查找</category>
-        <category>哈希表</category>
-        <category>递归</category>
-        <category>链表</category>
-        <category>队列</category>
-        <category>栈</category>
-        <category>数组</category>
-        <category>树结构</category>
-        <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
+        <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
         <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
         <category>后序遍历</category>
-        <category>广度优先搜索</category>
         <category>还原二叉树</category>
+        <category>广度优先搜索</category>
+        <category>递归</category>
         <category>双指针</category>
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
         <category>大顶堆</category>
-        <category>单调栈</category>
+        <category>栈</category>
         <category>逆波兰表达式</category>
-        <category>maven</category>
-        <category>servlet</category>
         <category>spring</category>
+        <category>数据结构与算法</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>数组</category>
+        <category>多路查找树</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>图</category>
+        <category>servlet</category>
         <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>菜单数据结构</category>
         <category>网络编程</category>
+        <category>菜单数据结构</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
         <category>第三方库</category>
         <category>Minio</category>
         <category>Thymeleaf</category>
-        <category>hutool</category>
         <category>爬虫</category>
+        <category>hutool</category>
         <category>七牛云</category>
-        <category>API的区别</category>
         <category>设计模式</category>
+        <category>API的区别</category>
         <category>代码经验</category>
         <category>vue3</category>
         <category>前后端交互</category>
@@ -111,6 +111,18 @@
         <category>axios</category>
         <category>ORM</category>
         <category>mybatisplus-join</category>
+        <category>进阶</category>
+        <category>SSM</category>
+        <category>springcloud</category>
+        <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>源码</category>
+        <category>thymeleaf</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
         <category>二叉树的遍历</category>
         <category>avl树</category>
         <category>二叉树搜索树</category>
@@ -118,27 +130,15 @@
         <category>完全二叉树</category>
         <category>heapify</category>
         <category>堆排序</category>
-        <category>阻塞队列</category>
         <category>动态数组</category>
         <category>红黑树</category>
-        <category>进阶</category>
-        <category>SSM</category>
-        <category>springmvc</category>
-        <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>JWT</category>
-        <category>MD5</category>
-        <category>thymeleaf</category>
-        <category>源码</category>
-        <category>拦截器</category>
-        <category>整合jar包</category>
-        <category>Junit</category>
+        <category>阻塞队列</category>
         <category>IO</category>
         <category>String</category>
         <category>http</category>
+        <category>lambda</category>
         <category>number</category>
         <category>stream流</category>
-        <category>lambda</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
@@ -147,31 +147,31 @@
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
+        <category>springboot高级</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Elasticsearch</category>
+        <category>Nacos</category>
         <category>OpenResty</category>
         <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/servlet/BaseServlet%E7%9A%84%E6%8A%BD%E5%8F%96/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/12/computer-science/java/servlet/BaseServlet%E7%9A%84%E6%8A%BD%E5%8F%96/</guid>
             <title>BaseServlet的抽取，简化开发</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/servlet/BaseServlet%E7%9A%84%E6%8A%BD%E5%8F%96/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/12/computer-science/java/servlet/BaseServlet%E7%9A%84%E6%8A%BD%E5%8F%96/</link>
             <category>java</category>
             <category>计算机学科</category>
             <category>基础</category>
             <category>servlet</category>
-            <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;优化servlet&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#优化servlet&#34;&gt;#&lt;/a&gt; 优化 Servlet&lt;/h1&gt;
+            <pubDate>Mon, 12 Feb 2024 19:20:10 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;优化servlet&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#优化servlet&#34;&gt;#&lt;/a&gt; 优化 Servlet&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;减少 Servlet 的数量，现在是一个功能一个 Servlet, 将其优化为一个模块一个 Servlet, 相当于在数据库中一张表对应一个 Servlet, 在 Servlet 中提供不同的方法，完成用户的请求&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-22-14-22-05.png&#34; alt=&#34;image_2023-01-22-14-22-05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-22-14-22-05.png&#34; alt=&#34;image_2023-01-22-14-22-05&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;将所有相关的操作写到一个类中来减少代码的冗余度，比如一个模块如：用户登录，用户查询是一个模块，而商品查询，旅游景点则是另一个模块&lt;/p&gt;
 &lt;/blockquote&gt;

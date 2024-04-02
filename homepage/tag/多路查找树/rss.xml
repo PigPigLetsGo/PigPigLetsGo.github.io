@@ -5,13 +5,14 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2024 14:23:30 +0800</lastBuildDate>
+        <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
+        <lastBuildDate>Wed, 24 Jan 2024 18:48:45 +0800</lastBuildDate>
+        <category>english</category>
         <category>计算机底层</category>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>linux</category>
         <category>jdk版本问题</category>
+        <category>linux</category>
         <category>springboot</category>
         <category>读取配置文件</category>
         <category>报错</category>
@@ -27,7 +28,6 @@
         <category>输入法</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>english</category>
         <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
@@ -37,72 +37,72 @@
         <category>mysql</category>
         <category>git</category>
         <category>web</category>
+        <category>坑点</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
-        <category>坑点</category>
         <category>vscode</category>
         <category>nodeJs</category>
-        <category>密码管理</category>
         <category>windows</category>
+        <category>密码管理</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
+        <category>navicat</category>
         <category>redis</category>
         <category>集群</category>
-        <category>navicat</category>
         <category>知识点</category>
-        <category>config配置类</category>
         <category>jvm</category>
-        <category>数据结构与算法</category>
-        <category>图</category>
-        <category>多路查找树</category>
-        <category>排序</category>
-        <category>查找</category>
-        <category>哈希表</category>
-        <category>递归</category>
-        <category>链表</category>
-        <category>队列</category>
-        <category>栈</category>
-        <category>数组</category>
-        <category>树结构</category>
-        <category>程序员常用的10中算法</category>
+        <category>config配置类</category>
+        <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
         <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
         <category>后序遍历</category>
-        <category>广度优先搜索</category>
         <category>还原二叉树</category>
+        <category>广度优先搜索</category>
+        <category>递归</category>
         <category>双指针</category>
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
+        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
         <category>大顶堆</category>
-        <category>单调栈</category>
+        <category>栈</category>
         <category>逆波兰表达式</category>
-        <category>maven</category>
-        <category>servlet</category>
         <category>spring</category>
+        <category>数据结构与算法</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>数组</category>
+        <category>多路查找树</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>图</category>
+        <category>servlet</category>
         <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>菜单数据结构</category>
         <category>网络编程</category>
+        <category>菜单数据结构</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
         <category>第三方库</category>
         <category>Minio</category>
         <category>Thymeleaf</category>
-        <category>hutool</category>
         <category>爬虫</category>
+        <category>hutool</category>
         <category>七牛云</category>
-        <category>API的区别</category>
         <category>设计模式</category>
+        <category>API的区别</category>
         <category>代码经验</category>
         <category>vue3</category>
         <category>前后端交互</category>
@@ -111,6 +111,18 @@
         <category>axios</category>
         <category>ORM</category>
         <category>mybatisplus-join</category>
+        <category>进阶</category>
+        <category>SSM</category>
+        <category>springcloud</category>
+        <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>源码</category>
+        <category>thymeleaf</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
         <category>二叉树的遍历</category>
         <category>avl树</category>
         <category>二叉树搜索树</category>
@@ -118,27 +130,15 @@
         <category>完全二叉树</category>
         <category>heapify</category>
         <category>堆排序</category>
-        <category>阻塞队列</category>
         <category>动态数组</category>
         <category>红黑树</category>
-        <category>进阶</category>
-        <category>SSM</category>
-        <category>springmvc</category>
-        <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>JWT</category>
-        <category>MD5</category>
-        <category>thymeleaf</category>
-        <category>源码</category>
-        <category>拦截器</category>
-        <category>整合jar包</category>
-        <category>Junit</category>
+        <category>阻塞队列</category>
         <category>IO</category>
         <category>String</category>
         <category>http</category>
+        <category>lambda</category>
         <category>number</category>
         <category>stream流</category>
-        <category>lambda</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
@@ -147,37 +147,37 @@
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
+        <category>springboot高级</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Elasticsearch</category>
+        <category>Nacos</category>
         <category>OpenResty</category>
         <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</guid>
             <title>数据结构与算法-多路查找树</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/data-structures-and-algorithms/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%92%8C%E7%AE%97%E6%B3%95-%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/</link>
             <category>java</category>
             <category>计算机学科</category>
             <category>数据结构与算法</category>
             <category>多路查找树</category>
-            <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;多路查找树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#多路查找树&#34;&gt;#&lt;/a&gt; 多路查找树&lt;/h2&gt;
+            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;多路查找树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多路查找树&#34;&gt;#&lt;/a&gt; 多路查找树&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;#%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%8EB%E6%A0%91&#34;&gt;二叉树与 B 树&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;#%E6%A0%91&#34;&gt;树&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;[B 树，B+ 树，B &lt;code&gt;*&lt;/code&gt;  树](#B 树，B+ 树，B &lt;code&gt;*&lt;/code&gt;  树)&lt;/p&gt;
-&lt;hr&gt;
+&lt;hr /&gt;
 &lt;p&gt;​																				  		&lt;strong&gt;钢达姆机器人&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/%E9%92%A2%E8%BE%BE%E5%A7%86%E6%9C%BA%E5%99%A8%E4%BA%BA.png&#34; alt=&#34;钢达姆机器人&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;二叉树与b树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二叉树与b树&#34;&gt;#&lt;/a&gt; 二叉树与 B 树&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/%E9%92%A2%E8%BE%BE%E5%A7%86%E6%9C%BA%E5%99%A8%E4%BA%BA.png&#34; alt=&#34;钢达姆机器人&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;二叉树与b树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二叉树与b树&#34;&gt;#&lt;/a&gt; 二叉树与 B 树&lt;/h3&gt;
 &lt;p&gt;二叉树的问题分析&lt;/p&gt;
 &lt;p&gt;二叉树的操作效率较高，但是也存在问题，请看下面的二叉树&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711154532431.png&#34; alt=&#34;image-20230711154532431&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711154532431.png&#34; alt=&#34;image-20230711154532431&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;层数：5&lt;/p&gt;
 &lt;p&gt;节点数量：31&lt;/p&gt;
 &lt;ul&gt;
@@ -188,17 +188,17 @@
 &lt;li&gt;&lt;strong&gt;问题 1&lt;/strong&gt;：在&lt;mark&gt;构建二叉树时&lt;/mark&gt;，需要&lt;mark&gt;多次进行  &lt;code&gt;i/o&lt;/code&gt;  操作&lt;/mark&gt; (海量数据存在&lt;mark&gt;数据库&lt;/mark&gt;或&lt;mark&gt;文件&lt;/mark&gt;中)，节点海量，&lt;mark&gt;构建二叉树时，速度有影响&lt;/mark&gt;。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;问题 2&lt;/strong&gt;：&lt;mark&gt;节点海量&lt;/mark&gt;，也会造成二叉树的&lt;mark&gt;高度很大&lt;/mark&gt;，会&lt;mark&gt;降低操作速度&lt;/mark&gt;。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;多叉树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#多叉树&#34;&gt;#&lt;/a&gt; 多叉树&lt;/h4&gt;
+&lt;h4 id=&#34;多叉树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#多叉树&#34;&gt;#&lt;/a&gt; 多叉树&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;在&lt;font style=&#34;color:red&#34;&gt;二叉树中&lt;/font&gt;，每个节点有&lt;font style=&#34;color:red&#34;&gt;数据项&lt;/font&gt;，&lt;font style=&#34;color:red&#34;&gt;最多有两个子节点&lt;/font&gt;。如果&lt;mark&gt;允许每个节点可以有更多的数据项&lt;/mark&gt;和&lt;mark&gt;更多的子节点&lt;/mark&gt;，就是&lt;mark&gt;多叉树&lt;/mark&gt; (multiway tree)&lt;/li&gt;
+&lt;li&gt;在 &amp;lt;font style=&amp;quot;color:red&amp;quot;&amp;gt; 二叉树中 &amp;lt;/font&amp;gt;，每个节点有 &amp;lt; font style=&amp;quot;color:red&amp;quot;&amp;gt; 数据项 &amp;lt;/font&amp;gt;，&amp;lt;font style=&amp;quot;color:red&amp;quot;&amp;gt; 最多有两个子节点 &amp;lt;/font&amp;gt;。如果&lt;mark&gt;允许每个节点可以有更多的数据项&lt;/mark&gt;和&lt;mark&gt;更多的子节点&lt;/mark&gt;，就是&lt;mark&gt;多叉树&lt;/mark&gt; (multiway tree)&lt;/li&gt;
 &lt;li&gt;后面讲解的 2 - 3 树，2 - 3 - 4 树就是多叉树，&lt;mark&gt;多叉树通过重新组织节点，减少树的高度，能对二叉树进行优化&lt;/mark&gt;。&lt;/li&gt;
 &lt;li&gt;举例说明 (下面 2 - 3 树就是一颗多叉树)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711155922937.png&#34; alt=&#34;image-20230711155922937&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711155922937.png&#34; alt=&#34;image-20230711155922937&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;多叉树中，如果一个节点中存在了三个分叉则称为 &lt;mark&gt;3 节点&lt;/mark&gt;。如果是两个分叉则称为 &lt;mark&gt;2 节点&lt;/mark&gt;。&lt;/p&gt;
-&lt;h4 id=&#34;b树的基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b树的基本介绍&#34;&gt;#&lt;/a&gt; B 树的基本介绍&lt;/h4&gt;
+&lt;h4 id=&#34;b树的基本介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树的基本介绍&#34;&gt;#&lt;/a&gt; B 树的基本介绍&lt;/h4&gt;
 &lt;p&gt;B 树通过重新组织节点，降低树的高度，并减少  &lt;code&gt;i/o&lt;/code&gt;  读写次数来提升效率。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711161106696.png&#34; alt=&#34;image-20230711161106696&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711161106696.png&#34; alt=&#34;image-20230711161106696&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;上图说明：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -229,8 +229,8 @@
 &lt;p&gt;指一颗树中 ，节点的度最大的哪一个值。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#树&#34;&gt;#&lt;/a&gt; 树&lt;/h3&gt;
-&lt;h4 id=&#34;2-3-树基本介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-3-树基本介绍&#34;&gt;#&lt;/a&gt; 2 - 3 树基本介绍&lt;/h4&gt;
+&lt;h3 id=&#34;树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#树&#34;&gt;#&lt;/a&gt; 树&lt;/h3&gt;
+&lt;h4 id=&#34;2-3-树基本介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-3-树基本介绍&#34;&gt;#&lt;/a&gt; 2 - 3 树基本介绍&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;2 - 3 树 是最简单的 B 树结构，具有如下特点&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -248,7 +248,7 @@
 &lt;p&gt;&lt;mark&gt;2 - 3 树&lt;/mark&gt;是&lt;mark&gt;由二节点&lt;/mark&gt;和&lt;mark&gt;三节点构成的树&lt;/mark&gt;。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h5 id=&#34;2-3-树构建图解&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-3-树构建图解&#34;&gt;#&lt;/a&gt; 2-3 树构建图解&lt;/h5&gt;
+&lt;h5 id=&#34;2-3-树构建图解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-3-树构建图解&#34;&gt;#&lt;/a&gt; 2-3 树构建图解&lt;/h5&gt;
 &lt;p&gt;对数列 {16, 24, 12, 32, 14, 26, 34, 10, 8, 28, 38, 20} 构建成一个 2-3 树，那么它构建的规则要满足前面说的特点。下面进行图解后，你就明白，上面的特点是如何限制的。&lt;/p&gt;
 &lt;p&gt;有几个额外的注意事项：&lt;/p&gt;
 &lt;ol&gt;
@@ -259,13 +259,13 @@
 &lt;ol&gt;
 &lt;li&gt;添加 16,24&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173129240.png&#34; alt=&#34;image-20230711173129240&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173129240.png&#34; alt=&#34;image-20230711173129240&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;添加 16 时，没有数据，直接新建一个节点，放进去。&lt;/p&gt;
 &lt;p&gt;添加 24 时，发现有一个节点了，并且比 16 大， 此时该节点中只有一个数据，则将 24 放在 16 的右边。&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;添加 12&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173239395.png&#34; alt=&#34;image-20230711173239395&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173239395.png&#34; alt=&#34;image-20230711173239395&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;此时会发现，12 比 16 小，本来应该放在  16 的左边。此时发现这个节点 &lt;strong&gt;已经有两个数据了&lt;/strong&gt;，那么就只能放在 &lt;strong&gt;左子节点&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;如果直接将 12 放到   &lt;code&gt;16 , 24&lt;/code&gt;  的左节点，就会破坏 2-3 树的条件：2  节点 ，要么没有子节点，要么有两个节点。&lt;/p&gt;
 &lt;p&gt;那么此时就只能将  &lt;code&gt;16,24&lt;/code&gt;   这个节点进行拆分。如上图： 24  变成 16 的右节点，12 变成  16  的左节点。&lt;/p&gt;
@@ -274,17 +274,17 @@
 &lt;li&gt;添加 32&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这个就简单了，以现在的树结构，可以直接添加到 24 的 右边 ，变成  &lt;code&gt;24,32&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173649665.png&#34; alt=&#34;image-20230711173649665&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173649665.png&#34; alt=&#34;image-20230711173649665&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;添加 14&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这个也简单，直接添加到 12 的右边，变成  &lt;code&gt;12,14&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173735064.png&#34; alt=&#34;image-20230711173735064&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173735064.png&#34; alt=&#34;image-20230711173735064&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;添加 26&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;此时应该添加到  &lt;code&gt;24,32&lt;/code&gt;  的中间，由于一个节点只能添加两个数据，那么就需要拆分。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173823070.png&#34; alt=&#34;image-20230711173823070&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711173823070.png&#34; alt=&#34;image-20230711173823070&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;为了满足 B 树特点，发现上层的  &lt;code&gt;16&lt;/code&gt;  只有一个数，那么就补足它。组成  &lt;code&gt;16,26&lt;/code&gt; 。&lt;/p&gt;
 &lt;p&gt;因为此时  &lt;code&gt;24,32&lt;/code&gt;  &lt;strong&gt;这个节点，不满足 BST 的排序了&lt;/strong&gt;，24 是小于 26 的。只能 32 满足。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;拆完上层，再拆本层&lt;/strong&gt;：由于 24 介于  &lt;code&gt;16,24&lt;/code&gt;  之间，&lt;strong&gt;则将它安排在 3 节点中的中间节点&lt;/strong&gt;，  &lt;code&gt;24,32&lt;/code&gt;  把 24 拆分出去了，只剩下  &lt;code&gt;32&lt;/code&gt;  ，此时完全满足 B 树的特点&lt;/p&gt;
@@ -292,14 +292,14 @@
 &lt;li&gt;添加 34&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;此时就简单了，添加到  &lt;code&gt;32,34&lt;/code&gt;  中。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174145067.png&#34; alt=&#34;image-20230711174145067&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174145067.png&#34; alt=&#34;image-20230711174145067&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;添加 10&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;此时应该添加到  &lt;code&gt;12,14&lt;/code&gt;  的左侧，但是不满足条件：一个节点最多只能装 2 个数据。&lt;/p&gt;
 &lt;p&gt;放到  &lt;code&gt;12,14&lt;/code&gt;  的左节点，也不满足条件：所有叶子节点必须在同一层，也不满足 2-3 树 节点的 数量要求。&lt;/p&gt;
 &lt;p&gt;那么此时就需要拆分，先看它们上层  &lt;code&gt;16,26&lt;/code&gt;  是满 的，如何做呢？看下图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174344071.png&#34; alt=&#34;image-20230711174344071&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174344071.png&#34; alt=&#34;image-20230711174344071&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;左侧的拆分图，上面我们分析过了，不满足 B 树要求，那么就需要拆分成右图这样：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;/li&gt;
@@ -320,13 +320,13 @@
 &lt;li&gt;
 &lt;p&gt;添加 8&lt;/p&gt;
 &lt;p&gt;此时很简单，组成  &lt;code&gt;8,10&lt;/code&gt;  即可&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174809201.png&#34; alt=&#34;image-20230711174809201&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174809201.png&#34; alt=&#34;image-20230711174809201&#34; /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;添加 28&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174827823.png&#34; alt=&#34;image-20230711174827823&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711174827823.png&#34; alt=&#34;image-20230711174827823&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这里有个小问题，此时 28 不是应该加在  &lt;code&gt;26,28&lt;/code&gt;  吗？难道说还有一个规则？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;只有一个数据的节点&lt;/strong&gt;，下面只允许 &lt;strong&gt;最多右 2 个节点，要么没有&lt;/strong&gt;&lt;/li&gt;
@@ -336,13 +336,13 @@
 &lt;li&gt;添加 38&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;此时就简单，直接组成  &lt;code&gt;34,38&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711175119632.png&#34; alt=&#34;image-20230711175119632&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711175119632.png&#34; alt=&#34;image-20230711175119632&#34; /&gt;&lt;/p&gt;
 &lt;ol start=&#34;11&#34;&gt;
 &lt;li&gt;添加 20&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;这个也简单，直接组成  &lt;code&gt;20,24&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711175153140.png&#34; alt=&#34;image-20230711175153140&#34;&gt;&lt;/p&gt;
-&lt;h5 id=&#34;2-3树添加规则总结&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-3树添加规则总结&#34;&gt;#&lt;/a&gt; 2-3 树添加规则总结&lt;/h5&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711175153140.png&#34; alt=&#34;image-20230711175153140&#34; /&gt;&lt;/p&gt;
+&lt;h5 id=&#34;2-3树添加规则总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-3树添加规则总结&#34;&gt;#&lt;/a&gt; 2-3 树添加规则总结&lt;/h5&gt;
 &lt;p&gt;满足如下特点：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -375,12 +375,12 @@
 &lt;/ol&gt;
 &lt;p&gt;其它说明&lt;/p&gt;
 &lt;p&gt;除了 23 树，还有 234 树等，概念和 23 树类似，也是一种 B 树。如图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711190603750.png&#34; alt=&#34;image-20230711190603750&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;b树b-树b树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b树b-树b树&#34;&gt;#&lt;/a&gt; B 树，B+ 树，B &lt;code&gt;*&lt;/code&gt;  树&lt;/h3&gt;
-&lt;h4 id=&#34;b树的介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b树的介绍&#34;&gt;#&lt;/a&gt; B 树的介绍&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711190603750.png&#34; alt=&#34;image-20230711190603750&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;b树b-树b树&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树b-树b树&#34;&gt;#&lt;/a&gt; B 树，B+ 树，B &lt;code&gt;*&lt;/code&gt;  树&lt;/h3&gt;
+&lt;h4 id=&#34;b树的介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树的介绍&#34;&gt;#&lt;/a&gt; B 树的介绍&lt;/h4&gt;
 &lt;p&gt;&lt;strong&gt;B-tree&lt;/strong&gt; 树即 &lt;mark&gt;B 树&lt;/mark&gt;，&lt;strong&gt;B&lt;/strong&gt; 即&lt;mark&gt; Balanced&lt;/mark&gt;，平衡的意思。有人把 B-tree 翻译成 B - 树，容易让人产生&lt;mark&gt;误解&lt;/mark&gt;。会以为 B - 树是一种树，而 B 树又是另一种树。实际上，&lt;mark&gt;B-tree 就是指的 B 树&lt;/mark&gt;。&lt;/p&gt;
 &lt;p&gt;前面已经介绍了 2-3 树 和 2-3-4 树，它们就是 B 树 (英语: B-tree 也写成 B - 树)，这里我们再做一个说明，我们在学习 MySQL 时，经常听到说某种类型的索引是基于 B 树或者 B + 树的，如图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711191024778.png&#34; alt=&#34;image-20230711191024778&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711191024778.png&#34; alt=&#34;image-20230711191024778&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;B 树的说明&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;B 树的阶：节点的最多子节点个数。比如 2-3 树的阶是 3，2-3-4 树的阶是 4&lt;/li&gt;
@@ -389,9 +389,9 @@
 &lt;li&gt;搜索有可能在非叶子结点结束&lt;/li&gt;
 &lt;li&gt;其搜索性能等价于在关键字全集内做一次二分查找&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;b树的介绍-2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b树的介绍-2&#34;&gt;#&lt;/a&gt; B + 树的介绍&lt;/h4&gt;
+&lt;h4 id=&#34;b树的介绍-2&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树的介绍-2&#34;&gt;#&lt;/a&gt; B + 树的介绍&lt;/h4&gt;
 &lt;p&gt;B + 树是 B 树的变体，也是一种多路搜索树。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711194503904.png&#34; alt=&#34;image-20230711194503904&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711194503904.png&#34; alt=&#34;image-20230711194503904&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;B + 树的说明&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;B + 树的搜索与 B 树也基本相同，区别是 B + 树只有达到叶子结点才命中（B 树可以在非叶子结点命中），其性能也等价于在关键字全集做一次二分查找&lt;/li&gt;
@@ -401,9 +401,9 @@
 &lt;li&gt;更适合文件索引系统&lt;/li&gt;
 &lt;li&gt;B 树和 B + 树各有自己的应用场景，不能说 B + 树&lt;strong&gt;完全比&lt;/strong&gt; B 树好，反之亦然.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h4 id=&#34;b树的介绍-3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#b树的介绍-3&#34;&gt;#&lt;/a&gt; B 树的介绍&lt;/h4&gt;
+&lt;h4 id=&#34;b树的介绍-3&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b树的介绍-3&#34;&gt;#&lt;/a&gt; B 树的介绍&lt;/h4&gt;
 &lt;p&gt;B * 树是 B + 树的变体，在 B + 树的非根和非叶子结点再增加指向兄弟的指针。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711195028517.png&#34; alt=&#34;image-20230711195028517&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20230711195028517.png&#34; alt=&#34;image-20230711195028517&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;B 树的说明&lt;/strong&gt;:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;B * 树定义了非叶子结点关键字个数至少为 (2/3)*M，即块的最低使用率为 2/3，而 B + 树的块的最低使用率为 B + 树的 1/2。&lt;/li&gt;
