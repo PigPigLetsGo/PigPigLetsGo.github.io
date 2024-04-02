@@ -5,30 +5,30 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 08 Feb 2024 12:43:41 +0800</pubDate>
-        <lastBuildDate>Thu, 08 Feb 2024 12:43:41 +0800</lastBuildDate>
-        <category>计算机底层</category>
-        <category>linux</category>
+        <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:51 +0800</lastBuildDate>
+        <category>mybatis</category>
         <category>问题总汇</category>
+        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>JdbcTemplate</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
-        <category>springboot</category>
+        <category>JdbcTemplate</category>
         <category>Jwt</category>
-        <category>mybatis</category>
-        <category>读取配置文件</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>math</category>
         <category>english</category>
+        <category>计算机底层</category>
+        <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
         <category>C</category>
@@ -38,42 +38,42 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>nodeJs</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>vscode</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
         <category>navicat</category>
-        <category>知识点</category>
         <category>redis</category>
         <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
         <category>jvm</category>
         <category>config配置类</category>
         <category>maven</category>
         <category>数据结构与算法</category>
         <category>图</category>
-        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
+        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
-        <category>spring</category>
         <category>程序员常用的10中算法</category>
         <category>编程题</category>
         <category>动态规划</category>
+        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
-        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
@@ -86,24 +86,24 @@
         <category>小顶堆</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
-        <category>工具类</category>
         <category>servlet</category>
+        <category>spring</category>
+        <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
-        <category>多线程</category>
+        <category>网络编程</category>
         <category>分页</category>
+        <category>多线程</category>
         <category>lombok</category>
-        <category>设计模式</category>
-        <category>爬虫</category>
-        <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
         <category>七牛云</category>
-        <category>代码经验</category>
+        <category>设计模式</category>
+        <category>API的区别</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
@@ -111,64 +111,64 @@
         <category>axios</category>
         <category>mybatisplus-join</category>
         <category>ORM</category>
-        <category>avl树</category>
         <category>进阶</category>
+        <category>avl树</category>
         <category>二叉树搜索树</category>
         <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>动态数组</category>
         <category>红黑树</category>
-        <category>SSM</category>
+        <category>动态数组</category>
         <category>阻塞队列</category>
+        <category>SSM</category>
         <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>MD5</category>
-        <category>JWT</category>
-        <category>thymeleaf</category>
         <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
         <category>源码</category>
+        <category>thymeleaf</category>
         <category>整合jar包</category>
         <category>Junit</category>
         <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
+        <category>number</category>
         <category>http</category>
         <category>lambda</category>
-        <category>number</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
+        <category>jquery</category>
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
         <category>springboot高级</category>
+        <category>Elasticsearch</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Canal</category>
         <category>OpenResty</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <category>Canal</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%A3%81%E7%9B%98/%E6%9F%A5%E8%AF%A2%E7%A3%81%E7%9B%98%E6%83%85%E5%86%B5/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/linux/%E7%A3%81%E7%9B%98/%E6%9F%A5%E8%AF%A2%E7%A3%81%E7%9B%98%E6%83%85%E5%86%B5/</guid>
             <title>linux查询磁盘情况</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%A3%81%E7%9B%98/%E6%9F%A5%E8%AF%A2%E7%A3%81%E7%9B%98%E6%83%85%E5%86%B5/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/linux/%E7%A3%81%E7%9B%98/%E6%9F%A5%E8%AF%A2%E7%A3%81%E7%9B%98%E6%83%85%E5%86%B5/</link>
             <category>linux</category>
             <category>计算机学科</category>
-            <pubDate>Thu, 08 Feb 2024 12:43:41 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;查询磁盘情况&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#查询磁盘情况&#34;&gt;#&lt;/a&gt; 查询磁盘情况&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;查询磁盘情况&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#查询磁盘情况&#34;&gt;#&lt;/a&gt; 查询磁盘情况&lt;/h2&gt;
 &lt;p&gt;基本语法:&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;df&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-h&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;查询系统整体磁盘使用情况&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-25-29.png&#34; alt=&#34;image_2023-01-05-19-25-29&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-25-29.png&#34; alt=&#34;image_2023-01-05-19-25-29&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;参数说明&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;Filesystem：标识该文件系统位于哪个分区，因此该列显示的是设备名称；&lt;/p&gt;
 &lt;p&gt;1K-blocks：此列表示文件系统的总大小，默认以 KB 为单位&lt;/p&gt;
@@ -183,11 +183,11 @@
 &lt;p&gt;-s 指定目录占用大小汇总&lt;/p&gt;
 &lt;p&gt;-h 带计量单位&lt;/p&gt;
 &lt;p&gt;-a 含文件&lt;/p&gt;
-&lt;p&gt;--max-depth=1 子目录深度&lt;/p&gt;
+&lt;p&gt;–max-depth=1 子目录深度&lt;/p&gt;
 &lt;p&gt;-c 列出明细的同时，增加汇总值&lt;/p&gt;
 &lt;p&gt;应用实例:&lt;/p&gt;
 &lt;p&gt;查询 /opt 目录的磁盘占用情况，深度为 1&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124032631.png&#34; alt=&#34;image-20240208124032631&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124032631.png&#34; alt=&#34;image-20240208124032631&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;练习&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -206,13 +206,13 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;#-R 递归显示出所有的文件夹个数，然后统计数量&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt; dkx@192  ~  ll &lt;span class=&#34;token parameter variable&#34;&gt;-R&lt;/span&gt; /opt&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;grep&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;^d&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;wc&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-l&lt;/span&gt;                                                                                     ✔  &lt;span class=&#34;token number&#34;&gt;903&lt;/span&gt;  06:47:27&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token number&#34;&gt;161&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%A3%81%E7%9B%98/Linux%E5%88%86%E5%8C%BA%E6%9C%BA%E5%88%B6/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/linux/%E7%A3%81%E7%9B%98/Linux%E5%88%86%E5%8C%BA%E6%9C%BA%E5%88%B6/</guid>
             <title>Linux分区</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%A3%81%E7%9B%98/Linux%E5%88%86%E5%8C%BA%E6%9C%BA%E5%88%B6/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/linux/%E7%A3%81%E7%9B%98/Linux%E5%88%86%E5%8C%BA%E6%9C%BA%E5%88%B6/</link>
             <category>linux</category>
             <category>计算机学科</category>
-            <pubDate>Thu, 08 Feb 2024 12:43:41 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;linux分区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux分区&#34;&gt;#&lt;/a&gt; Linux 分区&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;linux分区&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#linux分区&#34;&gt;#&lt;/a&gt; Linux 分区&lt;/h2&gt;
 &lt;p&gt;原理介绍&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -222,14 +222,14 @@
 &lt;p&gt;Linux 采用了一种叫 &lt;code&gt;载入&lt;/code&gt;  的处理方法，它的整个文件系统中包含了一整套的文件和目录，且将一个分区和一个目录联系起来，这时要载入的一个分区将使它的存储空间在一个目录下获得&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-11-08.png&#34; alt=&#34;image_2023-01-05-18-11-08&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-11-08.png&#34; alt=&#34;image_2023-01-05-18-11-08&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;查看所有设备挂载情况&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;命令: &lt;code&gt;lsblk&lt;/code&gt;  或者 &lt;code&gt;lsblk -f&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;参数: -f : 显示文件系统信息&lt;/p&gt;
 &lt;p&gt;​		 -m : 显示权限信息&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124153263.png&#34; alt=&#34;image-20240208124153263&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124153263.png&#34; alt=&#34;image-20240208124153263&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;硬盘说明&lt;/li&gt;
 &lt;/ul&gt;
@@ -238,20 +238,20 @@
 &lt;p&gt;Linux 硬盘分 IDE 硬盘和 SCSI 硬盘，目前基本上是 SCSI 硬盘&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;对于 &amp;lt;font color=&#39;red&#39;&amp;gt;IDE 硬盘 &amp;lt;/font&amp;gt;, 驱动器标识符为 &amp;quot;hdx~&amp;quot;, 其中 &amp;quot;hd&amp;quot; 表明分区所在设备的类型，这里是指 IDE 硬盘了.&amp;quot;x&amp;quot; 为盘号 (a 为基本盘，b 为基本从属盘，c 为辅助主盘，d 为辅助从属盘), &amp;quot;~&amp;quot; 代表分区，前四个分区用数字 1 到 4 表示，它们是主分区或扩展分区，从 5 开始就是逻辑分区。例:hda3 表示为第一个 IDE 硬盘上的第三个主分区或扩展分区，hdb2 表示为第二个 IDE 硬盘上的第二个主分区或扩展分区&lt;/p&gt;
+&lt;p&gt;对于&lt;font color=&#39;red&#39;&gt;IDE 硬盘&lt;/font&gt;, 驱动器标识符为 &amp;quot;hdx~&amp;quot;, 其中 &amp;quot;hd&amp;quot; 表明分区所在设备的类型，这里是指 IDE 硬盘了.&amp;quot;x&amp;quot; 为盘号 (a 为基本盘，b 为基本从属盘，c 为辅助主盘，d 为辅助从属盘), &amp;quot;~&amp;quot; 代表分区，前四个分区用数字 1 到 4 表示，它们是主分区或扩展分区，从 5 开始就是逻辑分区。例:hda3 表示为第一个 IDE 硬盘上的第三个主分区或扩展分区，hdb2 表示为第二个 IDE 硬盘上的第二个主分区或扩展分区&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;对于 &amp;lt;font color=&#39;red&#39;&amp;gt;SCSI 硬盘 &amp;lt;/font &amp;gt; 则标识为 &amp;quot;sdx~&amp;quot;, SCSI 硬盘是用 &amp;quot;sd&amp;quot; 来表示分区所在设备的类型的，其余则和 IDE 硬盘的表示方法一样&lt;/p&gt;
+&lt;p&gt;对于&lt;font color=&#39;red&#39;&gt;SCSI 硬盘&lt;/font&gt;则标识为 &amp;quot;sdx~&amp;quot;, SCSI 硬盘是用 &amp;quot;sd&amp;quot; 来表示分区所在设备的类型的，其余则和 IDE 硬盘的表示方法一样&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;增加硬盘&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#增加硬盘&#34;&gt;#&lt;/a&gt; 增加硬盘&lt;/h3&gt;
+&lt;h3 id=&#34;增加硬盘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#增加硬盘&#34;&gt;#&lt;/a&gt; 增加硬盘&lt;/h3&gt;
 &lt;p&gt;虚拟机增加硬盘的步骤&lt;/p&gt;
-&lt;p&gt;在 [虚拟机] 菜单中，选择 [设置], 然后设备列表里添加硬盘，然后一路 [下一步], 中间只有选择磁盘大小的地方需要修改，直到完成，然后 &amp;lt; font color=&#39;red&#39;&amp;gt; 重启系统 &amp;lt;/font&amp;gt;(才能识别！)&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-18-02.png&#34; alt=&#34;image_2023-01-05-18-18-02&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124211316.png&#34; alt=&#34;image-20240208124211316&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-19-22.png&#34; alt=&#34;image_2023-01-05-18-19-22&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-20-05.png&#34; alt=&#34;image_2023-01-05-18-20-05&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-22-53.png&#34; alt=&#34;image_2023-01-05-18-22-53&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在 [虚拟机] 菜单中，选择 [设置], 然后设备列表里添加硬盘，然后一路 [下一步], 中间只有选择磁盘大小的地方需要修改，直到完成，然后&lt;font color=&#39;red&#39;&gt;重启系统&lt;/font&gt;(才能识别！)&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-18-02.png&#34; alt=&#34;image_2023-01-05-18-18-02&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124211316.png&#34; alt=&#34;image-20240208124211316&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-19-22.png&#34; alt=&#34;image_2023-01-05-18-19-22&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-20-05.png&#34; alt=&#34;image_2023-01-05-18-20-05&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-22-53.png&#34; alt=&#34;image_2023-01-05-18-22-53&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;分区&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -276,21 +276,21 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;说明：开始分区后输入 n, 新增分区，然后选择 p, 分区类型为主分区，两次回车默认剩余全部空间，最后输入 w 写入分区并退出，若不保存退出输入 q&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-33-34.png&#34; alt=&#34;image_2023-01-05-18-33-34&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;格式化磁盘&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#格式化磁盘&#34;&gt;#&lt;/a&gt; 格式化磁盘&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-18-33-34.png&#34; alt=&#34;image_2023-01-05-18-33-34&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;格式化磁盘&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#格式化磁盘&#34;&gt;#&lt;/a&gt; 格式化磁盘&lt;/h3&gt;
 &lt;p&gt;分区命令: &lt;code&gt;mkfs -t ext4 /dev/sdb1&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/1286512-20190206141059483-251392832.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/1286512-20190206141059483-251392832.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
 &lt;p&gt;其中 ext4 是分区类型&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124231127.png&#34; alt=&#34;image-20240208124231127&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124231127.png&#34; alt=&#34;image-20240208124231127&#34;&gt;&lt;/p&gt;
 &lt;p&gt;挂载：将一个分区与一个目录联系起来&lt;/p&gt;
 &lt;p&gt;mount   设备名称  挂载目录&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;挂载分区: &lt;code&gt;mount /dev/sdb1 /newdisk&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124240563.png&#34; alt=&#34;image-20240208124240563&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124255145.png&#34; alt=&#34;image-20240208124255145&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124240563.png&#34; alt=&#34;image-20240208124240563&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124255145.png&#34; alt=&#34;image-20240208124255145&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;注意:&amp;lt;font color=&#39;red&#39;&amp;gt; 用命令挂载重启后会生效 &amp;lt;/font&amp;gt;&lt;/li&gt;
+&lt;li&gt;注意:&lt;font color=&#39;red&#39;&gt;用命令挂载重启后会生效&lt;/font&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;断开挂载点：注意切出挂载点目录&lt;/p&gt;
@@ -298,17 +298,17 @@
 &lt;ul&gt;
 &lt;li&gt;断开挂载点: &lt;code&gt;umount /dev/sdb1&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124305347.png&#34; alt=&#34;image-20240208124305347&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124323320.png&#34; alt=&#34;image-20240208124323320&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124305347.png&#34; alt=&#34;image-20240208124305347&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208124323320.png&#34; alt=&#34;image-20240208124323320&#34;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;永久挂载&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;通过修改 &lt;code&gt;/etc/fstab&lt;/code&gt;  实现挂载&lt;/p&gt;
 &lt;p&gt;添加完成后 执行 mount -a 立刻生效&lt;/p&gt;
 &lt;p&gt;第一个数组：0/1 = 备份 / 不备份，第二个数字：2/1/0 = 根目录 / 其它目录文件检查 / 不检查&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-07-32.png&#34; alt=&#34;image_2023-01-05-19-07-32&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-07-32.png&#34; alt=&#34;image_2023-01-05-19-07-32&#34;&gt;&lt;/p&gt;
 &lt;p&gt;重启之后还是挂载的状态说明成功了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-09-52.png&#34; alt=&#34;image_2023-01-05-19-09-52&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-05-19-09-52.png&#34; alt=&#34;image_2023-01-05-19-09-52&#34;&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

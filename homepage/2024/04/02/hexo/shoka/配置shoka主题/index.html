@@ -1,0 +1,305 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>配置shoka主题，以及解决依赖版本问题导致的代码块显示问题 | homepage</title><meta name="author"><meta name="copyright"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="# 配置 shoka 主题 前提：配置好 hexo，会有版本问题下面再解决   访问 github 拉取 shoka 主题代码 https:&#x2F;&#x2F;github.com&#x2F;amehime&#x2F;hexo-theme-shoka  或者直接使用如下命令拉取项目 git clone https:&#x2F;&#x2F;github.com&#x2F;amehime&#x2F;hexo-theme-shoka.git .&#x2F;themes&#x2F;shoka需要知道">
+<meta property="og:type" content="article">
+<meta property="og:title" content="配置shoka主题，以及解决依赖版本问题导致的代码块显示问题">
+<meta property="og:url" content="https://pigpigletsgo.github.io/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/">
+<meta property="og:site_name" content="homepage">
+<meta property="og:description" content="# 配置 shoka 主题 前提：配置好 hexo，会有版本问题下面再解决   访问 github 拉取 shoka 主题代码 https:&#x2F;&#x2F;github.com&#x2F;amehime&#x2F;hexo-theme-shoka  或者直接使用如下命令拉取项目 git clone https:&#x2F;&#x2F;github.com&#x2F;amehime&#x2F;hexo-theme-shoka.git .&#x2F;themes&#x2F;shoka需要知道">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-04-02T10:00:51.874Z">
+<meta property="article:modified_time" content="2024-03-23T14:53:38.336Z">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="shoka">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/homepage/img/favicon.png"><link rel="canonical" href="https://pigpigletsgo.github.io/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/homepage/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/homepage/',
+  algolia: undefined,
+  localSearch: {"path":"/homepage/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '配置shoka主题，以及解决依赖版本问题导致的代码块显示问题',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2024-03-23 22:53:38'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/homepage/atom.xml" title="homepage" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">配置shoka主题，以及解决依赖版本问题导致的代码块显示问题</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-02T10:00:51.874Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-03-23T14:53:38.336Z" title="更新于 2024-03-23 22:53:38">2024-03-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/hexo/">hexo</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/hexo/shoka/">shoka</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="配置shoka主题，以及解决依赖版本问题导致的代码块显示问题"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="配置shoka主题"><a class="markdownIt-Anchor" href="#配置shoka主题">#</a> 配置 shoka 主题</h1>
+<p><strong>前提</strong>：配置好 hexo，会有版本问题下面再解决</p>
+<ol>
+<li>
+<p>访问 github 拉取 shoka 主题代码</p>
+<figure class="highlight http"><figcaption data-lang="HTTP"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token header"><span class="token header-name keyword">https</span><span class="token punctuation">:</span><span class="token header-value">//github.com/amehime/hexo-theme-shoka</span></span></pre></td></tr></table></figure></li>
+<li>
+<p>或者直接使用如下命令拉取项目</p>
+<figure class="highlight http"><figcaption data-lang="HTTP"></figcaption><table><tr><td data-num="1"></td><td><pre>git clone https://github.com/amehime/hexo-theme-shoka.git ./themes/shoka</pre></td></tr></table></figure><p>需要知道的几点：</p>
+<ol>
+<li>shoka 拉取下来后里面有一个 example 目录，这个目录里面都是例子代码，并不会配置了对项目生效的 😪</li>
+<li>其中 example 下的 package.json 是 hexo 目录中的 package.json 的参考文件，_config.yml 是 hexo 目录中的 <code>_config.yml</code>  参考文件， <code>_config.shoka.yml</code>  是 shok 中的 <code>_config.yml</code>  参考文件。注意不要混淆！</li>
+<li>建议将 shoka 中的 example 中的配置文件与 hexo 的配置文件内容放到 hexo 的配置文件中，避免重复的设置项 不然会报错的</li>
+</ol>
+</li>
+<li>
+<p>拉取下来 shoka 项目后确认这个项目放到的位置是在 hexo 的 themes 目录中</p>
+</li>
+<li>
+<p>修改 hexo 的_config.yml 文件，将里面的主题项修改为 shoka</p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment"># Extensions</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">## Plugins: http://hexo.io/plugins/</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">## Themes: http://hexo.io/themes/</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key atrule">theme</span><span class="token punctuation">:</span> shoka <span class="token comment"># edit for Theme.shoka</span></pre></td></tr></table></figure><p>配置完成后基本上 shoka 这个主题就应用上去了，我们就可以去配置 shoka 的_config.yml 配置了</p>
+</li>
+<li>
+<p>安装依赖的插件：</p>
+<table>
+<thead>
+<tr>
+<th>插件名称</th>
+<th>npm 地址</th>
+<th>功能</th>
+<th>依赖程度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>hexo-renderer-multi-markdown-it</td>
+<td>链接</td>
+<td>md 文件渲染器，压缩 css/js/html</td>
+<td>必需</td>
+</tr>
+<tr>
+<td>hexo-autoprefixer</td>
+<td>链接</td>
+<td>给生成的 css 文件们添加浏览器前缀</td>
+<td>必需</td>
+</tr>
+<tr>
+<td>hexo-algoliasearch</td>
+<td>链接</td>
+<td>站内搜索功能</td>
+<td>搜索按钮失灵</td>
+</tr>
+<tr>
+<td>hexo-symbols-count-time</td>
+<td>链接</td>
+<td>文章或站点字数及阅读时间统计</td>
+<td>统计没有</td>
+</tr>
+<tr>
+<td>hexo-feed</td>
+<td>链接</td>
+<td>生成 Feed 文件</td>
+<td>Feed 文件没有</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>hexo-renderer-multi-markdown-it   ：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-renderer-multi-markdown-it">https://www.npmjs.com/package/hexo-renderer-multi-markdown-it</a></li>
+<li>hexo-autoprefixer : <a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-autoprefixer">https://www.npmjs.com/package/hexo-autoprefixer</a></li>
+<li>hexo-algoliasearch ：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-algoliasearch">https://www.npmjs.com/package/hexo-algoliasearch</a></li>
+<li>hexo-symbols-count-time ：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-symbols-count-time">https://www.npmjs.com/package/hexo-symbols-count-time</a></li>
+<li>hexo-feed ：<a target="_blank" rel="noopener" href="https://www.npmjs.com/package/hexo-feed">https://www.npmjs.com/package/hexo-feed</a></li>
+</ul>
+</li>
+<li>
+<p>如果直接下载上面的插件可能导致 页面的 代码块 显示有问题 这是 版本问题所导致的解决问题如下：修改 package.json 文件</p>
+</li>
+<li>
+<p>修改 hexo 的 package.json 的文件内容，将 shoka 的 example 目录中的 package.json 文件的内容拷贝到 hexo 的 package.json 中即可</p>
+</li>
+<li>
+<p>修改完 package.json 文件内容后执行下面的命令降级 hexo</p>
+<ul>
+<li>
+<p>重新全局安装 hexo 5.4.2</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">npm</span> <span class="token function">install</span> <span class="token parameter variable">-g</span> hexo@5.4.2</pre></td></tr></table></figure></li>
+<li>
+<p>然后在 hexo 目录下更新依赖</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token function">npm</span> <span class="token function">install</span></pre></td></tr></table></figure></li>
+<li>
+<p>然后重新生成就可以解决问题了</p>
+<figure class="highlight bash"><figcaption data-lang="bash"></figcaption><table><tr><td data-num="1"></td><td><pre>hexo clean <span class="token operator">&amp;&amp;</span> hexo g <span class="token operator">&amp;&amp;</span> hexo s</pre></td></tr></table></figure><p>注意：浏览器可能有缓存，记得刷新缓存</p>
+</li>
+</ul>
+</li>
+<li>
+<p>然后将 shoka 中的 example\source 目录中的  <code>_data</code>  ，assets， friends 这几个目录放到 hexo 的 source 目录中，注意你要配置友情链接可以看 friends 目录中的说明，这个目录就是友情链接的配置文件，其余的如下：</p>
+</li>
+<li>
+<p>什么是 about，friends，links？就是如下图</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031903220.png" alt="image-20240103190306102"></p>
+<ul>
+<li>
+<p>about：关于 的页面配置，在 hexo 的 source 目录中创建 about 目录里面创建 index.md 文件，在里面写 helloworld 然后重新生成 hexo s 打开网页后点击关于查看 会显示 hello world 字样</p>
+</li>
+<li>
+<p>links：链接 的配置同样的在 hexo 的 source 目录中创建 links 目录然后里面创建 index.md 文件用于配置链接的页面</p>
+</li>
+<li>
+<p><code>_post</code> ：里面是配置 .md 笔记的，在该目录中创建 目录分类 比如 java 目录里面存放 java 的笔记 易于管理 并且 创建 java 目录后我们需要在 hexo 的 <code>_config.yml</code>  文件中进行 category_map 的配置格式如下：</p>
+<figure class="highlight yaml"><figcaption data-lang="YAML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment"># Category &amp; Tag</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key atrule">default_category</span><span class="token punctuation">:</span> uncategorized</pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token key atrule">category_map</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre>  <span class="token key atrule">计算机学科</span><span class="token punctuation">:</span> computer<span class="token punctuation">-</span>science</pre></td></tr><tr><td data-num="5"></td><td><pre>  <span class="token key atrule">数据结构与算法</span><span class="token punctuation">:</span> data<span class="token punctuation">-</span>structures<span class="token punctuation">-</span>and<span class="token punctuation">-</span>algorithms</pre></td></tr><tr><td data-num="6"></td><td><pre>  <span class="token key atrule">编程题</span><span class="token punctuation">:</span> programming<span class="token punctuation">-</span>questions</pre></td></tr><tr><td data-num="7"></td><td><pre>  <span class="token key atrule">Java</span><span class="token punctuation">:</span> java</pre></td></tr><tr><td data-num="8"></td><td><pre>  <span class="token key atrule">js</span><span class="token punctuation">:</span> js</pre></td></tr><tr><td data-num="9"></td><td><pre>  <span class="token key atrule">web</span><span class="token punctuation">:</span> web</pre></td></tr><tr><td data-num="10"></td><td><pre>  <span class="token key atrule">video</span><span class="token punctuation">:</span> video</pre></td></tr><tr><td data-num="11"></td><td><pre>  <span class="token key atrule">movie</span><span class="token punctuation">:</span> movie</pre></td></tr><tr><td data-num="12"></td><td><pre>  <span class="token key atrule">Tvdrama</span><span class="token punctuation">:</span> Tvdrama</pre></td></tr><tr><td data-num="13"></td><td><pre>  <span class="token key atrule">animation</span><span class="token punctuation">:</span> animation</pre></td></tr><tr><td data-num="14"></td><td><pre>  <span class="token key atrule">Reality</span><span class="token punctuation">:</span> Reality</pre></td></tr><tr><td data-num="15"></td><td><pre>  <span class="token key atrule">问题总汇</span><span class="token punctuation">:</span> bug</pre></td></tr><tr><td data-num="16"></td><td><pre>  <span class="token key atrule">css</span><span class="token punctuation">:</span> css</pre></td></tr><tr><td data-num="17"></td><td><pre>  <span class="token key atrule">vue</span><span class="token punctuation">:</span> vue</pre></td></tr><tr><td data-num="18"></td><td><pre>  <span class="token key atrule">vue3</span><span class="token punctuation">:</span> vue3</pre></td></tr><tr><td data-num="19"></td><td><pre>  <span class="token key atrule">database</span><span class="token punctuation">:</span> databse</pre></td></tr><tr><td data-num="20"></td><td><pre>  <span class="token key atrule">mongodb</span><span class="token punctuation">:</span> mongodb</pre></td></tr><tr><td data-num="21"></td><td><pre>  <span class="token key atrule">mysql</span><span class="token punctuation">:</span> mysql</pre></td></tr></table></figure></li>
+<li>
+<p><strong>注意</strong>：下面还有一个 tag_map 的配置项，这里并不是配置标签的不要被误导了，标签是在笔记文件中的 YAML Front Matter 里面配置的 tag 选项 具体格式如下：</p>
+<pre><code class="language-.md笔记文章">---
+title: 这是文章的标题
+categories:
+	- [分类,分类,分类]
+tags:
+	- 标签
+	- 标签
+---
+
+hello world,这里是我的笔记内容
+</code></pre>
+</li>
+</ul>
+</li>
+<li>
+<p>其它的配置就看个人喜好来配置就好了，至此基本的配置完毕！</p>
+</li>
+</ol>
+<h2 id="精选分类配置"><a class="markdownIt-Anchor" href="#精选分类配置">#</a> 精选分类配置</h2>
+<p>在 <code>_post</code>  目录中创建的笔记目录中存放一个 cover.jpg 格式的图片就可以了，注意：必须命名为 cover 否则无效，具体如下：</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051601874.png" alt="image-20240105160129814"></p>
+<p><strong>注意</strong>：文章的 categories 的 顺序会对精选分类产生影响的，不要弄混了，建议按照自己建立目录的顺序来写</p>
+<h2 id="评论区配置"><a class="markdownIt-Anchor" href="#评论区配置">#</a> 评论区配置</h2>
+<p>首先到 https://console.leancloud.cn/</p>
+<p>注册一个账号，注册中国大陆的账号！</p>
+<p>创建一个应用</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240323224712402.png" alt="image-20240323224712402"></p>
+<p>点击上面的齿轮进入设置页面，我们就可以拿到 APPID 和 APPKEY 了</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240323224952123.png" alt="image-20240323224952123"></p>
+<p>将其配置到咱们博客配置文件的如下位置</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240323225017072.png" alt="image-20240323225017072"></p>
+<p>随后我们需要配置安全域名否则就会报错的</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240323225100009.png" alt="image-20240323225100009"></p>
+<p>上面配置完成后到结构化数据里面创建一个 Class 名为 Comment 的类，我们就可以正常使用了，如果没有创建该 Class 目测会报错 404 就是找不到 XXX 类，我们就需要按如下图的方式创建对应的 Class。这里的 Comment 就是它报错说 Comment404 我才创建的就好了。</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240323225148544.png" alt="image-20240323225148544"></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage"></a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/">https://pigpigletsgo.github.io/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://pigpigletsgo.github.io/homepage" target="_blank">homepage</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/homepage/tags/hexo/">hexo</a><a class="post-meta__tags" href="/homepage/tags/shoka/">shoka</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AE%E7%9C%8B%E6%9D%BF%E5%A8%98/" title="shoka配置看板娘"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">shoka配置看板娘</div></div></a></div><div class="next-post pull-right"><a href="/homepage/2024/04/02/english/part1/" title="句子成分与基本句型-part1"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">句子成分与基本句型-part1</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3shoka%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98/" title="shoka使用本地搜索"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">shoka使用本地搜索</div></div></a></div><div><a href="/homepage/2024/04/02/hexo/shoka/%E9%85%8D%E7%BD%AE%E7%9C%8B%E6%9D%BF%E5%A8%98/" title="shoka配置看板娘"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">shoka配置看板娘</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEshoka%E4%B8%BB%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text"> 配置 shoka 主题</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B2%BE%E9%80%89%E5%88%86%E7%B1%BB%E9%85%8D%E7%BD%AE"><span class="toc-number">1.1.</span> <span class="toc-text"> 精选分类配置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AF%84%E8%AE%BA%E5%8C%BA%E9%85%8D%E7%BD%AE"><span class="toc-number">1.2.</span> <span class="toc-text"> 评论区配置</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/" title="KeePass的使用">KeePass的使用</a><time datetime="2024-04-02T10:00:51.942Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/json-server/" title="JSON-SERVER">JSON-SERVER</a><time datetime="2024-04-02T10:00:51.935Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/form-serialize%E6%8F%92%E4%BB%B6/" title="form-serialize插件，快速收集表单元素的值">form-serialize插件，快速收集表单元素的值</a><time datetime="2024-04-02T10:00:51.933Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/alova/" title="alova">alova</a><time datetime="2024-04-02T10:00:51.930Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/windows/%E5%AE%89%E8%A3%85scoop/" title="安装和使用scoop">安装和使用scoop</a><time datetime="2024-04-02T10:00:51.923Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

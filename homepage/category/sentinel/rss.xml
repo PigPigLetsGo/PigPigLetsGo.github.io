@@ -5,30 +5,30 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:46 +0800</lastBuildDate>
-        <category>计算机底层</category>
-        <category>linux</category>
+        <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:51 +0800</lastBuildDate>
+        <category>mybatis</category>
         <category>问题总汇</category>
+        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>JdbcTemplate</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
-        <category>springboot</category>
+        <category>JdbcTemplate</category>
         <category>Jwt</category>
-        <category>mybatis</category>
-        <category>读取配置文件</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>math</category>
         <category>english</category>
+        <category>计算机底层</category>
+        <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
         <category>C</category>
@@ -38,42 +38,42 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>nodeJs</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>vscode</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
         <category>navicat</category>
-        <category>知识点</category>
         <category>redis</category>
         <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
         <category>jvm</category>
         <category>config配置类</category>
         <category>maven</category>
         <category>数据结构与算法</category>
         <category>图</category>
-        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
+        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
-        <category>spring</category>
         <category>程序员常用的10中算法</category>
         <category>编程题</category>
         <category>动态规划</category>
+        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
-        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
@@ -86,24 +86,24 @@
         <category>小顶堆</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
-        <category>工具类</category>
         <category>servlet</category>
+        <category>spring</category>
+        <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
-        <category>多线程</category>
+        <category>网络编程</category>
         <category>分页</category>
+        <category>多线程</category>
         <category>lombok</category>
-        <category>设计模式</category>
-        <category>爬虫</category>
-        <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
         <category>七牛云</category>
-        <category>代码经验</category>
+        <category>设计模式</category>
+        <category>API的区别</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
@@ -111,107 +111,107 @@
         <category>axios</category>
         <category>mybatisplus-join</category>
         <category>ORM</category>
-        <category>avl树</category>
         <category>进阶</category>
+        <category>avl树</category>
         <category>二叉树搜索树</category>
         <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>动态数组</category>
         <category>红黑树</category>
-        <category>SSM</category>
+        <category>动态数组</category>
         <category>阻塞队列</category>
+        <category>SSM</category>
         <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>MD5</category>
-        <category>JWT</category>
-        <category>thymeleaf</category>
         <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
         <category>源码</category>
+        <category>thymeleaf</category>
         <category>整合jar包</category>
         <category>Junit</category>
         <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
+        <category>number</category>
         <category>http</category>
         <category>lambda</category>
-        <category>number</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
+        <category>jquery</category>
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
         <category>springboot高级</category>
+        <category>Elasticsearch</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Canal</category>
         <category>OpenResty</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <category>Canal</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/spring/springcloud/springcloud-%E9%AB%98%E7%BA%A7/sentinel/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springcloud/springcloud-%E9%AB%98%E7%BA%A7/sentinel/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96/</guid>
             <title>Sentinel规则持久化</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/java/spring/springcloud/springcloud-%E9%AB%98%E7%BA%A7/sentinel/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springcloud/springcloud-%E9%AB%98%E7%BA%A7/sentinel/sentinel%E8%A7%84%E5%88%99%E6%8C%81%E4%B9%85%E5%8C%96/</link>
             <category>计算机学科</category>
             <category>springcloud</category>
             <category>Sentinel</category>
             <category>持久化</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:46 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;sentinel-规则持久化&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sentinel-规则持久化&#34;&gt;#&lt;/a&gt; Sentinel 规则持久化&lt;/h1&gt;
-&lt;h2 id=&#34;一-修改order-service服务&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-修改order-service服务&#34;&gt;#&lt;/a&gt; 一、修改 order-service 服务&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;sentinel-规则持久化&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#sentinel-规则持久化&#34;&gt;#&lt;/a&gt; Sentinel 规则持久化&lt;/h1&gt;
+&lt;h2 id=&#34;一-修改order-service服务&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-修改order-service服务&#34;&gt;#&lt;/a&gt; 一、修改 order-service 服务&lt;/h2&gt;
 &lt;p&gt;修改 OrderService，让其监听 Nacos 中的 sentinel 规则配置。&lt;/p&gt;
 &lt;p&gt;具体步骤如下：&lt;/p&gt;
-&lt;h3 id=&#34;1引入依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1引入依赖&#34;&gt;#&lt;/a&gt; 1. 引入依赖&lt;/h3&gt;
+&lt;h3 id=&#34;1引入依赖&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1引入依赖&#34;&gt;#&lt;/a&gt; 1. 引入依赖&lt;/h3&gt;
 &lt;p&gt;在 order-service 中引入 sentinel 监听 nacos 的依赖：&lt;/p&gt;
-&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;com.alibaba.csp&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;sentinel-datasource-nacos&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2配置nacos地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2配置nacos地址&#34;&gt;#&lt;/a&gt; 2. 配置 nacos 地址&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;com.alibaba.csp&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;sentinel-datasource-nacos&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;2配置nacos地址&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2配置nacos地址&#34;&gt;#&lt;/a&gt; 2. 配置 nacos 地址&lt;/h3&gt;
 &lt;p&gt;在 order-service 中的 application.yml 文件配置 nacos 地址及监听的配置信息：&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;spring&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;cloud&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;sentinel&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token key atrule&#34;&gt;datasource&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;flow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;nacos&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;server-addr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; localhost&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8848&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# nacos 地址&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;dataId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; orderservice&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;flow&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;rules&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; SENTINEL_GROUP&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;rule-type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; flow &lt;span class=&#34;token comment&#34;&gt;# 还可以是：degrade、authority、param-flow&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;二-修改sentinel-dashboard源码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-修改sentinel-dashboard源码&#34;&gt;#&lt;/a&gt; 二、修改 sentinel-dashboard 源码&lt;/h2&gt;
+&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;spring&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;cloud&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;sentinel&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token key atrule&#34;&gt;datasource&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;flow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;nacos&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;server-addr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; localhost&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8848&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# nacos 地址&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;dataId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; orderservice&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;flow&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;rules&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; SENTINEL_GROUP&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token key atrule&#34;&gt;rule-type&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; flow &lt;span class=&#34;token comment&#34;&gt;# 还可以是：degrade、authority、param-flow&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;二-修改sentinel-dashboard源码&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二-修改sentinel-dashboard源码&#34;&gt;#&lt;/a&gt; 二、修改 sentinel-dashboard 源码&lt;/h2&gt;
 &lt;p&gt;SentinelDashboard 默认不支持 nacos 的持久化，需要修改源码。&lt;/p&gt;
-&lt;h3 id=&#34;1-解压&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-解压&#34;&gt;#&lt;/a&gt; 1. 解压&lt;/h3&gt;
+&lt;h3 id=&#34;1-解压&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#1-解压&#34;&gt;#&lt;/a&gt; 1. 解压&lt;/h3&gt;
 &lt;p&gt;解压课前资料中的 sentinel 源码包：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644436.png&#34; alt=&#34;image-20210618201340086&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644436.png&#34; alt=&#34;image-20210618201340086&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后并用 IDEA 打开这个项目，结构如下：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644159.png&#34; alt=&#34;image-20210618201412878&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;2-修改nacos依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-修改nacos依赖&#34;&gt;#&lt;/a&gt; 2. 修改 nacos 依赖&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644159.png&#34; alt=&#34;image-20210618201412878&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2-修改nacos依赖&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#2-修改nacos依赖&#34;&gt;#&lt;/a&gt; 2. 修改 nacos 依赖&lt;/h3&gt;
 &lt;p&gt;在 sentinel-dashboard 源码的 pom 文件中，nacos 的依赖默认的 scope 是 test，只能在测试时使用，这里要去除：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644823.png&#34; alt=&#34;image-20210618201607831&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644823.png&#34; alt=&#34;image-20210618201607831&#34;&gt;&lt;/p&gt;
 &lt;p&gt;将 sentinel-datasource-nacos 依赖的 scope 去掉：&lt;/p&gt;
-&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;com.alibaba.csp&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;sentinel-datasource-nacos&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;3-添加nacos支持&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-添加nacos支持&#34;&gt;#&lt;/a&gt; 3. 添加 nacos 支持&lt;/h3&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;com.alibaba.csp&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;sentinel-datasource-nacos&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;3-添加nacos支持&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#3-添加nacos支持&#34;&gt;#&lt;/a&gt; 3. 添加 nacos 支持&lt;/h3&gt;
 &lt;p&gt;在 sentinel-dashboard 的 test 包下，已经编写了对 nacos 的支持，我们需要将其拷贝到 main 下。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644434.png&#34; alt=&#34;image-20210618201726280&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;4-修改nacos地址&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-修改nacos地址&#34;&gt;#&lt;/a&gt; 4. 修改 nacos 地址&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644434.png&#34; alt=&#34;image-20210618201726280&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;4-修改nacos地址&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#4-修改nacos地址&#34;&gt;#&lt;/a&gt; 4. 修改 nacos 地址&lt;/h3&gt;
 &lt;p&gt;然后，还需要修改测试代码中的 NacosConfig 类：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644320.png&#34; alt=&#34;image-20210618201912078&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644320.png&#34; alt=&#34;image-20210618201912078&#34;&gt;&lt;/p&gt;
 &lt;p&gt;修改其中的 nacos 地址，让其读取 application.properties 中的配置：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644820.png&#34; alt=&#34;image-20210618202047575&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644820.png&#34; alt=&#34;image-20210618202047575&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在 sentinel-dashboard 的 application.properties 中添加 nacos 地址配置：&lt;/p&gt;
-&lt;figure class=&#34;highlight properties&#34;&gt;&lt;figcaption data-lang=&#34;.properties&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;nacos.addr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;localhost:8848&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;5-配置nacos数据源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#5-配置nacos数据源&#34;&gt;#&lt;/a&gt; 5. 配置 nacos 数据源&lt;/h3&gt;
+&lt;figure class=&#34;highlight properties&#34;&gt;&lt;figcaption data-lang=&#34;.properties&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key attr-name&#34;&gt;nacos.addr&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token value attr-value&#34;&gt;localhost:8848&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;5-配置nacos数据源&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#5-配置nacos数据源&#34;&gt;#&lt;/a&gt; 5. 配置 nacos 数据源&lt;/h3&gt;
 &lt;p&gt;另外，还需要修改 com.alibaba.csp.sentinel.dashboard.controller.v2 包下的 FlowControllerV2 类：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644684.png&#34; alt=&#34;w&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644684.png&#34; alt=&#34;w&#34;&gt;&lt;/p&gt;
 &lt;p&gt;让我们添加的 Nacos 数据源生效：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644334.png&#34; alt=&#34;image-20210618202334536&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;6-修改前端页面&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#6-修改前端页面&#34;&gt;#&lt;/a&gt; 6. 修改前端页面&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644334.png&#34; alt=&#34;image-20210618202334536&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;6-修改前端页面&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#6-修改前端页面&#34;&gt;#&lt;/a&gt; 6. 修改前端页面&lt;/h3&gt;
 &lt;p&gt;接下来，还要修改前端页面，添加一个支持 nacos 的菜单。&lt;/p&gt;
 &lt;p&gt;修改 src/main/webapp/resources/app/scripts/directives/sidebar/ 目录下的 sidebar.html 文件：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644086.png&#34; alt=&#34;image-20210618202433356&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644086.png&#34; alt=&#34;image-20210618202433356&#34;&gt;&lt;/p&gt;
 &lt;p&gt;将其中的这部分注释打开：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644031.png&#34; alt=&#34;image-20210618202449881&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644031.png&#34; alt=&#34;image-20210618202449881&#34;&gt;&lt;/p&gt;
 &lt;p&gt;修改其中的文本：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644504.png&#34; alt=&#34;image-20210618202501928&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;7-重新编译-打包项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#7-重新编译-打包项目&#34;&gt;#&lt;/a&gt; 7. 重新编译、打包项目&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644504.png&#34; alt=&#34;image-20210618202501928&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;7-重新编译-打包项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#7-重新编译-打包项目&#34;&gt;#&lt;/a&gt; 7. 重新编译、打包项目&lt;/h3&gt;
 &lt;p&gt;运行 IDEA 中的 maven 插件，编译和打包修改好的 Sentinel-Dashboard：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644941.png&#34; alt=&#34;image-20210618202701492&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;8启动&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#8启动&#34;&gt;#&lt;/a&gt; 8. 启动&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310171644941.png&#34; alt=&#34;image-20210618202701492&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;8启动&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#8启动&#34;&gt;#&lt;/a&gt; 8. 启动&lt;/h3&gt;
 &lt;p&gt;启动方式跟官方一样：&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;java&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-jar&lt;/span&gt; sentinel-dashboard.jar&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;如果要修改 nacos 地址，需要添加参数：&lt;/p&gt;
 &lt;figure class=&#34;highlight sh&#34;&gt;&lt;figcaption data-lang=&#34;sh&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;java&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-jar&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-Dnacos.addr&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;localhost:8848 sentinel-dashboard.jar&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>

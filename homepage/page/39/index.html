@@ -52,7 +52,7 @@
   isHome: true,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2024-04-02 17:33:06'
+  postUpdate: '2024-04-02 18:06:29'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -150,226 +150,143 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/homepage/atom.xml" title="homepage" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">homepage</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F/" title="旋转图像">旋转图像</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.032Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 旋转图像
-给定一个 n × n 的二维矩阵 matrix 表示一个图像。请你将图像顺时针旋转 90 度。
-你必须在原地旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转
-图像。
-示例
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">homepage</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%A6%82%E8%BF%B0/" title="二叉搜索树的概述">二叉搜索树的概述</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.618Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/">二叉搜索树</a></span></div><div class="content"># 二叉搜索树的概述
+之前我们已经学过了基础的数据结构了比如说：数组，链表，队列。在这些数据结构中如果我想去从中查找一个元素，这个效率高不高呢？答：并不高！都是线性时间 也就是 O (n)
+如果我的需求是必须快速查找，那么我们就需要引入一种新的算法或者数据结构了
+你可能会想到之前学过的 二分查找法，它能不能提高查询效率呢？
+答案：可以的！它可以达到 对数 时间，也就是 Olog (n)
+不过它有限制：必须是针对一个已排序的数组 进行二分查找，但是话说回来 我们对一个数组 做排序 成本还是比较高的
+先去排序再去查找，好像有点得不偿失。
+那么有没有一个 折中的办法呢？答：有！就是我们换一种数据结构 不采用数组了，而是采用 本章要讲的 二叉搜索树
+用它既可以让我们查找效率比较高，也可以让我们在这个结构中加入新的元素时它就是已经排好序的结构
+如下图就一颗二叉搜索树，也称之为 二叉排序树
 
-public static void rotate(int[][] matrix) &#123;        int len = matrix.length;        // 上下交换位置        // 将长度除 2, 因为只循环交换前后位置        for(int i = 0;i &lt; len / 2;i ++)&#123;            // 将数组的一维的前面的放在 tmp 中            int[] tmp = matrix[i];            // 将数组的一维长度最后的位置放到最前面的位置            matrix[i] = matrix[len - i - 1];            // 再将前面的放入到最后面            matrix[len - i - 1] = tmp;       ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0/" title="数组中的第K个最大元素">数组中的第K个最大元素</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.029Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 数组中的第 K 个最大元素
-给定整数数组  nums  和整数  k ，请返回数组中第  **k**  个最大的元素。
-请注意，你需要找的是数组排序后的第  k  个最大的元素，而不是第  k  个不同的元素。
-你必须设计并实现时间复杂度为  O(n)  的算法解决此问题。
-示例 1:
-输入: [3,2,1,5,6,4], k = 2
-输出: 5
+要成为 二叉搜索树 必须符合如下两个特征：
 
-示例 2:
-输入: [3,2,3,1,2,4,5,5,6], k = 4
+树节点增加 key 属性，用来比较谁打谁小，key 不可以重复
+对于任意一个树节点，它的 key 比左子树的 key 都大，同时也比右子树的 key 都小
+
+PS ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%AE%9E%E7%8E%B0/" title="二叉搜索树的实现">二叉搜索树的实现</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.616Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91/">二叉搜索树</a></span></div><div class="content"># 二叉搜索树的实现
+创建二叉搜索树的结构：
+可以把 BSTree1 看作为 java 中的 map 集合他们做的事情都是类似的
+// Binary Search Tree 二叉搜索树public class BSTree1 &#123;    // 根节点    BSTNode root;    // 节点类    static class BSTNode &#123;        int key;        Object value;        BSTNode left;        BSTNode right;        // 根据 key 创建节点的        public BSTNode(int key) &#123;            this.key = key;        &#125;        // 根据 key-value 创建节点的        public BSTNode(int key, Object value) &#123;            this.key = key;            this.value  ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE-%E8%AF%A6%E7%BB%86/" title="二分查找[详细]">二分查找[详细]</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.613Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</a></span></div><div class="content"># 二分查找
+[TOC]
+先了解一下简单查找：很简单就是一个一个的查找效率非常低，打个比方都玩过的猜数字游戏，小明心里想着一个 1 到 100 之间其中一个数组让小李猜这个数字是多少，如果小李一个一个的从 1 开始猜到 100 那么显然是很慢很笨拙的，我们再来说说二分查找，回到主题就是将问题拆分为半，让小李同学不再一个一个的去试
+
+在二分查找中，目标元素的查找区间的定义十分重要，不同的区间的定义写法不一样
+
+因为查找的区间是不断迭代的，所以确定查找的范围十分重要，主要就是左右区间的开和闭的问题，对应的迭代方式也不一样有以下两种方式:
+
+左闭右闭 [left,right]
+左闭右开 [left,right]
+
+# 例子🌰
+这是一个使用二分查找的例题
+题目如下:
+
+给定一个人 n 个元素有序的 (升序) 整形数组 nums 和一个目标值 target, 写一个函数搜索 nums 中的 target, 如果目标值存在返回下标，不存在返回 - 1
+
+可参考	Leetcode 中的二分查找题
+示例一:
+
+输入:nums = [-1,0,3,5,9,12],target = 9
 输出: 4
+解释 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/data-structures-and-algorithms/avl%E6%A0%91/avl%E6%A0%91-%E6%A6%82%E8%BF%B0/" title="avl树-概述">avl树-概述</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.611Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/avl%E6%A0%91/">avl树</a></span></div><div class="content"># avl 树 - 概述
+前面学习过二叉搜索树就知道，如果二叉搜索树长的不平衡，就会影响到它的查找效率
+我们看如下图的  不平衡的 二叉树
 
-提示：
+比如我想查询 1 的元素，那我就需要从根节点开始一路向左找，才能找到 1 的元素。而它的比较次数是 O (n)
+我们怎么解决这个问题呢？我们有个办法就是旋转让上面的二叉树重新变得左右平衡
+也就是让 上面的二叉树 整体向右旋转一下
 
-1 &lt;= k &lt;= nums.length &lt;= 105
--104 &lt;= nums[i] &lt;= 104
+这时 就比 刚才的 二叉树 平衡了一些了， 此时在查询 1 元素效率就会好一点了，而且呢。旋转也不会破坏二叉搜索树的性质
+那新的问题又来了：如果判断给的二叉搜索树 是不平衡的然后让 其二叉树重新变得平衡呢？
+这时，可以通过如下规则来判断：
 
-# 使用小顶堆来解决问题
-# 思路分析：
-比如说 如下案例：
-输入: [3,2,1,5,6,4], k = 2
-输出: 5
+如果一个节点的左右孩子，高度差超过 1，则此节点失衡，才需要旋转
 
-找 第 2 大的元素，我们就把 前两个元素 先加入到小顶堆，如果 k = 4 那么我们就把 前面 4 个元素加入到 小顶堆，我们先看前两个的
+只有当 新增 或者 删除时可能会让一个平衡的二叉树变得不平衡，此时我们就需要进行旋转了。
+AVL 树的定义：
 
-后续的元素 我们不直接添加，而是进行判断 如果 要添加的 元素比 堆顶元素小 那么什么事儿也不做，如果比 堆顶元素大 那么就采用 repla ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B02/" title="数据流的中位数2">数据流的中位数2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.026Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 数据流的中位数 2
-除了上次我们自己实现的 大顶堆 和小堆顶的类
-我们还可以使用现成的类在 Java 中有一个功能类似的类名字叫 “PriorityQueue” 名为 优先级队列，只不过它的名字不叫 堆
-我们用 PriorityQueue 来重写下 数据流的中位数 1 中讲述的题目
-解题思路都是类似的：我们先定义一个 左边的大顶堆，再定义一个右边的小顶堆。用两个堆来解决 这道题目
-# 代码实现如下：
-/** * @author Dkx * @version 1.0 * @2024/1/2311:13 * @function * @comment */@SuppressWarnings("all")public class E04Leetcode295_2&#123;    // 大顶堆    private PriorityQueue&lt;Integer> left = new PriorityQueue&lt;>(            // 定义 比较规则            // PriorityQueue 默认提供的是 根节点是最小值 (小堆) 如果想让 根节点是最大值 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B01/" title="数据流的中位数1">数据流的中位数1</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.022Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 数据流的中位数 1
-中位数是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。
+二叉搜索树在插入和删除时，节点可能失衡
+如果在插入和删除时通过旋转，始终让二叉搜索树保持平衡，称为自平衡的二叉搜索树
+AVL 是平衡二叉搜索树的实现之一
 
-例如  arr = [2,3,4]  的中位数是  3  。
-例如  arr = [2,3]  的中位数是  (2 + 3) / 2 = 2.5  。
+代码实现查看文章：点击查看 其中有讲 AVL 树 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/config%E9%85%8D%E7%BD%AE%E7%B1%BB/redis%E9%85%8D%E7%BD%AE%E7%B1%BB/" title="redis配置类">redis配置类</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.602Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/config%E9%85%8D%E7%BD%AE%E7%B1%BB/">config配置类</a></span></div><div class="content">@Configurationpublic class RedisConfig &#123;    @Bean    @SuppressWarnings(value = &#123; "unchecked", "rawtypes" &#125;)    public RedisTemplate&lt;Object, Object> redisTemplate(RedisConnectionFactory connectionFactory)    &#123;        RedisTemplate&lt;Object, Object> template = new RedisTemplate&lt;>();        template.setConnectionFactory(connectionFactory);        FastJsonRedisSerializer serializer = new FastJsonRedisSerializer(Object.class);        // 使用 StringRedisSerializer 来序列化和反序列化 re ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/config%E9%85%8D%E7%BD%AE%E7%B1%BB/MyBatisPlus%E9%85%8D%E7%BD%AE%E7%B1%BB/" title="MyBatisPlus配置类">MyBatisPlus配置类</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.599Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/config%E9%85%8D%E7%BD%AE%E7%B1%BB/">config配置类</a></span></div><div class="content">@Configuration@MapperScan("com.dkx.mapper")public class MybatisPlusConfig &#123;	/**	 * 新的分页插件	 * 需要设置 MybatisConfiguration#useDeprecatedExecutor = false	 * 避免缓存出现问题 (该属性会在旧插件移除后一同移除)	 */	@Bean	public MybatisPlusInterceptor mybatisPlusInterceptor() &#123;		MybatisPlusInterceptor interceptor = new MybatisPlusInterceptor();		interceptor.addInnerInterceptor(new PaginationInnerInterceptor(DbType.MYSQL));		return interceptor;	&#125;&#125;</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/java/JVM/Jvm/" title="JVM概述">JVM概述</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.595Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/JVM/">JVM</a></span></div><div class="content"># JVM 内存结构
+# 什么是 JVM
+Java Virtual Machine：Java 虚拟机，用来保证 Java 语言跨平台
+Java 虚拟机可以看做是一台抽象的计算机，如同真实的计算机那样，它有自己的指令集以及各种运行内存区域
+Java 虚拟机与 Java 语言并没有必然的联系，它只与特定的二进制文件格式 (class 文件格式) 所关联
+Java 虚拟机就是一个字节码翻译器，它将字节码文件翻译成各个系统对应的机器码，确保字节码文件能在各个系统正确运行
+# 为什么要学习 JVM
+我们知道一个 java 应用程序上线后，肯定会时不时的出现一些问题，除去网络 / 系统本身的问题很多时候 Java 应用程序也会出现问题都是 Java 的虚拟机内存出现的问题，要么是内存溢出了，要么是 GC 停乏 导致响应慢。
+如何解决这些问题呢？
+首先必须学会看懂日志。那么就必须能看懂 GC 日志，这是 Java 虚拟机中的一部分。看懂了 GC 日志就要明白什么是 新生代，老年代，元空间 (永久代) 等。这些就是 java 虚拟机的内存模型，懂了内存模型就要知道 java 虚拟机是如何垃圾回收的。它 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/git/Git/" title="Git版本控制系统">Git版本控制系统</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.589Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/git/">git</a></span></div><div class="content"># Git 版本控制系统
+# git 初始
 
-实现 MedianFinder 类:
+概念：
+一个免费开源，分布式的代码版本控制系统， 帮助开发团队维护代码
+作用：
+记录代码内容，切换代码版本，多人开发时高效合并代码内容
 
-MedianFinder()  初始化  MedianFinder  对象。
-void addNum(int num)  将数据流中的整数  num  添加到数据结构中。
-double findMedian()  返回到目前为止所有元素的中位数。与实际答案相差  10-5  以内的答案将被接受。
+如何学：
+个人本机使用：git 基础命令和概念
+多人共享使用：团队开发同一个项目的代码版本管理
 
-示例 1：
-输入
-[&quot;MedianFinder&quot;, &quot;addNum&quot;, &quot;addNum&quot;, &quot;findMedian&quot;, &quot;addNum&quot;, &quot;findMedian&quot;]
-[[], [1], [2], [], [3], []]
-输出
-[null, null, nul ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E7%AC%ACk%E5%A4%A7%E5%85%83%E7%B4%A0/" title="数据流中的第K个最大元素">数据流中的第K个最大元素</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.018Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 数据流中的第 K 个最大元素
-设计一个找到数据流中第  k  大元素的类（class）。注意是排序后的第  k  大元素，不是第  k  个不同的元素。
-请实现  KthLargest  类：
+# Git 配置用户信息
+配置：用户名和邮箱，应用在每次提交代码版本时表明自己身份.
+命令：
+git config --global user.name '用户名'git config --global user.email '邮箱'
+总结：
 
-KthLargest(int k, int[] nums)  使用整数  k  和整数流  nums  初始化对象。
-int add(int val)  将  val  插入数据流  nums  后，返回当前数据流中第  k  大的元素。
+为何学习 Git ?
 
-示例：
-输入：
-[&quot;KthLargest&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;, &quot;add&quot;]
-[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]
-输出：
-[null, 4, 5, 5, 8, 8]
+管理代码版本，记录，切换，合并代码
 
-解释：
-KthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);
-kthLargest.add(3);   // ret ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%8E%A5%E9%9B%A8%E6%B0%B4/" title="接雨水">接雨水</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.015Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 接雨水
-给定  n  个非负整数表示每个宽度为  1  的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
-示例 1：
 
-输入：height = [0,1,0,2,1,0,1,3,2,1,2,1]
-输出：6
-解释：上面是由数组 [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。 
+Git 学习
 
-示例 2：
-输入：height = [4,2,0,3,2,5]
-输出：9
+现在本机自己使用
+再学习多人共享使用
 
-提示：
 
-n == height.length
-1 &lt;= n &lt;= 2 * 104
-0 &lt;= height[i] &lt;= 105
 
-# 思路分析：
 
-我们可以维护一个单调栈，把柱子一个个的加入到单调栈中
-当加入一个新元素时，如果发现需要弹出 元素，表示遇到了一个 凹陷的位置，此时应该计算雨水容量
+# 掌握 Git 仓库
+Git 仓库 (repository) ：记录文件状态内容的地方，存储着修改的历史记录。
+创建：
 
-比如说 一开始 加入了一个高度为 1 的柱子
 
-然后又加入了 高度 为 0 的柱子，此时是可以的因为不违反单调的规则
+把本地文件夹转换成 Git 仓库：命令：git init.
 
-接下来要加入一个高度为 2 的柱子了，此时 它 违反了单调规则，它要把之前比 2 小的柱子弹出栈
 
-此时弹出栈 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D/" title="打家劫舍">打家劫舍</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.011Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 打家劫舍
-题目要求：
 
-你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警。
-给定一个代表每个房屋存放金额的非负整数数组，计算你 不触动警报装置的情况下 ，一夜之内能够偷窃到的最高金额。
+从其它服务器上克隆 Git 仓库
 
-题目链接：打家劫舍
-示例 1：
-输入：[1,2,3,1]
-输出：4
-解释：偷窃 1 号房屋 (金额 = 1) ，然后偷窃 3 号房屋 (金额 = 3)。
-     偷窃到的最高金额 = 1 + 3 = 4 。
 
-示例 2：
-输入：[2,7,9,3,1]
-输出：12
-解释：偷窃 1 号房屋 (金额 = 2), 偷窃 3 号房屋 (金额 = 9)，接着偷窃 5 号房屋 (金额 = 1)。
-     偷窃到的最高金额 = 2 + 9 + 1 = 12 。
+需求：创建一个空白的 Git 仓库
+打开 GitBash 到项目目录下，执行命令：git init
 
-提示：
+查看项目目录下 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%94%B5%E5%95%86%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84SKU%E4%B8%8ESPU%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1/" title="电商项目中的SKU与SPU的数据库表设计">电商项目中的SKU与SPU的数据库表设计</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.586Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/database/">database</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/database/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a></span></div><div class="content"># 电商项目中的 SKU 与 SPU 的数据库表设计
+# 简介：
+一般情况下我们使用 5 张表就可以解决基本的需求了:
 
-1 &lt;= nums.length &lt;= 100
-0 &lt;= nums[i] &lt;= 400
+商品分类：category
+商品表 (即 SPU 表)：product
+商品规格表 (即 SKU 表)：product_specs
+属性 Key 表：attribute_key
+属性 Value 表：attribute_value
 
-答案：
-class Solution &#123;    public int rob(int ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8/" title="回文链表">回文链表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.007Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 回文链表
-给你一个单链表的头节点  head  ，请你判断该链表是否为回文链表。如果是，返回  true  ；否则，返回  false  。
-示例 1：
+# 具体设计
+spu 表和 sku 表实现不同商品的存储：spu 表使用 attribute_list 字段保存属性集合，查询时使用 product_id 和 product_spacs 去 sku 表中获取的具体的单品信息。spu 表中可以增加一些商品的公共信息字段，例如名称，发布的商家，发布日期，上架状态；sku 表中增加一些每个单品不同的字段，比如不同的单品有不同图片和名称或者详情说明等等，反正根据业务进行扩展。
+核心思路就是把弹性字段使用 json 存储，这样设计的有点是数据表结构稳定，不用在商品增加属性后增加字段，缺点是商品数据的解析复杂，弹性字段需要在业务代码中进行处理，增加了业务代码的复杂度。
+表结构示意图：
 
-输入：head = [1,2,2,1]
-输出：true
+# 商品分 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/" title="批量删除数据库所有表">批量删除数据库所有表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:50.584Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/database/">database</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/database/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a></span></div><div class="content"># 批量删除数据库所有表
+SELECT concat('DROP TABLE IF EXISTS ', table_name, ';')FROM information_schema.tablesWHERE table_schema = 'guan_duoduo';执行后就会生成删除的结果集：
 
-示例 2：
-
-输入：head = [1,2]
-输出：false
-
-提示：
-
-链表中节点数目在范围 [1, 105]  内
-0 &lt;= Node.val &lt;= 9
-
-# 方法 1：快慢指针
-思路分析：
-先找到链表的中间点：
-
-如果是偶数就是中间靠右的 2
-
-1	2	2	1
-
-找到中间点后我们将其后面的节点进行反转
-# 中间节点后面的元素
-2	1
-# 进行反转
-1	2
-
-用反转后的链表跟原始链表进行逐一比较，如果这后半个链表遍历完了大家都相同那么就是 回文
-# 原始链表
-1	2	2	1
-# 遍历，后面半个链表进行比较是否相同，相同就是 回文
-1	2
-
-如果是如下的链表的话，分析结果：
-1	2	3	1
-
-取中间值的后半个链表，然后进行反转
-3	1
-# 反转
-1	3
-
-进行比较，当比较 2 与 3 的时候结果不相同 返回 false 不是一个回文链表
-1	2	3	1
-1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/" title="合并两个有序链表">合并两个有序链表</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.003Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 合并两个有序链表
-将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
-示例 1：
-
-输入：l1 = [1,2,4], l2 = [1,3,4]
-输出：[1,1,2,3,4,4]
-
-示例 2：
-输入：l1 = [], l2 = []
-输出：[]
-
-示例 3：
-输入：l1 = [], l2 = [0]
-输出：[0]
-
-提示：
-
-两个链表的节点数目范围是  [0, 50]
--100 &lt;= Node.val &lt;= 100
-l1  和  l2  均按 非递减顺序 排列
-
-# 方法 1
-
-谁小，把谁链给 p，p 和小的都向后平移一位
-当 p1，p2 有一个为 Null，退出循环，把不为 null 的链给 p
-
-    p1
-1 3 8 9 null
-
-	p2
-2 4 null
-
-  p
-s 1
-
-代码：
-public ListNode mergeTwoLists(ListNode p1, ListNode p2) &#123;        ListNode s = new ListNode(-1, null);        List ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/01/24/computer-science/java/programming-questions/%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84-%E6%94%B9%E5%8A%A8%E7%89%88/" title="合并两个有序数组-改动">合并两个有序数组-改动</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-01-24T10:48:46.000Z" title="发表于 2024-01-24 18:48:46">2024-01-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%BC%96%E7%A8%8B%E9%A2%98/">编程题</a></span></div><div class="content"># 合并两个有序数组 - 改动
-将数组内两个区间内的有序元素合并
-[1, 5, 6, 2, 4, 10, 11]
-
-可以视作两个有序区间
-[1, 5, 6] 和 [2, 4, 10, 11]
-
-合并后，结果扔存储于原有空间
-[1, 2, 4, 5, 6, 10, 11]
-
-a1 原始数组，a2 结果数组 (k)
-i, iEnd 第一个有序区间的起点和终点，j，jEnd 第二个有序区间的起点和终点
-merge([1, 5, 6], [2, 4, 10, 11], a2 = [])&#123;   merge([5, 6], [2, 4, 10, 11], a2 = [1])	&#123;   	merge([5, 6], [4, 10, 11], a2 = [1, 2])		&#123;      	merge([5, 6], [10, 11], a2 = [1, 2, 4])			&#123;         	 merge([6], [10, 11], a2 = [1, 2, 4, 5])				&#123;            	 merge([], [10, 11], a2 = ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/homepage/page/38/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/homepage/">1</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/38/#content-inner">38</a><span class="page-number current">39</span><a class="page-number" href="/homepage/page/40/#content-inner">40</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/46/#content-inner">46</a><a class="extend next" rel="next" href="/homepage/page/40/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/lambda/%E5%A6%99%E7%94%A8Function%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3%E6%B6%88%E7%81%ADif-else/" title="Function函数式接口">Function函数式接口</a><time datetime="2024-04-02T01:52:46.687Z" title="发表于 2024-04-02 09:52:46">2024-04-02</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/01/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/" title="批量删除数据库所有表">批量删除数据库所有表</a><time datetime="2024-04-01T01:34:35.867Z" title="发表于 2024-04-01 09:34:35">2024-04-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/01/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/%E9%80%9A%E8%BF%87%E6%89%8B%E6%9C%BA%E5%8F%B7%E8%8E%B7%E5%8F%96%E5%BD%92%E5%B1%9E%E5%9C%B0%E5%92%8C%E8%BF%90%E8%90%A5%E5%95%86/" title="通过手机号获取归属地和运营商">通过手机号获取归属地和运营商</a><time datetime="2024-04-01T01:06:59.408Z" title="发表于 2024-04-01 09:06:59">2024-04-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/03/31/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%94%B5%E5%95%86%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84SKU%E4%B8%8ESPU%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1/" title="电商项目中的SKU与SPU的数据库表设计">电商项目中的SKU与SPU的数据库表设计</a><time datetime="2024-03-31T06:32:26.858Z" title="发表于 2024-03-31 14:32:26">2024-03-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/03/31/computer-science/database/navicat/navicat%E6%A8%A1%E5%9E%8B-%E6%B8%85%E7%90%86%E8%A1%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/" title="navicat模型-清理表之间的关系">navicat模型-清理表之间的关系</a><time datetime="2024-03-31T02:56:00.245Z" title="发表于 2024-03-31 10:56:00">2024-03-31</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+复制上面的所有结果集 然后再执行以下就会全部删除表了
+</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/homepage/page/38/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/homepage/">1</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/38/#content-inner">38</a><span class="page-number current">39</span><a class="page-number" href="/homepage/page/40/#content-inner">40</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/46/#content-inner">46</a><a class="extend next" rel="next" href="/homepage/page/40/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/" title="KeePass的使用">KeePass的使用</a><time datetime="2024-04-02T10:00:51.942Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/json-server/" title="JSON-SERVER">JSON-SERVER</a><time datetime="2024-04-02T10:00:51.935Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/form-serialize%E6%8F%92%E4%BB%B6/" title="form-serialize插件，快速收集表单元素的值">form-serialize插件，快速收集表单元素的值</a><time datetime="2024-04-02T10:00:51.933Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/alova/" title="alova">alova</a><time datetime="2024-04-02T10:00:51.930Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/windows/%E5%AE%89%E8%A3%85scoop/" title="安装和使用scoop">安装和使用scoop</a><time datetime="2024-04-02T10:00:51.923Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             <a class="card-more-btn" href="/homepage/categories/" title="查看更多">
@@ -377,4 +294,4 @@ merge([1, 5, 6], [2, 4, 10, 11], a2 = [])&#123;   merge([5, 6], [2, 4, 10, 11], 
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/english/"><span class="card-category-list-name">english</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/hexo/"><span class="card-category-list-name">hexo</span><span class="card-category-list-count">2</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/hexo/shoka/"><span class="card-category-list-name">shoka</span><span class="card-category-list-count">2</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/java/"><span class="card-category-list-name">java</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/math/"><span class="card-category-list-name">math</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/"><span class="card-category-list-name">tools</span><span class="card-category-list-count">14</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/idea/"><span class="card-category-list-name">idea</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/nodeJs/"><span class="card-category-list-name">nodeJs</span><span class="card-category-list-count">1</span></a></li></ul></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/homepage/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/" style="font-size: 1.1em; color: #999">拦截器</a> <a href="/homepage/tags/Minio/" style="font-size: 1.1em; color: #999">Minio</a> <a href="/homepage/tags/%E5%9B%BE/" style="font-size: 1.1em; color: #999">图</a> <a href="/homepage/tags/lambda/" style="font-size: 1.1em; color: #999">lambda</a> <a href="/homepage/tags/jquery/" style="font-size: 1.13em; color: #999a9c">jquery</a> <a href="/homepage/tags/web/" style="font-size: 1.5em; color: #99a9bf">web</a> <a href="/homepage/tags/mongodb/" style="font-size: 1.2em; color: #999da3">mongodb</a> <a href="/homepage/tags/%E9%9B%86%E5%90%88/" style="font-size: 1.17em; color: #999c9f">集合</a> <a href="/homepage/tags/springboot/" style="font-size: 1.37em; color: #99a4b2">springboot</a> <a href="/homepage/tags/%E6%A1%88%E4%BE%8BDemo/" style="font-size: 1.43em; color: #99a6b9">案例Demo</a> <a href="/homepage/tags/%E5%B0%8F%E9%A1%B6%E5%A0%86/" style="font-size: 1.2em; color: #999da3">小顶堆</a> <a href="/homepage/tags/Junit/" style="font-size: 1.1em; color: #999">Junit</a> <a href="/homepage/tags/%E6%8A%A5%E9%94%99/" style="font-size: 1.13em; color: #999a9c">报错</a> <a href="/homepage/tags/Swing/" style="font-size: 1.1em; color: #999">Swing</a> <a href="/homepage/tags/websocket/" style="font-size: 1.1em; color: #999">websocket</a> <a href="/homepage/tags/%E9%98%BB%E5%A1%9E%E9%98%9F%E5%88%97/" style="font-size: 1.27em; color: #99a0a9">阻塞队列</a> <a href="/homepage/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">算法</a> <a href="/homepage/tags/%E6%A0%88/" style="font-size: 1.13em; color: #999a9c">栈</a> <a href="/homepage/tags/%E6%9F%A5%E6%89%BE/" style="font-size: 1.1em; color: #999">查找</a> <a href="/homepage/tags/springcloud/" style="font-size: 1.47em; color: #99a8bc">springcloud</a> <a href="/homepage/tags/%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/" style="font-size: 1.1em; color: #999">逆波兰表达式</a> <a href="/homepage/tags/%E8%BE%93%E5%85%A5%E6%B3%95/" style="font-size: 1.1em; color: #999">输入法</a> <a href="/homepage/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/" style="font-size: 1.1em; color: #999">哈希表</a> <a href="/homepage/tags/%E9%83%A8%E7%BD%B2/" style="font-size: 1.17em; color: #999c9f">部署</a> <a href="/homepage/tags/Thymeleaf/" style="font-size: 1.1em; color: #999">Thymeleaf</a> <a href="/homepage/tags/MyBatisPlus/" style="font-size: 1.1em; color: #999">MyBatisPlus</a> <a href="/homepage/tags/nginx/" style="font-size: 1.33em; color: #99a2af">nginx</a> <a href="/homepage/tags/number/" style="font-size: 1.13em; color: #999a9c">number</a> <a href="/homepage/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/" style="font-size: 1.1em; color: #999">堆排序</a> <a href="/homepage/tags/%E5%AF%B9%E8%B1%A1/" style="font-size: 1.13em; color: #999a9c">对象</a> <a href="/homepage/tags/mybatis/" style="font-size: 1.4em; color: #99a5b6">mybatis</a> <a href="/homepage/tags/%E6%BA%90%E7%A0%81/" style="font-size: 1.23em; color: #999ea6">源码</a> <a href="/homepage/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 1.27em; color: #99a0a9">项目</a> <a href="/homepage/tags/maven/" style="font-size: 1.43em; color: #99a6b9">maven</a> <a href="/homepage/tags/Docker/" style="font-size: 1.2em; color: #999da3">Docker</a> <a href="/homepage/tags/lombok/" style="font-size: 1.1em; color: #999">lombok</a> <a href="/homepage/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 1.3em; color: #99a1ac">工具类</a> <a href="/homepage/tags/%E5%9D%91%E7%82%B9/" style="font-size: 1.1em; color: #999">坑点</a> <a href="/homepage/tags/heapify/" style="font-size: 1.17em; color: #999c9f">heapify</a> <a href="/homepage/tags/%E4%B8%83%E7%89%9B%E4%BA%91/" style="font-size: 1.1em; color: #999">七牛云</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><span class="card-archive-list-count">70</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">188</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">191</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">452</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-02T09:33:01.201Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/homepage/tags/navicat/" style="font-size: 1.1em; color: #999">navicat</a> <a href="/homepage/tags/%E6%8A%A5%E9%94%99/" style="font-size: 1.14em; color: #999b9d">报错</a> <a href="/homepage/tags/hexo/" style="font-size: 1.14em; color: #999b9d">hexo</a> <a href="/homepage/tags/%E9%93%BE%E8%A1%A8/" style="font-size: 1.1em; color: #999">链表</a> <a href="/homepage/tags/%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/" style="font-size: 1.14em; color: #999b9d">编码问题</a> <a href="/homepage/tags/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">贪心算法</a> <a href="/homepage/tags/IO/" style="font-size: 1.19em; color: #999da1">IO</a> <a href="/homepage/tags/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.14em; color: #999b9d">完全二叉树</a> <a href="/homepage/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8%E7%9A%8410%E4%B8%AD%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">程序员常用的10中算法</a> <a href="/homepage/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/" style="font-size: 1.1em; color: #999">数据格式</a> <a href="/homepage/tags/lambda/" style="font-size: 1.1em; color: #999">lambda</a> <a href="/homepage/tags/Junit/" style="font-size: 1.1em; color: #999">Junit</a> <a href="/homepage/tags/%E9%9B%86%E7%BE%A4/" style="font-size: 1.19em; color: #999da1">集群</a> <a href="/homepage/tags/vscode/" style="font-size: 1.1em; color: #999">vscode</a> <a href="/homepage/tags/%E8%8F%9C%E5%8D%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.19em; color: #999da1">菜单数据结构</a> <a href="/homepage/tags/%E4%BB%A3%E7%A0%81%E7%BB%8F%E9%AA%8C/" style="font-size: 1.28em; color: #99a0aa">代码经验</a> <a href="/homepage/tags/%E4%B8%83%E7%89%9B%E4%BA%91/" style="font-size: 1.1em; color: #999">七牛云</a> <a href="/homepage/tags/%E6%BA%90%E7%A0%81/" style="font-size: 1.28em; color: #99a0aa">源码</a> <a href="/homepage/tags/%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/" style="font-size: 1.1em; color: #999">多路查找树</a> <a href="/homepage/tags/%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/" style="font-size: 1.1em; color: #999">逆波兰表达式</a> <a href="/homepage/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/" style="font-size: 1.1em; color: #999">拦截器</a> <a href="/homepage/tags/Docker/" style="font-size: 1.23em; color: #999ea6">Docker</a> <a href="/homepage/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.41em; color: #99a5b7">二叉树</a> <a href="/homepage/tags/Knife4j/" style="font-size: 1.1em; color: #999">Knife4j</a> <a href="/homepage/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" style="font-size: 1.19em; color: #999da1">快慢指针</a> <a href="/homepage/tags/%E6%8C%81%E4%B9%85%E5%8C%96/" style="font-size: 1.1em; color: #999">持久化</a> <a href="/homepage/tags/%E4%BB%8B%E7%BB%8D/" style="font-size: 1.37em; color: #99a4b2">介绍</a> <a href="/homepage/tags/springsecurity/" style="font-size: 1.23em; color: #999ea6">springsecurity</a> <a href="/homepage/tags/mysql/" style="font-size: 1.19em; color: #999da1">mysql</a> <a href="/homepage/tags/web/" style="font-size: 1.5em; color: #99a9bf">web</a> <a href="/homepage/tags/%E7%BA%A2%E9%BB%91%E6%A0%91/" style="font-size: 1.14em; color: #999b9d">红黑树</a> <a href="/homepage/tags/Elasticsearch/" style="font-size: 1.19em; color: #999da1">Elasticsearch</a> <a href="/homepage/tags/%E6%A0%88/" style="font-size: 1.14em; color: #999b9d">栈</a> <a href="/homepage/tags/thymeleaf/" style="font-size: 1.1em; color: #999">thymeleaf</a> <a href="/homepage/tags/js/" style="font-size: 1.32em; color: #99a2ae">js</a> <a href="/homepage/tags/mongodb/" style="font-size: 1.23em; color: #999ea6">mongodb</a> <a href="/homepage/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" style="font-size: 1.23em; color: #999ea6">优先级队列</a> <a href="/homepage/tags/%E6%8E%92%E5%BA%8F/" style="font-size: 1.1em; color: #999">排序</a> <a href="/homepage/tags/%E5%88%86%E8%80%8C%E6%B2%BB%E4%B9%8B/" style="font-size: 1.1em; color: #999">分而治之</a> <a href="/homepage/tags/maven/" style="font-size: 1.46em; color: #99a7bb">maven</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">452</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">452</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-02T10:06:24.428Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

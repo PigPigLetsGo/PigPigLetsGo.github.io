@@ -5,30 +5,30 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:45 +0800</lastBuildDate>
-        <category>计算机底层</category>
-        <category>linux</category>
+        <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:51 +0800</lastBuildDate>
+        <category>mybatis</category>
         <category>问题总汇</category>
+        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>JdbcTemplate</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
-        <category>springboot</category>
+        <category>JdbcTemplate</category>
         <category>Jwt</category>
-        <category>mybatis</category>
-        <category>读取配置文件</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>math</category>
         <category>english</category>
+        <category>计算机底层</category>
+        <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
         <category>C</category>
@@ -38,42 +38,42 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>nodeJs</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>vscode</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
         <category>navicat</category>
-        <category>知识点</category>
         <category>redis</category>
         <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
         <category>jvm</category>
         <category>config配置类</category>
         <category>maven</category>
         <category>数据结构与算法</category>
         <category>图</category>
-        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
+        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
-        <category>spring</category>
         <category>程序员常用的10中算法</category>
         <category>编程题</category>
         <category>动态规划</category>
+        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
-        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
@@ -86,24 +86,24 @@
         <category>小顶堆</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
-        <category>工具类</category>
         <category>servlet</category>
+        <category>spring</category>
+        <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
-        <category>多线程</category>
+        <category>网络编程</category>
         <category>分页</category>
+        <category>多线程</category>
         <category>lombok</category>
-        <category>设计模式</category>
-        <category>爬虫</category>
-        <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
         <category>七牛云</category>
-        <category>代码经验</category>
+        <category>设计模式</category>
+        <category>API的区别</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
@@ -111,61 +111,61 @@
         <category>axios</category>
         <category>mybatisplus-join</category>
         <category>ORM</category>
-        <category>avl树</category>
         <category>进阶</category>
+        <category>avl树</category>
         <category>二叉树搜索树</category>
         <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>动态数组</category>
         <category>红黑树</category>
-        <category>SSM</category>
+        <category>动态数组</category>
         <category>阻塞队列</category>
+        <category>SSM</category>
         <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>MD5</category>
-        <category>JWT</category>
-        <category>thymeleaf</category>
         <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
         <category>源码</category>
+        <category>thymeleaf</category>
         <category>整合jar包</category>
         <category>Junit</category>
         <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
+        <category>number</category>
         <category>http</category>
         <category>lambda</category>
-        <category>number</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
+        <category>jquery</category>
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
         <category>springboot高级</category>
+        <category>Elasticsearch</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Canal</category>
         <category>OpenResty</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <category>Canal</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/%E8%BF%9B%E5%88%B6%E6%95%B0/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/%E8%BF%9B%E5%88%B6%E6%95%B0/</guid>
             <title>进制数</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/%E8%BF%9B%E5%88%B6%E6%95%B0/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/%E8%BF%9B%E5%88%B6%E6%95%B0/</link>
             <category>计算机底层</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;进制数&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进制数&#34;&gt;#&lt;/a&gt; 进制数&lt;/h1&gt;
-&lt;h3 id=&#34;二八十六转十进制️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二八十六转十进制️&#34;&gt;#&lt;/a&gt; 二，八，十六转十进制⚡️&lt;/h3&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;进制数&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#进制数&#34;&gt;#&lt;/a&gt; 进制数&lt;/h1&gt;
+&lt;h3 id=&#34;二八十六转十进制️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二八十六转十进制️&#34;&gt;#&lt;/a&gt; 二，八，十六转十进制⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;从最低位 (右边) 开始，将每个位上的位提取出来，剩以进制数 (2,8,16) 的 (位数 - 1 次方), 然后求和&lt;/p&gt;
@@ -179,7 +179,7 @@
 转十进制公式：[10*16^0]+[3*16^1]+[2*16^2]=10+48+512=570
 六进制数：A:10,B:11,C:12,D:13,E:14,F:15。
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;十进制转二八十六️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十进制转二八十六️&#34;&gt;#&lt;/a&gt; 十进制转二，八，十六⚡️&lt;/h3&gt;
+&lt;h3 id=&#34;十进制转二八十六️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#十进制转二八十六️&#34;&gt;#&lt;/a&gt; 十进制转二，八，十六⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;将该数不断除以进制数 (2,8,16), 直到商为 0 为止，然后将每步得到的余数倒过来，就是对应的进制数&lt;/p&gt;
@@ -190,14 +190,14 @@
 &lt;p&gt;例如:&lt;/p&gt;
 &lt;p&gt;十进制数: 123 转二进制&lt;/p&gt;
 &lt;p&gt;公式:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438124.png&#34; alt=&#34;image_2023-04-03-13-32-00&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438124.png&#34; alt=&#34;image_2023-04-03-13-32-00&#34;&gt;&lt;/p&gt;
 &lt;p&gt;十进制数: 678 转八进制数&lt;/p&gt;
 &lt;p&gt;公式:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438397.png&#34; alt=&#34;image_2023-04-03-13-32-33&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438397.png&#34; alt=&#34;image_2023-04-03-13-32-33&#34;&gt;&lt;/p&gt;
 &lt;p&gt;十进制数：8912 转十六进制数&lt;/p&gt;
 &lt;p&gt;公式:&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438244.png&#34; alt=&#34;image_2023-04-03-13-32-56&#34; /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;十进制小数转二进制小数️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十进制小数转二进制小数️&#34;&gt;#&lt;/a&gt; 十进制小数转二进制小数⚡️&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081438244.png&#34; alt=&#34;image_2023-04-03-13-32-56&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;十进制小数转二进制小数️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#十进制小数转二进制小数️&#34;&gt;#&lt;/a&gt; 十进制小数转二进制小数⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;十进制小数，转换成二进制小数采用 &amp;quot;剩 2 取整&amp;quot; 顺序排列&lt;/p&gt;
@@ -212,7 +212,7 @@
   余1取1
  结果为0.111111
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;二进制数转八进制数️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二进制数转八进制数️&#34;&gt;#&lt;/a&gt; 二进制数转八进制数⚡️&lt;/h3&gt;
+&lt;h3 id=&#34;二进制数转八进制数️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二进制数转八进制数️&#34;&gt;#&lt;/a&gt; 二进制数转八进制数⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;从低位开始，将二进制数每三位一组，转成对应的八进制数即可&lt;/p&gt;
@@ -226,7 +226,7 @@
 规律每三位右开始，以1.2.4.8.16的规律来计算。
 只取1的数不取0的数。
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;二进制数转十六进制数️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二进制数转十六进制数️&#34;&gt;#&lt;/a&gt; 二进制数转十六进制数⚡️&lt;/h3&gt;
+&lt;h3 id=&#34;二进制数转十六进制数️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二进制数转十六进制数️&#34;&gt;#&lt;/a&gt; 二进制数转十六进制数⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;从低位开始，将二进制数每四位一组，转成对应的六进制数即可&lt;/p&gt;
@@ -239,7 +239,7 @@
 顺序倒过来即可
 六进制数：A:10,B:11,C:12,D:13,E:14,F:15。
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;八进制数转二进制数️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#八进制数转二进制数️&#34;&gt;#&lt;/a&gt; 八进制数转二进制数⚡️&lt;/h3&gt;
+&lt;h3 id=&#34;八进制数转二进制数️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#八进制数转二进制数️&#34;&gt;#&lt;/a&gt; 八进制数转二进制数⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;将八进制数每 1 位，转成对应的一个 3 位的二进制数即可&lt;/p&gt;
@@ -251,7 +251,7 @@
 3=011
 7=111
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id=&#34;十六进制数转二进制数️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十六进制数转二进制数️&#34;&gt;#&lt;/a&gt; 十六进制数转二进制数⚡️&lt;/h3&gt;
+&lt;h3 id=&#34;十六进制数转二进制数️&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#十六进制数转二进制数️&#34;&gt;#&lt;/a&gt; 十六进制数转二进制数⚡️&lt;/h3&gt;
 &lt;p&gt;规则:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;将十六进制数每 1 位，转成对应的 4 位的一个二进制数即可&lt;/p&gt;
@@ -270,12 +270,12 @@ B=1011
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/%E5%8E%9F%E7%A0%81,%E5%8F%8D%E7%A0%81,%E8%A1%A5%E7%A0%81/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/%E5%8E%9F%E7%A0%81,%E5%8F%8D%E7%A0%81,%E8%A1%A5%E7%A0%81/</guid>
             <title>原码，反码，补码</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/%E5%8E%9F%E7%A0%81,%E5%8F%8D%E7%A0%81,%E8%A1%A5%E7%A0%81/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/%E5%8E%9F%E7%A0%81,%E5%8F%8D%E7%A0%81,%E8%A1%A5%E7%A0%81/</link>
             <category>计算机底层</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;概念&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概念&#34;&gt;#&lt;/a&gt; 概念&lt;/h1&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;概念&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#概念&#34;&gt;#&lt;/a&gt; 概念&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;进制数的最高位是&lt;mark&gt;符号位&lt;/mark&gt;，0 表示正数，1 表示负数.(速记口诀，1 转 90° 就是 - 负号)&lt;/li&gt;
 &lt;li&gt;正数的原码，反码，补码都一样 (三码合一)&lt;/li&gt;
@@ -286,7 +286,7 @@ B=1011
 &lt;li&gt;在计算机运算时，都是以补码的方式来运算的&lt;/li&gt;
 &lt;li&gt;当我们看到运算结果的时候，要看它的原码&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id=&#34;原码反码补码的基础概念和计算方法&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#原码反码补码的基础概念和计算方法&#34;&gt;#&lt;/a&gt; 原码，反码，补码的基础概念和计算方法&lt;/h3&gt;
+&lt;h3 id=&#34;原码反码补码的基础概念和计算方法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#原码反码补码的基础概念和计算方法&#34;&gt;#&lt;/a&gt; 原码，反码，补码的基础概念和计算方法&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;在探求为何机器要使用补码之前，让我们先了解原码，反码和补码的概念，对于一个数，计算机要使用一定的编码方式进行存储，原码，反码，补码是机器存储一个具体数字的编码方式:&lt;/p&gt;
 &lt;/blockquote&gt;

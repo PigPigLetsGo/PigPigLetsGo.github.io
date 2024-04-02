@@ -5,30 +5,30 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-        <lastBuildDate>Wed, 24 Jan 2024 18:48:45 +0800</lastBuildDate>
-        <category>计算机底层</category>
-        <category>linux</category>
+        <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:50 +0800</lastBuildDate>
+        <category>mybatis</category>
         <category>问题总汇</category>
+        <category>linux</category>
         <category>jdk版本问题</category>
-        <category>JdbcTemplate</category>
+        <category>springboot</category>
+        <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
-        <category>springboot</category>
+        <category>JdbcTemplate</category>
         <category>Jwt</category>
-        <category>mybatis</category>
-        <category>读取配置文件</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
         <category>nginx</category>
+        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>math</category>
         <category>english</category>
+        <category>计算机底层</category>
+        <category>math</category>
         <category>算法</category>
         <category>计算机学科</category>
         <category>C</category>
@@ -38,42 +38,42 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>nodeJs</category>
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
-        <category>vscode</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
         <category>navicat</category>
-        <category>知识点</category>
         <category>redis</category>
         <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
         <category>jvm</category>
         <category>config配置类</category>
         <category>maven</category>
         <category>数据结构与算法</category>
         <category>图</category>
-        <category>多路查找树</category>
         <category>递归</category>
         <category>链表</category>
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
+        <category>多路查找树</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
         <category>树结构</category>
-        <category>spring</category>
         <category>程序员常用的10中算法</category>
         <category>编程题</category>
         <category>动态规划</category>
+        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
-        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
@@ -86,24 +86,24 @@
         <category>小顶堆</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
-        <category>工具类</category>
         <category>servlet</category>
+        <category>spring</category>
+        <category>工具类</category>
         <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
-        <category>多线程</category>
+        <category>网络编程</category>
         <category>分页</category>
+        <category>多线程</category>
         <category>lombok</category>
-        <category>设计模式</category>
-        <category>爬虫</category>
-        <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>爬虫</category>
         <category>七牛云</category>
-        <category>代码经验</category>
+        <category>设计模式</category>
+        <category>API的区别</category>
         <category>vue3</category>
         <category>websocket</category>
         <category>前后端交互</category>
@@ -111,74 +111,74 @@
         <category>axios</category>
         <category>mybatisplus-join</category>
         <category>ORM</category>
-        <category>avl树</category>
         <category>进阶</category>
+        <category>avl树</category>
         <category>二叉树搜索树</category>
         <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>动态数组</category>
         <category>红黑树</category>
-        <category>SSM</category>
+        <category>动态数组</category>
         <category>阻塞队列</category>
+        <category>SSM</category>
         <category>springcloud</category>
-        <category>springsecurity</category>
-        <category>MD5</category>
-        <category>JWT</category>
-        <category>thymeleaf</category>
         <category>springmvc</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
         <category>源码</category>
+        <category>thymeleaf</category>
         <category>整合jar包</category>
         <category>Junit</category>
         <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
+        <category>number</category>
         <category>http</category>
         <category>lambda</category>
-        <category>number</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
+        <category>jquery</category>
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>Docker</category>
-        <category>Elasticsearch</category>
-        <category>Nacos</category>
         <category>springboot高级</category>
+        <category>Elasticsearch</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Canal</category>
         <category>OpenResty</category>
-        <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <category>Canal</category>
+        <category>Seata</category>
         <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</guid>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</guid>
             <title>Windows安装MySQL</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/01/24/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</link>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/mysql/MySQL%E5%AE%89%E8%A3%85/</link>
             <category>计算机学科</category>
             <category>mysql</category>
             <category>database</category>
-            <pubDate>Wed, 24 Jan 2024 18:48:45 +0800</pubDate>
-            <description><![CDATA[ &lt;h2 id=&#34;windows安装mysql&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#windows安装mysql&#34;&gt;#&lt;/a&gt; Windows 安装 MySQL&lt;/h2&gt;
+            <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;windows安装mysql&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#windows安装mysql&#34;&gt;#&lt;/a&gt; Windows 安装 MySQL&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;首先找到 MySQL 的官网，点击下载后进入这个页面点击如下图所示&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031529779.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031529779.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;有两个安装的路径它们的含义分别不同我们选择第二个离线安装&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531541.png&#34; alt=&#34;image-20240103153114444&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531541.png&#34; alt=&#34;image-20240103153114444&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;这里我们直接点击下载&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531098.png&#34; alt=&#34;image_2022-12-03-23-07-06&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531098.png&#34; alt=&#34;image_2022-12-03-23-07-06&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;
 &lt;p&gt;安装完成后我们进入下一个阶段：安装与配置&lt;/p&gt;
@@ -195,11 +195,11 @@
 &lt;p&gt;右键安装包点击安装&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531431.png&#34; alt=&#34;image_2022-12-03-23-13-07&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531431.png&#34; alt=&#34;image_2022-12-03-23-13-07&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;6&#34;&gt;
 &lt;li&gt;稍等片刻后就会出现这样的一个页面&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531334.png&#34; alt=&#34;image_2022-12-03-23-14-14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531334.png&#34; alt=&#34;image_2022-12-03-23-14-14&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Developer Default: 安装 MySQL 服务器以及开发 MySQL 所需的工具&lt;/p&gt;
@@ -220,75 +220,75 @@
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;我们点击 Custom 进行自定义安装&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534042.png&#34; alt=&#34;image_2022-12-03-23-18-32&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534042.png&#34; alt=&#34;image_2022-12-03-23-18-32&#34;&gt;&lt;/p&gt;
 &lt;p&gt;可以看到它让我们选择所需的 MySQL 工具，但是我们怎么知道要怎么选择呢不着急这样操作&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;点击 back 退回去，并选中第一个&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531954.png&#34; alt=&#34;image_2022-12-03-23-20-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531954.png&#34; alt=&#34;image_2022-12-03-23-20-10&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;点击 next&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531061.png&#34; alt=&#34;image_2022-12-03-23-21-03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531061.png&#34; alt=&#34;image_2022-12-03-23-21-03&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;再点击 back 退回&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531888.png&#34; alt=&#34;image_2022-12-03-23-21-53&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531888.png&#34; alt=&#34;image_2022-12-03-23-21-53&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;4&#34;&gt;
 &lt;li&gt;选中 Custom 后点击 Next&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532709.png&#34; alt=&#34;image-20240103153205611&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532709.png&#34; alt=&#34;image-20240103153205611&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我们可以看到它既然帮我们自己选好了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531997.png&#34; alt=&#34;image_2022-12-03-23-23-00&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531997.png&#34; alt=&#34;image_2022-12-03-23-23-00&#34;&gt;&lt;/p&gt;
 &lt;p&gt;进行下一步操作，点击右侧的工具进行添加路径&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531352.png&#34; alt=&#34;image_2022-12-03-23-25-54&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031531352.png&#34; alt=&#34;image_2022-12-03-23-25-54&#34;&gt;&lt;/p&gt;
 &lt;p&gt;当然这两个路径需要自己提前创建好：D:\MySQL 和 D:\MySQLData&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532910.png&#34; alt=&#34;image_2022-12-03-23-27-20&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532910.png&#34; alt=&#34;image_2022-12-03-23-27-20&#34;&gt;&lt;/p&gt;
 &lt;p&gt;再进行下一个同样的操作&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532202.png&#34; alt=&#34;image_2022-12-03-23-28-59&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533089.png&#34; alt=&#34;image_2022-12-03-23-30-11&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533608.png&#34; alt=&#34;image_2022-12-03-23-31-55&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534933.png&#34; alt=&#34;image_2022-12-03-23-32-34&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533340.png&#34; alt=&#34;image_2022-12-03-23-33-25&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533439.png&#34; alt=&#34;image_2022-12-03-23-34-27&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534929.png&#34; alt=&#34;image_2022-12-03-23-35-14&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533124.png&#34; alt=&#34;image_2022-12-03-23-35-47&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533800.png&#34; alt=&#34;image_2022-12-03-23-36-09&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533597.png&#34; alt=&#34;image_2022-12-03-23-36-33&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533473.png&#34; alt=&#34;image_2022-12-03-23-36-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031532202.png&#34; alt=&#34;image_2022-12-03-23-28-59&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533089.png&#34; alt=&#34;image_2022-12-03-23-30-11&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533608.png&#34; alt=&#34;image_2022-12-03-23-31-55&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534933.png&#34; alt=&#34;image_2022-12-03-23-32-34&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533340.png&#34; alt=&#34;image_2022-12-03-23-33-25&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533439.png&#34; alt=&#34;image_2022-12-03-23-34-27&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534929.png&#34; alt=&#34;image_2022-12-03-23-35-14&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533124.png&#34; alt=&#34;image_2022-12-03-23-35-47&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533800.png&#34; alt=&#34;image_2022-12-03-23-36-09&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533597.png&#34; alt=&#34;image_2022-12-03-23-36-33&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533473.png&#34; alt=&#34;image_2022-12-03-23-36-58&#34;&gt;&lt;/p&gt;
 &lt;p&gt;完成后点击 Next, 选择 yes&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533394.png&#34; alt=&#34;image_2022-12-03-23-40-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533394.png&#34; alt=&#34;image_2022-12-03-23-40-10&#34;&gt;&lt;/p&gt;
 &lt;p&gt;点击 Execute&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533453.png&#34; alt=&#34;image_2022-12-03-23-40-46&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533453.png&#34; alt=&#34;image_2022-12-03-23-40-46&#34;&gt;&lt;/p&gt;
 &lt;p&gt;完成后点击 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534750.png&#34; alt=&#34;image-20240103153445664&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534750.png&#34; alt=&#34;image-20240103153445664&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这里默认就行直接 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534789.png&#34; alt=&#34;image_2022-12-03-23-43-03&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534789.png&#34; alt=&#34;image_2022-12-03-23-43-03&#34;&gt;&lt;/p&gt;
 &lt;p&gt;选择第二个&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533869.png&#34; alt=&#34;image_2022-12-03-23-44-10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533869.png&#34; alt=&#34;image_2022-12-03-23-44-10&#34;&gt;&lt;/p&gt;
 &lt;p&gt;设置管理员密码 一定要记住这个密码&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533750.png&#34; alt=&#34;image_2022-12-03-23-46-58&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533750.png&#34; alt=&#34;image_2022-12-03-23-46-58&#34;&gt;&lt;/p&gt;
 &lt;p&gt;然后一路下一步就行了&lt;/p&gt;
 &lt;p&gt;这里输入刚才设置的密码之后点击 check 验证然后通过 next&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533690.png&#34; alt=&#34;image_2022-12-03-23-49-38&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533690.png&#34; alt=&#34;image_2022-12-03-23-49-38&#34;&gt;&lt;/p&gt;
 &lt;p&gt;安装成功后会弹出两个窗口我们关闭了，来查看下 MySQL 的目录&lt;/p&gt;
 &lt;p&gt;这里是工具套件目录&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533603.png&#34; alt=&#34;image_2022-12-03-23-52-12&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031533603.png&#34; alt=&#34;image_2022-12-03-23-52-12&#34;&gt;&lt;/p&gt;
 &lt;p&gt;这里是我们安装的 MySQL 数据库目录&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031535512.png&#34; alt=&#34;image-20240103153521470&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031535512.png&#34; alt=&#34;image-20240103153521470&#34;&gt;&lt;/p&gt;
 &lt;p&gt;我们可以切换到 D:\MySQL\MySQL Server8.0\bin 这个目录下执行以下 cmd&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534739.png&#34; alt=&#34;image_2022-12-03-23-58-16&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534739.png&#34; alt=&#34;image_2022-12-03-23-58-16&#34;&gt;&lt;/p&gt;
 &lt;p&gt;在 cmd 中输入 mysql -u root -p 然后输出刚才设置的密码就可以进入 mysql 了&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534708.png&#34; alt=&#34;image_2022-12-03-23-59-55&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534708.png&#34; alt=&#34;image_2022-12-03-23-59-55&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置环境变量&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#配置环境变量&#34;&gt;#&lt;/a&gt; 配置环境变量&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;打开配置的页面，选择 path&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534905.png&#34; alt=&#34;image_2022-12-04-00-02-16&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534905.png&#34; alt=&#34;image_2022-12-04-00-02-16&#34;&gt;&lt;/p&gt;
 &lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;path 中新建输入 mysql 的 bin 目录的路径&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534873.png&#34; alt=&#34;image_2022-12-04-00-04-41&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401031534873.png&#34; alt=&#34;image_2022-12-04-00-04-41&#34;&gt;&lt;/p&gt;
 &lt;p&gt;大功告成！查看下是否可以在 cmd 任意打开的位置都可以进入 mysql 了可以那么就是成功了&lt;/p&gt;
  ]]></description>
         </item>

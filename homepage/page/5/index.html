@@ -52,7 +52,7 @@
   isHome: true,
   isHighlightShrink: true,
   isToc: false,
-  postUpdate: '2024-04-02 17:33:05'
+  postUpdate: '2024-04-02 18:06:29'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -150,146 +150,239 @@
       }
       detectApple()
     })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/homepage/atom.xml" title="homepage" type="application/atom+xml">
-</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">homepage</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/12/computer-science/%E5%9D%91%E7%82%B9/MybatisPlus%E4%B8%AD%E4%BD%BF%E7%94%A8SelectById%E6%9F%A5%E8%AF%A2%E6%95%B0%E6%8D%AE%E6%80%BB%E6%98%AFnull/" title="MybatisPlus中使用SelectById查询数据总是null">MybatisPlus中使用SelectById查询数据总是null</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-12T05:40:26.197Z" title="发表于 2024-03-12 13:40:26">2024-03-12</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/%E5%9D%91%E7%82%B9/">坑点</a></span></div><div class="content"># MybatisPlus 中使用 SelectById 查询数据总是 null
-今天遇到了一个非常坑的问题！
-使用 MyBatisPlus 框架 去查询了一条数据如下：
-
-注意了 ，这个表中明明有 id 的值但是我们查询的代码如下：
-@Overridepublic ShopOrder getOne(Integer id) &#123;   ShopOrder shopOrder = mapper.selectOne(new LambdaQueryWrapper&lt;ShopOrder>().eq(id != null, ShopOrder::getShopId, id));   System.out.println(shopOrder);   return shopOrder;&#125;结果总是查询出来的数据为 null 于是看了下字段发现了有个逻辑删除 is_del 没有被赋值是个 null 改成了 0 结果可以被查询出来了，记录一下今天遇到的坑。
-</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/09/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/http/Java%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%A0%81%E8%B0%83%E7%94%A8%E6%8E%A5%E5%8F%A3(HttpClient%E8%AF%A6%E7%BB%86%E4%BD%BF%E7%94%A8%E5%AE%9E%E4%BE%8B)/" title="Java使用代码调用接口(HttpClient详细使用实例)">Java使用代码调用接口(HttpClient详细使用实例)</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-09T08:16:05.006Z" title="发表于 2024-03-09 16:16:05">2024-03-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/http/">http</a></span></div><div class="content"># Java 使用代码调用接口 (HttpClient 详细使用实例)
-了解什么是 HttpClient：
-Java 中的 HttpClient 是用于进行 HTTP 请求和响应的类库。它提供了一种简单，灵活，可扩展的方式来发送 HTTP 请求 ==，并处理 HTTP 响应 ==。HttpClient 的核心功能包括创建 HTTP 请求，设置请求参数，发送请求，接收响应，处理响应数据以及处理异常情况。它使得在 Java 应用程序中实现 HTTP 通信变得更加方便和高效。
-HttpClient 的主要功能：
-实现了所有 HTTP 的方法 (GET,POST,PUT,DELETE,HEAD,OPTIONS) 等
-支持 HTTPS 协议
-支持自动 (跳转) 转向
-. . .
-# 1 引入依赖
-# 1.1 引入 HttpClient 的依赖
-&lt;dependency>   &lt;groupId>org.apache.httpcomponents&lt;/groupId>   &lt;artifactId>httpclient&lt;/artifactId>   &lt;version>4 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/08/tools/idea/Idea%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/" title="Idea插件推荐">Idea插件推荐</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-08T14:59:23.612Z" title="发表于 2024-03-08 22:59:23">2024-03-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/tools/">tools</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/tools/idea/">idea</a></span></div><div class="content"># Idea 插件推荐
-
-AceJump
-Atom Material Icons
-Free MyBatis Tool
-Grep Console
-Idea Vim
-IdeaVim-EsayMotion
-IdeaVimExtension
-Maven Helper
-PMD
-RestfulTool
-PlantUML Integration
-Rainbow Brackets
-JRebel and XRebel
-EditStarters
-
-</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/08/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/jsoup%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/" title="jsoup">jsoup</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-08T10:01:04.121Z" title="发表于 2024-03-08 18:01:04">2024-03-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/">第三方库</a></span></div><div class="content"># 一、jsoup 概述
-jsoup 是一款基于 Java 的 HTML 解析器，它提供了一套非常省力的 API，不但能直接解析某个 URL 地址、HTML 文本内容，而且还能通过类似于 DOM、CSS 或者 jQuery 的方法来操作数据，所以 jsoup 也可以被当做爬虫工具使用。
-
-# 二、相关概念简介
-
-Document  ：文档对象。每份 HTML 页面都是一个文档对象，Document 是 jsoup 体系中最顶层的结构。
-Element ：元素对象。一个 Document 中可以着包含着多个 Element 对象，可以使用 Element 对象来遍历节点提取数据或者直接操作 HTML。
-Elements ：元素对象集合，类似于 List&lt;Element&gt; 。
-Node ：节点对象。标签名称、属性等都是节点对象，节点对象用来存储数据。
-类继承关系：Document 继承自 Element ，Element 继承自 Node。
-一般执行流程：先获取 Document 对象，然后获取 Element 对象，最后再通过 Node 对象获取数据。
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">homepage</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/vue3/%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AEaxios/" title="vue3-全局配置axios与使用">vue3-全局配置axios与使用</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.783Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/vue3/">vue3</a></span></div><div class="content"># vue3 全局配置 axios 与使用
+# 为什么要全局配置 axios
+在实际项目开发中，几乎每个组件中都会用到 axios 发起数据请求。此时会遇到如下两个问题：
+① 每个组件中都需要导入 axios（代码臃肿）
+② 每次发请求都需要填写完整的请求路径（不利于后期的维护）
+# vue2 与 vue3 配置 axios 的不同之处
+在 vue2 中会习惯性的把 axios 挂载到全局，以方便在各个组件或页面中使用 this.$http 请求接口。但是在 vue3 中取消了 Vue.prototype，在全局挂载方法和属性时，需要使用官方提供的 globalPropertiesAPI。
+# 第一步：导入 axios 并进行挂载
+const app = createApp(App)import axios from "axios"app.config.globalProperties.$http = axios# 第二步：在组件中获取 getCurrentInstance 实例，使用实例中已挂载的 $http 方法
+import &#123; onMounted, getCurren ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/vue3/pnpm%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8/" title="vue3-pnpm 包管理器 - 创建项目">vue3-pnpm 包管理器 - 创建项目</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.781Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/vue3/">vue3</a></span></div><div class="content"># pnpm 包管理器 - 创建项目
+一些优势：比同类工具快 2 倍左右，节省磁盘空间 …
+安装方式： npm install -g pnpm
+创建项目： pnpm create vue
+-D =  --save-dev  ，-g =  --global
+dev 启动项目，具体的启动方式看 package.json 中怎么配置 vue3 一般使用 vite 来启动
 
 
 
-# 三、获取文档 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/08/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/Java%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E7%B1%BB%E7%9A%84%E8%B7%AF%E5%BE%84/" title="Java获取当前类的路径">Java获取当前类的路径</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-08T09:56:42.119Z" title="发表于 2024-03-08 17:56:42">2024-03-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a></span></div><div class="content"># Java 获取当前类的路径
-
-简介：
-
-如何获得当前文件路径常用：
-
-Test.class.getResource (&quot;&quot;)：得到的是当前类 Test.class 文件的 URL 目录，不包括自己！
-Test.class.getResource (&quot;/&quot;) 得到的是当前的 classpath 的绝对 URL 路径
+npm
+yarn
+pnpm
 
 
 
 
-# 一、 如何获得当前文件路径
-# 1.1 普通工程获取类路径
-先看下当前工程的目录：
-
-常用：
+npm install
+yarn
+pnpm install
 
 
-Test.class.getResouce(&quot;&quot;)
-作用：得到的是当前类 Test.class 的文件 URL 目录。不包括自己！
-代码演示：
-@Testpublic void test() &#123;   URL resource = TestDemo.class.getResource("");   System.out.println(resource);&#125;打印结果：
-file:/C:/Users/Administrator/Desktop/Demo/nio_channel/out/pr ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/08/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/Java%E7%88%AC%E5%8F%96%E6%9F%90%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E5%9B%BE%E7%89%87%E6%A1%88%E4%BE%8B/" title="Java爬取某网站所有图片案例">Java爬取某网站所有图片案例</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-08T09:56:30.608Z" title="发表于 2024-03-08 17:56:30">2024-03-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a></span></div><div class="content"># Java 爬取某网站所有图片案例
-使用 maven 工程
-引入依赖
-&lt;dependency>   &lt;groupId>org.jsoup&lt;/groupId>   &lt;artifactId>jsoup&lt;/artifactId>   &lt;version>1.13.1&lt;/version>&lt;/dependency>任务：
-
-找到目标网址
-通过浏览器控制台查看包含了图片的 html 元素标签
-通过 java 代码请求 url 并且通过 jsoup 库来解析 html 标签获取想要的信息
-
-开始编码：
-public class ImageCrawlers &#123;    public static void main(String[] args) &#123;        String url = "https://mp.weixin.qq.com/s/YPrqMOYYrAtCni2VT8c4jA";        try &#123;            // 获取页面的 document 对象            Document doc ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/08/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/URI%E5%92%8CURL%E7%9A%84%E5%8C%BA%E5%88%AB%E4%B8%8E%E8%81%94%E7%B3%BB/" title="一、URI和URL的区别与联系">一、URI和URL的区别与联系</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-08T04:58:21.052Z" title="发表于 2024-03-08 12:58:21">2024-03-08</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a></span></div><div class="content"># 一、URI 和 URL 的区别与联系
-# 1.1 什么是 URI
-uri 就类似一个独一无二的身份标识。
-准确的说是某个网络资源的特有标识 (用来区别于其它资源的独一无二的标识)
-具体什么样的叫做 URI 呢？我就直接给个 java 所举的 URI 例子：
+npm install axios
+yarn axios
+pnpm add axios
 
 
+npm install axios -D/-g
+yarn add axios -D/g
+pnpm add axios -D/g
 
-(First line of HTTP request) HTTP 请求的第一行
-uri
+
+npm uninstall axios
+yarn remove axios
+pnpm remove axios
+
+
+npm run dev
+yarn dev
+pnpm dev
 
 
 
 
-POST /some/path.html HTTP/1.1
-/some/path.html
+注意：使用 pnpm 创建项目的时候不要直接在根目录创建，而是在根目录中创建一个子目录，用这个子目录作为项目的根目录。 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/vue3/Vue3.3%E6%96%B0%E7%89%B9%E6%80%A7/" title="vue3-新特性">vue3-新特性</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.778Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/vue3/">vue3</a></span></div><div class="content"># defineOptions
+
+背景说明：
+有 &lt;script setup&gt;  之前，如果要定义 props，emits 可以轻而易举的添加一个与 setup 平级的属性。
+但是有了 &lt;script setup&gt;  后，就没法这么干了 setup 属性已经没有了，自然无法添加与其平级的属性。
+
+为了解决这一问题，引入了defineProps与defineEmits这两个宏，但是只解决了props与emits这两个属性。
+如果我们要定义组件的 name 或其它自定义的属性，还是得回到最原始的用法 —— 再添加一个普通的标签。
+这样就会存在两个标签。让人无法接受。
+
+于是。。。就迎来了。
+# Vue3.3 新特性 - defineOptions
+所以在 vue3.3 中新引入了 defineOptions 宏。顾名思义，主要是用来定义 Options API 的选项。可以用 defineOptions 定义任意的选项，props，emits，expose，slots 除外 (因为这些可以使用 defineXXX 来做到)
+&lt;script setup>	def ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/vue3/Pinia%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" title="vue3-什么是Pinia">vue3-什么是Pinia</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.774Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/vue3/">vue3</a></span></div><div class="content"># 什么是 Pinia
+Pinia 是 Vue 的最新 状态管理工具，是 Vuex 的替代品。
+
+优势：
+
+提供更加简单的 API (去掉了 mutation)
+提供符合，组合式风格的 API (和 Vue3 新语法统一)
+去掉了 modules 的概念，每一个 store 都是一个独立的模块
+配合 TypeScript 更加友好，提供可靠的类型推断
 
 
-GET http://foo.bar/a.html HTTP/1.0
-/a.html
+
+# 手动添加 Pinia 到 Vue 项目
+在实际开发项目的时候，关于 Pinia 的配置，可以在项目创建时自定添加现在我们初次学习，从零开始：
 
 
-HEAD /xyz?a=b HTTP/1.1
-/xyz
+使用 Vite 创建一个空的 Vue3 项目
+npm create vue@latest   | 或者使用 pnpm create vue
+
+
+按照官方文档 安装 Pinia 到项目中
+npm install pinia --save-dev  |  pnpm add pinia -D
+安装完成后再 package.json 中查看
 
 
 
-从中可以看到，不同请求返回的 URI 是不一样的。
-如果上面的例子还是让你感到困惑，那我就举个更加通俗易懂的。
-有这样一个需求:
-要求找到一本书 (书就是资源)，这本书在 A 省份 / B 市 / C 区 / D 街道 /xx 栋 / 392-1 住户 / 1 号房间 / 名字叫做《xxx》 (这里就是模拟我们输入网址进行 HTTP 请求)
-那么此时的 ==《xxx》这本书，对于 1 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/05/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/Java%E7%9A%84IO%E6%BC%94%E8%BF%9B%E4%B9%8B%E8%B7%AF/" title="Java的IO演进之路">Java的IO演进之路</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-05T15:02:41.664Z" title="发表于 2024-03-05 23:02:41">2024-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/">IO</a></span></div><div class="content"># Java 的 IO 演进之路
-# I/O 模型基本说明
-I/O 模型：就是用什么样的通道或者说是通信模式和架构进行数据的传输和接收，很大程度上决定了通信的性能，Java 共支持 3 中网络编程的 I/O 模型：BIO，NIO，AIO
-实际通信需求下，要根据不同的业务场景和性能需求决定选择不同的 I/O 模型
-# I/O 模型
-# Java BIO
-同步并阻塞 (传统阻塞模型)，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销 [简单示意图]
+创建一个 pinia (根存储) 并将其传递给应用程序，在 main.js 中进行配置注册 Pinia
+import './assets/main. ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/vue3/Eslint%E9%85%8D%E7%BD%AE%E4%BB%A3%E7%A0%81%E9%A3%8E%E6%A0%BC/" title="vue3-Eslint配置代码风格">vue3-Eslint配置代码风格</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.772Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/vue3/">vue3</a></span></div><div class="content"># Eslint 配置代码风格
+环境同步：
 
-# Java NIO
-Java NIO：同步非阻塞，服务器实现模式为一个线程处理多个请求 (连接)，即客户端发送的连接请求都会注册到多路复用器 (Selector 选择器) 上，多路复用器 (Selector 选择器) 轮询到连接有 I/O 请求就会进行处理 [简单示意图]
+安装了插件 ESlint，开启保存自动修复
+禁用了插件 Prettier，并关闭保存自动格式化
 
-# Java AIO
-Java AIO (NIO.2)：异步非阻塞，服务器实现模式为一个有效请求一个线程，客户端的 I/O 请求都是由 OS 先完成了再通知服务器应用去启动线程进行处 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/05/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/BIO%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90/" title="JAVA BIO 深入剖析">JAVA BIO 深入剖析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-05T15:02:41.630Z" title="发表于 2024-03-05 23:02:41">2024-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/">IO</a></span></div><div class="content"># 1 JAVA BIO 深入剖析
-# 1.1 基本介绍
-Java BIO 就是传统的 java io 编程，其相关的类和接口在 java.io
-我们学的原生的 io 流就是放在 java.io 包下的，也就是说我们基于原生的 io 流比如 字节流，字符流等进行的数据交互的一种通信方式其实就是一种 BIO 方式。
-BIO(blocking I/O)：同步阻塞，服务器实现模式为一个连接一个线程，即客户端有连接请求时服务器端就需要启动一个线程进行处理，如果这个连接不做任何事情会造成不必要的线程开销，可以通过线程池机制改善 (实现多个客户端连接服务器)
-# 1.2 Java BIO 工作机制
+//ESlint 插件 + Vscode 配置  实现自动格式化修复"editor.codeActionsOnSave": &#123;   "source.fixAll": true&#125;,"editor.formatOnSaven": false配置文件 .eslintrc.cjs
 
-# 1.3 传统的 BIO 编程实例回顾
-网编编程的基本模型是 Client/Server 模型，也就是两个进程之间进行相互通信，其中服务器端提供位置信息 (绑定 IP 地址和端口)，客户端通过连接操作乡服务端监听的端口地址发起连接请求，基于 TCP 协议下进行三次握手连接，连接成功后，双方通过网络套接字 (Socket) 进行通信。
-传统的同步阻塞模型开发中，服务端 ServerSocket 负责绑 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info"><a class="article-title" href="/homepage/2024/03/05/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/NIO%E6%B7%B1%E5%85%A5%E5%89%96%E6%9E%90/" title="NIO深入剖析">NIO深入剖析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-03-05T15:02:41.620Z" title="发表于 2024-03-05 23:02:41">2024-03-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/">知识点</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/%E7%9F%A5%E8%AF%86%E7%82%B9/IO/">IO</a></span></div><div class="content"># 一、NIO 深入剖析
-在讲解利用 NIO 实现通信架构之前，我们需要先来了解一下 NIO 的基本特点和使用
-# 1.1 Java NIO 基本介绍
+prettier 风格配置 https://prettier.io
 
-Java NIO (New IO) 也有人称之为 java non-blocking IO 是从 java 1.4 版本开始引入的一个新的 IO API，可以代替标准的 Java IO API。NIO 与原来的 IO 有同样的作用和目的，但是使用的方式完全不同，NIO 支持面向缓冲区的，基于通道的 IO 操作。NIO 将以更加高效的方式进行文件的读写操作。NIO 可以理解为非阻塞 IO。传统的 IO 的 read 和 write 只能阻塞执行，线程在读写 IO 期间不能干其他事情，比如调用 socket.read () 时，如果服务器一直没有数据传输过来，线程就一直阻塞，而 NIO 中可以配置 socket 为非阻塞模式。
-NIO 相关类都被放在 java.nio 包及子包下，并且对原 java.io 包中的很多类进行改写
-NIO 有三大核心部分：Channel (通道)，Buffer (缓冲区)，Selector (选择器)
-Jav ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/homepage/page/4/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/homepage/">1</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/4/#content-inner">4</a><span class="page-number current">5</span><a class="page-number" href="/homepage/page/6/#content-inner">6</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/46/#content-inner">46</a><a class="extend next" rel="next" href="/homepage/page/6/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/lambda/%E5%A6%99%E7%94%A8Function%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3%E6%B6%88%E7%81%ADif-else/" title="Function函数式接口">Function函数式接口</a><time datetime="2024-04-02T01:52:46.687Z" title="发表于 2024-04-02 09:52:46">2024-04-02</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/01/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/" title="批量删除数据库所有表">批量删除数据库所有表</a><time datetime="2024-04-01T01:34:35.867Z" title="发表于 2024-04-01 09:34:35">2024-04-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/01/computer-science/java/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/%E9%80%9A%E8%BF%87%E6%89%8B%E6%9C%BA%E5%8F%B7%E8%8E%B7%E5%8F%96%E5%BD%92%E5%B1%9E%E5%9C%B0%E5%92%8C%E8%BF%90%E8%90%A5%E5%95%86/" title="通过手机号获取归属地和运营商">通过手机号获取归属地和运营商</a><time datetime="2024-04-01T01:06:59.408Z" title="发表于 2024-04-01 09:06:59">2024-04-01</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/03/31/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%94%B5%E5%95%86%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84SKU%E4%B8%8ESPU%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1/" title="电商项目中的SKU与SPU的数据库表设计">电商项目中的SKU与SPU的数据库表设计</a><time datetime="2024-03-31T06:32:26.858Z" title="发表于 2024-03-31 14:32:26">2024-03-31</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/03/31/computer-science/database/navicat/navicat%E6%A8%A1%E5%9E%8B-%E6%B8%85%E7%90%86%E8%A1%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/" title="navicat模型-清理表之间的关系">navicat模型-清理表之间的关系</a><time datetime="2024-03-31T02:56:00.245Z" title="发表于 2024-03-31 10:56:00">2024-03-31</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+单引号
+不使用分号
+每行宽度至多 80 字符
+不加对象 | 数组最后逗号
+换行符号不限制 (win mac 不一致)
+
+
+vue 组件名称多单词组成 (忽略 index.vue)
+props 解构 (关闭)
+
+rules: &#123;   //prettier 专注于代码的美观度 (格式化工具)   // 前置：   // 1. 禁用格式化插件 prettier  format on save 关闭   // 2. 安装 Eslint 插件，并配置保存时自动修复   'prettie ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/vue/Vue%E6%A6%82%E8%BF%B0/" title="Vue概述">Vue概述</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.764Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/vue/">vue</a></span></div><div class="content"># Vue 是什么
+概念：Vue 是一个用于 构建用户界面① 的渐进式② 框架③
+# 一，构建用户界面
+
+将数据构建成用户所能看懂的数据，然后再加上一些样式就能呈现出用户想要看到的效果。
+
+
+基于数据去结构渲染用户所能看到的页面这一整个过程就是构建用户界面的过程。
+
+# 二，渐进式
+什么是渐进呢。翻译过来就是：循序渐进。
+
+Vue 的两种使用方式：
+
+Vue 核心包开发
+
+场景：局部 模块改造
+
+
+Vue 核心包 &amp; Vue 插件 工程化开发
+
+场景：整站 开发
+
+
+
+# 三，框架
+框架是什么？框架 -》 一套完整的项目解决方案 ，是专门用来开发 中大型项目的。
+# 使用框架的好处
+优点：大大提升开发效率 (70% ↑)
+缺点：需要理解记忆 规则 -》 官网
+
+总结：
+
+Vue 是什么？
+
+Vue 是一个用于 构建用户界面 的 渐进式 框架.
+
+构建用户界面：基于数据动态渲染页面
+渐进式：循序渐进的学习
+框架：一套完整的项目解决方案，提升开发效率 ↑ (理解记忆规则)
+
+规则 -》官网文档查看
+
+
+
+
+
+
+
+
+</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/js/%E6%AD%A3%E5%88%99/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="JS-正则表达式">JS-正则表达式</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.758Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/">js</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/%E6%AD%A3%E5%88%99/">正则</a></span></div><div class="content"># 正则表达式
+# 什么是正则表达式 — 介绍
+
+正则表达式 (Regular Expression) 是用于匹配字符串中字符组合的模式。在 JavaScript 中，正则表达式也是对象.
+通常用来查找，替换那些符合正则表达式的文本，许多语言都支持正则表达式。
+
+
+请在上图中找出 [戴帽子和眼镜的男人]
+戴帽子，戴眼镜，男人 都是描述信息，通过这些信息能够在人群中查找到确定的某个人，那么这些用于查找的描述信息编写一个模式，对应到计算机中就是所谓的正则表达式。
+
+正则表达式在 JavaScript 中的使用场景：
+例如验证表单：用户名表单只能输入英文字母，数字或者下划线，昵称输入框中可以输入中文 (匹配)
+
+比如用户名： /^[a-z0-9_-]&#123;3,16&#125;$/
+
+
+过滤掉页面内容中的一些敏感词 (替换)，或从字符串中获取我们想要的特定部分 (提取) 等。
+
+# 总结
+1 正则表达式是什么？
+
+是用于匹配字符串中字符组合的模式.
+
+2 正则表达式有什么作用？
+
+表单验证 (匹配)
+过滤敏感词 (替换)
+字符串中提取我们想要的部分 (提取)
+
+# 语法
+
+我们想要查找是 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/js/%E6%A1%88%E4%BE%8B%E4%BB%A3%E7%A0%81/%E5%AE%9E%E7%8E%B0bilibili%E7%82%B9%E5%87%BB%E5%B0%8F%E6%BB%91%E5%9D%97%E7%A7%BB%E5%8A%A8%E6%95%88%E6%9E%9C/" title="实现bilibili点击小滑块移动效果">实现bilibili点击小滑块移动效果</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.754Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/">js</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/%E6%A1%88%E4%BE%8B%E4%BB%A3%E7%A0%81/">案例代码</a></span></div><div class="content"># 实现 bilibili 点击小滑块移动效果
+需求：当点击链接，下面红色滑块跟着移动
+
+分析：
+
+用到事件委托
+点击链接得到当前元素的 offsetLeft 值
+修改 Line 颜色块的 transform 值 = 点击链接的 offsetLeft
+添加过渡效果
+
+代码：
+html
+&lt;link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"/>    &lt;link rel="stylesheet" href="./css/normalize.css"/>    &lt;link rel="stylesheet" href="./fonts/iconfont.css"/>    &lt;link rel="stylesheet" href="./css/index.css"/>&lt;/head>&lt;body>    &lt;!-- 头部部分 -->   &lt;div class="suspension">   &lt;!-- 头部模块 -->    &lt;div class="m-navbar ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/js/%E5%AD%98%E5%82%A8/localStorage/" title="初始localStorage">初始localStorage</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.749Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/">js</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/%E5%AD%98%E5%82%A8/">存储</a></span></div><div class="content"># 初始 localStorage
+# localStorage 是什么
+localStorage 也是一种浏览器存储数据的方式 (本地存储)，它只是存储在本地，不会发送到服务器端。
+单个域名下的 localStorage 总大小有限制。
+# 在浏览器中操作 localStorage
+# localStorage 的基本用法
+console.log(localStorage)
+# 向 localStorage 中添加数据
+localStorage.setItem('username','zhangsan')localStorage.setItem('username','lisk')localStorage.setItem('age',18)localStorage.setItem('sex','male')
+# 获取 localStorage 中的数据
+console.log(localStorage.getItem('username'))console.log(localStorage.getItem('age'))// 获取不存在的返回 nullconsole.log(loca ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/homepage/2024/04/02/computer-science/web/js/%E5%AD%98%E5%82%A8/Cookie/" title="初始Cookie">初始Cookie</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-02T10:00:51.747Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/">web</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/">js</a><i class="fas fa-angle-right article-meta-link"></i><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/web/js/%E5%AD%98%E5%82%A8/">存储</a></span></div><div class="content"># 初始 Cookie
+# Cookie 是什么
+Cookie 全称 HTTP Cookie ，简称 Cookie，是浏览器存储数据的一种方式，因为存储在用户本地，而不是存储在服务器上，是本地存储。一般会自动随着浏览器每次请求发给送到服务器端。
+# Cookie 有什么用
+利用 Cookie 跟踪统计用户访问该网站的习惯，比如什么时间访问，访问了哪些页面，在每个网页的停留时间等。
+# 在浏览器中操作 Cookie
+先看下页面的请求头信息，里面并没有 Cookie
+
+打开控制台找到 Cookies 在里面设置一个 Cookie 键值对
+
+设置完成后点击 NetWork，刷新下页面就会向服务器端发送一次 Cookie 请求
+
+控制台使用 js 代码来查看 Cookie，获取多个 Cookie 会以分号分隔。
+
+Cookie 是明文显示的，不要使用 Cookie 存储敏感信息。
+# Cookie 的基本用法
+# 写入 Cookie
+//1. 写入 Cookiedocument.cookie = 'username=刘桑'document.cookie = 'age=18'// 不能一起设置， ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/homepage/page/4/#content-inner"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/homepage/">1</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/4/#content-inner">4</a><span class="page-number current">5</span><a class="page-number" href="/homepage/page/6/#content-inner">6</a><span class="space">&hellip;</span><a class="page-number" href="/homepage/page/46/#content-inner">46</a><a class="extend next" rel="next" href="/homepage/page/6/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">452</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">151</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">115</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%AF%86%E7%A0%81%E7%AE%A1%E7%90%86/%E5%AF%86%E7%A0%81%E5%AD%98%E5%82%A8%E5%BA%93%E4%BD%BF%E7%94%A8KeePass/" title="KeePass的使用">KeePass的使用</a><time datetime="2024-04-02T10:00:51.942Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/json-server/" title="JSON-SERVER">JSON-SERVER</a><time datetime="2024-04-02T10:00:51.935Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/form-serialize%E6%8F%92%E4%BB%B6/" title="form-serialize插件，快速收集表单元素的值">form-serialize插件，快速收集表单元素的值</a><time datetime="2024-04-02T10:00:51.933Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/%E5%89%8D%E7%AB%AF/alova/" title="alova">alova</a><time datetime="2024-04-02T10:00:51.930Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/homepage/2024/04/02/tools/windows/%E5%AE%89%E8%A3%85scoop/" title="安装和使用scoop">安装和使用scoop</a><time datetime="2024-04-02T10:00:51.923Z" title="发表于 2024-04-02 18:00:51">2024-04-02</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
             <i class="fas fa-folder-open"></i>
             <span>分类</span>
             <a class="card-more-btn" href="/homepage/categories/" title="查看更多">
@@ -297,4 +390,4 @@ Jav ...</div></div></div><nav id="pagination"><div class="pagination"><a class="
             </div>
             <ul class="card-category-list" id="aside-cat-list">
             <li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/english/"><span class="card-category-list-name">english</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/hexo/"><span class="card-category-list-name">hexo</span><span class="card-category-list-count">2</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/hexo/shoka/"><span class="card-category-list-name">shoka</span><span class="card-category-list-count">2</span></a></li></ul></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/java/"><span class="card-category-list-name">java</span><span class="card-category-list-count">6</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/math/"><span class="card-category-list-name">math</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/"><span class="card-category-list-name">tools</span><span class="card-category-list-count">14</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/idea/"><span class="card-category-list-name">idea</span><span class="card-category-list-count">5</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/homepage/categories/tools/nodeJs/"><span class="card-category-list-name">nodeJs</span><span class="card-category-list-count">1</span></a></li></ul></li>
-            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/homepage/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/" style="font-size: 1.1em; color: #999">拦截器</a> <a href="/homepage/tags/Minio/" style="font-size: 1.1em; color: #999">Minio</a> <a href="/homepage/tags/%E5%9B%BE/" style="font-size: 1.1em; color: #999">图</a> <a href="/homepage/tags/lambda/" style="font-size: 1.1em; color: #999">lambda</a> <a href="/homepage/tags/jquery/" style="font-size: 1.13em; color: #999a9c">jquery</a> <a href="/homepage/tags/web/" style="font-size: 1.5em; color: #99a9bf">web</a> <a href="/homepage/tags/mongodb/" style="font-size: 1.2em; color: #999da3">mongodb</a> <a href="/homepage/tags/%E9%9B%86%E5%90%88/" style="font-size: 1.17em; color: #999c9f">集合</a> <a href="/homepage/tags/springboot/" style="font-size: 1.37em; color: #99a4b2">springboot</a> <a href="/homepage/tags/%E6%A1%88%E4%BE%8BDemo/" style="font-size: 1.43em; color: #99a6b9">案例Demo</a> <a href="/homepage/tags/%E5%B0%8F%E9%A1%B6%E5%A0%86/" style="font-size: 1.2em; color: #999da3">小顶堆</a> <a href="/homepage/tags/Junit/" style="font-size: 1.1em; color: #999">Junit</a> <a href="/homepage/tags/%E6%8A%A5%E9%94%99/" style="font-size: 1.13em; color: #999a9c">报错</a> <a href="/homepage/tags/Swing/" style="font-size: 1.1em; color: #999">Swing</a> <a href="/homepage/tags/websocket/" style="font-size: 1.1em; color: #999">websocket</a> <a href="/homepage/tags/%E9%98%BB%E5%A1%9E%E9%98%9F%E5%88%97/" style="font-size: 1.27em; color: #99a0a9">阻塞队列</a> <a href="/homepage/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">算法</a> <a href="/homepage/tags/%E6%A0%88/" style="font-size: 1.13em; color: #999a9c">栈</a> <a href="/homepage/tags/%E6%9F%A5%E6%89%BE/" style="font-size: 1.1em; color: #999">查找</a> <a href="/homepage/tags/springcloud/" style="font-size: 1.47em; color: #99a8bc">springcloud</a> <a href="/homepage/tags/%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/" style="font-size: 1.1em; color: #999">逆波兰表达式</a> <a href="/homepage/tags/%E8%BE%93%E5%85%A5%E6%B3%95/" style="font-size: 1.1em; color: #999">输入法</a> <a href="/homepage/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/" style="font-size: 1.1em; color: #999">哈希表</a> <a href="/homepage/tags/%E9%83%A8%E7%BD%B2/" style="font-size: 1.17em; color: #999c9f">部署</a> <a href="/homepage/tags/Thymeleaf/" style="font-size: 1.1em; color: #999">Thymeleaf</a> <a href="/homepage/tags/MyBatisPlus/" style="font-size: 1.1em; color: #999">MyBatisPlus</a> <a href="/homepage/tags/nginx/" style="font-size: 1.33em; color: #99a2af">nginx</a> <a href="/homepage/tags/number/" style="font-size: 1.13em; color: #999a9c">number</a> <a href="/homepage/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/" style="font-size: 1.1em; color: #999">堆排序</a> <a href="/homepage/tags/%E5%AF%B9%E8%B1%A1/" style="font-size: 1.13em; color: #999a9c">对象</a> <a href="/homepage/tags/mybatis/" style="font-size: 1.4em; color: #99a5b6">mybatis</a> <a href="/homepage/tags/%E6%BA%90%E7%A0%81/" style="font-size: 1.23em; color: #999ea6">源码</a> <a href="/homepage/tags/%E9%A1%B9%E7%9B%AE/" style="font-size: 1.27em; color: #99a0a9">项目</a> <a href="/homepage/tags/maven/" style="font-size: 1.43em; color: #99a6b9">maven</a> <a href="/homepage/tags/Docker/" style="font-size: 1.2em; color: #999da3">Docker</a> <a href="/homepage/tags/lombok/" style="font-size: 1.1em; color: #999">lombok</a> <a href="/homepage/tags/%E5%B7%A5%E5%85%B7%E7%B1%BB/" style="font-size: 1.3em; color: #99a1ac">工具类</a> <a href="/homepage/tags/%E5%9D%91%E7%82%B9/" style="font-size: 1.1em; color: #999">坑点</a> <a href="/homepage/tags/heapify/" style="font-size: 1.17em; color: #999c9f">heapify</a> <a href="/homepage/tags/%E4%B8%83%E7%89%9B%E4%BA%91/" style="font-size: 1.1em; color: #999">七牛云</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">3</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/03/"><span class="card-archive-list-date">三月 2024</span><span class="card-archive-list-count">70</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/02/"><span class="card-archive-list-date">二月 2024</span><span class="card-archive-list-count">188</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/01/"><span class="card-archive-list-date">一月 2024</span><span class="card-archive-list-count">191</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">452</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-02T09:33:01.201Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/homepage/tags/navicat/" style="font-size: 1.1em; color: #999">navicat</a> <a href="/homepage/tags/%E6%8A%A5%E9%94%99/" style="font-size: 1.14em; color: #999b9d">报错</a> <a href="/homepage/tags/hexo/" style="font-size: 1.14em; color: #999b9d">hexo</a> <a href="/homepage/tags/%E9%93%BE%E8%A1%A8/" style="font-size: 1.1em; color: #999">链表</a> <a href="/homepage/tags/%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/" style="font-size: 1.14em; color: #999b9d">编码问题</a> <a href="/homepage/tags/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">贪心算法</a> <a href="/homepage/tags/IO/" style="font-size: 1.19em; color: #999da1">IO</a> <a href="/homepage/tags/%E5%AE%8C%E5%85%A8%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.14em; color: #999b9d">完全二叉树</a> <a href="/homepage/tags/%E7%A8%8B%E5%BA%8F%E5%91%98%E5%B8%B8%E7%94%A8%E7%9A%8410%E4%B8%AD%E7%AE%97%E6%B3%95/" style="font-size: 1.1em; color: #999">程序员常用的10中算法</a> <a href="/homepage/tags/%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F/" style="font-size: 1.1em; color: #999">数据格式</a> <a href="/homepage/tags/lambda/" style="font-size: 1.1em; color: #999">lambda</a> <a href="/homepage/tags/Junit/" style="font-size: 1.1em; color: #999">Junit</a> <a href="/homepage/tags/%E9%9B%86%E7%BE%A4/" style="font-size: 1.19em; color: #999da1">集群</a> <a href="/homepage/tags/vscode/" style="font-size: 1.1em; color: #999">vscode</a> <a href="/homepage/tags/%E8%8F%9C%E5%8D%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.19em; color: #999da1">菜单数据结构</a> <a href="/homepage/tags/%E4%BB%A3%E7%A0%81%E7%BB%8F%E9%AA%8C/" style="font-size: 1.28em; color: #99a0aa">代码经验</a> <a href="/homepage/tags/%E4%B8%83%E7%89%9B%E4%BA%91/" style="font-size: 1.1em; color: #999">七牛云</a> <a href="/homepage/tags/%E6%BA%90%E7%A0%81/" style="font-size: 1.28em; color: #99a0aa">源码</a> <a href="/homepage/tags/%E5%A4%9A%E8%B7%AF%E6%9F%A5%E6%89%BE%E6%A0%91/" style="font-size: 1.1em; color: #999">多路查找树</a> <a href="/homepage/tags/%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F/" style="font-size: 1.1em; color: #999">逆波兰表达式</a> <a href="/homepage/tags/%E6%8B%A6%E6%88%AA%E5%99%A8/" style="font-size: 1.1em; color: #999">拦截器</a> <a href="/homepage/tags/Docker/" style="font-size: 1.23em; color: #999ea6">Docker</a> <a href="/homepage/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/" style="font-size: 1.41em; color: #99a5b7">二叉树</a> <a href="/homepage/tags/Knife4j/" style="font-size: 1.1em; color: #999">Knife4j</a> <a href="/homepage/tags/%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88/" style="font-size: 1.19em; color: #999da1">快慢指针</a> <a href="/homepage/tags/%E6%8C%81%E4%B9%85%E5%8C%96/" style="font-size: 1.1em; color: #999">持久化</a> <a href="/homepage/tags/%E4%BB%8B%E7%BB%8D/" style="font-size: 1.37em; color: #99a4b2">介绍</a> <a href="/homepage/tags/springsecurity/" style="font-size: 1.23em; color: #999ea6">springsecurity</a> <a href="/homepage/tags/mysql/" style="font-size: 1.19em; color: #999da1">mysql</a> <a href="/homepage/tags/web/" style="font-size: 1.5em; color: #99a9bf">web</a> <a href="/homepage/tags/%E7%BA%A2%E9%BB%91%E6%A0%91/" style="font-size: 1.14em; color: #999b9d">红黑树</a> <a href="/homepage/tags/Elasticsearch/" style="font-size: 1.19em; color: #999da1">Elasticsearch</a> <a href="/homepage/tags/%E6%A0%88/" style="font-size: 1.14em; color: #999b9d">栈</a> <a href="/homepage/tags/thymeleaf/" style="font-size: 1.1em; color: #999">thymeleaf</a> <a href="/homepage/tags/js/" style="font-size: 1.32em; color: #99a2ae">js</a> <a href="/homepage/tags/mongodb/" style="font-size: 1.23em; color: #999ea6">mongodb</a> <a href="/homepage/tags/%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97/" style="font-size: 1.23em; color: #999ea6">优先级队列</a> <a href="/homepage/tags/%E6%8E%92%E5%BA%8F/" style="font-size: 1.1em; color: #999">排序</a> <a href="/homepage/tags/%E5%88%86%E8%80%8C%E6%B2%BB%E4%B9%8B/" style="font-size: 1.1em; color: #999">分而治之</a> <a href="/homepage/tags/maven/" style="font-size: 1.46em; color: #99a7bb">maven</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/homepage/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">452</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">452</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-04-02T10:06:24.428Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
