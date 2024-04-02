@@ -11,8 +11,8 @@
             "date_published": "2024-01-24T10:48:46.978Z",
             "content_html": "<p>附：<span class=\"exturl\" data-url=\"aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1ub2RlJmFtcDtzcG09MTAwMS4yMTAxLjMwMDEuNzAyMA==\">node</span> 更换版本（简单操作）<br />\n安装 nvm<br />\n1 系统已经有 node</p>\n<ol start=\"2\">\n<li>网址：https://<span class=\"exturl\" data-url=\"aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1naXRodWImYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw\">github</span>.com/coreybutler/nvm-windows/releases</li>\n<li>下载 nvm-setup.zip, 解压之后会有个.exe 安装程序，第一步是同意，剩下的无脑 next 即可安装成功。</li>\n</ol>\n<h5 id=\"操作\"><a class=\"anchor\" href=\"#操作\">#</a> 操作</h5>\n<ol>\n<li>打开 cmd，使用 nvm ls 命令查看本地已有版本</li>\n<li>使用 安装命令 nvm install v10.16.0 即可（别忘了写 v）</li>\n<li>再次使用 nvm ls 命令查看本地已有版本。发现 12.15.0 和 10.16.0 均有</li>\n<li>切换版本 nvm use 12.15.0</li>\n</ol>\n<h3 id=\"基础命令\"><a class=\"anchor\" href=\"#基础命令\">#</a> 基础命令</h3>\n<figure class=\"highlight c\"><figcaption data-lang=\"c\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>nvm ls               <span class=\"token comment\">// 查看已安装 node 版本</span></pre></td></tr><tr><td data-num=\"2\"></td><td><pre>nvm install vXX      <span class=\"token comment\">// 安装对应 vXX 版本的 node</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>nvm uninstall vXX    <span class=\"token comment\">// 卸载对应 vXX 版本的 node</span></pre></td></tr><tr><td data-num=\"4\"></td><td><pre>nvm use xxx          <span class=\"token comment\">// 选择使用 XXX 版本</span></pre></td></tr></table></figure>",
             "tags": [
-                "tools",
-                "nodeJs"
+                "nodeJs",
+                "tools"
             ]
         }
     ]

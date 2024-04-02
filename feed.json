@@ -32,8 +32,8 @@
                 "database",
                 "知识点",
                 "计算机学科",
-                "知识点",
-                "database"
+                "database",
+                "知识点"
             ]
         },
         {
@@ -62,8 +62,8 @@
                 "database",
                 "知识点",
                 "计算机学科",
-                "知识点",
-                "database"
+                "database",
+                "知识点"
             ]
         },
         {
@@ -94,9 +94,9 @@
                 "代码案例",
                 "mybatis",
                 "计算机学科",
+                "database",
                 "案例Demo",
-                "分页",
-                "database"
+                "分页"
             ]
         },
         {
@@ -144,9 +144,9 @@
                 "mongodb",
                 "案例Demo",
                 "计算机学科",
-                "案例Demo",
                 "database",
-                "mongodb"
+                "mongodb",
+                "案例Demo"
             ]
         },
         {
