@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/source-homepage/</loc>
+    
+    <lastmod>2024-04-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/SpringBoot3.x%E4%BD%BF%E7%94%A8MyBatisPlus%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-04-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3%E6%8F%90%E7%A4%BASpring-Boot-Configuration-Annotation-Processor-not-configured/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/web-xml%E6%96%87%E4%BB%B6springframework-web-servlet-DispatcherServlet-is-not-assignable-to-javax-servlet-Servlet%E7%88%86%E7%BA%A2/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/WARNING%E4%B8%8A%E4%B8%8B%E6%96%87%E5%88%9D%E5%A7%8B%E5%8C%96%E6%9C%9F%E9%97%B4%E5%BC%82%E5%B8%B8/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/Test%E7%B1%BB%E6%B5%8B%E8%AF%95service%E6%B3%A8%E5%85%A5%E4%BA%86%E4%BD%86%E6%98%AF%E6%8A%A5null/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/SQLSyntaxErrorException-Unknown-column-pwd-in-field-list/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/org-springframework-http-converter-HttpMessageNotWritableException-No-converter-found-for-retur/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/org-springframework-dao-support-DaoSupport/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/java-sql-SQLSyntaxErrorException-Table-mybatisplus-plusa-doesn-t-exist/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/Consider-defining-a-bean-of-type-java-lang-String-in-your-configuration/</loc>
+    
+    <lastmod>2024-03-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/No-DataSource-specified/</loc>
+    
+    <lastmod>2024-02-29</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/</loc>
+    
+    <lastmod>2024-02-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E6%8E%A5%E5%8F%A3%E7%B1%BB%E5%9E%8B%E4%B8%8D%E8%A2%ABMapperResitry%E6%89%80%E7%9F%A5/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E5%88%9D%E5%A7%8B%E5%8C%96%E5%BC%82%E5%B8%B8%E6%89%BE%E4%B8%8D%E5%88%B0xml%E6%96%87%E4%BB%B6/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99java-package-org-apache-ibatis-io-does-not-exist/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E6%98%A0%E5%B0%84%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E9%85%8D%E7%BD%AE%E8%B5%84%E6%BA%90%E6%8A%A5%E9%94%99/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/URL%E6%9C%AA%E6%B3%A8%E5%86%8C/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/Mybatis-Error-building-SqlSession-Cause-org-apache-ibatis-builder-BuilderException/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/BindingException-Invalid-bound-statement-not-found/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</loc>
+    
+    <lastmod>2024-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3Swing%E7%AA%97%E4%BD%93%E4%B9%B1%E7%A0%81IDEA/</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3shoka%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/%E8%A7%A3%E5%86%B3ideaVim%E8%BE%93%E5%85%A5%E6%B3%95%E5%9B%B0%E6%89%B0/</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/Unreachable-statement/</loc>
+    
+    <lastmod>2024-01-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/ClassNotFoundException/</loc>
+    
+    <lastmod>2024-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/</loc>
+    
+    <lastmod>2024-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/about/index.html</loc>
+    
+    <lastmod>2024-01-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/mybatis/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E6%B1%87/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/linux/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/springboot/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E8%AF%BB%E5%8F%96%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/jdk%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E6%8A%A5%E9%94%99/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E7%BC%96%E7%A0%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/JdbcTemplate/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/Jwt/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/MyBatisPlus/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E7%89%88%E6%9C%AC%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/nginx/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/Swing/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/java/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/vim/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/hexo/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/tags/shoka/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/categories/bug/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/categories/bug/shoka/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://pigpigletsgo.github.io/homepage/categories/bug/shoka/hexo/</loc>
+    <lastmod>2024-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
