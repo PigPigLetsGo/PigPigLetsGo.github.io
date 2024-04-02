@@ -76,9 +76,9 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
-    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
-    
     <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
   </entry>
   
@@ -142,9 +142,9 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
-    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
-    
     <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
   </entry>
   
@@ -214,11 +214,11 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
-    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
-    
     <category term="案例Demo" scheme="https://pigpigletsgo.github.io/tags/%E6%A1%88%E4%BE%8BDemo/"/>
     
     <category term="分页" scheme="https://pigpigletsgo.github.io/tags/%E5%88%86%E9%A1%B5/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
   </entry>
   
@@ -326,11 +326,11 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
+    <category term="案例Demo" scheme="https://pigpigletsgo.github.io/tags/%E6%A1%88%E4%BE%8BDemo/"/>
+    
     <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
     <category term="mongodb" scheme="https://pigpigletsgo.github.io/tags/mongodb/"/>
-    
-    <category term="案例Demo" scheme="https://pigpigletsgo.github.io/tags/%E6%A1%88%E4%BE%8BDemo/"/>
     
   </entry>
   
