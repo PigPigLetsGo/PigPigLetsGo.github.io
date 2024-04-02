@@ -7,33 +7,33 @@
         <language>zh-CN</language>
         <pubDate>Thu, 29 Feb 2024 16:12:13 +0800</pubDate>
         <lastBuildDate>Thu, 29 Feb 2024 16:12:13 +0800</lastBuildDate>
-        <category>mybatis</category>
-        <category>问题总汇</category>
+        <category>计算机底层</category>
         <category>linux</category>
+        <category>问题总汇</category>
+        <category>jdk版本问题</category>
+        <category>JdbcTemplate</category>
         <category>报错</category>
         <category>编码问题</category>
         <category>springboot</category>
-        <category>读取配置文件</category>
-        <category>jdk版本问题</category>
-        <category>JdbcTemplate</category>
         <category>Jwt</category>
+        <category>mybatis</category>
+        <category>读取配置文件</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
         <category>nginx</category>
-        <category>Swing</category>
-        <category>hexo</category>
-        <category>shoka</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
-        <category>计算机底层</category>
-        <category>english</category>
+        <category>Swing</category>
+        <category>hexo</category>
+        <category>shoka</category>
         <category>math</category>
+        <category>english</category>
         <category>算法</category>
         <category>计算机学科</category>
         <category>C</category>
-        <category>基础</category>
         <category>介绍</category>
+        <category>基础</category>
         <category>mysql</category>
         <category>git</category>
         <category>web</category>
@@ -42,9 +42,9 @@
         <category>tools</category>
         <category>idea</category>
         <category>项目</category>
-        <category>vscode</category>
         <category>windows</category>
         <category>密码管理</category>
+        <category>vscode</category>
         <category>database</category>
         <category>JDBC</category>
         <category>mongodb</category>
@@ -52,8 +52,9 @@
         <category>知识点</category>
         <category>redis</category>
         <category>集群</category>
-        <category>config配置类</category>
         <category>jvm</category>
+        <category>config配置类</category>
+        <category>maven</category>
         <category>数据结构与算法</category>
         <category>图</category>
         <category>多路查找树</category>
@@ -62,17 +63,17 @@
         <category>队列</category>
         <category>栈</category>
         <category>数组</category>
-        <category>树结构</category>
         <category>排序</category>
         <category>查找</category>
         <category>哈希表</category>
+        <category>树结构</category>
+        <category>spring</category>
         <category>程序员常用的10中算法</category>
-        <category>maven</category>
         <category>编程题</category>
         <category>动态规划</category>
-        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
+        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
@@ -85,23 +86,22 @@
         <category>小顶堆</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
-        <category>spring</category>
+        <category>工具类</category>
         <category>servlet</category>
         <category>开源项目框架</category>
-        <category>工具类</category>
         <category>案例Demo</category>
-        <category>菜单数据结构</category>
         <category>网络编程</category>
-        <category>分页</category>
+        <category>菜单数据结构</category>
         <category>多线程</category>
+        <category>分页</category>
         <category>lombok</category>
+        <category>设计模式</category>
         <category>爬虫</category>
         <category>API的区别</category>
-        <category>设计模式</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>Thymeleaf</category>
         <category>hutool</category>
+        <category>Thymeleaf</category>
         <category>七牛云</category>
         <category>代码经验</category>
         <category>vue3</category>
@@ -112,52 +112,52 @@
         <category>mybatisplus-join</category>
         <category>ORM</category>
         <category>avl树</category>
+        <category>进阶</category>
         <category>二叉树搜索树</category>
         <category>二叉树的遍历</category>
-        <category>优先级队列</category>
-        <category>完全二叉树</category>
         <category>heapify</category>
         <category>堆排序</category>
+        <category>优先级队列</category>
+        <category>完全二叉树</category>
         <category>动态数组</category>
         <category>红黑树</category>
-        <category>阻塞队列</category>
-        <category>进阶</category>
         <category>SSM</category>
+        <category>阻塞队列</category>
         <category>springcloud</category>
+        <category>springsecurity</category>
+        <category>MD5</category>
+        <category>JWT</category>
+        <category>thymeleaf</category>
         <category>springmvc</category>
         <category>源码</category>
-        <category>springsecurity</category>
-        <category>JWT</category>
-        <category>MD5</category>
-        <category>thymeleaf</category>
-        <category>拦截器</category>
         <category>整合jar包</category>
         <category>Junit</category>
+        <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
         <category>http</category>
-        <category>number</category>
         <category>lambda</category>
+        <category>number</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>js</category>
         <category>jquery</category>
+        <category>js</category>
         <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
-        <category>Nacos</category>
         <category>Elasticsearch</category>
+        <category>Nacos</category>
+        <category>springboot高级</category>
         <category>RabbitMQ</category>
         <category>部署</category>
         <category>OpenResty</category>
-        <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
+        <category>Canal</category>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/29/bug/No-DataSource-specified/</guid>
             <title>No-DataSource-specified</title>
@@ -177,8 +177,8 @@
             <title>NoClassDefFoundError: javax/xml/bind/DatatypeConverter</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/20/bug/NoClassDefFoundError%20javaxxmlbindDatatypeConverter/</link>
             <category>问题总汇</category>
-            <category>springboot</category>
             <category>jdk版本问题</category>
+            <category>springboot</category>
             <category>Jwt</category>
             <pubDate>Tue, 20 Feb 2024 09:03:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#noclassdeffounderror-javaxxmlbinddatatypeconverter&#34;&gt;#&lt;/a&gt; NoClassDefFoundError: javax/xml/bind/DatatypeConverter&lt;/h1&gt;
@@ -492,9 +492,9 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown column &#39;pwd&#39; in &#3
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/11/bug/org-springframework-dao-support-DaoSupport/</guid>
             <title>org-springframework-dao-support-DaoSupport</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/11/bug/org-springframework-dao-support-DaoSupport/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
             <category>springboot</category>
+            <category>mybatis</category>
             <pubDate>Sun, 11 Feb 2024 13:48:28 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Spring整合Mybatis时，报错 java.lang.ClassNotFoundException: org.springframework.dao.support.DaoSupport
@@ -509,9 +509,9 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown column &#39;pwd&#39; in &#3
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/11/bug/java-sql-SQLSyntaxErrorException-Table-mybatisplus-plusa-doesn-t-exist/</guid>
             <title>java-sql-SQLSyntaxErrorException-Table-mybatisplus-plusa-doesn-t-exist</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/11/bug/java-sql-SQLSyntaxErrorException-Table-mybatisplus-plusa-doesn-t-exist/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
             <category>springboot</category>
+            <category>mybatis</category>
             <pubDate>Sun, 11 Feb 2024 13:48:28 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;org.springframework.jdbc.BadSqlGrammarException: 
@@ -672,8 +672,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E5%88%9D%E5%A7%8B%E5%8C%96%E5%BC%82%E5%B8%B8%E6%89%BE%E4%B8%8D%E5%88%B0xml%E6%96%87%E4%BB%B6/</guid>
             <title>MyBatis-运行报错初始化异常找不到xml文件</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E5%88%9D%E5%A7%8B%E5%8C%96%E5%BC%82%E5%B8%B8%E6%89%BE%E4%B8%8D%E5%88%B0xml%E6%96%87%E4%BB%B6/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;错误描述:&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;java.lang.ExceptionInInitializerError&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.dkx.mybatis01.util.MybatisUtilsTest.test&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;MybatisUtilsTest.java:21&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Native Method&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;NativeMethodAccessorImpl.java:62&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;DelegatingMethodAccessorImpl.java:43&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at java.base/java.lang.reflect.Method.invoke&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Method.java:566&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.model.FrameworkMethod&lt;span class=&#34;token variable&#34;&gt;$1&lt;/span&gt;.runReflectiveCall&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;FrameworkMethod.java:50&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.internal.runners.model.ReflectiveCallable.run&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ReflectiveCallable.java:12&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.model.FrameworkMethod.invokeExplosively&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;FrameworkMethod.java:47&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.internal.runners.statements.InvokeMethod.evaluate&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;InvokeMethod.java:17&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner.runLeaf&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:325&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.BlockJUnit4ClassRunner.runChild&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;BlockJUnit4ClassRunner.java:78&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.BlockJUnit4ClassRunner.runChild&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;BlockJUnit4ClassRunner.java:57&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner&lt;span class=&#34;token variable&#34;&gt;$3&lt;/span&gt;.run&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:290&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner&lt;span class=&#34;token variable&#34;&gt;$1&lt;/span&gt;.schedule&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:71&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner.runChildren&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:288&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner.access&lt;span class=&#34;token variable&#34;&gt;$000&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:58&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner&lt;span class=&#34;token variable&#34;&gt;$2&lt;/span&gt;.evaluate&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:268&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runners.ParentRunner.run&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ParentRunner.java:363&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.junit.runner.JUnitCore.run&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;JUnitCore.java:137&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;JUnit4IdeaTestRunner.java:68&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.intellij.rt.junit.IdeaTestRunner&lt;span class=&#34;token variable&#34;&gt;$Repeater&lt;/span&gt;.startRunnerWithArgs&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;IdeaTestRunner.java:33&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;JUnitStarter.java:230&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.intellij.rt.junit.JUnitStarter.main&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;JUnitStarter.java:58&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Caused by: java.lang.RuntimeException: org.apache.ibatis.exceptions.PersistenceException: &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### Error building SqlSession.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### The error may exist in com/dkx/mybatis01/dao/UserMapper.xml&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource com/dkx/mybatis01/dao/UserMapper.xml&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.dkx.mybatis01.util.MybatisUtils.&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;clinit&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;MybatisUtils.java:26&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;. &lt;span class=&#34;token number&#34;&gt;23&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Caused by: org.apache.ibatis.exceptions.PersistenceException: &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### Error building SqlSession.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### The error may exist in com/dkx/mybatis01/dao/UserMapper.xml&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource com/dkx/mybatis01/dao/UserMapper.xml&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ExceptionFactory.java:30&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;SqlSessionFactoryBuilder.java:80&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;SqlSessionFactoryBuilder.java:64&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at com.dkx.mybatis01.util.MybatisUtils.&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;clinit&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;MybatisUtils.java:24&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;. &lt;span class=&#34;token number&#34;&gt;23&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not &lt;span class=&#34;token function&#34;&gt;find&lt;/span&gt; resource com/dkx/mybatis01/dao/UserMapper.xml&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;XMLConfigBuilder.java:122&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;XMLConfigBuilder.java:99&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.session.SqlSessionFactoryBuilder.build&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;SqlSessionFactoryBuilder.java:78&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;. &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Caused by: java.io.IOException: Could not &lt;span class=&#34;token function&#34;&gt;find&lt;/span&gt; resource com/dkx/mybatis01/dao/UserMapper.xml&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.io.Resources.getResourceAsStream&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Resources.java:114&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.io.Resources.getResourceAsStream&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;Resources.java:100&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;XMLConfigBuilder.java:375&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;XMLConfigBuilder.java:120&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;50&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;. &lt;span class=&#34;token number&#34;&gt;27&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;more&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;解决方案:&lt;/p&gt;
@@ -684,8 +684,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99java-package-org-apache-ibatis-io-does-not-exist/</guid>
             <title>MyBatis-运行报错java-package-org-apache-ibatis-io-does-not-exist</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99java-package-org-apache-ibatis-io-does-not-exist/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error:&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;3&lt;/span&gt;, &lt;span class=&#34;token number&#34;&gt;28&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; java: package org.apache.ibatis.io does not exist&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error:&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;4&lt;/span&gt;, &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; java: package org.apache.ibatis.session does not exist&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error:&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;5&lt;/span&gt;, &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; java: package org.apache.ibatis.session does not exist&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;Error:&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;6&lt;/span&gt;, &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; java: package org.apache.ibatis.session does not exist&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;点开 maven 窗口，点击 m&lt;/p&gt;
@@ -699,8 +699,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E6%98%A0%E5%B0%84%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/</guid>
             <title>Mybatis-映射报错问题</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E6%98%A0%E5%B0%84%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;&lt;strong&gt;问题描述&lt;/strong&gt;：&lt;/p&gt;
 &lt;p&gt;使用 SpringBoot+MyBatis 的时候查询一张表的 count (*) 的时候报错如下：&lt;/p&gt;
@@ -719,8 +719,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E9%85%8D%E7%BD%AE%E8%B5%84%E6%BA%90%E6%8A%A5%E9%94%99/</guid>
             <title>Mybatis-引用外部配置资源报错</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E5%BC%95%E7%94%A8%E5%A4%96%E9%83%A8%E9%85%8D%E7%BD%AE%E8%B5%84%E6%BA%90%E6%8A%A5%E9%94%99/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
 &lt;p&gt;当我们使用&lt;mark&gt; maven&lt;/mark&gt; 搭建 MyBatis 时，maven 在程序运行进行编译时，如果 mybati 使用外部配置文件，会发生 url 替换错误的现象&lt;/p&gt;
@@ -744,8 +744,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/URL%E6%9C%AA%E6%B3%A8%E5%86%8C/</guid>
             <title>MyBatis报错：URL未注册</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/URL%E6%9C%AA%E6%B3%A8%E5%86%8C/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;URL is not registered(Settings | Languages &amp;amp; Frameworks | Schemas aand DTDs)
@@ -761,8 +761,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/Mybatis-Error-building-SqlSession-Cause-org-apache-ibatis-builder-BuilderException/</guid>
             <title>Mybatis-Error-building-SqlSession-Cause-org-apache-ibatis-builder-BuilderException</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/Mybatis-Error-building-SqlSession-Cause-org-apache-ibatis-builder-BuilderException/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Mybatis Error building SqlSession. Cause: org.apache.ibatis.builder.BuilderException
@@ -774,8 +774,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/BindingException-Invalid-bound-statement-not-found/</guid>
             <title>BindingException-Invalid-bound-statement-not-found</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/BindingException-Invalid-bound-statement-not-found/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.dkx.spring.dao.UserMapper.getList
@@ -824,8 +824,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E6%8E%A5%E5%8F%A3%E7%B1%BB%E5%9E%8B%E4%B8%8D%E8%A2%ABMapperResitry%E6%89%80%E7%9F%A5/</guid>
             <title>MyBatis-运行报错接口类型不被MapperResitry所知</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E6%8E%A5%E5%8F%A3%E7%B1%BB%E5%9E%8B%E4%B8%8D%E8%A2%ABMapperResitry%E6%89%80%E7%9F%A5/</link>
-            <category>mybatis</category>
             <category>问题总汇</category>
+            <category>mybatis</category>
             <pubDate>Thu, 08 Feb 2024 15:45:06 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;org.apache.ibatis.binding.BindingException: Type interface com.dkx.mybatis01.dao.UserDao is not known to the MapperRegistry.
@@ -838,8 +838,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</guid>
             <title>解决linux默认运行级别困扰</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</link>
-            <category>问题总汇</category>
             <category>linux</category>
+            <category>问题总汇</category>
             <pubDate>Thu, 08 Feb 2024 12:51:08 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;开机按 e 进入编辑模式在 rhgb quiet 后面输入 [空格] 1 然后按 CTRL+x 进入单用户模式&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125030007.png&#34; alt=&#34;image-20240208125030007&#34; /&gt;&lt;/p&gt;
@@ -852,8 +852,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</guid>
             <title>vmware - CentOS 7 linux 无法启动,Entering emergency mode问题</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</link>
-            <category>问题总汇</category>
             <category>linux</category>
+            <category>问题总汇</category>
             <pubDate>Thu, 08 Feb 2024 12:15:56 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;#&lt;/a&gt; CentOS 7 linux 无法启动，Entering emergency mode 问题&lt;/h1&gt;
 &lt;p&gt;由于虚拟机强制关机，导致虚拟机 CentOS 7 启动时报错&lt;/p&gt;
@@ -873,8 +873,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</guid>
             <title>解决提示：用户不在sudoers文件中将以告终</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</link>
-            <category>问题总汇</category>
             <category>linux</category>
+            <category>问题总汇</category>
             <pubDate>Thu, 08 Feb 2024 12:13:23 +0800</pubDate>
             <description><![CDATA[ &lt;ol&gt;
 &lt;li&gt;
@@ -897,8 +897,8 @@ Caused by: java.sql.SQLSyntaxErrorException: Table &#39;mybatisplus.plusa&#39; d
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</guid>
             <title>解决切换root用户到bash中</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</link>
-            <category>问题总汇</category>
             <category>linux</category>
+            <category>问题总汇</category>
             <pubDate>Thu, 08 Feb 2024 12:09:45 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;解决切换root用户到bash中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决切换root用户到bash中&#34;&gt;#&lt;/a&gt; 解决切换 root 用户到 bash 中&lt;/h1&gt;
 &lt;ol&gt;
