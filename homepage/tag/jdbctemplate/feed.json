@@ -5,10 +5,10 @@
     "home_page_url": "https://pigpigletsgo.github.io/homepage",
     "items": [
         {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/No-DataSource-specified/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/No-DataSource-specified/",
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/29/bug/No-DataSource-specified/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/29/bug/No-DataSource-specified/",
             "title": "No-DataSource-specified",
-            "date_published": "2024-04-02T04:07:17.253Z",
+            "date_published": "2024-02-29T08:12:13.919Z",
             "content_html": "<p>问题描述:</p>\n<pre><code>JdbcTemplate在Dao中的使用以及No DataSource specified问题的出现和解决。\n</code></pre>\n<p>查看在定义对象时是否写对了格式</p>\n<p>正确格式如下:</p>\n<figure class=\"highlight java\"><figcaption data-lang=\"java\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre><span class=\"token keyword\">private</span> <span class=\"token keyword\">static</span> <span class=\"token class-name\">JdbcTemplate</span> jdbctemplate <span class=\"token operator\">=</span> <span class=\"token keyword\">new</span> <span class=\"token class-name\">JdbcTemplate</span><span class=\"token punctuation\">(</span><span class=\"token class-name\">JDBCUtils</span><span class=\"token punctuation\">.</span><span class=\"token function\">getDataSource</span><span class=\"token punctuation\">(</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">)</span><span class=\"token punctuation\">;</span></pre></td></tr></table></figure>",
             "tags": [
                 "问题总汇",

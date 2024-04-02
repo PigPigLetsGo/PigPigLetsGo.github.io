@@ -5,17 +5,6 @@
     "home_page_url": "https://pigpigletsgo.github.io/homepage",
     "items": [
         {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/",
-            "title": "Nginx启动报错",
-            "date_published": "2024-04-02T04:07:17.296Z",
-            "content_html": "<p>报错描述：</p>\n<pre><code>nginx报错：nginx: [alert] could not open error log file: open() “/usr/local/nginx/logs/error.log“ faile\n</code></pre>\n<p>解决方案：</p>\n<p>将 /user/local 目录下的 nginx 的目录和里面的东西全部授权权限</p>\n<p>如果 nginx 目录下没有 logs 那么需要创建一个并赋权限</p>\n<p><img src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-09-47-13_20230225095659.png?v=1&amp;type=image&amp;token=V1:lTwAFSeS0Pgvsvzwmq9SkHkOcFx90LC_KvYFoA7LwnI\" alt=\"image_2023-01-28-09-47-13\"></p>\n<p>报错描述：</p>\n<pre><code>nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)\n</code></pre>\n<p>原因：当前用户对该位置没有写入权限所导致的，如果使用 sudo 来执行的话就不会抱任何错误</p>\n<p>解决方案：使用命令: <code>sudo chmod -R a+rw /usr/local/nginx</code></p>\n<ul>\n<li>在执行上面操作时所需要注意事项：个人学习，不考虑安全问题 <strong>重点</strong></li>\n</ul>\n<p><strong>如果要以非 root 用户或者权限启动 Nginx 则会出现报错：</strong>  <code>nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)</code></p>\n<p>解决方案：</p>\n<p>将 nginx 目录中的 conf/nginx.conf 文件中的 80 端口改为 1024 以上的端口号</p>\n<pre><code>server &#123;\n#      listen       80;\n       listen       8080;\n\n       server_name  localhost;\n\n       #charset koi8-r;\n\n       #access_log  logs/host.access.log  main;\n\n       location / &#123;\n           root   html;\n           index  index.html index.htm;\n  &#125;\n</code></pre>\n<p><img src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-00_20230225095717.png?v=1&amp;type=image&amp;token=V1:feAXNVLs2aejsJjBkv909UX4jDcB1lbQpR5wPVmv62U\" alt=\"image_2023-01-28-10-09-00\"></p>\n<p>再次执行 <code>./nginx</code></p>\n<p><img src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-16_20230225095733.png?v=1&amp;type=image&amp;token=V1:wLRT0CcH20I7fd25jX72vO_2KM3PtUVUO4EyqxJwFZ4\" alt=\"image_2023-01-28-10-09-16\"></p>\n",
-            "tags": [
-                "问题总汇",
-                "nginx"
-            ]
-        },
-        {
             "id": "https://pigpigletsgo.github.io/homepage/2024/02/12/computer-science/nginx/%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/",
             "url": "https://pigpigletsgo.github.io/homepage/2024/02/12/computer-science/nginx/%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/",
             "title": "解决跨域问题",
@@ -145,6 +134,17 @@
             "tags": [
                 "nginx",
                 "计算机学科"
+            ]
+        },
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/12/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/12/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/",
+            "title": "Nginx启动报错",
+            "date_published": "2024-02-12T12:33:07.637Z",
+            "content_html": "<p>报错描述：</p>\n<pre><code>nginx报错：nginx: [alert] could not open error log file: open() “/usr/local/nginx/logs/error.log“ faile\n</code></pre>\n<p>解决方案：</p>\n<p>将 /user/local 目录下的 nginx 的目录和里面的东西全部授权权限</p>\n<p>如果 nginx 目录下没有 logs 那么需要创建一个并赋权限</p>\n<p><img data-src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-09-47-13_20230225095659.png?v=1&amp;type=image&amp;token=V1:lTwAFSeS0Pgvsvzwmq9SkHkOcFx90LC_KvYFoA7LwnI\" alt=\"image_2023-01-28-09-47-13\" /></p>\n<p>报错描述：</p>\n<pre><code>nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)\n</code></pre>\n<p>原因：当前用户对该位置没有写入权限所导致的，如果使用 sudo 来执行的话就不会抱任何错误</p>\n<p>解决方案：使用命令: <code>sudo chmod -R a+rw /usr/local/nginx</code></p>\n<ul>\n<li>在执行上面操作时所需要注意事项：个人学习，不考虑安全问题 <strong>重点</strong></li>\n</ul>\n<p><strong>如果要以非 root 用户或者权限启动 Nginx 则会出现报错：</strong>  <code>nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)</code></p>\n<p>解决方案：</p>\n<p>将 nginx 目录中的 conf/nginx.conf 文件中的 80 端口改为 1024 以上的端口号</p>\n<pre><code>server &#123;\n#      listen       80;\n       listen       8080;\n\n       server_name  localhost;\n\n       #charset koi8-r;\n\n       #access_log  logs/host.access.log  main;\n\n       location / &#123;\n           root   html;\n           index  index.html index.htm;\n  &#125;\n</code></pre>\n<p><img data-src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-00_20230225095717.png?v=1&amp;type=image&amp;token=V1:feAXNVLs2aejsJjBkv909UX4jDcB1lbQpR5wPVmv62U\" alt=\"image_2023-01-28-10-09-00\" /></p>\n<p>再次执行 <code>./nginx</code></p>\n<p><img data-src=\"%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-16_20230225095733.png?v=1&amp;type=image&amp;token=V1:wLRT0CcH20I7fd25jX72vO_2KM3PtUVUO4EyqxJwFZ4\" alt=\"image_2023-01-28-10-09-16\" /></p>\n",
+            "tags": [
+                "问题总汇",
+                "nginx"
             ]
         }
     ]

@@ -5,31 +5,31 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2024 12:07:17 +0800</lastBuildDate>
+        <pubDate>Mon, 12 Feb 2024 20:35:08 +0800</pubDate>
+        <lastBuildDate>Mon, 12 Feb 2024 20:35:08 +0800</lastBuildDate>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>jdk版本问题</category>
         <category>linux</category>
+        <category>jdk版本问题</category>
         <category>springboot</category>
         <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
         <category>JdbcTemplate</category>
-        <category>Jwt</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
+        <category>Jwt</category>
         <category>nginx</category>
-        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
+        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
         <category>计算机底层</category>
+        <category>english</category>
         <category>math</category>
         <category>算法</category>
-        <category>english</category>
         <category>计算机学科</category>
         <category>C</category>
         <category>介绍</category>
@@ -38,16 +38,16 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>vscode</category>
         <category>tools</category>
-        <category>nodeJs</category>
-        <category>windows</category>
-        <category>密码管理</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
+        <category>windows</category>
+        <category>密码管理</category>
         <category>database</category>
-        <category>mongodb</category>
         <category>JDBC</category>
+        <category>mongodb</category>
         <category>redis</category>
         <category>navicat</category>
         <category>集群</category>
@@ -69,7 +69,6 @@
         <category>树结构</category>
         <category>程序员常用的10中算法</category>
         <category>maven</category>
-        <category>servlet</category>
         <category>编程题</category>
         <category>动态规划</category>
         <category>贪心算法</category>
@@ -82,17 +81,18 @@
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
-        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
+        <category>单调栈</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
+        <category>servlet</category>
         <category>spring</category>
-        <category>开源项目框架</category>
         <category>工具类</category>
+        <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
+        <category>网络编程</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
@@ -100,8 +100,8 @@
         <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
         <category>七牛云</category>
         <category>设计模式</category>
         <category>vue3</category>
@@ -109,17 +109,17 @@
         <category>前后端交互</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>ORM</category>
         <category>mybatisplus-join</category>
+        <category>ORM</category>
+        <category>二叉树搜索树</category>
         <category>avl树</category>
+        <category>二叉树的遍历</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>二叉树搜索树</category>
-        <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
-        <category>红黑树</category>
         <category>动态数组</category>
+        <category>红黑树</category>
         <category>阻塞队列</category>
         <category>进阶</category>
         <category>SSM</category>
@@ -135,74 +135,29 @@
         <category>Junit</category>
         <category>IO</category>
         <category>String</category>
-        <category>http</category>
-        <category>lambda</category>
         <category>number</category>
+        <category>lambda</category>
+        <category>http</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
-        <category>JSR303</category>
+        <category>jquery</category>
         <category>Knife4j</category>
+        <category>JSR303</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
         <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>springboot高级</category>
         <category>OpenResty</category>
         <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/</guid>
-            <title>Nginx启动报错</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/</link>
-            <category>问题总汇</category>
-            <category>nginx</category>
-            <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;报错描述：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;nginx报错：nginx: [alert] could not open error log file: open() “/usr/local/nginx/logs/error.log“ faile
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;解决方案：&lt;/p&gt;
-&lt;p&gt;将 /user/local 目录下的 nginx 的目录和里面的东西全部授权权限&lt;/p&gt;
-&lt;p&gt;如果 nginx 目录下没有 logs 那么需要创建一个并赋权限&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-09-47-13_20230225095659.png?v=1&amp;amp;type=image&amp;amp;token=V1:lTwAFSeS0Pgvsvzwmq9SkHkOcFx90LC_KvYFoA7LwnI&#34; alt=&#34;image_2023-01-28-09-47-13&#34;&gt;&lt;/p&gt;
-&lt;p&gt;报错描述：&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;原因：当前用户对该位置没有写入权限所导致的，如果使用 sudo 来执行的话就不会抱任何错误&lt;/p&gt;
-&lt;p&gt;解决方案：使用命令: &lt;code&gt;sudo chmod -R a+rw /usr/local/nginx&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在执行上面操作时所需要注意事项：个人学习，不考虑安全问题 &lt;strong&gt;重点&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;如果要以非 root 用户或者权限启动 Nginx 则会出现报错：&lt;/strong&gt;  &lt;code&gt;nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;解决方案：&lt;/p&gt;
-&lt;p&gt;将 nginx 目录中的 conf/nginx.conf 文件中的 80 端口改为 1024 以上的端口号&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;server &amp;#123;
-#      listen       80;
-       listen       8080;
-
-       server_name  localhost;
-
-       #charset koi8-r;
-
-       #access_log  logs/host.access.log  main;
-
-       location / &amp;#123;
-           root   html;
-           index  index.html index.htm;
-  &amp;#125;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-00_20230225095717.png?v=1&amp;amp;type=image&amp;amp;token=V1:feAXNVLs2aejsJjBkv909UX4jDcB1lbQpR5wPVmv62U&#34; alt=&#34;image_2023-01-28-10-09-00&#34;&gt;&lt;/p&gt;
-&lt;p&gt;再次执行 &lt;code&gt;./nginx&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-16_20230225095733.png?v=1&amp;amp;type=image&amp;amp;token=V1:wLRT0CcH20I7fd25jX72vO_2KM3PtUVUO4EyqxJwFZ4&#34; alt=&#34;image_2023-01-28-10-09-16&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/12/computer-science/nginx/%E8%A7%A3%E5%86%B3%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98/</guid>
             <title>解决跨域问题</title>
@@ -1811,6 +1766,51 @@ http &amp;#123;
 &lt;p&gt;将系统服务设置为&lt;strong&gt;开启自启动&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;systemctl enable nginx.service 
 &lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/12/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/</guid>
+            <title>Nginx启动报错</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/12/bug/%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99/</link>
+            <category>问题总汇</category>
+            <category>nginx</category>
+            <pubDate>Mon, 12 Feb 2024 20:33:07 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;报错描述：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nginx报错：nginx: [alert] could not open error log file: open() “/usr/local/nginx/logs/error.log“ faile
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;p&gt;将 /user/local 目录下的 nginx 的目录和里面的东西全部授权权限&lt;/p&gt;
+&lt;p&gt;如果 nginx 目录下没有 logs 那么需要创建一个并赋权限&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-09-47-13_20230225095659.png?v=1&amp;amp;type=image&amp;amp;token=V1:lTwAFSeS0Pgvsvzwmq9SkHkOcFx90LC_KvYFoA7LwnI&#34; alt=&#34;image_2023-01-28-09-47-13&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;报错描述：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;原因：当前用户对该位置没有写入权限所导致的，如果使用 sudo 来执行的话就不会抱任何错误&lt;/p&gt;
+&lt;p&gt;解决方案：使用命令: &lt;code&gt;sudo chmod -R a+rw /usr/local/nginx&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在执行上面操作时所需要注意事项：个人学习，不考虑安全问题 &lt;strong&gt;重点&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;如果要以非 root 用户或者权限启动 Nginx 则会出现报错：&lt;/strong&gt;  &lt;code&gt;nginx: [emerg] bind() to 0.0.0.0:80 failed (13: Permission denied)&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;p&gt;将 nginx 目录中的 conf/nginx.conf 文件中的 80 端口改为 1024 以上的端口号&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;server &amp;#123;
+#      listen       80;
+       listen       8080;
+
+       server_name  localhost;
+
+       #charset koi8-r;
+
+       #access_log  logs/host.access.log  main;
+
+       location / &amp;#123;
+           root   html;
+           index  index.html index.htm;
+  &amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img data-src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-00_20230225095717.png?v=1&amp;amp;type=image&amp;amp;token=V1:feAXNVLs2aejsJjBkv909UX4jDcB1lbQpR5wPVmv62U&#34; alt=&#34;image_2023-01-28-10-09-00&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再次执行 &lt;code&gt;./nginx&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;%E5%90%AF%E5%8A%A8%E6%8A%A5%E9%94%99_md_files/image_2023-01-28-10-09-16_20230225095733.png?v=1&amp;amp;type=image&amp;amp;token=V1:wLRT0CcH20I7fd25jX72vO_2KM3PtUVUO4EyqxJwFZ4&#34; alt=&#34;image_2023-01-28-10-09-16&#34; /&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

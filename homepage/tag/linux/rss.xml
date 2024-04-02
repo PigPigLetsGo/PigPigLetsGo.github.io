@@ -5,31 +5,31 @@
         <link>https://pigpigletsgo.github.io/homepage</link>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-        <lastBuildDate>Tue, 02 Apr 2024 12:07:17 +0800</lastBuildDate>
+        <pubDate>Sat, 16 Mar 2024 21:39:03 +0800</pubDate>
+        <lastBuildDate>Sat, 16 Mar 2024 21:39:03 +0800</lastBuildDate>
         <category>mybatis</category>
         <category>问题总汇</category>
-        <category>jdk版本问题</category>
         <category>linux</category>
+        <category>jdk版本问题</category>
         <category>springboot</category>
         <category>读取配置文件</category>
         <category>报错</category>
         <category>编码问题</category>
         <category>JdbcTemplate</category>
-        <category>Jwt</category>
         <category>MyBatisPlus</category>
         <category>版本问题</category>
+        <category>Jwt</category>
         <category>nginx</category>
-        <category>Swing</category>
         <category>java</category>
         <category>vim</category>
         <category>输入法</category>
+        <category>Swing</category>
         <category>hexo</category>
         <category>shoka</category>
         <category>计算机底层</category>
+        <category>english</category>
         <category>math</category>
         <category>算法</category>
-        <category>english</category>
         <category>计算机学科</category>
         <category>C</category>
         <category>介绍</category>
@@ -38,16 +38,16 @@
         <category>git</category>
         <category>web</category>
         <category>坑点</category>
-        <category>vscode</category>
         <category>tools</category>
-        <category>nodeJs</category>
-        <category>windows</category>
-        <category>密码管理</category>
         <category>idea</category>
         <category>项目</category>
+        <category>nodeJs</category>
+        <category>vscode</category>
+        <category>windows</category>
+        <category>密码管理</category>
         <category>database</category>
-        <category>mongodb</category>
         <category>JDBC</category>
+        <category>mongodb</category>
         <category>redis</category>
         <category>navicat</category>
         <category>集群</category>
@@ -69,7 +69,6 @@
         <category>树结构</category>
         <category>程序员常用的10中算法</category>
         <category>maven</category>
-        <category>servlet</category>
         <category>编程题</category>
         <category>动态规划</category>
         <category>贪心算法</category>
@@ -82,17 +81,18 @@
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
-        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
+        <category>单调栈</category>
         <category>大顶堆</category>
         <category>逆波兰表达式</category>
+        <category>servlet</category>
         <category>spring</category>
-        <category>开源项目框架</category>
         <category>工具类</category>
+        <category>开源项目框架</category>
         <category>案例Demo</category>
-        <category>网络编程</category>
         <category>菜单数据结构</category>
+        <category>网络编程</category>
         <category>分页</category>
         <category>多线程</category>
         <category>lombok</category>
@@ -100,8 +100,8 @@
         <category>API的区别</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
         <category>七牛云</category>
         <category>设计模式</category>
         <category>vue3</category>
@@ -109,17 +109,17 @@
         <category>前后端交互</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>ORM</category>
         <category>mybatisplus-join</category>
+        <category>ORM</category>
+        <category>二叉树搜索树</category>
         <category>avl树</category>
+        <category>二叉树的遍历</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
-        <category>二叉树搜索树</category>
-        <category>二叉树的遍历</category>
         <category>heapify</category>
         <category>堆排序</category>
-        <category>红黑树</category>
         <category>动态数组</category>
+        <category>红黑树</category>
         <category>阻塞队列</category>
         <category>进阶</category>
         <category>SSM</category>
@@ -135,104 +135,29 @@
         <category>Junit</category>
         <category>IO</category>
         <category>String</category>
-        <category>http</category>
-        <category>lambda</category>
         <category>number</category>
+        <category>lambda</category>
+        <category>http</category>
         <category>stream流</category>
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>jquery</category>
         <category>js</category>
-        <category>JSR303</category>
+        <category>jquery</category>
         <category>Knife4j</category>
+        <category>JSR303</category>
         <category>devtools</category>
-        <category>springboot高级</category>
         <category>Docker</category>
         <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
+        <category>springboot高级</category>
         <category>OpenResty</category>
         <category>Canal</category>
         <category>Seata</category>
         <category>Sentinel</category>
         <category>持久化</category>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</guid>
-            <title>解决linux默认运行级别困扰</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</link>
-            <category>问题总汇</category>
-            <category>linux</category>
-            <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;开机按 e 进入编辑模式在 rhgb quiet 后面输入 [空格] 1 然后按 CTRL+x 进入单用户模式&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125030007.png&#34; alt=&#34;image-20240208125030007&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-06-17-01-43.png&#34; alt=&#34;image_2023-01-06-17-01-43&#34;&gt;&lt;/p&gt;
-&lt;p&gt;进入单用户模式后输入密码进入 root 用户我们就可以更改运行级别了&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125044516.png&#34; alt=&#34;image-20240208125044516&#34;&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</guid>
-            <title>解决切换root用户到bash中</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</link>
-            <category>问题总汇</category>
-            <category>linux</category>
-            <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;解决切换root用户到bash中&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决切换root用户到bash中&#34;&gt;#&lt;/a&gt; 解决切换 root 用户到 bash 中&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;打开终端输入:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;切换到root此时root为bash不要紧&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cp&lt;/span&gt; /etc/skel/.bash* &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;.为当前路径直接复制到root下或者执行&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cp&lt;/span&gt; /etc/skel/.bash* /root/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;将缺失的配置文件复制到root用户下&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
-&lt;li&gt;登出，或者重启一下&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</guid>
-            <title>解决提示：用户不在sudoers文件中将以告终</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</link>
-            <category>问题总汇</category>
-            <category>linux</category>
-            <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-            <description><![CDATA[ &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;切换到 root 权限下，查看 /etc/sudoers 文件的权限&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;更改权限为 777 为所有用户可读写&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;vim 进去编译 sudoers 文件在 100 行的下一行写:&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;dkx&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;用户名&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;   &lt;span class=&#34;token assign-left variable&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ALL&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;   ALL&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
-&lt;li&gt;保存并退出&lt;/li&gt;
-&lt;li&gt;再将 sudoers 文件的权限改为 400 如果执行 sudo 报错将权限改为 440 即可&lt;/li&gt;
-&lt;/ol&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</guid>
-            <title>vmware - CentOS 7 linux 无法启动,Entering emergency mode问题</title>
-            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</link>
-            <category>问题总汇</category>
-            <category>linux</category>
-            <pubDate>Tue, 02 Apr 2024 12:07:17 +0800</pubDate>
-            <description><![CDATA[ &lt;h1 id=&#34;centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;#&lt;/a&gt; CentOS 7 linux 无法启动，Entering emergency mode 问题&lt;/h1&gt;
-&lt;p&gt;由于虚拟机强制关机，导致虚拟机 CentOS 7 启动时报错&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/20191128223811271.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;解决办法&lt;/p&gt;
-&lt;p&gt;从报错信息中可以看到输入 == &lt;code&gt;journalctl&lt;/code&gt; == 命令就可以查看本次启动的日志&lt;/p&gt;
-&lt;p&gt;日志最后如下图&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121510029.png&#34; alt=&#34;image-20240208121510029&#34;&gt;&lt;/p&gt;
-&lt;p&gt;从日志中看到错误的原因是无法挂载到系统，即可 Failed to monut/sysroot&lt;/p&gt;
-&lt;p&gt;解决办法，输入命令&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;xfs_repair &lt;span class=&#34;token parameter variable&#34;&gt;-v&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-L&lt;/span&gt; /dev/dm-0&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后出现下面结果&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121523842.png&#34; alt=&#34;image-20240208121523842&#34;&gt;&lt;/p&gt;
-&lt;p&gt;重新启动客户端&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/03/16/computer-science/linux/%E5%9F%BA%E7%A1%80/%E4%BF%AE%E6%94%B9root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81/</guid>
             <title>CentOS 7 Linux修改root用户密码</title>
@@ -1363,6 +1288,20 @@ curl -d &#39;login=emma&#39; -d &#39;password=123&#39; -X POST  https://google.c
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</guid>
+            <title>解决linux默认运行级别困扰</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/</link>
+            <category>问题总汇</category>
+            <category>linux</category>
+            <pubDate>Thu, 08 Feb 2024 12:51:08 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;开机按 e 进入编辑模式在 rhgb quiet 后面输入 [空格] 1 然后按 CTRL+x 进入单用户模式&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125030007.png&#34; alt=&#34;image-20240208125030007&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-06-17-01-43.png&#34; alt=&#34;image_2023-01-06-17-01-43&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;进入单用户模式后输入密码进入 root 用户我们就可以更改运行级别了&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125044516.png&#34; alt=&#34;image-20240208125044516&#34; /&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/</guid>
             <title>linux网络配置指令</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/</link>
@@ -1946,6 +1885,51 @@ curl -d &#39;login=emma&#39; -d &#39;password=123&#39; -X POST  https://google.c
  ]]></description>
         </item>
         <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</guid>
+            <title>vmware - CentOS 7 linux 无法启动,Entering emergency mode问题</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/</link>
+            <category>问题总汇</category>
+            <category>linux</category>
+            <pubDate>Thu, 08 Feb 2024 12:15:56 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#centos-7-linux-无法启动entering-emergency-mode问题&#34;&gt;#&lt;/a&gt; CentOS 7 linux 无法启动，Entering emergency mode 问题&lt;/h1&gt;
+&lt;p&gt;由于虚拟机强制关机，导致虚拟机 CentOS 7 启动时报错&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/20191128223811271.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;解决办法&lt;/p&gt;
+&lt;p&gt;从报错信息中可以看到输入 == &lt;code&gt;journalctl&lt;/code&gt; == 命令就可以查看本次启动的日志&lt;/p&gt;
+&lt;p&gt;日志最后如下图&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121510029.png&#34; alt=&#34;image-20240208121510029&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;从日志中看到错误的原因是无法挂载到系统，即可 Failed to monut/sysroot&lt;/p&gt;
+&lt;p&gt;解决办法，输入命令&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;xfs_repair &lt;span class=&#34;token parameter variable&#34;&gt;-v&lt;/span&gt; &lt;span class=&#34;token parameter variable&#34;&gt;-L&lt;/span&gt; /dev/dm-0&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后出现下面结果&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121523842.png&#34; alt=&#34;image-20240208121523842&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;重新启动客户端&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</guid>
+            <title>解决提示：用户不在sudoers文件中将以告终</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/</link>
+            <category>问题总汇</category>
+            <category>linux</category>
+            <pubDate>Thu, 08 Feb 2024 12:13:23 +0800</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;切换到 root 权限下，查看 /etc/sudoers 文件的权限&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;更改权限为 777 为所有用户可读写&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;vim 进去编译 sudoers 文件在 100 行的下一行写:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;dkx&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;用户名&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;   &lt;span class=&#34;token assign-left variable&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ALL&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;   ALL&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;保存并退出&lt;/li&gt;
+&lt;li&gt;再将 sudoers 文件的权限改为 400 如果执行 sudo 报错将权限改为 440 即可&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
+        <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E9%93%BE%E6%8E%A5%E6%96%B9%E5%BC%8F/</guid>
             <title>vmware网络的三种连接方式</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E9%93%BE%E6%8E%A5%E6%96%B9%E5%BC%8F/</link>
@@ -1996,6 +1980,22 @@ curl -d &#39;login=emma&#39; -d &#39;password=123&#39; -X POST  https://google.c
 &lt;p&gt;执行指令:&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;source&lt;/span&gt; /etc/profile&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;然后就可以输入指令来查看 jdk 是否安装成功了&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;javac&lt;/code&gt;  ,  &lt;code&gt;java -version&lt;/code&gt;  ,  &lt;code&gt;java&lt;/code&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</guid>
+            <title>解决切换root用户到bash中</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/</link>
+            <category>问题总汇</category>
+            <category>linux</category>
+            <pubDate>Thu, 08 Feb 2024 12:09:45 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;解决切换root用户到bash中&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解决切换root用户到bash中&#34;&gt;#&lt;/a&gt; 解决切换 root 用户到 bash 中&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;打开终端输入:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;切换到root此时root为bash不要紧&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cp&lt;/span&gt; /etc/skel/.bash* &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;.为当前路径直接复制到root下或者执行&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;cp&lt;/span&gt; /etc/skel/.bash* /root/&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;将缺失的配置文件复制到root用户下&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;登出，或者重启一下&lt;/li&gt;
+&lt;/ol&gt;
  ]]></description>
         </item>
         <item>

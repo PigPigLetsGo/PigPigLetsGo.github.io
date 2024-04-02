@@ -5,50 +5,6 @@
     "home_page_url": "https://pigpigletsgo.github.io/homepage",
     "items": [
         {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/",
-            "title": "解决linux默认运行级别困扰",
-            "date_published": "2024-04-02T04:07:17.317Z",
-            "content_html": "<p>开机按 e 进入编辑模式在 rhgb quiet 后面输入 [空格] 1 然后按 CTRL+x 进入单用户模式</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125030007.png\" alt=\"image-20240208125030007\"></p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-06-17-01-43.png\" alt=\"image_2023-01-06-17-01-43\"></p>\n<p>进入单用户模式后输入密码进入 root 用户我们就可以更改运行级别了</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125044516.png\" alt=\"image-20240208125044516\"></p>\n",
-            "tags": [
-                "问题总汇",
-                "linux"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/",
-            "title": "解决切换root用户到bash中",
-            "date_published": "2024-04-02T04:07:17.313Z",
-            "content_html": "<h1 id=\"解决切换root用户到bash中\"><a class=\"markdownIt-Anchor\" href=\"#解决切换root用户到bash中\">#</a> 解决切换 root 用户到 bash 中</h1>\n<ol>\n<li>打开终端输入:</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>切换到root此时root为bash不要紧</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token function\">cp</span> /etc/skel/.bash* <span class=\"token builtin class-name\">.</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>.为当前路径直接复制到root下或者执行</pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token function\">cp</span> /etc/skel/.bash* /root/</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>将缺失的配置文件复制到root用户下</pre></td></tr></table></figure><ol start=\"2\">\n<li>登出，或者重启一下</li>\n</ol>\n",
-            "tags": [
-                "问题总汇",
-                "linux"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/",
-            "title": "解决提示：用户不在sudoers文件中将以告终",
-            "date_published": "2024-04-02T04:07:17.305Z",
-            "content_html": "<ol>\n<li>\n<p>切换到 root 权限下，查看 /etc/sudoers 文件的权限</p>\n</li>\n<li>\n<p>更改权限为 777 为所有用户可读写</p>\n</li>\n<li>\n<p>vim 进去编译 sudoers 文件在 100 行的下一行写:</p>\n</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>dkx<span class=\"token punctuation\">(</span>用户名<span class=\"token punctuation\">)</span>   <span class=\"token assign-left variable\">ALL</span><span class=\"token operator\">=</span><span class=\"token punctuation\">(</span>ALL<span class=\"token punctuation\">)</span>   ALL</pre></td></tr></table></figure><ol start=\"4\">\n<li>保存并退出</li>\n<li>再将 sudoers 文件的权限改为 400 如果执行 sudo 报错将权限改为 440 即可</li>\n</ol>\n",
-            "tags": [
-                "问题总汇",
-                "linux"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/",
-            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/",
-            "title": "vmware - CentOS 7 linux 无法启动,Entering emergency mode问题",
-            "date_published": "2024-04-02T04:07:17.241Z",
-            "content_html": "<h1 id=\"centos-7-linux-无法启动entering-emergency-mode问题\"><a class=\"markdownIt-Anchor\" href=\"#centos-7-linux-无法启动entering-emergency-mode问题\">#</a> CentOS 7 linux 无法启动，Entering emergency mode 问题</h1>\n<p>由于虚拟机强制关机，导致虚拟机 CentOS 7 启动时报错</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/20191128223811271.png\" alt=\"\"></p>\n<p>解决办法</p>\n<p>从报错信息中可以看到输入 == <code>journalctl</code> == 命令就可以查看本次启动的日志</p>\n<p>日志最后如下图</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121510029.png\" alt=\"image-20240208121510029\"></p>\n<p>从日志中看到错误的原因是无法挂载到系统，即可 Failed to monut/sysroot</p>\n<p>解决办法，输入命令</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>xfs_repair <span class=\"token parameter variable\">-v</span> <span class=\"token parameter variable\">-L</span> /dev/dm-0</pre></td></tr></table></figure><p>然后出现下面结果</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121523842.png\" alt=\"image-20240208121523842\"></p>\n<p>重新启动客户端</p>\n",
-            "tags": [
-                "问题总汇",
-                "linux"
-            ]
-        },
-        {
             "id": "https://pigpigletsgo.github.io/homepage/2024/03/16/computer-science/linux/%E5%9F%BA%E7%A1%80/%E4%BF%AE%E6%94%B9root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81/",
             "url": "https://pigpigletsgo.github.io/homepage/2024/03/16/computer-science/linux/%E5%9F%BA%E7%A1%80/%E4%BF%AE%E6%94%B9root%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81/",
             "title": "CentOS 7 Linux修改root用户密码",
@@ -270,6 +226,17 @@
             ]
         },
         {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E9%BB%98%E8%AE%A4%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB%E5%9B%B0%E6%89%B0/",
+            "title": "解决linux默认运行级别困扰",
+            "date_published": "2024-02-08T04:51:08.899Z",
+            "content_html": "<p>开机按 e 进入编辑模式在 rhgb quiet 后面输入 [空格] 1 然后按 CTRL+x 进入单用户模式</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125030007.png\" alt=\"image-20240208125030007\" /></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-06-17-01-43.png\" alt=\"image_2023-01-06-17-01-43\" /></p>\n<p>进入单用户模式后输入密码进入 root 用户我们就可以更改运行级别了</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208125044516.png\" alt=\"image-20240208125044516\" /></p>\n",
+            "tags": [
+                "问题总汇",
+                "linux"
+            ]
+        },
+        {
             "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/",
             "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/Linux%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE%E6%8C%87%E4%BB%A4/",
             "title": "linux网络配置指令",
@@ -414,6 +381,28 @@
             ]
         },
         {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/CentOS%207%20linux%20%E6%97%A0%E6%B3%95%E5%90%AF%E5%8A%A8,Entering%20emergency%20mode%E9%97%AE%E9%A2%98/",
+            "title": "vmware - CentOS 7 linux 无法启动,Entering emergency mode问题",
+            "date_published": "2024-02-08T04:15:56.865Z",
+            "content_html": "<h1 id=\"centos-7-linux-无法启动entering-emergency-mode问题\"><a class=\"anchor\" href=\"#centos-7-linux-无法启动entering-emergency-mode问题\">#</a> CentOS 7 linux 无法启动，Entering emergency mode 问题</h1>\n<p>由于虚拟机强制关机，导致虚拟机 CentOS 7 启动时报错</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/20191128223811271.png\" alt=\"\" /></p>\n<p>解决办法</p>\n<p>从报错信息中可以看到输入 == <code>journalctl</code> == 命令就可以查看本次启动的日志</p>\n<p>日志最后如下图</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121510029.png\" alt=\"image-20240208121510029\" /></p>\n<p>从日志中看到错误的原因是无法挂载到系统，即可 Failed to monut/sysroot</p>\n<p>解决办法，输入命令</p>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>xfs_repair <span class=\"token parameter variable\">-v</span> <span class=\"token parameter variable\">-L</span> /dev/dm-0</pre></td></tr></table></figure><p>然后出现下面结果</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240208121523842.png\" alt=\"image-20240208121523842\" /></p>\n<p>重新启动客户端</p>\n",
+            "tags": [
+                "问题总汇",
+                "linux"
+            ]
+        },
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E7%94%A8%E6%88%B7%E4%B8%8D%E5%9C%A8sudoers%E6%96%87%E4%BB%B6%E4%B8%AD%E5%B0%86%E4%BB%A5%E5%91%8A%E7%BB%88/",
+            "title": "解决提示：用户不在sudoers文件中将以告终",
+            "date_published": "2024-02-08T04:13:23.882Z",
+            "content_html": "<ol>\n<li>\n<p>切换到 root 权限下，查看 /etc/sudoers 文件的权限</p>\n</li>\n<li>\n<p>更改权限为 777 为所有用户可读写</p>\n</li>\n<li>\n<p>vim 进去编译 sudoers 文件在 100 行的下一行写:</p>\n</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>dkx<span class=\"token punctuation\">(</span>用户名<span class=\"token punctuation\">)</span>   <span class=\"token assign-left variable\">ALL</span><span class=\"token operator\">=</span><span class=\"token punctuation\">(</span>ALL<span class=\"token punctuation\">)</span>   ALL</pre></td></tr></table></figure><ol start=\"4\">\n<li>保存并退出</li>\n<li>再将 sudoers 文件的权限改为 400 如果执行 sudo 报错将权限改为 440 即可</li>\n</ol>\n",
+            "tags": [
+                "问题总汇",
+                "linux"
+            ]
+        },
+        {
             "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E9%93%BE%E6%8E%A5%E6%96%B9%E5%BC%8F/",
             "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/computer-science/linux/%E5%9F%BA%E7%A1%80/%E7%BD%91%E7%BB%9C%E7%9A%84%E4%B8%89%E7%A7%8D%E9%93%BE%E6%8E%A5%E6%96%B9%E5%BC%8F/",
             "title": "vmware网络的三种连接方式",
@@ -433,6 +422,17 @@
             "tags": [
                 "linux",
                 "计算机学科"
+            ]
+        },
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/02/08/bug/%E8%A7%A3%E5%86%B3%E5%88%87%E6%8D%A2root%E7%94%A8%E6%88%B7%E5%88%B0bash%E4%B8%AD/",
+            "title": "解决切换root用户到bash中",
+            "date_published": "2024-02-08T04:09:45.520Z",
+            "content_html": "<h1 id=\"解决切换root用户到bash中\"><a class=\"anchor\" href=\"#解决切换root用户到bash中\">#</a> 解决切换 root 用户到 bash 中</h1>\n<ol>\n<li>打开终端输入:</li>\n</ol>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>切换到root此时root为bash不要紧</pre></td></tr><tr><td data-num=\"2\"></td><td><pre><span class=\"token function\">cp</span> /etc/skel/.bash* <span class=\"token builtin class-name\">.</span></pre></td></tr><tr><td data-num=\"3\"></td><td><pre>.为当前路径直接复制到root下或者执行</pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token function\">cp</span> /etc/skel/.bash* /root/</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>将缺失的配置文件复制到root用户下</pre></td></tr></table></figure><ol start=\"2\">\n<li>登出，或者重启一下</li>\n</ol>\n",
+            "tags": [
+                "问题总汇",
+                "linux"
             ]
         },
         {
