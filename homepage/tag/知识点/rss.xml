@@ -7,14 +7,15 @@
         <language>zh-CN</language>
         <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
         <lastBuildDate>Tue, 02 Apr 2024 14:23:31 +0800</lastBuildDate>
+        <category>计算机底层</category>
         <category>mybatis</category>
         <category>问题总汇</category>
         <category>linux</category>
         <category>jdk版本问题</category>
-        <category>报错</category>
-        <category>编码问题</category>
         <category>springboot</category>
         <category>读取配置文件</category>
+        <category>报错</category>
+        <category>编码问题</category>
         <category>JdbcTemplate</category>
         <category>Jwt</category>
         <category>MyBatisPlus</category>
@@ -26,58 +27,64 @@
         <category>输入法</category>
         <category>hexo</category>
         <category>shoka</category>
-        <category>计算机底层</category>
+        <category>english</category>
         <category>math</category>
         <category>算法</category>
-        <category>english</category>
         <category>计算机学科</category>
         <category>C</category>
         <category>介绍</category>
         <category>基础</category>
         <category>mysql</category>
         <category>git</category>
-        <category>坑点</category>
         <category>web</category>
         <category>tools</category>
-        <category>windows</category>
-        <category>nodeJs</category>
         <category>idea</category>
         <category>项目</category>
+        <category>坑点</category>
         <category>vscode</category>
+        <category>nodeJs</category>
         <category>密码管理</category>
-        <category>jvm</category>
+        <category>windows</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>navicat</category>
+        <category>知识点</category>
         <category>config配置类</category>
-        <category>maven</category>
+        <category>jvm</category>
+        <category>数据结构与算法</category>
+        <category>图</category>
+        <category>多路查找树</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>递归</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>栈</category>
+        <category>数组</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
         <category>编程题</category>
         <category>动态规划</category>
+        <category>贪心算法</category>
         <category>二叉树</category>
         <category>层序遍历</category>
-        <category>贪心算法</category>
         <category>后序遍历</category>
         <category>广度优先搜索</category>
         <category>还原二叉树</category>
-        <category>递归</category>
         <category>双指针</category>
         <category>快慢指针</category>
         <category>分而治之</category>
         <category>对称二叉树</category>
-        <category>单调栈</category>
         <category>堆</category>
         <category>小顶堆</category>
         <category>大顶堆</category>
-        <category>栈</category>
+        <category>单调栈</category>
         <category>逆波兰表达式</category>
-        <category>数据结构与算法</category>
-        <category>图</category>
-        <category>多路查找树</category>
-        <category>链表</category>
-        <category>队列</category>
-        <category>数组</category>
-        <category>排序</category>
-        <category>查找</category>
-        <category>哈希表</category>
-        <category>树结构</category>
-        <category>程序员常用的10中算法</category>
+        <category>maven</category>
         <category>servlet</category>
         <category>spring</category>
         <category>工具类</category>
@@ -86,51 +93,46 @@
         <category>菜单数据结构</category>
         <category>网络编程</category>
         <category>分页</category>
-        <category>lombok</category>
         <category>多线程</category>
+        <category>lombok</category>
         <category>第三方库</category>
         <category>Minio</category>
-        <category>hutool</category>
         <category>Thymeleaf</category>
+        <category>hutool</category>
         <category>爬虫</category>
         <category>七牛云</category>
-        <category>知识点</category>
         <category>API的区别</category>
         <category>设计模式</category>
-        <category>database</category>
-        <category>JDBC</category>
-        <category>mongodb</category>
-        <category>redis</category>
-        <category>集群</category>
-        <category>navicat</category>
         <category>代码经验</category>
         <category>vue3</category>
         <category>前后端交互</category>
         <category>websocket</category>
         <category>数据格式</category>
         <category>axios</category>
-        <category>进阶</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
+        <category>二叉树的遍历</category>
         <category>avl树</category>
         <category>二叉树搜索树</category>
-        <category>二叉树的遍历</category>
         <category>优先级队列</category>
         <category>完全二叉树</category>
         <category>heapify</category>
         <category>堆排序</category>
+        <category>阻塞队列</category>
         <category>动态数组</category>
         <category>红黑树</category>
-        <category>阻塞队列</category>
+        <category>进阶</category>
         <category>SSM</category>
         <category>springmvc</category>
+        <category>springcloud</category>
         <category>springsecurity</category>
         <category>JWT</category>
         <category>MD5</category>
         <category>thymeleaf</category>
-        <category>springcloud</category>
         <category>源码</category>
+        <category>拦截器</category>
         <category>整合jar包</category>
         <category>Junit</category>
-        <category>拦截器</category>
         <category>IO</category>
         <category>String</category>
         <category>http</category>
@@ -140,16 +142,14 @@
         <category>对象</category>
         <category>泛型</category>
         <category>集合</category>
-        <category>mybatisplus-join</category>
-        <category>ORM</category>
         <category>js</category>
         <category>jquery</category>
+        <category>JSR303</category>
         <category>Knife4j</category>
         <category>devtools</category>
-        <category>JSR303</category>
         <category>springboot高级</category>
-        <category>Elasticsearch</category>
         <category>Docker</category>
+        <category>Elasticsearch</category>
         <category>Nacos</category>
         <category>RabbitMQ</category>
         <category>部署</category>
@@ -377,8 +377,8 @@ o2 = 王五
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</guid>
             <title>二维数组的局部性原理</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%95%B0%E7%BB%84/%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E7%9A%84%E5%B1%80%E9%83%A8%E6%80%A7%E5%8E%9F%E7%90%86/</link>
-            <category>数组</category>
             <category>知识点</category>
+            <category>数组</category>
             <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;二维数组的局部性原理&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#二维数组的局部性原理&#34;&gt;#&lt;/a&gt; 二维数组的局部性原理&lt;/h1&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; array&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;12&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;13&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;15&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;21&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;22&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;23&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;24&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;31&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;32&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;33&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;34&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;35&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401081459751.png&#34; alt=&#34;image-20240108145924650&#34;&gt;&lt;/p&gt;
@@ -502,8 +502,8 @@ ns         %     Task name
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%A4%9A%E7%BA%BF%E7%A8%8B/ThreadLocal%E4%BB%8B%E7%BB%8D/</guid>
             <title>ThreadLocal介绍</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%A4%9A%E7%BA%BF%E7%A8%8B/ThreadLocal%E4%BB%8B%E7%BB%8D/</link>
-            <category>多线程</category>
             <category>知识点</category>
+            <category>多线程</category>
             <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;一-threadlocal介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#一-threadlocal介绍&#34;&gt;#&lt;/a&gt; 一、ThreadLocal 介绍&lt;/h1&gt;
 &lt;h2 id=&#34;11-介绍&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#11-介绍&#34;&gt;#&lt;/a&gt; 1.1 介绍&lt;/h2&gt;
@@ -911,8 +911,8 @@ ns         %     Task name
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%A4%9A%E7%BA%BF%E7%A8%8B/join()%E6%96%B9%E6%B3%95%E7%9A%84%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90/</guid>
             <title>join()方法的详细分析</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%A4%9A%E7%BA%BF%E7%A8%8B/join()%E6%96%B9%E6%B3%95%E7%9A%84%E8%AF%A6%E7%BB%86%E5%88%86%E6%9E%90/</link>
-            <category>多线程</category>
             <category>知识点</category>
+            <category>多线程</category>
             <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;join方法的详细分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#join方法的详细分析&#34;&gt;#&lt;/a&gt; join () 方法的详细分析&lt;/h1&gt;
 &lt;p&gt;本文章来探讨 系统中运行多个线程时，join () 到底是暂停了那些线程&lt;/p&gt;
@@ -2825,8 +2825,8 @@ Exception in thread &amp;quot;main&amp;quot; java.lang.RuntimeException: 我是�
             <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/Java%E7%88%AC%E5%8F%96%E6%9F%90%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E5%9B%BE%E7%89%87%E6%A1%88%E4%BE%8B/</guid>
             <title>Java爬取某网站所有图片案例</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/Java%E7%88%AC%E5%8F%96%E6%9F%90%E7%BD%91%E7%AB%99%E6%89%80%E6%9C%89%E5%9B%BE%E7%89%87%E6%A1%88%E4%BE%8B/</link>
-            <category>爬虫</category>
             <category>知识点</category>
+            <category>爬虫</category>
             <pubDate>Tue, 02 Apr 2024 14:23:31 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;java爬取某网站所有图片案例&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#java爬取某网站所有图片案例&#34;&gt;#&lt;/a&gt; Java 爬取某网站所有图片案例&lt;/h1&gt;
 &lt;p&gt;使用 maven 工程&lt;/p&gt;
@@ -3070,8 +3070,8 @@ https://mmbiz.qpic.cn/sz_mmbiz_jpg/DVk7VUQZ3qGeicxDibu7SlxIT62BJb593CsoRbMW21hdj
             <title>电商项目中的SKU与SPU的数据库表设计</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E7%94%B5%E5%95%86%E9%A1%B9%E7%9B%AE%E4%B8%AD%E7%9A%84SKU%E4%B8%8ESPU%E7%9A%84%E6%95%B0%E6%8D%AE%E5%BA%93%E8%A1%A8%E8%AE%BE%E8%AE%A1/</link>
             <category>计算机学科</category>
-            <category>知识点</category>
             <category>database</category>
+            <category>知识点</category>
             <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;电商项目中的sku与spu的数据库表设计&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#电商项目中的sku与spu的数据库表设计&#34;&gt;#&lt;/a&gt; 电商项目中的 SKU 与 SPU 的数据库表设计&lt;/h1&gt;
 &lt;h2 id=&#34;简介&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#简介&#34;&gt;#&lt;/a&gt; 简介：&lt;/h2&gt;
@@ -3123,8 +3123,8 @@ https://mmbiz.qpic.cn/sz_mmbiz_jpg/DVk7VUQZ3qGeicxDibu7SlxIT62BJb593CsoRbMW21hdj
             <title>批量删除数据库所有表</title>
             <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/%E7%9F%A5%E8%AF%86%E7%82%B9/%E6%89%B9%E9%87%8F%E5%88%A0%E9%99%A4%E6%95%B0%E6%8D%AE%E5%BA%93%E6%89%80%E6%9C%89%E8%A1%A8/</link>
             <category>计算机学科</category>
-            <category>知识点</category>
             <category>database</category>
+            <category>知识点</category>
             <pubDate>Tue, 02 Apr 2024 14:23:30 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;批量删除数据库所有表&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#批量删除数据库所有表&#34;&gt;#&lt;/a&gt; 批量删除数据库所有表&lt;/h1&gt;
 &lt;figure class=&#34;highlight sql&#34;&gt;&lt;figcaption data-lang=&#34;SQL&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;SELECT&lt;/span&gt; concat&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;DROP TABLE IF EXISTS &#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; table_name&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;;&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;FROM&lt;/span&gt; information_schema&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;tables&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;WHERE&lt;/span&gt; table_schema &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;guan_duoduo&#39;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;执行后就会生成删除的结果集：&lt;/p&gt;
