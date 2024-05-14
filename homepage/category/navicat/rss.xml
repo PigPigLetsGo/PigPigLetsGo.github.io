@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>homepage • Posts by &#34;navicat&#34; category</title>
+        <link>https://pigpigletsgo.github.io/homepage</link>
+        <description>欢迎来我的博客空间</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:50 +0800</lastBuildDate>
+        <category>计算机底层</category>
+        <category>问题总汇</category>
+        <category>jdk版本问题</category>
+        <category>mybatis</category>
+        <category>linux</category>
+        <category>报错</category>
+        <category>编码问题</category>
+        <category>springboot</category>
+        <category>Jwt</category>
+        <category>读取配置文件</category>
+        <category>JdbcTemplate</category>
+        <category>MyBatisPlus</category>
+        <category>版本问题</category>
+        <category>nginx</category>
+        <category>Swing</category>
+        <category>java</category>
+        <category>vim</category>
+        <category>输入法</category>
+        <category>hexo</category>
+        <category>shoka</category>
+        <category>english</category>
+        <category>math</category>
+        <category>算法</category>
+        <category>计算机学科</category>
+        <category>C</category>
+        <category>介绍</category>
+        <category>基础</category>
+        <category>mysql</category>
+        <category>blog - sql</category>
+        <category>git</category>
+        <category>web</category>
+        <category>坑点</category>
+        <category>nodeJs</category>
+        <category>tools</category>
+        <category>idea</category>
+        <category>项目</category>
+        <category>PowerDesigner</category>
+        <category>windows</category>
+        <category>密码管理</category>
+        <category>vscode</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
+        <category>jvm</category>
+        <category>config配置类</category>
+        <category>maven</category>
+        <category>数据结构与算法</category>
+        <category>图</category>
+        <category>多路查找树</category>
+        <category>递归</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>栈</category>
+        <category>数组</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>编程题</category>
+        <category>动态规划</category>
+        <category>贪心算法</category>
+        <category>二叉树</category>
+        <category>层序遍历</category>
+        <category>后序遍历</category>
+        <category>广度优先搜索</category>
+        <category>双指针</category>
+        <category>还原二叉树</category>
+        <category>快慢指针</category>
+        <category>分而治之</category>
+        <category>单调栈</category>
+        <category>对称二叉树</category>
+        <category>堆</category>
+        <category>小顶堆</category>
+        <category>大顶堆</category>
+        <category>逆波兰表达式</category>
+        <category>spring</category>
+        <category>servlet</category>
+        <category>工具类</category>
+        <category>开源项目框架</category>
+        <category>案例Demo</category>
+        <category>网络编程</category>
+        <category>菜单数据结构</category>
+        <category>多线程</category>
+        <category>分页</category>
+        <category>lombok</category>
+        <category>爬虫</category>
+        <category>API的区别</category>
+        <category>设计模式</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>七牛云</category>
+        <category>vue3</category>
+        <category>websocket</category>
+        <category>前后端交互</category>
+        <category>数据格式</category>
+        <category>axios</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
+        <category>avl树</category>
+        <category>进阶</category>
+        <category>二叉树搜索树</category>
+        <category>二叉树的遍历</category>
+        <category>优先级队列</category>
+        <category>完全二叉树</category>
+        <category>heapify</category>
+        <category>动态数组</category>
+        <category>阻塞队列</category>
+        <category>堆排序</category>
+        <category>红黑树</category>
+        <category>SSM</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>thymeleaf</category>
+        <category>springmvc</category>
+        <category>springcloud</category>
+        <category>源码</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
+        <category>IO</category>
+        <category>String</category>
+        <category>http</category>
+        <category>lambda</category>
+        <category>stream流</category>
+        <category>number</category>
+        <category>对象</category>
+        <category>泛型</category>
+        <category>集合</category>
+        <category>jquery</category>
+        <category>js</category>
+        <category>JSR303</category>
+        <category>devtools</category>
+        <category>springboot高级</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Elasticsearch</category>
+        <category>Knife4j</category>
+        <category>RabbitMQ</category>
+        <category>部署</category>
+        <category>Canal</category>
+        <category>OpenResty</category>
+        <category>Seata</category>
+        <category>Sentinel</category>
+        <category>持久化</category>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/navicat/navicat%E6%A8%A1%E5%9E%8B-%E6%B8%85%E7%90%86%E8%A1%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</guid>
+            <title>navicat模型-清理表之间的关系</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/database/navicat/navicat%E6%A8%A1%E5%9E%8B-%E6%B8%85%E7%90%86%E8%A1%A8%E4%B9%8B%E9%97%B4%E7%9A%84%E5%85%B3%E7%B3%BB/</link>
+            <category>计算机学科</category>
+            <category>database</category>
+            <category>navicat</category>
+            <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;navicat模型-清理表之间的关系&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#navicat模型-清理表之间的关系&#34;&gt;#&lt;/a&gt; navicat 模型 - 清理表之间的关系&lt;/h1&gt;
+&lt;p&gt;当我们使用 navicat 中模型的时候，将我们需要看的表导入到模型中时如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331104125115.png&#34; alt=&#34;image-20240331104125115&#34;&gt;&lt;/p&gt;
+&lt;p&gt;我们可以看到红线所标注的线两边有不同的图标，看了可能会一头雾水&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331104349530.png&#34; alt=&#34;image-20240331104349530&#34;&gt;&lt;/p&gt;
+&lt;p&gt;废话不多说，我们着重分析 user 与 order 表，两者是典型的一对多关系，那么 order 是多方，user 是一方。所以，你看懂了吗？order 是三个叉叉叉，user 是一个叉.&lt;/p&gt;
+&lt;p&gt;如果在模型上的关系出邮件查看的话是，基数在订单上的是：零个或者多个，而在 user 上是零个或一个。&lt;/p&gt;
+&lt;p&gt;这样你应该更加明白了。&lt;/p&gt;
+&lt;p&gt;也就是说，一对多关系上，一方也就是父方是可以是 0 或者 1 个，而对应在 order 方（多方，子方）是 0 个或者多个。&lt;/p&gt;
+&lt;p&gt;这样是不是更好的体现了一对多的关系呢？&lt;/p&gt;
+&lt;p&gt;相信你已经懂。需要说明的是，如果要求很严格的话，这样设计是比较注重细节的，同样在此关系中，如果不注意弄成了唯一或者多个的话就不能十分准确的表现业务了&lt;/p&gt;
+&lt;p&gt;单拿出来一个关系表进行分析：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331105045467.png&#34; alt=&#34;image-20240331105045467&#34;&gt;&lt;/p&gt;
+&lt;p&gt;如上图：tb_product_specs 就是设外键的一方，如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331105136558.png&#34; alt=&#34;image-20240331105136558&#34;&gt;&lt;/p&gt;
+&lt;p&gt;添加数据时，由于 tb_product_specs 是从表，所以需要看主表：tb_product 是否有对应的 id，因为从表关联了主表的 id 字段所以要看主表的 id 数据，比如有 1 那么可以在从表添加如下数据：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331105355411.png&#34; alt=&#34;image-20240331105355411&#34;&gt;&lt;/p&gt;
+&lt;p&gt;还可以添加为 null 的数据，但是不能添加其它的数据&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331105429776.png&#34; alt=&#34;image-20240331105429776&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240331105444853.png&#34; alt=&#34;image-20240331105444853&#34;&gt;&lt;/p&gt;
+&lt;p&gt;PS: 这里补充一点，在关系上右键的前往目标和前往源指的是前往子父表。因为一个外键关键，关联表是源，被关联的表是目标&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个会有三个标记，你图中出现了两个： 1，三叉的，表示设有外键的一方； 2，一叉的，表示一对一的关系； 3，还有一个等于号的标记，表示一对多的关系； ----------- 补充其他相关的概念： 1，主表 &amp;amp; 从表的概念：一个 “公共关键字”，设为主键的表为 “父表”，否则为 “从表”；故该公共关键字为从表的 “外键”； 数据表的三种关系： 1，一对一：一个 A 表，只能对应一个 B 表； 2，一对多：一个 A 表，可以对应多个 B 表； 3，多对多：一个 A 表，可以对应多个 B 表；一个 B 表，也可以对应多个 A 表&lt;/p&gt;
+&lt;/blockquote&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

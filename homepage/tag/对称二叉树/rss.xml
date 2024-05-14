@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>homepage • Posts by &#34;对称二叉树&#34; tag</title>
+        <link>https://pigpigletsgo.github.io/homepage</link>
+        <description>欢迎来我的博客空间</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:50 +0800</lastBuildDate>
+        <category>计算机底层</category>
+        <category>问题总汇</category>
+        <category>jdk版本问题</category>
+        <category>mybatis</category>
+        <category>linux</category>
+        <category>报错</category>
+        <category>编码问题</category>
+        <category>springboot</category>
+        <category>Jwt</category>
+        <category>读取配置文件</category>
+        <category>JdbcTemplate</category>
+        <category>MyBatisPlus</category>
+        <category>版本问题</category>
+        <category>nginx</category>
+        <category>Swing</category>
+        <category>java</category>
+        <category>vim</category>
+        <category>输入法</category>
+        <category>hexo</category>
+        <category>shoka</category>
+        <category>english</category>
+        <category>math</category>
+        <category>算法</category>
+        <category>计算机学科</category>
+        <category>C</category>
+        <category>介绍</category>
+        <category>基础</category>
+        <category>mysql</category>
+        <category>blog - sql</category>
+        <category>git</category>
+        <category>web</category>
+        <category>坑点</category>
+        <category>nodeJs</category>
+        <category>tools</category>
+        <category>idea</category>
+        <category>项目</category>
+        <category>PowerDesigner</category>
+        <category>windows</category>
+        <category>密码管理</category>
+        <category>vscode</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
+        <category>jvm</category>
+        <category>config配置类</category>
+        <category>maven</category>
+        <category>数据结构与算法</category>
+        <category>图</category>
+        <category>多路查找树</category>
+        <category>递归</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>栈</category>
+        <category>数组</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>编程题</category>
+        <category>动态规划</category>
+        <category>贪心算法</category>
+        <category>二叉树</category>
+        <category>层序遍历</category>
+        <category>后序遍历</category>
+        <category>广度优先搜索</category>
+        <category>双指针</category>
+        <category>还原二叉树</category>
+        <category>快慢指针</category>
+        <category>分而治之</category>
+        <category>单调栈</category>
+        <category>对称二叉树</category>
+        <category>堆</category>
+        <category>小顶堆</category>
+        <category>大顶堆</category>
+        <category>逆波兰表达式</category>
+        <category>spring</category>
+        <category>servlet</category>
+        <category>工具类</category>
+        <category>开源项目框架</category>
+        <category>案例Demo</category>
+        <category>网络编程</category>
+        <category>菜单数据结构</category>
+        <category>多线程</category>
+        <category>分页</category>
+        <category>lombok</category>
+        <category>爬虫</category>
+        <category>API的区别</category>
+        <category>设计模式</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>七牛云</category>
+        <category>vue3</category>
+        <category>websocket</category>
+        <category>前后端交互</category>
+        <category>数据格式</category>
+        <category>axios</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
+        <category>avl树</category>
+        <category>进阶</category>
+        <category>二叉树搜索树</category>
+        <category>二叉树的遍历</category>
+        <category>优先级队列</category>
+        <category>完全二叉树</category>
+        <category>heapify</category>
+        <category>动态数组</category>
+        <category>阻塞队列</category>
+        <category>堆排序</category>
+        <category>红黑树</category>
+        <category>SSM</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>thymeleaf</category>
+        <category>springmvc</category>
+        <category>springcloud</category>
+        <category>源码</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
+        <category>IO</category>
+        <category>String</category>
+        <category>http</category>
+        <category>lambda</category>
+        <category>stream流</category>
+        <category>number</category>
+        <category>对象</category>
+        <category>泛型</category>
+        <category>集合</category>
+        <category>jquery</category>
+        <category>js</category>
+        <category>JSR303</category>
+        <category>devtools</category>
+        <category>springboot高级</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Elasticsearch</category>
+        <category>Knife4j</category>
+        <category>RabbitMQ</category>
+        <category>部署</category>
+        <category>Canal</category>
+        <category>OpenResty</category>
+        <category>Seata</category>
+        <category>Sentinel</category>
+        <category>持久化</category>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/programming-questions/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/</guid>
+            <title>对称二叉树</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/programming-questions/%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91/</link>
+            <category>java</category>
+            <category>编程题</category>
+            <category>二叉树</category>
+            <category>对称二叉树</category>
+            <pubDate>Tue, 02 Apr 2024 18:00:50 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;对称二叉树&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#对称二叉树&#34;&gt;#&lt;/a&gt; 对称二叉树&lt;/h1&gt;
+&lt;p&gt;给你一个二叉树的根节点  &lt;code&gt;root&lt;/code&gt;  ， 检查它是否轴对称。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/1698026966-JDYPDU-image.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：root = [1,2,2,3,4,4,3]
+输出：true
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/1698027008-nPFLbM-image.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;输入：root = [1,2,2,null,3,null,3]
+输出：false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;树中节点数目在范围  &lt;code&gt;[1, 1000]&lt;/code&gt;  内&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-100 &amp;lt;= Node.val &amp;lt;= 100&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;思路分析&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#思路分析&#34;&gt;#&lt;/a&gt; 思路分析：&lt;/h2&gt;
+&lt;p&gt;比如说 我给出一个 对称的二叉树如下图所示：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240128114131089.png&#34; alt=&#34;image-20240128114131089&#34;&gt;&lt;/p&gt;
+&lt;p&gt;那么怎么判断它到底是不是对称的呢？&lt;/p&gt;
+&lt;p&gt;首先根节点不用检查，我们让 根节点的 左右两个孩子去做比较，看看它俩的值是否一样，它俩值相等就表示至少从这两个节点开始它是对称的&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240128114317932.png&#34; alt=&#34;image-20240128114317932&#34;&gt;&lt;/p&gt;
+&lt;p&gt;然后接着往下走，此时需要注意：&lt;/p&gt;
+&lt;p&gt;左边 2 节点的 左孩子 跟 右边 2 节点的 右孩子 进行对比，两个边上的对比一下&lt;/p&gt;
+&lt;p&gt;然后 左边 2 节点的 右孩子 跟 右边 2 节点 的 左孩子 进行对比&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240128114716085.png&#34; alt=&#34;image-20240128114716085&#34;&gt;&lt;/p&gt;
+&lt;p&gt;接着往下比较也是类似的 比如说 比较到 3 节点了&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240128114812764.png&#34; alt=&#34;image-20240128114812764&#34;&gt;&lt;/p&gt;
+&lt;p&gt;也是 左边 3 节点 的 左孩子 跟 右边 3 节点的 右孩子 进行比较&lt;/p&gt;
+&lt;p&gt;左边 3 节点的 右孩子 跟 右边 3 节点的 左孩子 进行比较&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240128114955109.png&#34; alt=&#34;image-20240128114955109&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;代码实现&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#代码实现&#34;&gt;#&lt;/a&gt; 代码实现：&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Solution&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;isSymmetric&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt; root&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;//root 节点不用做比较 去比较 root 的 left 和 right 节点&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;root&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; root&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;right&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;boolean&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt; left&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;TreeNode&lt;/span&gt; right&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 如果 两边都是 null 说明也是一样的 &lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;left &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; right &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;//left 和 right 不能同时为 null ，其中一个为 null 说明不对称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;right &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; left &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 如果 左边的 值 和 右边的值不一样 说明不对称&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;val &lt;span class=&#34;token operator&#34;&gt;!=&lt;/span&gt; right&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;val&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;            &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token comment&#34;&gt;// 1：判断 两边是否一样。2：判断内部两个是否一样&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; right&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;right&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;check&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;right&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; right&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;left&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
+    </channel>
+</rss>

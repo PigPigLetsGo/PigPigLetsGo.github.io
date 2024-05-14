@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>homepage • Posts by &#34;math&#34; category</title>
+        <link>https://pigpigletsgo.github.io/homepage</link>
+        <description>欢迎来我的博客空间</description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+        <lastBuildDate>Tue, 02 Apr 2024 18:00:51 +0800</lastBuildDate>
+        <category>计算机底层</category>
+        <category>问题总汇</category>
+        <category>jdk版本问题</category>
+        <category>mybatis</category>
+        <category>linux</category>
+        <category>报错</category>
+        <category>编码问题</category>
+        <category>springboot</category>
+        <category>Jwt</category>
+        <category>读取配置文件</category>
+        <category>JdbcTemplate</category>
+        <category>MyBatisPlus</category>
+        <category>版本问题</category>
+        <category>nginx</category>
+        <category>Swing</category>
+        <category>java</category>
+        <category>vim</category>
+        <category>输入法</category>
+        <category>hexo</category>
+        <category>shoka</category>
+        <category>english</category>
+        <category>math</category>
+        <category>算法</category>
+        <category>计算机学科</category>
+        <category>C</category>
+        <category>介绍</category>
+        <category>基础</category>
+        <category>mysql</category>
+        <category>blog - sql</category>
+        <category>git</category>
+        <category>web</category>
+        <category>坑点</category>
+        <category>nodeJs</category>
+        <category>tools</category>
+        <category>idea</category>
+        <category>项目</category>
+        <category>PowerDesigner</category>
+        <category>windows</category>
+        <category>密码管理</category>
+        <category>vscode</category>
+        <category>database</category>
+        <category>JDBC</category>
+        <category>mongodb</category>
+        <category>navicat</category>
+        <category>redis</category>
+        <category>集群</category>
+        <category>知识点</category>
+        <category>代码经验</category>
+        <category>jvm</category>
+        <category>config配置类</category>
+        <category>maven</category>
+        <category>数据结构与算法</category>
+        <category>图</category>
+        <category>多路查找树</category>
+        <category>递归</category>
+        <category>链表</category>
+        <category>队列</category>
+        <category>栈</category>
+        <category>数组</category>
+        <category>排序</category>
+        <category>查找</category>
+        <category>哈希表</category>
+        <category>树结构</category>
+        <category>程序员常用的10中算法</category>
+        <category>编程题</category>
+        <category>动态规划</category>
+        <category>贪心算法</category>
+        <category>二叉树</category>
+        <category>层序遍历</category>
+        <category>后序遍历</category>
+        <category>广度优先搜索</category>
+        <category>双指针</category>
+        <category>还原二叉树</category>
+        <category>快慢指针</category>
+        <category>分而治之</category>
+        <category>单调栈</category>
+        <category>对称二叉树</category>
+        <category>堆</category>
+        <category>小顶堆</category>
+        <category>大顶堆</category>
+        <category>逆波兰表达式</category>
+        <category>spring</category>
+        <category>servlet</category>
+        <category>工具类</category>
+        <category>开源项目框架</category>
+        <category>案例Demo</category>
+        <category>网络编程</category>
+        <category>菜单数据结构</category>
+        <category>多线程</category>
+        <category>分页</category>
+        <category>lombok</category>
+        <category>爬虫</category>
+        <category>API的区别</category>
+        <category>设计模式</category>
+        <category>第三方库</category>
+        <category>Minio</category>
+        <category>Thymeleaf</category>
+        <category>hutool</category>
+        <category>七牛云</category>
+        <category>vue3</category>
+        <category>websocket</category>
+        <category>前后端交互</category>
+        <category>数据格式</category>
+        <category>axios</category>
+        <category>ORM</category>
+        <category>mybatisplus-join</category>
+        <category>avl树</category>
+        <category>进阶</category>
+        <category>二叉树搜索树</category>
+        <category>二叉树的遍历</category>
+        <category>优先级队列</category>
+        <category>完全二叉树</category>
+        <category>heapify</category>
+        <category>动态数组</category>
+        <category>阻塞队列</category>
+        <category>堆排序</category>
+        <category>红黑树</category>
+        <category>SSM</category>
+        <category>springsecurity</category>
+        <category>JWT</category>
+        <category>MD5</category>
+        <category>thymeleaf</category>
+        <category>springmvc</category>
+        <category>springcloud</category>
+        <category>源码</category>
+        <category>整合jar包</category>
+        <category>Junit</category>
+        <category>拦截器</category>
+        <category>IO</category>
+        <category>String</category>
+        <category>http</category>
+        <category>lambda</category>
+        <category>stream流</category>
+        <category>number</category>
+        <category>对象</category>
+        <category>泛型</category>
+        <category>集合</category>
+        <category>jquery</category>
+        <category>js</category>
+        <category>JSR303</category>
+        <category>devtools</category>
+        <category>springboot高级</category>
+        <category>Nacos</category>
+        <category>Docker</category>
+        <category>Elasticsearch</category>
+        <category>Knife4j</category>
+        <category>RabbitMQ</category>
+        <category>部署</category>
+        <category>Canal</category>
+        <category>OpenResty</category>
+        <category>Seata</category>
+        <category>Sentinel</category>
+        <category>持久化</category>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</guid>
+            <title>欧几里得算法</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/math/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95/</link>
+            <category>math</category>
+            <category>算法</category>
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;欧几里得算法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#欧几里得算法&#34;&gt;#&lt;/a&gt; 欧几里得算法&lt;/h1&gt;
+&lt;p&gt;也被称为：辗转相除法，其特征包括如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;有效性：辗转相除法 是一种有效的方法，能够找到两个整数的最大公约数&lt;/li&gt;
+&lt;li&gt;递归性质：该算法可以通过递归方式实现，也可以用迭代方式&lt;/li&gt;
+&lt;li&gt;基于整数除法：辗转相除法的核心操作是整数除法，通过计算余数和更新被除数，除数，直至余数为零，找到最大公约数&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;详细说明如下&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#详细说明如下&#34;&gt;#&lt;/a&gt; 详细说明如下：&lt;/h2&gt;
+&lt;p&gt;当我们有两个整数 p 和 q，我们可以使用欧几里得算法求它们的最大公约数 (GCD)。这个算法的基本思想是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;若 q 为 0，则最大公约数为 p&lt;/li&gt;
+&lt;li&gt;否则，将 p 除以 q 得到余数 r，然后用 q 代替 p，用 r 代替 q，重复上述过程&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这个过程会一直持续，直到 q 变为 0，此时，p 的值就是最大公约数。这是一个反复取余的过程，逐步缩小问题规模。例如：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;p = 48, q = 18
+
+1. 48 / 18 = 2 余 12，此时 p = 18，q = 12
+2. 18 / 12 = 1 余 6，此时 p = 12，q = 6
+3. 12 / 6 = 2 余 0，此时 q = 0
+
+最大公约数为 6。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;在这个例子中，直到除数可以整数时的最大除数 就是 最大公约数，比如例子中的 12 / 6 = 2 余数为 0 是一个可以整数的除数 而且 也是唯一最大能整出的除数 所以 6 就是 最大公约数&lt;/p&gt;
+&lt;h2 id=&#34;使用java语言描述&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用java语言描述&#34;&gt;#&lt;/a&gt; 使用 Java 语言描述&lt;/h2&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;static&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;gcd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; q&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;q &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; p&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; r &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; p &lt;span class=&#34;token operator&#34;&gt;%&lt;/span&gt; q&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;gcd&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;q&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; r&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;其中 q == 0 就直接返回 p 这是因为 0 不能除以任何数 所以 直接 返回 p 作为最大公约数&lt;/p&gt;
+&lt;p&gt;int r = p % q 就是取 被除数 和 除数 之间的余数&lt;/p&gt;
+&lt;p&gt;return gcd (q, r) 就是通过递归 逐步的缩小问题规模 得到最终的 最大公约数&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/homepage/2024/04/02/math/100%E4%BB%A5%E5%86%85%E5%8A%A0%E5%87%8F%E6%B3%95%E9%80%9F%E7%AE%97/</guid>
+            <title>100以内加减法速算技巧</title>
+            <link>https://pigpigletsgo.github.io/homepage/2024/04/02/math/100%E4%BB%A5%E5%86%85%E5%8A%A0%E5%87%8F%E6%B3%95%E9%80%9F%E7%AE%97/</link>
+            <category>math</category>
+            <pubDate>Tue, 02 Apr 2024 18:00:51 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;100以内加减法速算技巧&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#100以内加减法速算技巧&#34;&gt;#&lt;/a&gt; 100 以内加减法速算技巧&lt;/h1&gt;
+&lt;h2 id=&#34;不进位加法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#不进位加法&#34;&gt;#&lt;/a&gt; 不进位加法&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;23&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;34&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;57&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;23 + 34 = 57
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.72777em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;7&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;十位：头 + 头 = 头&lt;/p&gt;
+&lt;p&gt;个位：尾 + 尾 = 尾&lt;/p&gt;
+&lt;h2 id=&#34;进位加法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#进位加法&#34;&gt;#&lt;/a&gt; 进位加法&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;36&lt;/mn&gt;&lt;mo&gt;+&lt;/mo&gt;&lt;mn&gt;28&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;64&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;36 + 28 = 64
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.72777em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;8&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;十位：头 + 头 + 1 = 头&lt;/p&gt;
+&lt;p&gt;个位：尾 - 尾的补数 = 尾&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;补数指的是 尾数 凑够 10 的数 是多少 比如 8 凑够 10 就是 2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;不退位减法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#不退位减法&#34;&gt;#&lt;/a&gt; 不退位减法&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;46&lt;/mn&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;25&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;21&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;46 - 25 = 21
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.72777em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;6&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;5&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;十位：头 - 头 = 头&lt;/p&gt;
+&lt;p&gt;个位：尾 - 尾 = 尾&lt;/p&gt;
+&lt;h2 id=&#34;退位减法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#退位减法&#34;&gt;#&lt;/a&gt; 退位减法&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;katex-display&#34;&gt;&lt;span class=&#34;katex&#34;&gt;&lt;span class=&#34;katex-mathml&#34;&gt;&lt;math xmlns=&#34;http://www.w3.org/1998/Math/MathML&#34; display=&#34;block&#34;&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mn&gt;47&lt;/mn&gt;&lt;mo&gt;−&lt;/mo&gt;&lt;mn&gt;29&lt;/mn&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mn&gt;18&lt;/mn&gt;&lt;/mrow&gt;&lt;annotation encoding=&#34;application/x-tex&#34;&gt;47 - 29 = 18
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class=&#34;katex-html&#34; aria-hidden=&#34;true&#34;&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.72777em;vertical-align:-0.08333em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;7&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mbin&#34;&gt;−&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2222222222222222em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;9&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mrel&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;mspace&#34; style=&#34;margin-right:0.2777777777777778em;&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;base&#34;&gt;&lt;span class=&#34;strut&#34; style=&#34;height:0.64444em;vertical-align:0em;&#34;&gt;&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;mord&#34;&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;十位：头 - 头 - 1 = 头&lt;/p&gt;
+&lt;p&gt;个位：尾 + 尾的补数 = 尾&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;补数指的是 尾数 凑够 10 的数 是多少 比如 9 凑够 10 就是 1&lt;/li&gt;
+&lt;/ul&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,31 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "homepage • All posts by \"编码问题\" tag",
+    "description": "欢迎来我的博客空间",
+    "home_page_url": "https://pigpigletsgo.github.io/homepage",
+    "items": [
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3Swing%E7%AA%97%E4%BD%93%E4%B9%B1%E7%A0%81IDEA/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3Swing%E7%AA%97%E4%BD%93%E4%B9%B1%E7%A0%81IDEA/",
+            "title": "解决Swing窗体乱码idea",
+            "date_published": "2024-04-02T10:00:50.438Z",
+            "content_html": "<p>-Dfile.encoding=gbk</p>\n",
+            "tags": [
+                "问题总汇",
+                "编码问题",
+                "Swing"
+            ]
+        },
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/Java-IDEA%E9%94%99%E8%AF%AF-Error-java-%E9%9D%9E%E6%B3%95%E5%AD%97%E7%AC%A6-ufeff-Error-java-%E9%9C%80%E8%A6%81class-interface%E6%88%96enum/",
+            "title": "Java-IDEA错误-Error-java-非法字符-ufeff-Error-java-需要class-interface或enum",
+            "date_published": "2024-04-02T10:00:50.386Z",
+            "content_html": "<p>问题描述:</p>\n<pre><code>Java-IDEA错误-Error: java: 非法字符: ‘\\ufeff‘ Error: java: 需要class, interface或enum\n</code></pre>\n<p>错误原因：字符编码问题，转换下字符编码即可</p>\n<p>解决方案:</p>\n<p>将下面状态栏的 <code>File Encoding</code>  编码将 <code>utf-8</code>  改为 <code>GBK</code></p>\n<p>弹出提示框点击 <code>Convert</code>  没有提示 <code>RELOAD GBK</code></p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448448.png\" alt=\"image_2023-01-14-23-38-09\"></p>\n<p>如果页面上有红线提示 <code>RELOAD GBK</code>  直接点击 <code>RELOAD GBK</code></p>\n<p>再次点击 <code>File EnCoding</code>  切换回 <code>UTF-8</code>  同样选择 <code>Convert</code></p>\n<p>再次运行项目，正常</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448126.png\" alt=\"image_2023-01-14-23-39-24\"></p>\n<p>解决方案 2: 整个项目出现问题</p>\n<p>点击 <code>settings --&gt; 搜索 File EnCoding</code>  查看是不是编码有问题如图:</p>\n<p><img src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202401051448893.png\" alt=\"image_2023-01-14-23-42-25\"></p>\n<p>然后 <code>File --&gt; New Project Settings --&gt; settings For New Project --&gt; 搜索 File Settings</code>  做同样修改</p>\n<p>执行方案 1, 把出问题的 java 代码页修改，然后一切正常</p>\n",
+            "tags": [
+                "报错",
+                "编码问题"
+            ]
+        }
+    ]
+}

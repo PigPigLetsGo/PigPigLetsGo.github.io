@@ -1,0 +1,219 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Sprong-boot-devtools | homepage</title><meta name="author"><meta name="copyright"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="# Sprong-boot-devtools 热部署  监听到如果有 Class 文件改动了，就会创建一个新的 ClaassLoader 进行加载该文件，经过一系列的过程，最终将结果呈现在我们眼前  spring-boot-devtools  是一个为开发者服务的一个模块，其中最重要的功能就是自动将应用代码更改到最新的 App 上面去，即在我们改变了一些代码或者配置文件的时候，应用可以自动重启，这">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sprong-boot-devtools">
+<meta property="og:url" content="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/Sprong-boot-devtools/">
+<meta property="og:site_name" content="homepage">
+<meta property="og:description" content="# Sprong-boot-devtools 热部署  监听到如果有 Class 文件改动了，就会创建一个新的 ClaassLoader 进行加载该文件，经过一系列的过程，最终将结果呈现在我们眼前  spring-boot-devtools  是一个为开发者服务的一个模块，其中最重要的功能就是自动将应用代码更改到最新的 App 上面去，即在我们改变了一些代码或者配置文件的时候，应用可以自动重启，这">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-04-02T10:00:50.931Z">
+<meta property="article:modified_time" content="2024-02-11T10:13:25.742Z">
+<meta property="article:tag" content="springboot">
+<meta property="article:tag" content="计算机学科">
+<meta property="article:tag" content="整合jar包">
+<meta property="article:tag" content="devtools">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/homepage/img/favicon.png"><link rel="canonical" href="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/Sprong-boot-devtools/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/homepage/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/homepage/',
+  algolia: undefined,
+  localSearch: {"path":"/homepage/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Sprong-boot-devtools',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2024-02-11 18:13:25'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/homepage/atom.xml" title="homepage" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">458</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">153</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">117</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Sprong-boot-devtools</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-02T10:00:50.931Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-02-11T10:13:25.742Z" title="更新于 2024-02-11 18:13:25">2024-02-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/spring/">spring</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/spring/springboot/">springboot</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/">整合jar包</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Sprong-boot-devtools"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="sprong-boot-devtools"><a class="markdownIt-Anchor" href="#sprong-boot-devtools">#</a> Sprong-boot-devtools</h2>
+<p><mark>热部署</mark></p>
+<blockquote>
+<p>监听到如果有 Class 文件改动了，就会创建一个新的 ClaassLoader 进行加载该文件，经过一系列的过程，最终将结果呈现在我们眼前</p>
+</blockquote>
+<p><mark>spring-boot-devtools</mark></p>
+<blockquote>
+<p>是一个为开发者服务的一个模块，其中最重要的功能就是<strong>自动将应用代码更改到最新的 App 上面去，即在我们改变了一些代码或者配置文件的时候，应用可以自动重启</strong>，这在我们开发的时候，非常有用。</p>
+</blockquote>
+<p><mark>重新启动 vs 重新加载</mark></p>
+<blockquote>
+<p>Spring Boot 提供的重启技术通过使用两个类加载器来工作。</p>
+<p>不改变的类（例如来自第三方 jar 的类）被加载到 base classloader 中。</p>
+<p>我们正在开发的类会加载到 restart classloader 中。当应用程序重新启动时，restart classloader 将被丢弃并创建一个新类。这种方法意味着应用程序重启通常比 &quot;cold starts&quot; 快得多，因为基类加载器已经可用并且已经被填充。</p>
+</blockquote>
+<h3 id="spring-boot-devtools使用"><a class="markdownIt-Anchor" href="#spring-boot-devtools使用">#</a> spring-boot-devtools 使用</h3>
+<h4 id="maven依赖"><a class="markdownIt-Anchor" href="#maven依赖">#</a> maven 依赖</h4>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">&lt;!--spring-boot-devtools--></span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="3"></td><td><pre>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>org.springframework.boot<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="4"></td><td><pre>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>spring-boot-devtools<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="5"></td><td><pre>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>scope</span><span class="token punctuation">></span></span>runtime<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>scope</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="6"></td><td><pre>   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>optional</span><span class="token punctuation">></span></span>true<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>optional</span><span class="token punctuation">></span></span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span></pre></td></tr></table></figure><h4 id="yml配置"><a class="markdownIt-Anchor" href="#yml配置">#</a> yml 配置</h4>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre># Spring</pre></td></tr><tr><td data-num="2"></td><td><pre>spring:</pre></td></tr><tr><td data-num="3"></td><td><pre>  devtools:</pre></td></tr><tr><td data-num="4"></td><td><pre>    restart:</pre></td></tr><tr><td data-num="5"></td><td><pre>      # 默认为true</pre></td></tr><tr><td data-num="6"></td><td><pre>      enabled: true</pre></td></tr></table></figure><h4 id="idea配置"><a class="markdownIt-Anchor" href="#idea配置">#</a> idea 配置</h4>
+<h4 id="代码自动编译"><a class="markdownIt-Anchor" href="#代码自动编译">#</a> 代码自动编译</h4>
+<blockquote>
+<p>File --&gt; Settings --&gt; Compiler --&gt; Build Project automatically</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040852708.png" alt="img"></p>
+<h4 id="运行期间自动编译"><a class="markdownIt-Anchor" href="#运行期间自动编译">#</a> 运行期间自动编译</h4>
+<p><font style="color:red"><strong>注意：这个配置是 idea-2021.2 版本以及以下版本配置没有的解决看</strong><a href="#idea-version:2021.2版本以及以下的版本的配置"><u>这个标题中的方式来进行 配置</u></a> </font></p>
+<blockquote>
+<p>Mac 使用快捷键 shift+option+command+/，window 上的快捷键是 Shift+Ctrl+Alt+/，打开 Registry，勾选 compiler.automake.allow.when.app.running</p>
+</blockquote>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040852384.png" alt="img"></p>
+<p>通过以上的设置就可以在不重启服务的情况下加载 html，但如果修改 java 文件，服务在几秒后会自动重启，如果不希望服务重启需要在 application.properties 或 application.yml 中添加<strong> spring.devtools.reatart.enable=false</strong></p>
+<h3 id="thymeleaf模板引擎"><a class="markdownIt-Anchor" href="#thymeleaf模板引擎">#</a> Thymeleaf 模板引擎</h3>
+<blockquote>
+<p>如果使用 Thymeleaf 模板引擎，需要把模板默认缓存设置为 false</p>
+</blockquote>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre>#禁止thymeleaf缓存（建议：开发环境设置为false，生成环境设置为true）</pre></td></tr><tr><td data-num="2"></td><td><pre># Spring</pre></td></tr><tr><td data-num="3"></td><td><pre>spring:</pre></td></tr><tr><td data-num="4"></td><td><pre>  thymeleaf:</pre></td></tr><tr><td data-num="5"></td><td><pre>    cache: false</pre></td></tr></table></figure><h3 id="spring-boot-devtools-高级功能"><a class="markdownIt-Anchor" href="#spring-boot-devtools-高级功能">#</a> spring-boot-devtools 高级功能</h3>
+<ol>
+<li><strong>排除资源</strong><br>
+某些资源不一定需要在更改时触发重新启动。例如，可以就地编辑 Thymeleaf 模板。默认情况下，在改变资源 / META-INF/maven，/META-INF/resources，/resources，/static，/public，或 /templates 不会触发重启但会触发 重新加载。可以使用 spring.devtools.restart.exclude 属性来自定义排除的资源。例如，要仅排除 /static，/public 可以设置以下属性：</li>
+</ol>
+<figure class="highlight properties"><figcaption data-lang=".properties"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token key attr-name">spring.devtools.restart.exclude</span><span class="token punctuation">=</span><span class="token value attr-value">static/**,public/** #不加载静态资源</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key attr-name">additional-exclude</span><span class="token punctuation">:</span> <span class="token value attr-value">WEB-INF/** #不加载bian'yi'hou</span></pre></td></tr></table></figure><ol start="2">
+<li><strong>监控其他路径</strong><br>
+如上所述，DevTools 监控类路径资源的变动，但如果我们想更改不在类路径中的文件时重新启动或重新加载应用程序，该怎么办呢？这时可以使用 spring.devtools.restart.additional-paths 属性来配置其他路径以监视更改。</li>
+</ol>
+<figure class="highlight properties"><figcaption data-lang=".properties"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment"># Spring</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token key attr-name">spring</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token key attr-name">  devtools</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token key attr-name">    restart</span><span class="token punctuation">:</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token comment">      # 默认为 true</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token key attr-name">      enabled</span><span class="token punctuation">:</span> <span class="token value attr-value">true</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token comment">      #排除那个目录的文件不需要 restart</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token key attr-name">      additional-exclude</span><span class="token punctuation">:</span> <span class="token value attr-value">static/**,public/**</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token comment">      #添加那个目录的文件需要 restart</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token key attr-name">      additional-paths</span><span class="token punctuation">:</span> <span class="token value attr-value">src/main/java</span></pre></td></tr></table></figure><h4 id="livereload"><a class="markdownIt-Anchor" href="#livereload">#</a> LiveReload</h4>
+<p>LiveReload 在做前端开发的时候，经常会用到。</p>
+<p>spring-boot-devtools 模块包含嵌入式 LiveReload 服务器，可以在资源更改时用于触发浏览器刷新。 LiveReload 浏览器扩展程序支持 Chrome，Firefox 和 Safari，你可以从 livereload.com 免费下载。</p>
+<p>下面是 Chrome 的 Remote Live Reload 插件地址。安装即可拥有这个酷炫的功能。</p>
+<pre><code>https://chrome.google.com/webstore/detail/remotelivereload/jlppknnillhjgiengoigajegdpieppei?hl=en-GB
+</code></pre>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040852342.png" alt="image-20230414211255514"></p>
+<p>devtools 也会在后台开启一个 LiveReload Server，浏览器会与这个 Server 保持着一个长连接，当后端有 <code>前端资源</code> 变动的时候，将会通知浏览器进行刷新，实现热部署。</p>
+<h3 id="idea-version20212版本以及以下的版本的配置"><a class="markdownIt-Anchor" href="#idea-version20212版本以及以下的版本的配置">#</a> idea-version:2021.2 版本以及以下的版本的配置</h3>
+<p>解释：在 idea-2021.2 版本中由于没有 compiler.automake.allow.when.app.runing 这个选项，所以我们配置后会发现热部署好像并没有生效，下面就是 2021.2 以及以下版本的解决方式</p>
+<p>操作步骤:</p>
+<p>1. 修改 settings 里 compiler 选项下的配置，将下图中红色方框里的选项全部勾上</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040852315.png" alt="image-20230415130642187"></p>
+<p>2. 修改 Advanced settings 里的配置，将下图中红色方框里的选项勾上</p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040852346.png" alt="image-20230415130728664"></p>
+<p><font style="color:red">注意：如果创建项目以上的配置还得配置一遍</font></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage"></a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/Sprong-boot-devtools/">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/Sprong-boot-devtools/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://pigpigletsgo.github.io/homepage" target="_blank">homepage</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/homepage/tags/springboot/">springboot</a><a class="post-meta__tags" href="/homepage/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><a class="post-meta__tags" href="/homepage/tags/%E6%95%B4%E5%90%88jar%E5%8C%85/">整合jar包</a><a class="post-meta__tags" href="/homepage/tags/devtools/">devtools</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/%E9%AB%98%E7%BA%A7/@EnableAutoConfiguration%E6%B3%A8%E8%A7%A3/" title="EnableAutoConfiguration注解"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">EnableAutoConfiguration注解</div></div></a></div><div class="next-post pull-right"><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/SpringBoot%E6%95%B4%E5%90%88%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8A%80%E6%9C%AF/" title="SpringBoot整合第三方技术[代码生成]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">SpringBoot整合第三方技术[代码生成]</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/JSR303%E6%A0%A1%E9%AA%8C/" title="JSR303校验"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">JSR303校验</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/SpringBoot%E6%95%B4%E5%90%88%E7%AC%AC%E4%B8%89%E6%96%B9%E6%8A%80%E6%9C%AF/" title="SpringBoot整合第三方技术[代码生成]"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">SpringBoot整合第三方技术[代码生成]</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/%E6%95%B4%E5%90%88jar%E5%8C%85/SpringBoot%E6%95%B4%E5%90%88Knife4j/" title="SpringBoot整合Knife4j"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">SpringBoot整合Knife4j</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/%E6%A1%88%E4%BE%8BDemo/SpringBoot+MultipartFile%E4%B8%8A%E4%BC%A0%E6%98%BE%E7%A4%BA%E5%A4%B4%E5%83%8F/" title="SpringBoot上传头像回显头像到页面"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">SpringBoot上传头像回显头像到页面</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/SpringBoot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%AF%B9%E6%8E%A5/" title="SpringBoot+vue前后端对接，解决跨域问题。"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">SpringBoot+vue前后端对接，解决跨域问题。</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/SpringBoot%E5%9F%BA%E7%A1%80%E9%85%8D%E7%BD%AE/" title="SpringBoot基础配置"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">SpringBoot基础配置</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">458</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">153</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">117</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#sprong-boot-devtools"><span class="toc-number">1.</span> <span class="toc-text"> Sprong-boot-devtools</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#spring-boot-devtools%E4%BD%BF%E7%94%A8"><span class="toc-number">1.1.</span> <span class="toc-text"> spring-boot-devtools 使用</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#maven%E4%BE%9D%E8%B5%96"><span class="toc-number">1.1.1.</span> <span class="toc-text"> maven 依赖</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#yml%E9%85%8D%E7%BD%AE"><span class="toc-number">1.1.2.</span> <span class="toc-text"> yml 配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#idea%E9%85%8D%E7%BD%AE"><span class="toc-number">1.1.3.</span> <span class="toc-text"> idea 配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91"><span class="toc-number">1.1.4.</span> <span class="toc-text"> 代码自动编译</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E6%9C%9F%E9%97%B4%E8%87%AA%E5%8A%A8%E7%BC%96%E8%AF%91"><span class="toc-number">1.1.5.</span> <span class="toc-text"> 运行期间自动编译</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#thymeleaf%E6%A8%A1%E6%9D%BF%E5%BC%95%E6%93%8E"><span class="toc-number">1.2.</span> <span class="toc-text"> Thymeleaf 模板引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#spring-boot-devtools-%E9%AB%98%E7%BA%A7%E5%8A%9F%E8%83%BD"><span class="toc-number">1.3.</span> <span class="toc-text"> spring-boot-devtools 高级功能</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#livereload"><span class="toc-number">1.3.1.</span> <span class="toc-text"> LiveReload</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#idea-version20212%E7%89%88%E6%9C%AC%E4%BB%A5%E5%8F%8A%E4%BB%A5%E4%B8%8B%E7%9A%84%E7%89%88%E6%9C%AC%E7%9A%84%E9%85%8D%E7%BD%AE"><span class="toc-number">1.4.</span> <span class="toc-text"> idea-version:2021.2 版本以及以下的版本的配置</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/05/07/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/steam%E6%B5%81/stream%E6%B5%81/" title="Stream流">Stream流</a><time datetime="2024-05-07T15:03:37.133Z" title="发表于 2024-05-07 23:03:37">2024-05-07</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/17/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E8%BF%94%E5%9B%9E%E6%9E%9A%E4%B8%BE%E6%95%B0%E6%8D%AE%E7%BB%99%E5%89%8D%E7%AB%AF/" title="返回枚举数据给前端">返回枚举数据给前端</a><time datetime="2024-04-17T01:07:21.168Z" title="发表于 2024-04-17 09:07:21">2024-04-17</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/14/computer-science/blog/sql-blog/" title="sql-blog-day2024-4-14">sql-blog-day2024-4-14</a><time datetime="2024-04-14T07:43:52.414Z" title="发表于 2024-04-14 15:43:52">2024-04-14</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/07/tools/powerdesigner/PowerDesigner%E7%94%9F%E6%88%90SQL%E5%B8%A6%E6%B3%A8%E9%87%8A%E9%81%BF%E5%85%8Dcomment%E6%8A%A5%E9%94%99/" title="PowerDesigner生成SQL带注释避免comment报错">PowerDesigner生成SQL带注释避免comment报错</a><time datetime="2024-04-07T09:39:42.973Z" title="发表于 2024-04-07 17:39:42">2024-04-07</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/04/computer-science/java/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/" title="状态模式(State Pattern)">状态模式(State Pattern)</a><time datetime="2024-04-04T01:19:48.637Z" title="发表于 2024-04-04 09:19:48">2024-04-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

@@ -1,0 +1,653 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>spring注解开发 | homepage</title><meta name="author"><meta name="copyright"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="# Spring 注解开发 [toc] # 注解开发定义 bean  使用 @Component 定义 bean  @SuppressWarnings(&quot;all&quot;)&#x2F;&#x2F; 使用注解配置 Bean@Component(&quot;bookDao&quot;)public class BookDaoImpl implements BookDao &amp;#123;    public void save()&amp;#123;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="spring注解开发">
+<meta property="og:url" content="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/Spring%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91/">
+<meta property="og:site_name" content="homepage">
+<meta property="og:description" content="# Spring 注解开发 [toc] # 注解开发定义 bean  使用 @Component 定义 bean  @SuppressWarnings(&quot;all&quot;)&#x2F;&#x2F; 使用注解配置 Bean@Component(&quot;bookDao&quot;)public class BookDaoImpl implements BookDao &amp;#123;    public void save()&amp;#123;">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:published_time" content="2024-04-02T10:00:50.886Z">
+<meta property="article:modified_time" content="2024-02-11T11:11:58.682Z">
+<meta property="article:tag" content="计算机学科">
+<meta property="article:tag" content="基础">
+<meta property="article:tag" content="spring">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/homepage/img/favicon.png"><link rel="canonical" href="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/Spring%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/homepage/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/homepage/',
+  algolia: undefined,
+  localSearch: {"path":"/homepage/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'spring注解开发',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: true,
+  isToc: true,
+  postUpdate: '2024-02-11 19:11:58'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"><link rel="alternate" href="/homepage/atom.xml" title="homepage" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">458</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">153</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">117</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/homepage/" title="homepage"><span class="site-name">homepage</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/homepage/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div><div class="menus_item"><a class="site-page" href="/homepage/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">spring注解开发</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-04-02T10:00:50.886Z" title="发表于 2024-04-02 18:00:50">2024-04-02</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-02-11T11:11:58.682Z" title="更新于 2024-02-11 19:11:58">2024-02-11</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/">java</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/homepage/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/java/spring/">spring</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="spring注解开发"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="spring注解开发"><a class="markdownIt-Anchor" href="#spring注解开发">#</a> Spring 注解开发</h1>
+<p>[toc]</p>
+<h2 id="注解开发定义bean"><a class="markdownIt-Anchor" href="#注解开发定义bean">#</a> 注解开发定义 bean</h2>
+<ul>
+<li>使用 @Component 定义 bean</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">"all"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">// 使用注解配置 Bean</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token annotation punctuation">@Component</span><span class="token punctuation">(</span><span class="token string">"bookDao"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookDaoImpl</span> <span class="token keyword">implements</span> <span class="token class-name">BookDao</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"BookDaoImpl save rning..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><ul>
+<li>
+<p>核心配置文件中通过组件扫描加载 bean</p>
+</li>
+<li>
+<p>base-package: 指定包名范围级别越短范围越大，目录递归扫描</p>
+</li>
+</ul>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">&lt;!--    扫描注解组件 base-package 指定到存在的包下即可不用写指定的类 --></span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">context:</span>component-scan</span> <span class="token attr-name">base-package</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.dkx.spring.dao.impl<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">&lt;!--    包的全路径为 com.dkx.spring.dao.impl，将 base-package 指定到 spring 目录下那么 spring 目录中和子目录都会被递归扫描 --></span></pre></td></tr><tr><td data-num="4"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">context:</span>component-scan</span> <span class="token attr-name">base-package</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.dkx.spring<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></pre></td></tr></table></figure><ul>
+<li>
+<p>Spring 提供 @Component 注解的三个衍生注解</p>
+<ul>
+<li>@Controller: 用于表示层 (View) bean 定义</li>
+<li>@Service: 用于业务层 bean 定义</li>
+<li>@Repository: 用于数据层 (Dao) bean 定义</li>
+</ul>
+</li>
+<li>
+<p>这三个注解功能和 @Component 注解一样，只是在不同的类层使用不同的注解来配置会让我们看到第一时间能想到</p>
+</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@Repository</span><span class="token punctuation">(</span><span class="token string">"bookDao"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookDaoImpl</span> <span class="token keyword">implements</span> <span class="token class-name">BookDao</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@Service</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">BookService</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><ul>
+<li>
+<p>如果使用注解配置 bean 没有写参数名我们需要使用类的类型来进行获取 Bean 实例化否则报错</p>
+</li>
+<li>
+<p>BookService</p>
+</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@Component</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookServiceImpl</span> <span class="token keyword">implements</span> <span class="token class-name">BookService</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"BookServiceImpl save rning..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><ul>
+<li>applicationContext.xml</li>
+</ul>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">&lt;!--    包的全路径为 com.dkx.spring.dao.impl，将 base-package 指定到 spring 目录下那么 spring 目录中和子目录都会被递归扫描 --></span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">context:</span>component-scan</span> <span class="token attr-name">base-package</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.dkx.spring<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></pre></td></tr></table></figure><ul>
+<li>测试代码</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">test7</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>   <span class="token class-name">Resource</span> resource <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ClassPathResource</span><span class="token punctuation">(</span><span class="token string">"applicationContext.xml"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>   <span class="token class-name">BeanFactory</span> bean <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XmlBeanFactory</span><span class="token punctuation">(</span>resource<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>   <span class="token class-name">BookService</span> service <span class="token operator">=</span> bean<span class="token punctuation">.</span><span class="token function">getBean</span><span class="token punctuation">(</span><span class="token class-name">BookService</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>   service<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h3 id="代码演示"><a class="markdownIt-Anchor" href="#代码演示">#</a> 代码演示</h3>
+<ul>
+<li>BookDaoImpl</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@SuppressWarnings</span><span class="token punctuation">(</span><span class="token string">"all"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token comment">// 使用注解配置 Bean</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token annotation punctuation">@Component</span><span class="token punctuation">(</span><span class="token string">"bookDao"</span><span class="token punctuation">)</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">BookDaoImpl</span> <span class="token keyword">implements</span> <span class="token class-name">BookDao</span> <span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>    <span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"BookDaoImpl save rning..."</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="7"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token punctuation">&#125;</span></pre></td></tr></table></figure><ul>
+<li>applicationContext.xml</li>
+</ul>
+<figure class="highlight xml"><figcaption data-lang="XML"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">&lt;!--    包的全路径为 com.dkx.spring.dao.impl，将 base-package 指定到 spring 目录下那么 spring 目录中和子目录都会被递归扫描 --></span></pre></td></tr><tr><td data-num="2"></td><td><pre>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span><span class="token namespace">context:</span>component-scan</span> <span class="token attr-name">base-package</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>com.dkx.spring<span class="token punctuation">"</span></span><span class="token punctuation">/></span></span></pre></td></tr></table></figure><ul>
+<li>测试代码</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token keyword">public</span> <span class="token keyword">void</span> <span class="token function">test7</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span></pre></td></tr><tr><td data-num="2"></td><td><pre>        <span class="token class-name">Resource</span> resource <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ClassPathResource</span><span class="token punctuation">(</span><span class="token string">"applicationContext.xml"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre>        <span class="token class-name">BeanFactory</span> c <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">XmlBeanFactory</span><span class="token punctuation">(</span>resource<span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="4"></td><td><pre>        <span class="token class-name">BookDao</span> dao <span class="token operator">=</span> c<span class="token punctuation">.</span><span class="token function">getBean</span><span class="token punctuation">(</span><span class="token string">"bookDao"</span><span class="token punctuation">,</span><span class="token class-name">BookDao</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        dao<span class="token punctuation">.</span><span class="token function">save</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="6"></td><td><pre>    <span class="token punctuation">&#125;</span></pre></td></tr></table></figure><h1 id="纯注解开发"><a class="markdownIt-Anchor" href="#纯注解开发">#</a> 纯注解开发</h1>
+<ul>
+<li>
+<p>Spring3.0 升级了纯注解开发模式，使用 Java 类替代配置文件，开启了 Spring 快速发赛道</p>
+</li>
+<li>
+<p>Java 类代替 Spring 核心配置文件</p>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040859727.png" alt=""></p>
+<p><img src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/202310040859925.png" alt=""></p>
+<h3 id="configuration"><a class="markdownIt-Anchor" href="#configuration">#</a> @Configuration</h3>
+<ul>
+<li>
+<p><strong>作用：注解用于设定当前类为配置类</strong></p>
+</li>
+<li>
+<p><span alt='solid'>注意</span>: @Configuration 注解的配置类有如下要求:</p>
+<ul>
+<li>@Configuration 不可以是 final 类型</li>
+<li>@Configuration 不可以是匿名类</li>
+<li>嵌套的 Configuration 必须是静态类</li>
+</ul>
+</li>
+<li>
+<p>用 @Configration 加载 Spring</p>
+<ul>
+<li>@Configuration 配置 Spring 并启动 Spring 容器</li>
+<li>@Configuration 启动容器 +@Bean 注解 Bean</li>
+<li>@Configuration 启动容器 +@ComponentScan 注解 Bean</li>
+</ul>
+</li>
+<li>
+<p>使用 @Configuration 注解配置的类会遵守 Spring 单例模式</p>
+</li>
+</ul>
+<p><a href="./%E6%A1%88%E4%BE%8B/@Configuration%E7%9A%84%E4%BD%9C%E7%94%A8.md">点击看案例</a></p>
+<h3 id="componentscan"><a class="markdownIt-Anchor" href="#componentscan">#</a> @ComponentScan</h3>
+<ul>
+<li>
+<p><strong>作用：注解用于设定扫描 Bean 路径，此注解只能添加一次，多个数据请用数组格式</strong></p>
+</li>
+<li>
+<p>排除扫描 Bean</p>
+</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@ComponentScan</span><span class="token punctuation">(</span>value <span class="token operator">=</span> <span class="token string">"com.dkx.spring"</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="2"></td><td><pre>        excludeFilters <span class="token operator">=</span> <span class="token annotation punctuation">@ComponentScan.Filter</span><span class="token punctuation">(</span></pre></td></tr><tr><td data-num="3"></td><td><pre>                type <span class="token operator">=</span> <span class="token class-name">FilterType</span><span class="token punctuation">.</span><span class="token constant">ANNOTATION</span><span class="token punctuation">,</span></pre></td></tr><tr><td data-num="4"></td><td><pre>                classes <span class="token operator">=</span> <span class="token class-name">Controller</span><span class="token punctuation">.</span><span class="token keyword">class</span></pre></td></tr><tr><td data-num="5"></td><td><pre>        <span class="token punctuation">)</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token punctuation">)</span></pre></td></tr></table></figure><figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token annotation punctuation">@ComponentScan</span><span class="token punctuation">(</span><span class="token punctuation">&#123;</span><span class="token string">"com.dkx.spring.dao"</span><span class="token punctuation">,</span><span class="token string">"com.dkx.spring.service"</span><span class="token punctuation">&#125;</span><span class="token punctuation">)</span></pre></td></tr></table></figure><ul>
+<li>读取 Spring 核心配置文件初始化容器对象切换为读取 Java 配置类初始化容器对象</li>
+</ul>
+<figure class="highlight java"><figcaption data-lang="java"></figcaption><table><tr><td data-num="1"></td><td><pre><span class="token comment">// 加载配置文件初始化容器</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token class-name">ApplicationContext</span> c <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ClassPathXmlApplicationContext</span><span class="token punctuation">(</span><span class="token string">"applicationContext.xml"</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token comment">// 加载配置类初始化容器</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token class-name">ApplicationContext</span> c <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">AnnotationConfigApplicationContext</span><span class="token punctuation">(</span><span class="token class-name">SpringConfig</span><span class="token punctuation">.</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">;</span></pre></td></tr></table></figure><h3 id="scope"><a class="markdownIt-Anchor" href="#scope">#</a> @Scope</h3>
+<ul>
+<li>
+<p><strong>作用：设置非单例模式</strong></p>
+</li>
+<li>
+<p>设置参数:</p>
+<ul>
+<li>单例:singleton 非单例:prototype</li>
+</ul>
+</li>
+<li>
+<p>设置为单例:singleton</p>
+</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/1/">查看代码案例</a></p>
+<h3 id="生命周期"><a class="markdownIt-Anchor" href="#生命周期">#</a> 生命周期</h3>
+<h4 id="postconstruct"><a class="markdownIt-Anchor" href="#postconstruct">#</a> @PostConstruct</h4>
+<ul>
+<li><strong>作用：在构造方法之后执行</strong></li>
+</ul>
+<h4 id="predestroy"><a class="markdownIt-Anchor" href="#predestroy">#</a> @PreDestroy</h4>
+<ul>
+<li><strong>作用：彻底销毁前执行</strong></li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/2/">查看代码案例</a></p>
+<h3 id="依赖注入"><a class="markdownIt-Anchor" href="#依赖注入">#</a> 依赖注入</h3>
+<ul>
+<li><strong>自动装配</strong></li>
+</ul>
+<h4 id="autowired"><a class="markdownIt-Anchor" href="#autowired">#</a> @Autowired</h4>
+<ul>
+<li><strong>作用：按类型自动装配 Spring bean</strong></li>
+</ul>
+<p>Spring 注解开发是让我们加速开发的，所以它对原始的功能做了一些阉割，有些没有必要的功能就没有做，只做了最快速最好用的功能</p>
+<p><font style="color:red"><strong>注意</strong></font>: 我们不能在直接按原始的方式来 settre 注入 Dao 类了这样会报 NullPointerException 异常的</p>
+<p><font style="color:red"><strong>注意</strong></font>: 自动装配基于反射设计创建对象并暴力反射对应属性为私有属性初始化数据，因此无需提供 setter 方法</p>
+<p><font style="color:red"><strong>注意</strong></font>: 自动装配建议使用无参构造方法创建对象 (默认), 如果不提供对应无参构造方法则会报错 BeanCreateException, 请提供唯一的构造方法</p>
+<p><font style="color:red"><strong>注意</strong></font>: 避免自动装配两个名称相同的 Dao 或者 Service 否则会发生数据不一致报错，使用<font style="color:green"><strong>@Qualifier</strong></font>可以指定要自动装配的是哪个 bean</p>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/3/">查看代码案例</a></p>
+<h4 id="qualifier"><a class="markdownIt-Anchor" href="#qualifier">#</a> @Qualifier</h4>
+<ul>
+<li><strong>注意事项：该注解必须依赖 @Autowired 注解，无法单独使用</strong></li>
+</ul>
+<p>通过使用 @Qualifier 注解，我们可以消除需要注入哪个 bean 的问题</p>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/4/">查看代码案例</a></p>
+<h4 id="value"><a class="markdownIt-Anchor" href="#value">#</a> @Value</h4>
+<ul>
+<li><strong>作用：使用 @Value 实现简单类型注入</strong></li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/5/">查看代码案例</a></p>
+<ul>
+<li>载入配置文件来引入 Value 的值</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/6/">查看代码案例</a></p>
+<h3 id="propertysource"><a class="markdownIt-Anchor" href="#propertysource">#</a> @PropertySource</h3>
+<ul>
+<li>
+<p><strong>作用：用于指定资源文件读取的位置，它不仅能读取 properties 文件，也能读取 xml 文件，并且通过 YAML 解析器，配合自定义 PropertySourceFactory 实现解析 YAML 文件</strong></p>
+</li>
+<li>
+<p>配置多个值需要使用 {} 中写值以 <code>,</code>  号分隔</p>
+</li>
+</ul>
+<pre><code>@PropertySource(&#123;&quot;a.properties&quot;,&quot;b.properties&quot;,&quot;c.properties&quot;&#125;)
+</code></pre>
+<ul>
+<li><font style="color:red"><strong>需要注意</strong></font>此方式不支持使用 ** <code>classpath*:*</code> ** 来读取配置文件的位置，可使用 <code>classpath:</code></li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/7/">查看代码案例</a></p>
+<h3 id="管理第三方bean"><a class="markdownIt-Anchor" href="#管理第三方bean">#</a> 管理第三方 bean</h3>
+<h4 id="bean"><a class="markdownIt-Anchor" href="#bean">#</a> @Bean</h4>
+<ul>
+<li>
+<p>使用独立的配置类管理第三方 bean, 比如下面的案例 (druid 案例)</p>
+</li>
+<li>
+<p>加载 druid 配置</p>
+</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/8/">查看代码案例</a></p>
+<h4 id="import"><a class="markdownIt-Anchor" href="#import">#</a> @Import</h4>
+<ul>
+<li>使用 @Import 注解手动加入配置类到核心配置，此注解只能添加一次，多个数据请用数据格式
+<ul>
+<li>@Import({a.class,b.class,c.class})</li>
+</ul>
+</li>
+</ul>
+<h3 id="第三方bean注入资源"><a class="markdownIt-Anchor" href="#第三方bean注入资源">#</a> 第三方 bean 注入资源</h3>
+<p><strong><mark>简单类型依赖注入</mark>和<mark>引用类型依赖注入</mark></strong></p>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/9/">查看代码案例</a></p>
+<h3 id="注解开发总结"><a class="markdownIt-Anchor" href="#注解开发总结">#</a> 注解开发总结</h3>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/10/">点击查看</a></p>
+<h3 id="transactional"><a class="markdownIt-Anchor" href="#transactional">#</a> @Transactional</h3>
+<ul>
+<li>
+<p>注解式事务</p>
+</li>
+<li>
+<p>可以在方法中或类中，如果定义为类上，那么这个类整个方法都将开启事务</p>
+</li>
+<li>
+<p>将该注解添加到业务层接口中，降低代码的耦合度</p>
+</li>
+</ul>
+<p>使用步骤:</p>
+<ul>
+<li>在 JdbcConfig 中类定义 PlaformTransactionManager 的 Bean 方法 (设置事务管理器)</li>
+</ul>
+<h3 id="enabletransactionmanagement"><a class="markdownIt-Anchor" href="#enabletransactionmanagement">#</a> @EnableTransactionManagement</h3>
+<ul>
+<li>在 SpringCofing 中定义注解 <code>@EnableTransactionManagement</code>  注解来告诉配置类去找事务的注解 <code>@Transaction</code>  (开启注解式事务驱动)</li>
+<li><font style="color:red">注意:</font><strong>该注解需要导入的依赖:spring-jdbc</strong> 否则不能导包</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BA%8B%E5%8A%A1/Spring%E4%BA%8B%E5%8A%A1%E7%AE%80%E4%BB%8B/">点击查看具体事务操作</a></p>
+<h2 id="aop"><a class="markdownIt-Anchor" href="#aop">#</a> AOP</h2>
+<h3 id="aspect"><a class="markdownIt-Anchor" href="#aspect">#</a> @Aspect</h3>
+<ul>
+<li>
+<p>配置为 AOP</p>
+</li>
+<li>
+<p>位置：定义类上方</p>
+</li>
+</ul>
+<h3 id="enableaspectjautoproxy"><a class="markdownIt-Anchor" href="#enableaspectjautoproxy">#</a> @EnableAspectJAutoProxy</h3>
+<ul>
+<li>
+<p>开启 Spring 对 AOP 注解驱动支持</p>
+</li>
+<li>
+<p>位置：定义 SpringConfig 类放上</p>
+</li>
+</ul>
+<h3 id="pointcut"><a class="markdownIt-Anchor" href="#pointcut">#</a> @Pointcut</h3>
+<p>切入点</p>
+<ul>
+<li>
+<p>语法格式:@Pointcut (“execution (返回值 路径。接口名。方法名 ())”)</p>
+</li>
+<li>
+<p><code>*</code> : 单个独立的任意符号也可以作为前缀或后缀</p>
+</li>
+<li>
+<p>… : 多个连续的任意符号</p>
+</li>
+<li>
+<p><code>+</code> : 专用于匹配子类类型</p>
+</li>
+</ul>
+<h3 id="绑定切入点"><a class="markdownIt-Anchor" href="#绑定切入点">#</a> 绑定切入点</h3>
+<h4 id="before"><a class="markdownIt-Anchor" href="#before">#</a> @Before</h4>
+<ul>
+<li>前置通知</li>
+</ul>
+<h4 id="after"><a class="markdownIt-Anchor" href="#after">#</a> @After</h4>
+<ul>
+<li>后置通知</li>
+</ul>
+<h4 id="around"><a class="markdownIt-Anchor" href="#around">#</a> @Around</h4>
+<ul>
+<li>
+<p>环绕通知</p>
+</li>
+<li>
+<p>AOP 有返回值类型方法，需要在参数列表中定义：ProceedingJoinPoint j 使用 j 来获取原始方法，必须设置为参数列表的第一个参数</p>
+</li>
+</ul>
+<h4 id="afterreturning"><a class="markdownIt-Anchor" href="#afterreturning">#</a> @AfterReturning</h4>
+<ul>
+<li>返回后通知</li>
+</ul>
+<h4 id="afterthrowing"><a class="markdownIt-Anchor" href="#afterthrowing">#</a> @AfterThrowing</h4>
+<ul>
+<li>抛出异常后通知</li>
+</ul>
+<h3 id="aop通知获取数据"><a class="markdownIt-Anchor" href="#aop通知获取数据">#</a> AOP 通知获取数据</h3>
+<ul>
+<li>JoinPoint: 适用于前置，后置，返回后，异常后通知，设置为方法参数列表的第一个参数否则会报错
+<ul>
+<li>JoinPoint, 对象描述了连接点方法的运行状态，可以获取到原始的方法调用参数</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/AOP%E7%AE%80%E4%BB%8B/">查看具体内容</a></p>
+<h2 id="springmvc"><a class="markdownIt-Anchor" href="#springmvc">#</a> SpringMvc</h2>
+<h3 id="controller"><a class="markdownIt-Anchor" href="#controller">#</a> @Controller</h3>
+<ul>
+<li>
+<p>类型：类注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器类定义上方</p>
+</li>
+<li>
+<p>作用：设定 SpringMvc 的核心控制器 bean</p>
+</li>
+</ul>
+<h3 id="requestmapping"><a class="markdownIt-Anchor" href="#requestmapping">#</a> @RequestMapping</h3>
+<ul>
+<li>
+<p>类型：方法注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法定义上方</p>
+</li>
+<li>
+<p>作用：设置当前控制器方法请求访问路径</p>
+</li>
+<li>
+<p>相关属性</p>
+<ul>
+<li>value (默认): 请求访问路径</li>
+</ul>
+</li>
+</ul>
+<h3 id="requestparam"><a class="markdownIt-Anchor" href="#requestparam">#</a> @RequestParam</h3>
+<ul>
+<li>
+<p>问题：如果发送请求参数的 key 与我们接收参数的参数名不相同则接收不到参数的值</p>
+</li>
+<li>
+<p>类型：形参注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法形参定义前面</p>
+</li>
+<li>
+<p>作用：绑定请求参数与处理器方法形参间的关系</p>
+</li>
+<li>
+<p>参数:</p>
+<ul>
+<li>required: 是否为必传参数</li>
+<li>defaultValue: 参数默认值</li>
+</ul>
+</li>
+</ul>
+<h3 id="enablewebmvc"><a class="markdownIt-Anchor" href="#enablewebmvc">#</a> @EnableWebMvc</h3>
+<ul>
+<li>
+<p>类型：配置类注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 配置类定义上方</p>
+</li>
+<li>
+<p>作用：开启 SpringMvc 多项辅助功能</p>
+</li>
+<li>
+<p>建议：每次创建 SpringMvc 配置类时都加上</p>
+</li>
+</ul>
+<h3 id="requestbody"><a class="markdownIt-Anchor" href="#requestbody">#</a> @RequestBody</h3>
+<ul>
+<li>
+<p>类型：形参注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法形参定义前面</p>
+</li>
+<li>
+<p>作用：将请求中请求体所包含的数据传递给请求参数，此注解一个处理器方法只能使用一次</p>
+</li>
+</ul>
+<h3 id="datetimeformat"><a class="markdownIt-Anchor" href="#datetimeformat">#</a> @DateTimeFormat</h3>
+<ul>
+<li>
+<p>类型：形参注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法形参前面</p>
+</li>
+<li>
+<p>作用：设定日期时间型数据格式</p>
+</li>
+<li>
+<p>属性:pattern: 日期时间格式字符串</p>
+</li>
+<li>
+<p><font style="color:red"><strong>使用形式：入参</strong></font></p>
+</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/springmvc/SpringMVC%E7%AE%80%E4%BB%8B/">查看具体</a></p>
+<h3 id="jsonformat"><a class="markdownIt-Anchor" href="#jsonformat">#</a> @JsonFormat</h3>
+<ul>
+<li>
+<p>类型：形参注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法形参前面</p>
+</li>
+<li>
+<p>作用：设定日期时间型数据格式</p>
+</li>
+<li>
+<p>属性:pattern: 日期时间格式字符串</p>
+</li>
+<li>
+<p><font style="color:red"><strong>使用形式：出参</strong></font></p>
+</li>
+</ul>
+<p><a href="https://pigpigletsgo.github.io/computer-science/java/spring/%E4%BB%A3%E7%A0%81%E6%A1%88%E4%BE%8B/12/">查看具体</a></p>
+<h2 id="rest风格"><a class="markdownIt-Anchor" href="#rest风格">#</a> REST 风格</h2>
+<h3 id="requestmapping-2"><a class="markdownIt-Anchor" href="#requestmapping-2">#</a> @RequestMapping</h3>
+<p>增加项</p>
+<ul>
+<li>属性:
+<ul>
+<li>method:http 请求动作，标准动作 (GET/POST/PUT/DELETE)</li>
+</ul>
+</li>
+</ul>
+<h3 id="pathvariable"><a class="markdownIt-Anchor" href="#pathvariable">#</a> @PathVariable</h3>
+<ul>
+<li>
+<p>类型：形参注解</p>
+</li>
+<li>
+<p>位置：SpringMvc 控制器方法形参定义前面</p>
+</li>
+<li>
+<p>作用：绑定路径参数与处理器方法形参间的关系，要求路径参数名与形参名一一对应</p>
+</li>
+</ul>
+<h3 id="restcontroller"><a class="markdownIt-Anchor" href="#restcontroller">#</a> @RestController</h3>
+<ul>
+<li>
+<p>类型：类注解</p>
+</li>
+<li>
+<p>位置：基于 SpringMvc 的 RESTful 开发控制器类定义上方</p>
+</li>
+<li>
+<p>作用：设置当前控制器类为 RESTful 风格，等同于 @Controller 与 @ResponseBody 两个注解组合功能</p>
+</li>
+</ul>
+<h3 id="简化开发注解"><a class="markdownIt-Anchor" href="#简化开发注解">#</a> 简化开发注解</h3>
+<p><font style="color:red"><strong>@GetMapping , @PostMapping , @PutMapping , @DeleteMapping</strong></font></p>
+<ul>
+<li>
+<p>类型：方法注解</p>
+</li>
+<li>
+<p>位置：基于 SpringMvc 的 RESTful 开发控制器方法定义上方</p>
+</li>
+<li>
+<p>作用：设置当前控制器方法请求访问路径与请求动作，每种对应一个请求动作，例如:@GetMapping 对应 GET 请求</p>
+</li>
+<li>
+<p>属性</p>
+<ul>
+<li>value (默认): 请求访问路径</li>
+</ul>
+</li>
+</ul>
+<h2 id="ssm整合"><a class="markdownIt-Anchor" href="#ssm整合">#</a> SSM 整合</h2>
+<h3 id="异常处理器"><a class="markdownIt-Anchor" href="#异常处理器">#</a> 异常处理器</h3>
+<h4 id="restcontrolleradvice"><a class="markdownIt-Anchor" href="#restcontrolleradvice">#</a> @RestControllerAdvice</h4>
+<ul>
+<li>
+<p>类型：类注解</p>
+</li>
+<li>
+<p>位置：Rest 风格开发的控制器增强类定义上方</p>
+</li>
+<li>
+<p>作用：为 Rest 风格开发的控制器类做增强</p>
+</li>
+<li>
+<p>说明:</p>
+<ul>
+<li>此注解自带 @ResponseBody 注解与 @Component 注解，具备对应的功能</li>
+</ul>
+</li>
+</ul>
+<h4 id="exceptionhandler"><a class="markdownIt-Anchor" href="#exceptionhandler">#</a> @ExceptionHandler</h4>
+<ul>
+<li>
+<p>类型：方法注解</p>
+</li>
+<li>
+<p>位置：专用于异常处理的控制器方法上方</p>
+</li>
+<li>
+<p>作用：设置指定异常的处理方案，功能等同于控制器方法，出现异常后终止原始控制器执行，并转入当前方法执行</p>
+</li>
+<li>
+<p>说明:</p>
+<ul>
+<li>此类方法可以根据处理的异常不用，制作多个方法分别处理对应的异常</li>
+</ul>
+</li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage"></a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/Spring%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91/">https://pigpigletsgo.github.io/homepage/2024/04/02/computer-science/java/spring/Spring%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://pigpigletsgo.github.io/homepage" target="_blank">homepage</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/homepage/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/">计算机学科</a><a class="post-meta__tags" href="/homepage/tags/%E5%9F%BA%E7%A1%80/">基础</a><a class="post-meta__tags" href="/homepage/tags/spring/">spring</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/homepage/2024/04/02/computer-science/java/spring/springboot/SpringBoot+vue%E5%89%8D%E5%90%8E%E7%AB%AF%E5%AF%B9%E6%8E%A5/" title="SpringBoot+vue前后端对接，解决跨域问题。"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">SpringBoot+vue前后端对接，解决跨域问题。</div></div></a></div><div class="next-post pull-right"><a href="/homepage/2024/04/02/computer-science/java/spring/SSM/1%E6%95%B4%E5%90%88%E9%85%8D%E7%BD%AE/" title="SSM整合"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">SSM整合</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/homepage/2024/04/02/computer-science/java/spring/@Configuration%E7%9A%84%E4%BD%9C%E7%94%A8/" title="Configuration的作用"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">Configuration的作用</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/AOP%E7%AE%80%E4%BB%8B/" title="AOP简介"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">AOP简介</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/%E5%AE%9A%E6%97%B6%E5%99%A8/" title="spring定时器"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">spring定时器</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/%E6%A6%82%E8%BF%B0/" title="spring概述"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">spring概述</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/%E4%BA%8B%E5%8A%A1/%E4%BA%8B%E5%8A%A1%E7%9B%B8%E5%85%B3%E9%85%8D%E7%BD%AE/" title="事务相关配置"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">事务相关配置</div></div></a></div><div><a href="/homepage/2024/04/02/computer-science/java/spring/%E4%BA%8B%E5%8A%A1/Spring%E4%BA%8B%E5%8A%A1%E7%AE%80%E4%BB%8B/" title="spring事务简介"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-04-02</div><div class="title">spring事务简介</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/homepage/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name"></div><div class="author-info__description">欢迎来我的博客空间</div></div><div class="card-info-data site-data is-center"><a href="/homepage/archives/"><div class="headline">文章</div><div class="length-num">458</div></a><a href="/homepage/tags/"><div class="headline">标签</div><div class="length-num">153</div></a><a href="/homepage/categories/"><div class="headline">分类</div><div class="length-num">117</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#spring%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91"><span class="toc-number">1.</span> <span class="toc-text"> Spring 注解开发</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91%E5%AE%9A%E4%B9%89bean"><span class="toc-number">1.1.</span> <span class="toc-text"> 注解开发定义 bean</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E6%BC%94%E7%A4%BA"><span class="toc-number">1.1.1.</span> <span class="toc-text"> 代码演示</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BA%AF%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91"><span class="toc-number">2.</span> <span class="toc-text"> 纯注解开发</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#configuration"><span class="toc-number">2.0.1.</span> <span class="toc-text"> @Configuration</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#componentscan"><span class="toc-number">2.0.2.</span> <span class="toc-text"> @ComponentScan</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#scope"><span class="toc-number">2.0.3.</span> <span class="toc-text"> @Scope</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F"><span class="toc-number">2.0.4.</span> <span class="toc-text"> 生命周期</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#postconstruct"><span class="toc-number">2.0.4.1.</span> <span class="toc-text"> @PostConstruct</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#predestroy"><span class="toc-number">2.0.4.2.</span> <span class="toc-text"> @PreDestroy</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5"><span class="toc-number">2.0.5.</span> <span class="toc-text"> 依赖注入</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#autowired"><span class="toc-number">2.0.5.1.</span> <span class="toc-text"> @Autowired</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#qualifier"><span class="toc-number">2.0.5.2.</span> <span class="toc-text"> @Qualifier</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#value"><span class="toc-number">2.0.5.3.</span> <span class="toc-text"> @Value</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#propertysource"><span class="toc-number">2.0.6.</span> <span class="toc-text"> @PropertySource</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%A1%E7%90%86%E7%AC%AC%E4%B8%89%E6%96%B9bean"><span class="toc-number">2.0.7.</span> <span class="toc-text"> 管理第三方 bean</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#bean"><span class="toc-number">2.0.7.1.</span> <span class="toc-text"> @Bean</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#import"><span class="toc-number">2.0.7.2.</span> <span class="toc-text"> @Import</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%96%B9bean%E6%B3%A8%E5%85%A5%E8%B5%84%E6%BA%90"><span class="toc-number">2.0.8.</span> <span class="toc-text"> 第三方 bean 注入资源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B3%A8%E8%A7%A3%E5%BC%80%E5%8F%91%E6%80%BB%E7%BB%93"><span class="toc-number">2.0.9.</span> <span class="toc-text"> 注解开发总结</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#transactional"><span class="toc-number">2.0.10.</span> <span class="toc-text"> @Transactional</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enabletransactionmanagement"><span class="toc-number">2.0.11.</span> <span class="toc-text"> @EnableTransactionManagement</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#aop"><span class="toc-number">2.1.</span> <span class="toc-text"> AOP</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#aspect"><span class="toc-number">2.1.1.</span> <span class="toc-text"> @Aspect</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enableaspectjautoproxy"><span class="toc-number">2.1.2.</span> <span class="toc-text"> @EnableAspectJAutoProxy</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#pointcut"><span class="toc-number">2.1.3.</span> <span class="toc-text"> @Pointcut</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BB%91%E5%AE%9A%E5%88%87%E5%85%A5%E7%82%B9"><span class="toc-number">2.1.4.</span> <span class="toc-text"> 绑定切入点</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#before"><span class="toc-number">2.1.4.1.</span> <span class="toc-text"> @Before</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#after"><span class="toc-number">2.1.4.2.</span> <span class="toc-text"> @After</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#around"><span class="toc-number">2.1.4.3.</span> <span class="toc-text"> @Around</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#afterreturning"><span class="toc-number">2.1.4.4.</span> <span class="toc-text"> @AfterReturning</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#afterthrowing"><span class="toc-number">2.1.4.5.</span> <span class="toc-text"> @AfterThrowing</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#aop%E9%80%9A%E7%9F%A5%E8%8E%B7%E5%8F%96%E6%95%B0%E6%8D%AE"><span class="toc-number">2.1.5.</span> <span class="toc-text"> AOP 通知获取数据</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#springmvc"><span class="toc-number">2.2.</span> <span class="toc-text"> SpringMvc</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#controller"><span class="toc-number">2.2.1.</span> <span class="toc-text"> @Controller</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#requestmapping"><span class="toc-number">2.2.2.</span> <span class="toc-text"> @RequestMapping</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#requestparam"><span class="toc-number">2.2.3.</span> <span class="toc-text"> @RequestParam</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enablewebmvc"><span class="toc-number">2.2.4.</span> <span class="toc-text"> @EnableWebMvc</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#requestbody"><span class="toc-number">2.2.5.</span> <span class="toc-text"> @RequestBody</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#datetimeformat"><span class="toc-number">2.2.6.</span> <span class="toc-text"> @DateTimeFormat</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#jsonformat"><span class="toc-number">2.2.7.</span> <span class="toc-text"> @JsonFormat</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rest%E9%A3%8E%E6%A0%BC"><span class="toc-number">2.3.</span> <span class="toc-text"> REST 风格</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#requestmapping-2"><span class="toc-number">2.3.1.</span> <span class="toc-text"> @RequestMapping</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#pathvariable"><span class="toc-number">2.3.2.</span> <span class="toc-text"> @PathVariable</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#restcontroller"><span class="toc-number">2.3.3.</span> <span class="toc-text"> @RestController</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E5%8C%96%E5%BC%80%E5%8F%91%E6%B3%A8%E8%A7%A3"><span class="toc-number">2.3.4.</span> <span class="toc-text"> 简化开发注解</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ssm%E6%95%B4%E5%90%88"><span class="toc-number">2.4.</span> <span class="toc-text"> SSM 整合</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%82%E5%B8%B8%E5%A4%84%E7%90%86%E5%99%A8"><span class="toc-number">2.4.1.</span> <span class="toc-text"> 异常处理器</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#restcontrolleradvice"><span class="toc-number">2.4.1.1.</span> <span class="toc-text"> @RestControllerAdvice</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#exceptionhandler"><span class="toc-number">2.4.1.2.</span> <span class="toc-text"> @ExceptionHandler</span></a></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/05/07/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/steam%E6%B5%81/stream%E6%B5%81/" title="Stream流">Stream流</a><time datetime="2024-05-07T15:03:37.133Z" title="发表于 2024-05-07 23:03:37">2024-05-07</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/17/computer-science/java/%E7%9F%A5%E8%AF%86%E7%82%B9/%E8%BF%94%E5%9B%9E%E6%9E%9A%E4%B8%BE%E6%95%B0%E6%8D%AE%E7%BB%99%E5%89%8D%E7%AB%AF/" title="返回枚举数据给前端">返回枚举数据给前端</a><time datetime="2024-04-17T01:07:21.168Z" title="发表于 2024-04-17 09:07:21">2024-04-17</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/14/computer-science/blog/sql-blog/" title="sql-blog-day2024-4-14">sql-blog-day2024-4-14</a><time datetime="2024-04-14T07:43:52.414Z" title="发表于 2024-04-14 15:43:52">2024-04-14</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/07/tools/powerdesigner/PowerDesigner%E7%94%9F%E6%88%90SQL%E5%B8%A6%E6%B3%A8%E9%87%8A%E9%81%BF%E5%85%8Dcomment%E6%8A%A5%E9%94%99/" title="PowerDesigner生成SQL带注释避免comment报错">PowerDesigner生成SQL带注释避免comment报错</a><time datetime="2024-04-07T09:39:42.973Z" title="发表于 2024-04-07 17:39:42">2024-04-07</time></div></div><div class="aside-list-item"><div class="content"><a class="title" href="/homepage/2024/04/04/computer-science/java/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F/" title="状态模式(State Pattern)">状态模式(State Pattern)</a><time datetime="2024-04-04T01:19:48.637Z" title="发表于 2024-04-04 09:19:48">2024-04-04</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By null</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/homepage/js/utils.js?v=4.13.0"></script><script src="/homepage/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/homepage/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

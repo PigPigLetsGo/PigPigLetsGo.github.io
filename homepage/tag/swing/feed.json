@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "homepage • All posts by \"swing\" tag",
+    "description": "欢迎来我的博客空间",
+    "home_page_url": "https://pigpigletsgo.github.io/homepage",
+    "items": [
+        {
+            "id": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3Swing%E7%AA%97%E4%BD%93%E4%B9%B1%E7%A0%81IDEA/",
+            "url": "https://pigpigletsgo.github.io/homepage/2024/04/02/bug/%E8%A7%A3%E5%86%B3Swing%E7%AA%97%E4%BD%93%E4%B9%B1%E7%A0%81IDEA/",
+            "title": "解决Swing窗体乱码idea",
+            "date_published": "2024-04-02T10:00:50.438Z",
+            "content_html": "<p>-Dfile.encoding=gbk</p>\n",
+            "tags": [
+                "问题总汇",
+                "编码问题",
+                "Swing"
+            ]
+        }
+    ]
+}
