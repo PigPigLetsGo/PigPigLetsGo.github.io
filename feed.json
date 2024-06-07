@@ -7,6 +7,19 @@
     "home_page_url": "https://pigpigletsgo.github.io",
     "items": [
         {
+            "id": "https://pigpigletsgo.github.io/tools/idea/idea%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A/",
+            "url": "https://pigpigletsgo.github.io/tools/idea/idea%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A/",
+            "title": "idea生成注释",
+            "date_published": "2024-06-07T12:08:48.343Z",
+            "content_html": "<h1 id=\"idea生成注释\"><a class=\"anchor\" href=\"#idea生成注释\">#</a> idea 生成注释</h1>\n<p>类的注释</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200549174.png\" alt=\"image-20240607200549174\" /></p>\n<pre><code>/**\n* $&#123;description&#125;\n*\n* @author: Gao Tianle\n*\n* @date: $&#123;YEAR&#125;-$&#123;MONTH&#125;-$&#123;DAY&#125; $&#123;HOUR&#125;:$&#123;MINUTE&#125;\n**/\n</code></pre>\n<p>方法的注释</p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200710657.png\" alt=\"image-20240607200710657\" /></p>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200725121.png\" alt=\"image-20240607200725121\" /></p>\n<pre><code>/**\n * \n * @param \n * @return\n * @author Gao Tianle\n * @date $date$ $time$\n */\n</code></pre>\n",
+            "tags": [
+                "tools",
+                "idea",
+                "idea",
+                "tools"
+            ]
+        },
+        {
             "id": "https://pigpigletsgo.github.io/tools/Interfacetesting/swaggerOrKnife4j/%E9%85%8D%E7%BD%AE%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3Swagger%E5%92%8CKnife4j%E6%95%99%E7%A8%8B/",
             "url": "https://pigpigletsgo.github.io/tools/Interfacetesting/swaggerOrKnife4j/%E9%85%8D%E7%BD%AE%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3Swagger%E5%92%8CKnife4j%E6%95%99%E7%A8%8B/",
             "title": "配置接口文档Swagger和Knife4j教程",
@@ -278,21 +291,6 @@
             "title": "编码",
             "date_published": "2024-05-26T06:32:45.907Z",
             "content_html": "<p>问题描述:</p>\n<pre><code>Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform depend\n</code></pre>\n<ul>\n<li>项目在编译时报错:</li>\n</ul>\n<p><img data-src=\"https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-31-14-32-51_20230225095405.png\" alt=\"image_2023-01-31-14-32-51\" /></p>\n<p>在项目 pom.xml 文件中配置如下:</p>\n<pre><code>&lt;properties&gt;\n    &lt;!--编译编码--&gt;\n    &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;\n&lt;/properties&gt;\n</code></pre>\n",
-            "tags": [
-                "计算机学科",
-                "java",
-                "maven",
-                "问题",
-                "问题总汇",
-                "maven"
-            ]
-        },
-        {
-            "id": "https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%BE%B9%E6%A1%86maven%E4%B8%8D%E8%A7%81%E6%88%96%E8%80%85%E4%B8%8D%E5%AD%98%E5%9C%A8/",
-            "url": "https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%BE%B9%E6%A1%86maven%E4%B8%8D%E8%A7%81%E6%88%96%E8%80%85%E4%B8%8D%E5%AD%98%E5%9C%A8/",
-            "title": "边框maven不见或者不存在",
-            "date_published": "2024-05-26T06:32:45.881Z",
-            "content_html": "<p>右键 pom.xml 文件点击 <code>Add maven project</code></p>\n",
             "tags": [
                 "计算机学科",
                 "java",

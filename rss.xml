@@ -10,11 +10,44 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 06 Jun 2024 14:55:46 +0800</pubDate>
-        <lastBuildDate>Thu, 06 Jun 2024 14:55:46 +0800</lastBuildDate>
+        <pubDate>Fri, 07 Jun 2024 20:08:48 +0800</pubDate>
+        <lastBuildDate>Fri, 07 Jun 2024 20:08:48 +0800</lastBuildDate>
         <category term="java" />
         <category term="web" />
         <category term="c" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/tools/idea/idea%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A/</guid>
+            <title>idea生成注释</title>
+            <link>https://pigpigletsgo.github.io/tools/idea/idea%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A/</link>
+            <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
+            <category term="idea" scheme="https://pigpigletsgo.github.io/categories/tools/idea/" />
+            <category term="idea" scheme="https://pigpigletsgo.github.io/tags/idea/" />
+            <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
+            <pubDate>Fri, 07 Jun 2024 20:08:48 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;idea生成注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#idea生成注释&#34;&gt;#&lt;/a&gt; idea 生成注释&lt;/h1&gt;
+&lt;p&gt;类的注释&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200549174.png&#34; alt=&#34;image-20240607200549174&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/**
+* $&amp;#123;description&amp;#125;
+*
+* @author: Gao Tianle
+*
+* @date: $&amp;#123;YEAR&amp;#125;-$&amp;#123;MONTH&amp;#125;-$&amp;#123;DAY&amp;#125; $&amp;#123;HOUR&amp;#125;:$&amp;#123;MINUTE&amp;#125;
+**/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;方法的注释&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200710657.png&#34; alt=&#34;image-20240607200710657&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240607200725121.png&#34; alt=&#34;image-20240607200725121&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/**
+ * 
+ * @param 
+ * @return
+ * @author Gao Tianle
+ * @date $date$ $time$
+ */
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/tools/Interfacetesting/swaggerOrKnife4j/%E9%85%8D%E7%BD%AE%E6%8E%A5%E5%8F%A3%E6%96%87%E6%A1%A3Swagger%E5%92%8CKnife4j%E6%95%99%E7%A8%8B/</guid>
             <title>配置接口文档Swagger和Knife4j教程</title>
@@ -1406,20 +1439,6 @@ result ServerCRC: 6237137517066352504
     &amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;
 &amp;lt;/properties&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%BE%B9%E6%A1%86maven%E4%B8%8D%E8%A7%81%E6%88%96%E8%80%85%E4%B8%8D%E5%AD%98%E5%9C%A8/</guid>
-            <title>边框maven不见或者不存在</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%BE%B9%E6%A1%86maven%E4%B8%8D%E8%A7%81%E6%88%96%E8%80%85%E4%B8%8D%E5%AD%98%E5%9C%A8/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/" />
-            <category term="问题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/%E9%97%AE%E9%A2%98/" />
-            <category term="问题总汇" scheme="https://pigpigletsgo.github.io/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E6%B1%87/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/tags/maven/" />
-            <pubDate>Sun, 26 May 2024 14:32:45 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;右键 pom.xml 文件点击 &lt;code&gt;Add maven project&lt;/code&gt;&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
