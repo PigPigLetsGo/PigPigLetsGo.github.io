@@ -10,11 +10,137 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Fri, 07 Jun 2024 20:08:48 +0800</pubDate>
-        <lastBuildDate>Fri, 07 Jun 2024 20:08:48 +0800</lastBuildDate>
+        <pubDate>Tue, 11 Jun 2024 10:58:28 +0800</pubDate>
+        <lastBuildDate>Tue, 11 Jun 2024 10:58:28 +0800</lastBuildDate>
         <category term="java" />
         <category term="web" />
         <category term="c" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/essay/B%E7%AB%AF%E4%B8%8EC%E7%AB%AF%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</guid>
+            <title>B端与C端的区别</title>
+            <link>https://pigpigletsgo.github.io/essay/B%E7%AB%AF%E4%B8%8EC%E7%AB%AF%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB/</link>
+            <category term="essay" scheme="https://pigpigletsgo.github.io/categories/essay/" />
+            <category term="文章" scheme="https://pigpigletsgo.github.io/tags/%E6%96%87%E7%AB%A0/" />
+            <pubDate>Tue, 11 Jun 2024 10:58:28 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;b端与c端的区别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#b端与c端的区别&#34;&gt;#&lt;/a&gt; B 端与 C 端的区别&lt;/h1&gt;
+&lt;p&gt;B 端：Business，通常为企业内部或商家使用的系统或平台。如：企业内部 ERP 管理系统，财务管理平台等。&lt;/p&gt;
+&lt;p&gt;C 端：Consumber (也可理解为 Constomber)，通常为消费者，个人终端用户使用的客户端。&lt;/p&gt;
+&lt;p&gt;B 端与 C 端的区别有很多，本文我们将从双方的定义，产品特性，产品设计和产品运营方面来阐述 B 端与 C 端的区别&lt;/p&gt;
+&lt;h3 id=&#34;一-b端和c端的定义&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-b端和c端的定义&#34;&gt;#&lt;/a&gt; 一、B 端和 C 端的定义&lt;/h3&gt;
+&lt;p&gt;B 端：B 端，代表企业用户商家，英文是 Business，是互联网产品中的商家界面 (即：管理平台)。用户通过它进行日常的商业活动，例如企业存库管理，销售统计，员工出勤考核等等。可以说，用来解决企业需求的产品，都是 B 端产品&lt;/p&gt;
+&lt;p&gt;C 端：Consumber (也可理解为 Constomer)，通常为消费者，个人终端用户使用的客户端。如：微信，淘宝，网易云音乐等。&lt;/p&gt;
+&lt;h3 id=&#34;二-产品特性的差异和不同&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-产品特性的差异和不同&#34;&gt;#&lt;/a&gt; 二、产品特性的差异和不同&lt;/h3&gt;
+&lt;h4 id=&#34;1-所处行业与场景需求&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-所处行业与场景需求&#34;&gt;#&lt;/a&gt; 1、所处行业与场景需求&lt;/h4&gt;
+&lt;p&gt;C 端产品并没有明显的行业特征，比如微信社交，淘宝购物，美团点餐，高德导航，更多的是满足了使用者在 &amp;quot;生活场景&amp;quot; 下的各种个人日常需求。&lt;/p&gt;
+&lt;p&gt;B 端产品通常行业特征相对明显，更多的是满足了企业相关用户在 &amp;quot;工作场景&amp;quot; 下完成协同工作的一些特定组织需求&lt;/p&gt;
+&lt;h4 id=&#34;2-用户量级与类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-用户量级与类型&#34;&gt;#&lt;/a&gt; 2、用户量级与类型&lt;/h4&gt;
+&lt;p&gt;C 端产品的用户量级大而广，用户可具体到每一个 &amp;quot;终端个体&amp;quot; ，一般称之为 &amp;quot;用户&amp;quot;&lt;/p&gt;
+&lt;p&gt;而 B 端产品的用户量级更小，相对也更垂直，用户类型通常是 &amp;quot;组织群体&amp;quot; ，包括决策者，管理者，普通员工，区别于一般 &amp;quot;用户&amp;quot;， 更多情况下是被称为 &amp;quot;客户&amp;quot;&lt;/p&gt;
+&lt;h4 id=&#34;3-展示方式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-展示方式&#34;&gt;#&lt;/a&gt; 3、展示方式&lt;/h4&gt;
+&lt;p&gt;C 端产品通常以手机端为主，PC 端为次&lt;/p&gt;
+&lt;p&gt;B 端产品多数都集中在 PC 端使用，使用 &amp;quot;左导航右内容&amp;quot; 的布局&lt;/p&gt;
+&lt;h4 id=&#34;4-盈利模式&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-盈利模式&#34;&gt;#&lt;/a&gt; 4、盈利模式&lt;/h4&gt;
+&lt;p&gt;C 端产品打都免费开放给用户，在提供免费功能的基础上，再通过 &amp;quot;拉新，留存，促活&amp;quot; 等手段，转化其中一小部分用户。像漏斗模型一样，最终为服务付费的这部分用户为产品贡献了收益。这一切得益于 C 端产品大量级的用户规模，所以靠的是 &amp;quot;规模经济&amp;quot;&lt;/p&gt;
+&lt;p&gt;B 端产品没有用户量级上的优势，偏向于服务企业内部的工作协同，就需要为不同的生产关系和工作协作场景做个性化定制，靠企业对 &amp;quot;定制付费&amp;quot; 来获得收益&lt;/p&gt;
+&lt;h3 id=&#34;三-产品设计的差异和不同&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-产品设计的差异和不同&#34;&gt;#&lt;/a&gt; 三、产品设计的差异和不同&lt;/h3&gt;
+&lt;h4 id=&#34;1-功能设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-功能设计&#34;&gt;#&lt;/a&gt; 1、功能设计&lt;/h4&gt;
+&lt;p&gt;对于 C 端产品而言，需要至少有一个核心的主要功能点能满足用户的某一项诉求。围绕这个具体的核心功能，再去考虑附加更好的用户体验和增值服务。&lt;/p&gt;
+&lt;p&gt;B 端产品来说，要解决的主要是不同生产关系的协作沟通需求。在中心化的组织架构下，B 端产品需要满足不同层级和组织内外的协作沟通，功能呈现模块化。&lt;/p&gt;
+&lt;h4 id=&#34;2-角色设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-角色设计&#34;&gt;#&lt;/a&gt; 2、角色设计&lt;/h4&gt;
+&lt;p&gt;C 端产品的用户虽然大致需求一致，但每个人的身份，年龄，兴趣，偏好都不尽相同，这就要求产品经理从大众多端用户中抽象出样本特征，形成不同的用户画像，有针对性的满足各类人群的个性需求。&lt;/p&gt;
+&lt;p&gt;而 B 端产品的用户量级小，但用户角色众多 (决策者，管理者，普通员工) ，需要好好分析各角色的需求关注点，并做好角色分配和权限管理上的设计。&lt;/p&gt;
+&lt;p&gt;比如在 B 端产品中的用户中，有 &amp;quot;决策者， 管理者，普通员工股&amp;quot; 的区分。它们同样是 B 端产品的用户，但对产品的期望和关注点是不同的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;决策者 (老板)：关注企业的总体效率和成本&lt;/li&gt;
+&lt;li&gt;管理者 (部门领导)：关注管理职责和工作成绩&lt;/li&gt;
+&lt;li&gt;普通员工 (使用用户)：关注软件是否简单易上手，能否减轻工作负担&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-视觉体验设计&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-视觉体验设计&#34;&gt;#&lt;/a&gt; 3、视觉体验设计&lt;/h4&gt;
+&lt;p&gt;C 端产品需要兼顾 &amp;quot;用户体验&amp;quot; 和 &amp;quot;商业化变现&amp;quot; 的平衡，所以会额外重试在视觉体验上的设计。不仅要让用户有快速流畅的使用体验，更要用趣味性的设计引导用户自发地做社交分享&lt;/p&gt;
+&lt;p&gt;B 端产品需要满足用户集中精力完成具体的工作事项，不被打扰地进行严谨的流程操作。所以在视觉上多是保持干净简单的简介风&lt;/p&gt;
+&lt;h3 id=&#34;四-产品运营的差异和不同&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-产品运营的差异和不同&#34;&gt;#&lt;/a&gt; 四、产品运营的差异和不同&lt;/h3&gt;
+&lt;h4 id=&#34;1-运营目标&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-运营目标&#34;&gt;#&lt;/a&gt; 1、运营目标&lt;/h4&gt;
+&lt;p&gt;在相同转化率的前提下，想到得到分子的增长，分母必须要等比例的更多增长。C 端产品的盈利模式决定了想要创造更大的价值，就需要依靠持续的用户量级的增长&lt;/p&gt;
+&lt;p&gt;B 端产品相比 C 端，更看重看中稳定的专业能力，不求大起大落，只求不要出错，避免给企业带来损失&lt;/p&gt;
+&lt;h4 id=&#34;2-运营策略&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-运营策略&#34;&gt;#&lt;/a&gt; 2、运营策略&lt;/h4&gt;
+&lt;p&gt;C 端产品依靠大量级用户盈利模式，决定了 C 端产品需要利用 &amp;quot;红包 ，优惠卷&amp;quot;，精神奖励 等营销方式，以利益激励用户主动在线上进行 &amp;quot;对外分享传播&amp;quot; ，实现以不断新增的日活来加持自身体量&lt;/p&gt;
+&lt;p&gt;B 端产品有着天然的 &amp;quot;封闭&amp;quot; 特性，营销上也更传统，通常将线下 &amp;quot;大型会议，峰会，行业展会&amp;quot; 作为主要场地，近距离接近客户，通过树立行业级别内的 &amp;quot;专业形象&amp;quot; 来吸引企业客户的兴趣&lt;/p&gt;
+&lt;h4 id=&#34;3-运营程度&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-运营程度&#34;&gt;#&lt;/a&gt; 3、运营程度&lt;/h4&gt;
+&lt;p&gt;C 端产品早已将运营转化，并细化到各维度的运营了，比如运营的工种可以细分为 &amp;quot;活动运营岗，用户运营岗，增长裂变岗，内容运营岗&amp;quot; 等等。&lt;/p&gt;
+&lt;p&gt;B 端产品的运营往往不被重视，也没有 C 端那么专业化。在运营预算有限的情况下，通常是 &amp;quot;运维多于运营&amp;quot;，只集中精力关注用户对产品的认可度和系统问题的定位。&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/spring/blog/@PropertySource%E5%92%8C@ConfigurationProperties%E5%8C%BA%E5%88%AB/</guid>
+            <title>PropertySource和ConfigurationProperties区别</title>
+            <link>https://pigpigletsgo.github.io/computer-science/java/spring/blog/@PropertySource%E5%92%8C@ConfigurationProperties%E5%8C%BA%E5%88%AB/</link>
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
+            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
+            <category term="spring" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/spring/" />
+            <category term="blog" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/spring/blog/" />
+            <category term="springboot" scheme="https://pigpigletsgo.github.io/tags/springboot/" />
+            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="blog" scheme="https://pigpigletsgo.github.io/tags/blog/" />
+            <pubDate>Sat, 08 Jun 2024 15:52:40 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;propertysource和configurationproperties区别&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#propertysource和configurationproperties区别&#34;&gt;#&lt;/a&gt; @PropertySource 和 @ConfigurationProperties 区别&lt;/h1&gt;
+&lt;p&gt;@ConfigurationProperties&lt;br /&gt;
+@ConfigurationProperties 是 springboot 中注解，用于将主配置文件 (application.properties 或者 “application.yml” ) 中的属性，映射到实体类中对应的属性。&lt;br /&gt;
+意思就是把主配置文件中配置属性设置到对应的 Bean 属性上。&lt;/p&gt;
+&lt;p&gt;常见使用方式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;@ConfigurationProperties + @Component 注解到 bean 定义类上&lt;/li&gt;
+&lt;li&gt;@ConfigurationProperties + @Bean 注解在配置类的 bean 定义方法上&lt;/li&gt;
+&lt;li&gt;@ConfigurationProperties 注解到普通类然后通过 @EnableConfigurationProperties 定义为 bean&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;@Bean,@Component 这种我们可以理解，两个注解都能标识一个 Bean.&lt;/p&gt;
+&lt;p&gt;@EnableConfigurationProperties 是如何让其成为一个 bean 的呢？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;@EnableConfigurationProperties 源码分析&lt;/strong&gt;：&lt;br /&gt;
+@EnableConfigurationProperties 注解会导入一个 EnableConfigurationPropertiesImportSelector 类，其 selectImports 方法返回的类，将注册为 beandefinition。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@Override&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;selectImports&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;AnnotationMetadata&lt;/span&gt; metadata&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		获取&lt;span class=&#34;token annotation punctuation&#34;&gt;@EnableConfigurationProperties&lt;/span&gt;的参数信息&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;MultiValueMap&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; attributes &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; metadata&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getAllAnnotationAttributes&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token class-name&#34;&gt;EnableConfigurationProperties&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;token boolean&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; type &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; attributes &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;?&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token operator&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Object&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; attributes&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getFirst&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;value&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		参数没有值&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;注册&lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt;个&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;type &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;null&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;||&lt;/span&gt; type&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;length &lt;span class=&#34;token operator&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;			&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;					&lt;span class=&#34;token class-name&#34;&gt;ConfigurationPropertiesBindingPostProcessorRegistrar&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;							&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		参数有值，注册两个&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;ConfigurationPropertiesBeanRegistrar&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;				&lt;span class=&#34;token class-name&#34;&gt;ConfigurationPropertiesBindingPostProcessorRegistrar&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;getName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;总的来说会注册两个类：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ConfigurationPropertiesBindingPostProcessorRegistrar&lt;/li&gt;
+&lt;li&gt;ConfigurationPropertiesBeanRegistrar&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;ConfigurationPropertiesBindingPostProcessorRegistrar： 看名字我们也可以看出 ConfigurationPropertiesBindingPostProcessor 注册器，没错就是用来注册 ConfigurationPropertiesBindingPostProcessor 这个 BeanPostProcessor 的。BeanPostProcessor 会在创建 bean 的时候，被执行处理 Bean 相关信息。ConfigurationPropertiesBindingPostProcessor 这个 BeanPostProcessor 是就是用来解析 Bean 上的 @ConfigurationProperties 注解的。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;ConfigurationPropertiesBindingPostProcessor 会检查 Bean 是否有 @ConfigurationProperties，如果有就绑定相关配置属性到本 bean 的相关属性上。&lt;/p&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;ConfigurationPropertiesBeanRegistrar： 看名字，ConfigurationPropertiesBean 注册器，ConfigurationPropertiesBeanRegistrar 是在 @ConfigurationProperties 的 value 属性有值的情况下注册的。&lt;br /&gt;
+例如：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@EnableConfigurationProperties&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;EurekaDashboardProperties&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;		&lt;span class=&#34;token class-name&#34;&gt;InstanceRegistryProperties&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;ConfigurationPropertiesBeanRegistrar 实现了 ImportBeanDefinitionRegistrar 接口，所以他的 registerBeanDefinitions 方法，也会注册 Bean. 注册就是 @EnableConfigurationProperties 的 value 值，例如例子中 EurekaDashboardProperties.class,InstanceRegistryProperties.class&lt;/p&gt;
+&lt;p&gt;由此我们可以看出：&lt;br /&gt;
+@Component， @Bean , ConfigurationPropertiesBeanRegistrar 都是为了告诉 spring，对应的类是一个 Bean，spring 要去加载，解析，创建 Bean.&lt;br /&gt;
+ 而 ConfigurationPropertiesBindingPostProcessor 的工作就是完成配置信息到 Bean 属性的绑定工作。&lt;/p&gt;
+&lt;p&gt;@EnableConfigurationProperties 的目的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;保证容器中有解析 ConfigurationProperties 注解的 BeanPostProcessor&lt;/li&gt;
+&lt;li&gt;向容器内注入 value 对应的 BeanDefinition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;idea 中，在主配置文件 ctrl + 鼠标 能看到这对应的属性被哪个 @ConfigurationProperties 修饰的属性类使用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;@ConfigurationProperties 是针对主配置文件的。但是我们不想所有的配置都放到主配置文件中怎么办？？？？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;@PropertySource&lt;/strong&gt;&lt;br /&gt;
+@PropertySource 是 spring 的注解&lt;br /&gt;
+加载指定的属性文件的配置到 Spring 的 Environment 中。可以配合 @Value 和 @ConfigurationProperties 使用。&lt;/p&gt;
+&lt;p&gt;用法：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;@Configuration+ @PropertySource+Environment&lt;/li&gt;
+&lt;li&gt;@Configuration+ @PropertySource+@Value&lt;/li&gt;
+&lt;li&gt;@Configuration+ @PropertySource+@ConfigurationProperties&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;@Configuration 本质也是告诉 spring 这是一个 bean.&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;my&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;name&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;helloworld&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;my&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;age&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;8&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;@Configuration+ @PropertySource+Environment&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@Configuration&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@PropertySource&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;classpath:hellword.properties&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HelloWorldConfig&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;   &lt;span class=&#34;token annotation punctuation&#34;&gt;@Autowired&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Environment&lt;/span&gt; env&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;@Configuration+ @PropertySource+@Value&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@Configuration&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@PropertySource&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;classpath:hellword.properties&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HelloWorldConfig&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token annotation punctuation&#34;&gt;@Value&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;$&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;my&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;name&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; name&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;@Configuration+ @PropertySource+@ConfigurationProperties&lt;br /&gt;
+@PropertySource 指定加载哪个文件，@ConfigurationProperties 指定加载文件中的哪一类属性。&lt;br /&gt;
+@PropertySource+@ConfigurationProperties 在一起解决了 @ConfigurationProperties 只能加载主文件内属性问题。&lt;/p&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@Configuration&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@PropertySource&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;classpath:hellword.properties&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@ConfigurationProperties&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;prefix &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;my&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;HelloWorldConfig&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;String&lt;/span&gt; name&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h4 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结：&lt;/h4&gt;
+&lt;p&gt;灵活利用这两个注解，能够把配置信息安排有层次感&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/tools/idea/idea%E7%94%9F%E6%88%90%E6%B3%A8%E9%87%8A/</guid>
             <title>idea生成注释</title>
@@ -1392,53 +1518,6 @@ result ServerCRC: 6237137517066352504
 &lt;p&gt;&lt;code&gt;Generating project in Batch mode&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;这个问题是在命令后面加了: &lt;code&gt;-DinteractiveMode=false&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;如果不想一直卡住，同样在命令中添加: &lt;code&gt; -DarchetypeCatalog=internal&lt;/code&gt;&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3Failed-to-execute-goal-org-apache-maven-plugins-maven-surefire-plugin/</guid>
-            <title>解决Failed-to-execute-goal-org-apache-maven-plugins-maven-surefire-plugin</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3Failed-to-execute-goal-org-apache-maven-plugins-maven-surefire-plugin/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/" />
-            <category term="问题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/%E9%97%AE%E9%A2%98/" />
-            <category term="问题总汇" scheme="https://pigpigletsgo.github.io/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E6%B1%87/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/tags/maven/" />
-            <pubDate>Sun, 26 May 2024 14:32:45 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;报错描述:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-17-16-31-11_20230225095430.png&#34; alt=&#34;image_2023-01-17-16-31-11&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;解决方案:&lt;/p&gt;
-&lt;p&gt;在 pom.xml 中加入插件:&lt;/p&gt;
-&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;org.apache.maven.plugins&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;maven-surefire-plugin&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;2.4.2&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;configuration&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;skipTests&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;true&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;skipTests&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;configuration&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;  &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-17-16-32-19_20230225095501.png&#34; alt=&#34;image_2023-01-17-16-32-19&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;完成！！&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E7%BC%96%E7%A0%81/</guid>
-            <title>编码</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E7%BC%96%E7%A0%81/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/" />
-            <category term="问题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/%E9%97%AE%E9%A2%98/" />
-            <category term="问题总汇" scheme="https://pigpigletsgo.github.io/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E6%B1%87/" />
-            <category term="maven" scheme="https://pigpigletsgo.github.io/tags/maven/" />
-            <pubDate>Sun, 26 May 2024 14:32:45 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;问题描述:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform depend
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;项目在编译时报错:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-31-14-32-51_20230225095405.png&#34; alt=&#34;image_2023-01-31-14-32-51&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在项目 pom.xml 文件中配置如下:&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;properties&amp;gt;
-    &amp;lt;!--编译编码--&amp;gt;
-    &amp;lt;project.build.sourceEncoding&amp;gt;UTF-8&amp;lt;/project.build.sourceEncoding&amp;gt;
-&amp;lt;/properties&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
     </channel>
