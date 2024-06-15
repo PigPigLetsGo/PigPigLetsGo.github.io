@@ -6,7 +6,7 @@
   <link href="https://pigpigletsgo.github.io/atom.xml" rel="self"/>
   
   <link href="https://pigpigletsgo.github.io/"/>
-  <updated>2024-06-13T10:35:34.110Z</updated>
+  <updated>2024-06-15T12:07:47.493Z</updated>
   <id>https://pigpigletsgo.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HMAC算法以及工作原理</title>
+    <link href="https://pigpigletsgo.github.io/computer-science/blog/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7/HMAC%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/"/>
+    <id>https://pigpigletsgo.github.io/computer-science/blog/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7/HMAC%E7%AE%97%E6%B3%95%E4%BB%A5%E5%8F%8A%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</id>
+    <published>2024-06-15T12:07:00.228Z</published>
+    <updated>2024-06-15T12:07:47.493Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hmac算法以及工作原理"><a class="anchor" href="#hmac算法以及工作原理">#</a> HMAC 算法以及工作原理</h1><h2 id="一-消息认证码mac简介"><a class="anchor" href="#一-消息认证码mac简介">#</a> 一、消息认证码 (MAC) 简介</h2><p>消息认证码 (Message Authentication Code，简称 MAC)，是密码学中的一个关键概念，主要用于确保信息在传输或存储过程中的完整性，同时提供对信息来源的身份验证。这是一种防止信息在未经授权的情况下被篡改的重要手段。</p><p>MAC 算法的核心在于它采用了一种特定的加密方式，这种方式也依赖于一个只有通信双方知道的秘钥。这意味着，即使攻击者能够截获到传输的信息，只要他们没有这个秘钥，就无法生成有效的 MAC 值，也无法对信息进行篡改而不被发现。</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240615183118453.png" alt="image-20240615183118453" /></p><h3 id="mac的主要特性包括"><a class="anchor" href="#mac的主要特性包括">#</a> MAC 的主要特性包括</h3><ol><li>完成性：MAC 能确保信息的完整性，即信息在传输或存储过程中没有被篡改。这是通过对此接收到的 MAC 值和重新计算的 MAC 值来实现的。如果两者相同，那么信息就被认为是完整的。</li><li>认证：MAC 能提供对信息来源的身份验证。因为只有知道秘钥的实体才能生成有效的 MAC 值，所以接收者可以通过验证 MAC 值来确认信息来源。</li><li>秘钥依赖性：MAC 值的计算依赖于秘钥，不同的秘钥会产生不同的 MAC 值。这增加了攻击者伪造有效 MAC 值的难度。</li></ol><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240615183425944.png" alt="image-20240615183425944" /></p><p>MAC 被广泛应用于网络通信、数据存储、电子商务等领域，以保护数据的安全性和可靠性。例如，在网络通信中，MAC 可以防止数据被篡改或冒充，确保数据的完整性和真实性；在数据存储中，MAC 可以防止数据被篡改或删除，保护数据的完整性和可靠性；在电商中，MAC 可以确保交易数据的完整性和真实性，防止数据被篡改或冒充，保护用户的隐私和安全。</p><h2 id="二-hmacsha1算法"><a class="anchor" href="#二-hmacsha1算法">#</a> 二、HmacSHA1 算法</h2><p>HmacSHA1 是一种结合了密钥与 SHA-1 哈希函数的消息认证码（MAC）算法。与 HmacMD5 类似，HmacSHA1 旨在通过引入密钥来增强 SHA-1 算法的安全性，以提供数据的完整性和身份验证。由于 SHA-1 相较于 MD5 具有更高的安全性，HmacSHA1 也被广泛认为是一种更安全的消息认证码算法。</p><p>SHA-1（Secure Hash Algorithm 1）是一种密码散列函数，美国国家安全局设计，并由美国国家标准技术研究所（NIST）发布为联邦资料处理标准（FIPS）。SHA-1 可以生成一个被称为消息摘要的 160 位（20 字节）散列值，散列值通常的呈现形式为 40 个十六进制数。</p><h3 id="hmacsha1算法的工作原理"><a class="anchor" href="#hmacsha1算法的工作原理">#</a> HmacSHA1 算法的工作原理</h3><h4 id="1-秘钥处理"><a class="anchor" href="#1-秘钥处理">#</a> 1、秘钥处理：</h4><p>HmacSHA1 算法首先会对密钥进行处理，以确保其长度符合算法的要求。通常，密钥会被填充至 64 字节（512 位）的长度。<br />如果密钥长度小于 64 字节，算法会在密钥的末尾填充 0，直到达到所需的长度。<br />如果密钥长度大于 64 字节，算法会使用 SHA-1 哈希函数对密钥进行哈希处理，得到一个固定长度（20 字节，160 位）的哈希值，然后将其作为实际的密钥使用。</p><h4 id="2-秘钥划分与填充"><a class="anchor" href="#2-秘钥划分与填充">#</a> 2、秘钥划分与填充：</h4><p>与 HmacMD5 类似，处理后的密钥会被划分为两个等长的子密钥，但由于 SHA-1 的块大小是 512 位（64 字节），这两个子密钥实际上是通过对原始密钥与特定的填充常量（如 ipad 和 opad）进行异或运算得到的。<br />ipad（内部填充常量）和 opad（外部填充常量）是特定的字节序列，用于与密钥进行异或运算，以生成两个新的密钥：K1（内部密钥）和 K2（外部密钥）。</p><h4 id="3-消息处理与哈希计算"><a class="anchor" href="#3-消息处理与哈希计算">#</a> 3、消息处理与哈希计算：</h4><p>消息在进行哈希之前，会被划分为多个块，每个块的大小与 SHA-1 算法的输入块大小相同（512 位）。最后一个块可能需要按照特定的方式进行填充。<br />对于每个消息块，算法会将其与子密钥 K1 一起作为输入，进行 SHA-1 哈希计算，得到一个中间哈希值。<br />然后，算法会取所有中间哈希值的串联（对于多个消息块的情况），与子密钥 K2 一起作为输入，进行另一次 SHA-1 哈希计算。最终得到的哈希值就是消息的 HmacSHA1 值。</p><h4 id="4-安全性考虑"><a class="anchor" href="#4-安全性考虑">#</a> 4、安全性考虑：</h4><p>HmacSHA1 算法结合了 SHA-1 哈希函数的不可逆性和密钥作为干扰项的特点，使得攻击者无法轻易伪造出有效的 HmacSHA1 值。即使攻击者截获了消息和对应的 HmacSHA1 值，没有密钥的情况下也无法对消息进行篡改而不被发现。</p><p>然而，需要注意的是，近年来对 SHA-1 的安全性也提出了一些质疑，特别是关于其潜在的碰撞性攻击风险。虽然在实际应用中尚未出现成功的攻击案例，但为了安全起见，许多组织已经开始逐步淘汰 SHA-1 和 HmacSHA1，转向使用更安全的哈希函数和相应的 Hmac 算法（如 SHA-256 和 HmacSHA256）。</p><h2 id="三-hmacmd5算法"><a class="anchor" href="#三-hmacmd5算法">#</a> 三、HmacMD5 算法</h2><p>HmacMD5 是一种结合了密钥与 MD5 哈希函数的消息认证码（MAC）算法。它旨在通过引入密钥来增强 MD5 算法的安全性，从而提供数据的完整性和身份验证。HmacMD5 广泛应用于网络通信和数据存储等领域，以确保数据的机密性和完整性。</p><h3 id="hmacmd5算法的工作原理"><a class="anchor" href="#hmacmd5算法的工作原理">#</a> HmacMD5 算法的工作原理</h3><h4 id="1-秘钥处理-2"><a class="anchor" href="#1-秘钥处理-2">#</a> 1、秘钥处理：</h4><p>HmacMD5 算法首先会对密钥进行处理，以确保其长度符合算法的要求。通常，密钥会被填充至 64 字节（512 位）的长度。<br />如果密钥长度小于 64 字节，算法会在密钥的末尾填充 0，直到达到所需的长度。<br />如果密钥长度大于 64 字节，算法会使用 MD5 哈希函数对密钥进行哈希处理，得到一个固定长度（16 字节，128 位）的哈希值，然后将其作为实际的密钥使用。</p><h4 id="2-秘钥划分"><a class="anchor" href="#2-秘钥划分">#</a> 2、秘钥划分：</h4><p>经过处理的密钥会被划分为两个等长的子密钥，分别称为 K1 和 K2。<br />如果密钥是原始密钥的哈希值（16 字节），则 K1 是原始密钥与 ipad（一个特定的常量）的逐位异或结果，K2 是原始密钥与 opad（另一个特定的常量）的逐位异或结果。</p><h4 id="3-消息处理"><a class="anchor" href="#3-消息处理">#</a> 3、消息处理：</h4><p>消息在进行哈希之前，通常会被划分为多个块，每个块的大小与 MD5 算法的输入块大小相同（64 字节）。对于最后一个可能不足 64 字节的块，需要按照特定的方式进行填充，以确保其长度达到 64 字节。填充的内容包括一个 “1”、多个 “0” 以及原始消息的长度（以 64 位二进制数表示）。</p><h4 id="4-哈希计算"><a class="anchor" href="#4-哈希计算">#</a> 4、哈希计算：</h4><p>对于每个消息块，算法会将其与子密钥 K1 一起作为输入，计算出一个中间哈希值。这是通过将 K1 附加到消息块的前面或后面，并对整个输入应用 MD5 哈希函数来实现的。</p><p>然后，算法会取所有中间哈希值的串联（对于多个消息块的情况），与子密钥 K2 一起作为输入，进行另一次 MD5 哈希计算。最终得到的哈希值就是消息的 HmacMD5 值。</p><p>尽管 HmacMD5 算法通过引入密钥增强了 MD5 算法的安全性，但 MD5 算法本身存在已知的弱点，如潜在的碰撞性攻击风险。因此，在需要更高安全性的场景下，建议使用更安全的哈希函数和相应的 Hmac 算法，如 HmacSHA256。</p><h3 id="md5"><a class="anchor" href="#md5">#</a> MD5</h3><ul><li>MD5 信息摘要算法 (英语：MD5 Message-Digest Algorithm)，一种被广泛使用的密码散列函数，可以生产出一个 128 位 (16 字节) 的散列值 (hash value)，用于确保信息传输完整一致。</li><li>MD5 将任意长度的 &quot;字符串&quot; 变换成 128 位 (4 个 32 位) 的大整数，它是一个不可逆的数据转换过程。</li></ul><h4 id="md5算法步骤"><a class="anchor" href="#md5算法步骤">#</a> MD5 算法步骤</h4><h5 id="步骤1补位"><a class="anchor" href="#步骤1补位">#</a> 步骤 1：补位</h5><p>将原始数据转换为二进制看，先在尾补一个 1，再补 0，再补一个 64 位的原始数据长度 (单位 bit)，补完后数据位数长度为 512 的倍数；</p><p>注意：即便是这个数据的位数长度对 512 求模的结果正好是 448 也必须进行补位。总之，至少补 1 位，而最多可能补 512 位</p><h5 id="步骤2分组"><a class="anchor" href="#步骤2分组">#</a> 步骤 2：分组</h5><p>以 512 位分组，每组又分为 16 个 32 位的子分组 M [0] ~ M [15]</p><h5 id="步骤3每组计算"><a class="anchor" href="#步骤3每组计算">#</a> 步骤 3：每组计算</h5><ul><li><p>输入量</p><p>每个 512 bit 分组都要经历一次 4 轮的逻辑处理；</p><p>每 4 轮逻辑处理的输入量为：链接变量<mark> A，B，C，D</mark> 和每组的<mark> M [0] ~ M [15]</mark></p><p>四个链接变量 A，B，C，D 初始值为：</p><p>A = 0x12345678</p><p>B = 0x89ABCDEF</p><p>C = 0xFEDCBA98</p><p>D = 0x76543210</p><p>注意：初始的 A，B，C，D，4 个链接变量与每组的 M [0] ~ M [15] 在进入计算前要先经过 <mark>大小端处理</mark></p></li><li><p>定义 4 个非线性函数 F，G，H，I</p><p>每轮用一个非线性函数计算，即：</p><p>在第一轮中，M [0] ~ M [15] 分别代入到函数 F 中运算；</p><p>在第二轮中，M [0] ~ M [15] 分别代入到函数 G 中运算；</p><p>在第三轮中，M [0] ~ M [15] 分别代入到函数 H 中运算；</p><p>在第四轮中，M [0] ~ M [15] 分别代入到函数 I 中运算；</p><p>那么 4 轮一共会进行 16 * 4 = 64 此运算。</p></li><li><p>输出量</p><p>每一个 512bit 分组经过 4 轮的逻辑处理后，会得到四个 32 位的值 a，b，c，d；将它们分别加上输入时的链接变量的值，就会得到新的链接变量的值，此值再继续输入参与下一 512bit 分组的 4 轮逻辑处理；</p><p>A = a + A</p><p>B = b + B</p><p>C = c + C</p><p>D = d + D</p></li></ul><h5 id="步骤4最终结果输出"><a class="anchor" href="#步骤4最终结果输出">#</a> 步骤 4：最终结果输出</h5><p>经过了一系列的计算处理后，输出结果由 4 个 32 位数据组成，将这 4 个 32 位数据级联后将生成一个 128 位散列值，即为 MD5 值。</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image-20240615185746826.png" alt="image-20240615185746826" /></p><p><strong>参考</strong>：<span class="exturl" data-url="aHR0cHM6Ly96aHVhbmxhbi56aGlodS5jb20vcC8xMzY1OTAwNDk=">https://zhuanlan.zhihu.com/p/136590049</span> HMAC 算法及其应用</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;hmac算法以及工作原理&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#hmac算法以及工作原理&quot;&gt;#&lt;/a&gt; HMAC 算法以及工作原理&lt;/h1&gt;
+&lt;h2 id=&quot;一-消息认证码mac简介&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#一-消息认证码</summary>
+      
+    
+    
+    
+    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/"/>
+    
+    <category term="blog" scheme="https://pigpigletsgo.github.io/categories/computer-science/blog/"/>
+    
+    <category term="加密算法工具" scheme="https://pigpigletsgo.github.io/categories/computer-science/blog/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
+    
+    <category term="blog" scheme="https://pigpigletsgo.github.io/tags/blog/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库执行语句打印性能分析框架p6Spy的使用</title>
@@ -619,40 +650,6 @@
   &amp;lt;id&amp;gt;aliyunmaven&amp;lt;/id&amp;gt;
   &amp;lt;mirrorOf&amp;gt;*&amp;lt;/mirrorOf&amp;gt;
   &amp;lt;n</summary>
-      
-    
-    
-    
-    <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/"/>
-    
-    <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/"/>
-    
-    <category term="maven" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/"/>
-    
-    <category term="问题" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/maven/%E9%97%AE%E9%A2%98/"/>
-    
-    
-    <category term="问题总汇" scheme="https://pigpigletsgo.github.io/tags/%E9%97%AE%E9%A2%98%E6%80%BB%E6%B1%87/"/>
-    
-    <category term="maven" scheme="https://pigpigletsgo.github.io/tags/maven/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解决不支持发行版5</title>
-    <link href="https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3%E4%B8%8D%E6%94%AF%E6%8C%81%E5%8F%91%E8%A1%8C%E7%89%885/"/>
-    <id>https://pigpigletsgo.github.io/computer-science/java/maven/%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3%E4%B8%8D%E6%94%AF%E6%8C%81%E5%8F%91%E8%A1%8C%E7%89%885/</id>
-    <published>2024-05-26T06:32:45.995Z</published>
-    <updated>2024-05-26T06:39:17.137Z</updated>
-    
-    <content type="html"><![CDATA[<p>点击 <code>File --&gt; ProjectStructure</code></p><p>选择 8</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-13-11-13-02_20230225095537.png" alt="image_2023-01-13-11-13-02" /></p><p>再将全部的项目都设置为 8</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-13-11-13-59_20230225095549.png" alt="image_2023-01-13-11-13-59" /></p><p>打开 <code>File --&gt; setttings</code>  搜索 java 选择 <code>java Compiler</code>  , 将其选为 8</p><p><img data-src="https://raw.githubusercontent.com/PigPigLetsGo/imeages/master/image_2023-01-13-11-15-59_20230225095601.png" alt="image_2023-01-13-11-15-59" /></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;点击 &lt;code&gt;File --&amp;gt; ProjectStructure&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;选择 8&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&quot;https://raw.githubusercontent.com/PigPigLetsGo/imeages/mas</summary>
       
     
     
