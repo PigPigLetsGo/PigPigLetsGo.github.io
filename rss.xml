@@ -585,6 +585,31 @@ dependencies&amp;gt;
 &lt;li&gt;@ApiResponses：描述接口响应&lt;/li&gt;
 &lt;li&gt;@ApiIgnore：忽略不显示接口参数&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;用swagger3替换swagger2注释&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用swagger3替换swagger2注释&#34;&gt;#&lt;/a&gt; 用 Swagger3 替换 Swagger2 注释&lt;/h2&gt;
+&lt;p&gt;(它已经包含在 springdoc-openapi-ui 依赖项中)。swagger3 注释的包是 io.swagger.v3.oas.annotations&lt;/p&gt;
+&lt;h3 id=&#34;依赖项&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#依赖项&#34;&gt;#&lt;/a&gt; 依赖项：&lt;/h3&gt;
+&lt;p&gt;swagger3 只需要一个依赖即可&lt;/p&gt;
+&lt;figure class=&#34;highlight xml&#34;&gt;&lt;figcaption data-lang=&#34;XML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&amp;lt;!-- https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter --&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;io.springfox&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;groupId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;springfox-boot-starter&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;artifactId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;3.0.0&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;version&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token tag&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;/&lt;/span&gt;dependency&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h3 id=&#34;swagger2到swagger3的变化规则&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#swagger2到swagger3的变化规则&#34;&gt;#&lt;/a&gt; Swagger2 到 Swagger3 的变化规则：&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;@Api → @Tag
+ 
+@ApiIgnore → @Parameter(hidden = true)或@Operation(hidden = true)或@Hidden
+ 
+@ApiImplicitParam → @Parameter
+ 
+@ApiImplicitParams → @Parameters
+ 
+@ApiModel → @Schema
+ 
+@ApiModelProperty(hidden = true) → @Schema(accessMode = READ_ONLY)
+ 
+@ApiModelProperty → @Schema(description = &amp;quot;描述&amp;quot;)
+ 
+@ApiOperation(value = &amp;quot;foo&amp;quot;, notes = &amp;quot;bar&amp;quot;) → @Operation(summary = &amp;quot;foo&amp;quot;, description = &amp;quot;bar&amp;quot;)
+ 
+@ApiParam → @Parameter
+ 
+@ApiResponse(code = 404, message = &amp;quot;foo&amp;quot;) → @ApiResponse(responseCode = &amp;quot;404&amp;quot;, description = &amp;quot;foo&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
  ]]></description>
         </item>
         <item>
