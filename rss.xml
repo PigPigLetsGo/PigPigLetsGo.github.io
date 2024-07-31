@@ -278,8 +278,8 @@
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
+            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <pubDate>Sat, 06 Jul 2024 22:04:11 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;#&lt;/a&gt; 记录不存在则插入，存在则更新 - replace into 与 insert update&lt;/h1&gt;
 &lt;h2 id=&#34;需求背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#需求背景&#34;&gt;#&lt;/a&gt; 需求背景&lt;/h2&gt;
@@ -818,9 +818,9 @@ ipad（内部填充常量）和 opad（外部填充常量）是特定的字节�
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mybatis/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="mybatis" scheme="https://pigpigletsgo.github.io/tags/mybatis/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
-            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <pubDate>Thu, 13 Jun 2024 17:16:25 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;#&lt;/a&gt; 数据库执行语句打印、性能分析框架（p6Spy 的使用）&lt;/h1&gt;
 &lt;h2 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h2&gt;
@@ -889,8 +889,8 @@ ipad（内部填充常量）和 opad（外部填充常量）是特定的字节�
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mybatis/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="mybatis" scheme="https://pigpigletsgo.github.io/tags/mybatis/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
+            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <pubDate>Tue, 11 Jun 2024 19:48:16 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;mybatis工具类metaobject与metaclass&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#mybatis工具类metaobject与metaclass&#34;&gt;#&lt;/a&gt; MyBatis 工具类 MetaObject 与 MetaClass&lt;/h1&gt;
 &lt;h2 id=&#34;metaobject&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#metaobject&#34;&gt;#&lt;/a&gt; MetaObject&lt;/h2&gt;
