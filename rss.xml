@@ -35,6 +35,29 @@
 &lt;/ol&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;如何有效的联调&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#如何有效的联调&#34;&gt;#&lt;/a&gt; 如何有效的联调&lt;/h2&gt;
+&lt;h3 id=&#34;联调前工作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#联调前工作&#34;&gt;#&lt;/a&gt; 联调前工作&lt;/h3&gt;
+&lt;h4 id=&#34;1需求分析&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1需求分析&#34;&gt;#&lt;/a&gt; 1，需求分析&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;理解需求：与产品经理或需求方沟通，明确功能需求，理解业务逻辑，确保无遗漏或误解&lt;/li&gt;
+&lt;li&gt;API 接口设计：确定功能需要的 API 接口，包括接口的路径，请求方式 (GET，POST 等)，请求参数 (考虑能不能传，是否需要传)，返回值结构和状态码 (提前沟通前端返回什么样的数据格式比较合适)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2业务逻辑实现&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2业务逻辑实现&#34;&gt;#&lt;/a&gt; 2，业务逻辑实现&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Service 层开发：实现具体的业务逻辑，包括数据处理，校验，事务管理等。&lt;/li&gt;
+&lt;li&gt;Repository/DAO 层开发：实现数据访问层，编写数据查询，插入，更新等操作&lt;/li&gt;
+&lt;li&gt;测试用例编写：为业务逻辑编写单元测试用例，确保代码功能正确&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3api开发&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3api开发&#34;&gt;#&lt;/a&gt; 3，API 开发&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;控制器开发：开发对应的控制器，编写处理请求的接口逻辑，调用 Service 层完成业务处理&lt;/li&gt;
+&lt;li&gt;数据校验：对请求参数进行校验，确保数据格式和内容符合要求&lt;/li&gt;
+&lt;li&gt;异常处理：编写全局异常处理，确保当发生错误时返回统一的错误信息&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;4接口文档编写&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4接口文档编写&#34;&gt;#&lt;/a&gt; 4，接口文档编写&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;API 文档编写：使用 Swagger，Postman 等工具生成 API 文档，详细描述接口的使用方法，参数，返回结果等，方便前端和测试人员参考&lt;/li&gt;
+&lt;li&gt;Mock 数据提供：提供接口的 Mock 数据，帮助前端在后端接口尚未完成时进行开发和测试&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;自测&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#自测&#34;&gt;#&lt;/a&gt; 自测&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;联调的时候小问题不断，大问题加班&lt;/p&gt;
@@ -946,9 +969,9 @@ PS：教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hbXBsaWNvZG
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mybatis/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="mybatis" scheme="https://pigpigletsgo.github.io/tags/mybatis/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
+            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <pubDate>Sun, 07 Jul 2024 11:28:54 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;#&lt;/a&gt; 数据库执行语句打印、性能分析框架（p6Spy 的使用）&lt;/h1&gt;
 &lt;h2 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h2&gt;
@@ -1047,8 +1070,8 @@ PS：教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hbXBsaWNvZG
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
+            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <pubDate>Sat, 06 Jul 2024 22:04:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;#&lt;/a&gt; 记录不存在则插入，存在则更新 - replace into 与 insert update&lt;/h1&gt;
 &lt;h2 id=&#34;需求背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#需求背景&#34;&gt;#&lt;/a&gt; 需求背景&lt;/h2&gt;

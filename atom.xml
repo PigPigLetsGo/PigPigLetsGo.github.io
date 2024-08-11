@@ -6,7 +6,7 @@
   <link href="https://pigpigletsgo.github.io/atom.xml" rel="self"/>
   
   <link href="https://pigpigletsgo.github.io/"/>
-  <updated>2024-08-11T08:33:45.749Z</updated>
+  <updated>2024-08-11T08:56:15.504Z</updated>
   <id>https://pigpigletsgo.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://pigpigletsgo.github.io/essay/%E5%89%8D%E5%90%8E%E7%AB%AF%E8%81%94%E8%B0%83%E6%80%BB/"/>
     <id>https://pigpigletsgo.github.io/essay/%E5%89%8D%E5%90%8E%E7%AB%AF%E8%81%94%E8%B0%83%E6%80%BB/</id>
     <published>2024-08-11T08:29:40.408Z</published>
-    <updated>2024-08-11T08:33:45.749Z</updated>
+    <updated>2024-08-11T08:56:15.504Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前后端联调总"><a class="anchor" href="#前后端联调总">#</a> 前后端联调总</h1><h2 id="为什么需要联调"><a class="anchor" href="#为什么需要联调">#</a> 为什么需要联调</h2><blockquote><p>联调就是</p></blockquote><blockquote><ol><li>联调是前后端一起见证靠谱的测试结果</li><li>给需求方提供一个正确的需求验证环境</li><li>尽早暴漏前后端实现的问题</li></ol></blockquote><h2 id="如何有效的联调"><a class="anchor" href="#如何有效的联调">#</a> 如何有效的联调</h2><h3 id="自测"><a class="anchor" href="#自测">#</a> 自测</h3><blockquote><p>联调的时候小问题不断，大问题加班</p><p>问题：联调之前前端不知道后端返回过来的数据结构大概是什么样的，调用后端接口时小问题不断，数据不完整，流程走不下去，连一个能正常走下去的测试数据都拿不出来</p></blockquote><blockquote><p>解决方案：自测自测自测！！！，重要的事情说 3 遍，如果自测发现，解决问题耗时为 1，那么联调发现，解决的问题绝对不是 1 + 1 那么简单。一定要有一个人知道数据的返回结构大概是什么样子，保证后端每个判断分支测试跑到位，哪些地方返回值没有是正确的，哪些地方没有返回值是不正确的</p></blockquote><h2 id="快速定位问题"><a class="anchor" href="#快速定位问题">#</a> 快速定位问题</h2><blockquote><p>前端对于接口调用的反馈就是一句话，接口有问题！</p><p>问题：遇到问题啥也不说来，404 找不到接口路径？500 内部服务器错误？还是提示传入参数格式不对，参数名称错误？完全不知道，问题难以定位，简单问题复杂化</p></blockquote><blockquote><p>解决方案：F12 看一下，找不到接口，swagger 页面找一下。返回错误提示截个图，swagger 调用接口路径和参数发一下，后端自行排查</p></blockquote><h2 id="责任边界"><a class="anchor" href="#责任边界">#</a> 责任边界</h2><blockquote><p>后端 A 想把判断放到前端 B 做，前端 B 想把数据格式放到后端 A 做</p><p>问题：A 在忙，就想 B 来做。A 反正也在该类似的，就想 A 把 B 的逻辑写在前端。A 不愿意改，凭什么我改，就想 B 来改。A 觉得 B 菜，拒绝沟通 --&gt; 我不管反正我是好的</p></blockquote><blockquote><p>解决方案：判断尽量放到后端做，数据格式化都能做，这都是常规好分清的。难就难在两人职位一致，没有高低之分，老大只看结果不管谁去做。本身两人可能就是第一次配合不够默契，可能能力也差点互相嫌弃，性子又都比较急，工期紧张催的很急，没有人具体跟进，责任边界不明显谁也指挥不了谁。这个时候老大一定要出来划分责任边界，不仅仅是进度，还要到具体细节，甚至是具体到某一个参数</p></blockquote><h2 id="及时反馈"><a class="anchor" href="#及时反馈">#</a> 及时反馈</h2><blockquote><p>后端：接口都没问题，前端：页面都没问题，最终交付 = 加班</p><p>问题：后端：页面画的啥，数据怎么放？前端：数据给的啥？</p></blockquote><blockquote><p>解决问题：后端数据库里面一定要有测试数据，而不是已跑通不报错为目的。前端一定要根据当初约定好的数据格式要求后端，该要数组要数组，该要树结构要树结构。接口没有返回数据一定要反馈前端，不要以不报错为目的，数据感觉不对不要不管不问，甚至于去其他页面 &quot;借&quot; 一些莫无须有的值</p></blockquote><h1 id="真正的联调"><a class="anchor" href="#真正的联调">#</a> 真正的联调</h1><ol><li>前端完成自测</li><li>后端完成自测</li><li>前，后端都明确知道需求方想要什么，一起验证需求的实现，有一定自己的看法</li></ol><h2 id="建议"><a class="anchor" href="#建议">#</a> 建议</h2><h3 id="远离关键路径合理调配时间"><a class="anchor" href="#远离关键路径合理调配时间">#</a> 远离关键路径，合理调配时间</h3><blockquote><p>按时完成任务，留足时间自测，别拖后腿</p></blockquote><h3 id="把握全局进度提高整体效率"><a class="anchor" href="#把握全局进度提高整体效率">#</a> 把握全局进度，提高整体效率</h3><blockquote><p>给了你项目的权利，就要肩负起项目的推动，别任由前后端扯皮浪费时间</p></blockquote><h3 id="积极沟通交流主动推进联调"><a class="anchor" href="#积极沟通交流主动推进联调">#</a> 积极沟通交流，主动推进联调</h3><blockquote><p>主动沟通，项目除了问题不是一个人的事情，是大家的事情，别甩锅，也许这次你的责任比较小，但是你的态度已经决定了很多人对你的态度</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="前后端联调总"><a class="anchor" href="#前后端联调总">#</a> 前后端联调总</h1><h2 id="为什么需要联调"><a class="anchor" href="#为什么需要联调">#</a> 为什么需要联调</h2><blockquote><p>联调就是</p></blockquote><blockquote><ol><li>联调是前后端一起见证靠谱的测试结果</li><li>给需求方提供一个正确的需求验证环境</li><li>尽早暴漏前后端实现的问题</li></ol></blockquote><h2 id="如何有效的联调"><a class="anchor" href="#如何有效的联调">#</a> 如何有效的联调</h2><h3 id="联调前工作"><a class="anchor" href="#联调前工作">#</a> 联调前工作</h3><h4 id="1需求分析"><a class="anchor" href="#1需求分析">#</a> 1，需求分析</h4><ul><li>理解需求：与产品经理或需求方沟通，明确功能需求，理解业务逻辑，确保无遗漏或误解</li><li>API 接口设计：确定功能需要的 API 接口，包括接口的路径，请求方式 (GET，POST 等)，请求参数 (考虑能不能传，是否需要传)，返回值结构和状态码 (提前沟通前端返回什么样的数据格式比较合适)</li></ul><h4 id="2业务逻辑实现"><a class="anchor" href="#2业务逻辑实现">#</a> 2，业务逻辑实现</h4><ul><li>Service 层开发：实现具体的业务逻辑，包括数据处理，校验，事务管理等。</li><li>Repository/DAO 层开发：实现数据访问层，编写数据查询，插入，更新等操作</li><li>测试用例编写：为业务逻辑编写单元测试用例，确保代码功能正确</li></ul><h4 id="3api开发"><a class="anchor" href="#3api开发">#</a> 3，API 开发</h4><ul><li>控制器开发：开发对应的控制器，编写处理请求的接口逻辑，调用 Service 层完成业务处理</li><li>数据校验：对请求参数进行校验，确保数据格式和内容符合要求</li><li>异常处理：编写全局异常处理，确保当发生错误时返回统一的错误信息</li></ul><h4 id="4接口文档编写"><a class="anchor" href="#4接口文档编写">#</a> 4，接口文档编写</h4><ul><li>API 文档编写：使用 Swagger，Postman 等工具生成 API 文档，详细描述接口的使用方法，参数，返回结果等，方便前端和测试人员参考</li><li>Mock 数据提供：提供接口的 Mock 数据，帮助前端在后端接口尚未完成时进行开发和测试</li></ul><h3 id="自测"><a class="anchor" href="#自测">#</a> 自测</h3><blockquote><p>联调的时候小问题不断，大问题加班</p><p>问题：联调之前前端不知道后端返回过来的数据结构大概是什么样的，调用后端接口时小问题不断，数据不完整，流程走不下去，连一个能正常走下去的测试数据都拿不出来</p></blockquote><blockquote><p>解决方案：自测自测自测！！！，重要的事情说 3 遍，如果自测发现，解决问题耗时为 1，那么联调发现，解决的问题绝对不是 1 + 1 那么简单。一定要有一个人知道数据的返回结构大概是什么样子，保证后端每个判断分支测试跑到位，哪些地方返回值没有是正确的，哪些地方没有返回值是不正确的</p></blockquote><h2 id="快速定位问题"><a class="anchor" href="#快速定位问题">#</a> 快速定位问题</h2><blockquote><p>前端对于接口调用的反馈就是一句话，接口有问题！</p><p>问题：遇到问题啥也不说来，404 找不到接口路径？500 内部服务器错误？还是提示传入参数格式不对，参数名称错误？完全不知道，问题难以定位，简单问题复杂化</p></blockquote><blockquote><p>解决方案：F12 看一下，找不到接口，swagger 页面找一下。返回错误提示截个图，swagger 调用接口路径和参数发一下，后端自行排查</p></blockquote><h2 id="责任边界"><a class="anchor" href="#责任边界">#</a> 责任边界</h2><blockquote><p>后端 A 想把判断放到前端 B 做，前端 B 想把数据格式放到后端 A 做</p><p>问题：A 在忙，就想 B 来做。A 反正也在该类似的，就想 A 把 B 的逻辑写在前端。A 不愿意改，凭什么我改，就想 B 来改。A 觉得 B 菜，拒绝沟通 --&gt; 我不管反正我是好的</p></blockquote><blockquote><p>解决方案：判断尽量放到后端做，数据格式化都能做，这都是常规好分清的。难就难在两人职位一致，没有高低之分，老大只看结果不管谁去做。本身两人可能就是第一次配合不够默契，可能能力也差点互相嫌弃，性子又都比较急，工期紧张催的很急，没有人具体跟进，责任边界不明显谁也指挥不了谁。这个时候老大一定要出来划分责任边界，不仅仅是进度，还要到具体细节，甚至是具体到某一个参数</p></blockquote><h2 id="及时反馈"><a class="anchor" href="#及时反馈">#</a> 及时反馈</h2><blockquote><p>后端：接口都没问题，前端：页面都没问题，最终交付 = 加班</p><p>问题：后端：页面画的啥，数据怎么放？前端：数据给的啥？</p></blockquote><blockquote><p>解决问题：后端数据库里面一定要有测试数据，而不是已跑通不报错为目的。前端一定要根据当初约定好的数据格式要求后端，该要数组要数组，该要树结构要树结构。接口没有返回数据一定要反馈前端，不要以不报错为目的，数据感觉不对不要不管不问，甚至于去其他页面 &quot;借&quot; 一些莫无须有的值</p></blockquote><h1 id="真正的联调"><a class="anchor" href="#真正的联调">#</a> 真正的联调</h1><ol><li>前端完成自测</li><li>后端完成自测</li><li>前，后端都明确知道需求方想要什么，一起验证需求的实现，有一定自己的看法</li></ol><h2 id="建议"><a class="anchor" href="#建议">#</a> 建议</h2><h3 id="远离关键路径合理调配时间"><a class="anchor" href="#远离关键路径合理调配时间">#</a> 远离关键路径，合理调配时间</h3><blockquote><p>按时完成任务，留足时间自测，别拖后腿</p></blockquote><h3 id="把握全局进度提高整体效率"><a class="anchor" href="#把握全局进度提高整体效率">#</a> 把握全局进度，提高整体效率</h3><blockquote><p>给了你项目的权利，就要肩负起项目的推动，别任由前后端扯皮浪费时间</p></blockquote><h3 id="积极沟通交流主动推进联调"><a class="anchor" href="#积极沟通交流主动推进联调">#</a> 积极沟通交流，主动推进联调</h3><blockquote><p>主动沟通，项目除了问题不是一个人的事情，是大家的事情，别甩锅，也许这次你的责任比较小，但是你的态度已经决定了很多人对你的态度</p></blockquote>]]></content>
     
     
       
@@ -518,11 +518,11 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
-    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
-    
     <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
     
     <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
   </entry>
   
@@ -579,9 +579,9 @@
     
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
     
-    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
-    
     <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    
+    <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
   </entry>
   
