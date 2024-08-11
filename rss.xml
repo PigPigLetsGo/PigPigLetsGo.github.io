@@ -80,7 +80,7 @@
 &lt;p&gt;问题：A 在忙，就想 B 来做。A 反正也在该类似的，就想 A 把 B 的逻辑写在前端。A 不愿意改，凭什么我改，就想 B 来改。A 觉得 B 菜，拒绝沟通 --&amp;gt; 我不管反正我是好的&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
-&lt;p&gt;解决方案：判断尽量放到后端做，数据格式化都能做，这都是常规好分清的。难就难在两人职位一致，没有高低之分，老大只看结果不管谁去做。本身两人可能就是第一次配合不够默契，可能能力也差点互相嫌弃，性子又都比较急，工期紧张催的很急，没有人具体跟进，责任边界不明显谁也指挥不了谁。这个时候老大一定要出来划分责任边界，不仅仅是进度，还要到具体细节，甚至是具体到某一个参数&lt;/p&gt;
+&lt;p&gt;解决方案：判断尽量放到后端做，数据格式化都能做，这都是常规好分清的。难就难在两人职位一致，没有高低之分，老大只看结果不管谁去做。本身两人可能就是第一次配合不够默契，可能能力也差点互相嫌弃，性子又都比较急，工期紧张催的很急，没有人具体跟进，责任边界不明显谁也指挥不了谁。这个时候定要划分责任边界，不仅仅是进度，还要到具体细节，甚至是具体到某一个参数&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;及时反馈&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#及时反馈&#34;&gt;#&lt;/a&gt; 及时反馈&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -969,9 +969,9 @@ PS：教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hbXBsaWNvZG
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/mybatis/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="mybatis" scheme="https://pigpigletsgo.github.io/tags/mybatis/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="第三方库" scheme="https://pigpigletsgo.github.io/tags/%E7%AC%AC%E4%B8%89%E6%96%B9%E5%BA%93/" />
-            <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <pubDate>Sun, 07 Jul 2024 11:28:54 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#数据库执行语句打印-性能分析框架p6spy的使用&#34;&gt;#&lt;/a&gt; 数据库执行语句打印、性能分析框架（p6Spy 的使用）&lt;/h1&gt;
 &lt;h2 id=&#34;概述&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#概述&#34;&gt;#&lt;/a&gt; 概述&lt;/h2&gt;
@@ -1070,8 +1070,8 @@ PS：教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hbXBsaWNvZG
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="知识点" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
+            <category term="知识点" scheme="https://pigpigletsgo.github.io/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
             <pubDate>Sat, 06 Jul 2024 22:04:32 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#记录不存在则插入存在则更新-replace-into与insert-update&#34;&gt;#&lt;/a&gt; 记录不存在则插入，存在则更新 - replace into 与 insert update&lt;/h1&gt;
 &lt;h2 id=&#34;需求背景&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#需求背景&#34;&gt;#&lt;/a&gt; 需求背景&lt;/h2&gt;
