@@ -107,6 +107,7 @@
 &lt;ul&gt;
 &lt;li&gt;功能：主要用于处理和生成 &lt;code&gt; Microsoft Word&lt;/code&gt;  文件 ( &lt;code&gt;.docx&lt;/code&gt; )，并且是 Apache POI 的扩展库，简化了模版文档的处理&lt;/li&gt;
 &lt;li&gt;文件格式：主要用于处理 &lt;code&gt;.docx&lt;/code&gt;  文件，可以通过模版生成文档，使得生成文档更加简洁和高效&lt;/li&gt;
+&lt;li&gt;可查阅官方文档：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kZWVwb292ZS5jb20vcG9pLXRsLyNfd2h5X3BvaV90bA==&#34;&gt;https://deepoove.com/poi-tl/#_why_poi_tl&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
