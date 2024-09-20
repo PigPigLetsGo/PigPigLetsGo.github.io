@@ -140,8 +140,8 @@
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/" />
             <category term="jpa" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/jpa/" />
-            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
+            <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/" />
             <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/" />
             <category term="jpa" scheme="https://pigpigletsgo.github.io/tags/jpa/" />
             <pubDate>Sun, 08 Sep 2024 09:38:05 +0800</pubDate>
@@ -1365,6 +1365,8 @@ PS：教程 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9hbXBsaWNvZG
 &lt;li&gt;jclasslib Bytecode Viewer&lt;/li&gt;
 &lt;li&gt;TONGYI Lingma - Your AI Coding Assistant.​ Type less,​ Code more.（通义灵码）&lt;/li&gt;
 &lt;li&gt;MyBatisX&lt;/li&gt;
+&lt;li&gt;JRebel mybatisPlus extension&lt;/li&gt;
+&lt;li&gt;JRebel-Supplement-Extension&lt;/li&gt;
 &lt;/ol&gt;
  ]]></description>
         </item>

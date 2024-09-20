@@ -136,9 +136,9 @@
     <category term="jpa" scheme="https://pigpigletsgo.github.io/categories/computer-science/databse/jpa/"/>
     
     
-    <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
-    
     <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/"/>
+    
+    <category term="基础" scheme="https://pigpigletsgo.github.io/tags/%E5%9F%BA%E7%A1%80/"/>
     
     <category term="database" scheme="https://pigpigletsgo.github.io/tags/database/"/>
     
@@ -534,9 +534,9 @@
     <link href="https://pigpigletsgo.github.io/tools/idea/Idea%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
     <id>https://pigpigletsgo.github.io/tools/idea/Idea%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/</id>
     <published>2024-08-02T00:58:32.000Z</published>
-    <updated>2024-08-02T00:58:32.000Z</updated>
+    <updated>2024-09-20T11:43:52.510Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="idea插件推荐"><a class="anchor" href="#idea插件推荐">#</a> Idea 插件推荐</h1><ol><li>AceJump</li><li>Atom Material Icons</li><li>Free MyBatis Tool</li><li>Grep Console</li><li>Idea Vim</li><li>IdeaVim-EsayMotion</li><li>IdeaVimExtension</li><li>Maven Helper</li><li>PMD</li><li>RestfulTool</li><li>PlantUML Integration</li><li>Rainbow Brackets</li><li>JRebel and XRebel</li><li>EditStarters</li><li>GenerateAllSetter</li><li>Java Bean to Json</li><li>GsonFormatPlus</li><li>sequenceDiagram</li><li>Quick Request</li><li>Bean Assistant</li><li>Rename Files Refactor Batch</li><li>amplicode<br />PS：教程 <span class="exturl" data-url="aHR0cHM6Ly9hbXBsaWNvZGUucnUvZG9jdW1lbnRhdGlvbi9pbnN0YWxsYXRpb24tZ3VpZGUtaW50ZWxsaWov">https://amplicode.ru/documentation/installation-guide-intellij/</span></li><li>Code Reading Note</li><li>CodeGlance</li><li>CamelCase</li><li>Extra ToolWindow Colorful Icons</li><li>Background Image Plus</li><li>jclasslib Bytecode Viewer</li><li>TONGYI Lingma - Your AI Coding Assistant.​ Type less,​ Code more.（通义灵码）</li><li>MyBatisX</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="idea插件推荐"><a class="anchor" href="#idea插件推荐">#</a> Idea 插件推荐</h1><ol><li>AceJump</li><li>Atom Material Icons</li><li>Free MyBatis Tool</li><li>Grep Console</li><li>Idea Vim</li><li>IdeaVim-EsayMotion</li><li>IdeaVimExtension</li><li>Maven Helper</li><li>PMD</li><li>RestfulTool</li><li>PlantUML Integration</li><li>Rainbow Brackets</li><li>JRebel and XRebel</li><li>EditStarters</li><li>GenerateAllSetter</li><li>Java Bean to Json</li><li>GsonFormatPlus</li><li>sequenceDiagram</li><li>Quick Request</li><li>Bean Assistant</li><li>Rename Files Refactor Batch</li><li>amplicode<br />PS：教程 <span class="exturl" data-url="aHR0cHM6Ly9hbXBsaWNvZGUucnUvZG9jdW1lbnRhdGlvbi9pbnN0YWxsYXRpb24tZ3VpZGUtaW50ZWxsaWov">https://amplicode.ru/documentation/installation-guide-intellij/</span></li><li>Code Reading Note</li><li>CodeGlance</li><li>CamelCase</li><li>Extra ToolWindow Colorful Icons</li><li>Background Image Plus</li><li>jclasslib Bytecode Viewer</li><li>TONGYI Lingma - Your AI Coding Assistant.​ Type less,​ Code more.（通义灵码）</li><li>MyBatisX</li><li>JRebel mybatisPlus extension</li><li>JRebel-Supplement-Extension</li></ol>]]></content>
     
     
       
