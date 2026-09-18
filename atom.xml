@@ -8,8 +8,25 @@
     <author>
       <name>D</name>
     </author>
-    <updated>2026-09-18T11:26:46.359Z</updated>
+    <updated>2026-09-18T12:30:06.000Z</updated>
     <category term="DBlog" />
+    <entry>
+        <id>https://pigpigletsgo.github.io/hexo/shoka/shoka%E6%96%87%E7%AB%A0%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/</id>
+        <title>shoka文章管理命令</title>
+        <link rel="alternate" href="https://pigpigletsgo.github.io/hexo/shoka/shoka%E6%96%87%E7%AB%A0%E7%AE%A1%E7%90%86%E5%91%BD%E4%BB%A4/"/>
+        <content type="html">&lt;h1 id=&#34;介绍&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#介绍&#34;&gt;#&lt;/a&gt; 介绍&lt;/h1&gt;&lt;p&gt;一共有三种模式&lt;/p&gt;&lt;p&gt;&lt;img data-src=&#34;../../../img/image-20260918205201320.png&#34; alt=&#34;image-20260918205201320&#34;&gt;&lt;/p&gt;&lt;p&gt;说明：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;draft：草稿 (不显示到页面)&lt;/li&gt;&lt;li&gt;page：独立页面&lt;/li&gt;&lt;li&gt;post：文章&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;创建文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#创建文章&#34;&gt;#&lt;/a&gt; 创建文章&lt;/h2&gt;&lt;p&gt;命令： &lt;code&gt;hexo new &amp;quot;文章&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;如果不指定创建模式那么默认创建_post 目录中&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;命令： &lt;code&gt;hexo new -p python/python &amp;quot;python&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;使用 - p 来指定目录 python / 为目录 python 为文章名称 &amp;quot;python&amp;quot; 为文章标题&lt;/li&gt;&lt;/ul&gt;&lt;h2 id=&#34;文章生成编辑&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文章生成编辑&#34;&gt;#&lt;/a&gt; 文章生成编辑&lt;/h2&gt;&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3huLS1zY2FmZm9sZHNwb3N0LWpqMXVvMTdxZWViMDkyYXlzMmdxd2IubWQ=&#34;&gt;打开 scaffolds 目录中的 post.md&lt;/span&gt;&lt;/p&gt;&lt;pre&gt;&lt;code&gt;title: {{ title }}
+date: {{ date }}
+tags:
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;内容可能是这样的，但是缺少了 categories:，我们可以在这里加上，以后生成的文章自带 categories:，或者是 sticky: 是否置顶&lt;/p&gt;&lt;pre&gt;&lt;code&gt;title: {{ title }}
+date: {{ date }}
+categories:
+tags:
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;草稿生成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#草稿生成&#34;&gt;#&lt;/a&gt; 草稿生成&lt;/h2&gt;&lt;p&gt;当我们想要编写一个文章时可以先在草稿中进行编写&lt;/p&gt;&lt;p&gt;命令： &lt;code&gt;hexo new draft &amp;quot;python基础&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;此时就会在_draft 目录生成一个草稿文章&lt;/p&gt;&lt;ul&gt;&lt;li&gt;可能项目没有自带_draft 目录，当我们执行命令后会自动创建或者自己手动创建&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;当草稿写完了之后可以将草稿通过命令转移到_post 文章目录中&lt;/p&gt;&lt;p&gt;命令： &lt;code&gt;hexo publish &amp;quot;python基础&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;此时 python 基础这个草稿文章就会从_draft 目录被转移到 _post 目录中 显示到页面上&lt;/p&gt;&lt;h2 id=&#34;独立页面生成&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#独立页面生成&#34;&gt;#&lt;/a&gt; 独立页面生成&lt;/h2&gt;&lt;p&gt;什么是独立页面&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;img data-src=&#34;../../../img/image-20260918210736712.png&#34; alt=&#34;image-20260918210736712&#34;&gt;&lt;/p&gt;&lt;p&gt;页面上的 关于，文章，友链，链接。这些都是独立页面，这些对应下面目录&lt;/p&gt;&lt;p&gt;&lt;img data-src=&#34;../../../img/image-20260918210908670.png&#34; alt=&#34;image-20260918210908670&#34;&gt;&lt;/p&gt;&lt;p&gt;也就是说当执行命令后会在 source 目录中添加一个 独立页面的目录里面生成一个.md 文件来当做一个独立的页面，我们可以自由编辑&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;命令： &lt;code&gt;hexo new page &amp;quot;about&amp;quot;&lt;/code&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;这个 source 目录自己创建的文件夹不会被当成独立页面展示到页面顶栏的 比如 img 目录就是自己手动创建存储图片的目录，它不会经过命令来创建的不会被特殊处理的&lt;/li&gt;&lt;/ul&gt;</content>
+        <category term="shoka" scheme="https://pigpigletsgo.github.io/categories/shoka/" />
+        <category term="hexo" scheme="https://pigpigletsgo.github.io/tags/hexo/" />
+        <category term="shoka" scheme="https://pigpigletsgo.github.io/tags/shoka/" />
+        <updated>2026-09-18T12:30:06.000Z</updated>
+    </entry>
     <entry>
         <id>https://pigpigletsgo.github.io/hexo/shoka/%E8%A7%A3%E5%86%B3shoka%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98/</id>
         <title>shoka使用本地搜索</title>
@@ -536,8 +553,8 @@ git push
         <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
         <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
         <category term="windows" scheme="https://pigpigletsgo.github.io/tags/windows/" />
-        <category term="scoop" scheme="https://pigpigletsgo.github.io/tags/scoop/" />
         <category term="mysql" scheme="https://pigpigletsgo.github.io/tags/mysql/" />
+        <category term="scoop" scheme="https://pigpigletsgo.github.io/tags/scoop/" />
         <updated>2024-01-24T10:48:46.993Z</updated>
     </entry>
     <entry>
@@ -556,8 +573,8 @@ git push
         <link rel="alternate" href="https://pigpigletsgo.github.io/tools/nodeJs/nvm-Node%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6/"/>
         <content type="html">&lt;p&gt;附：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1ub2RlJmFtcDtzcG09MTAwMS4yMTAxLjMwMDEuNzAyMA==&#34;&gt;node&lt;/span&gt; 更换版本（简单操作）&lt;br&gt;安装 nvm&lt;br&gt;1 系统已经有 node&lt;/p&gt;&lt;ol start=&#34;2&#34;&gt;&lt;li&gt;网址：https://&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zby5jc2RuLm5ldC9zby9zZWFyY2g/cT1naXRodWImYW1wO3NwbT0xMDAxLjIxMDEuMzAwMS43MDIw&#34;&gt;github&lt;/span&gt;.com/coreybutler/nvm-windows/releases&lt;/li&gt;&lt;li&gt;下载 nvm-setup.zip, 解压之后会有个.exe 安装程序，第一步是同意，剩下的无脑 next 即可安装成功。&lt;/li&gt;&lt;/ol&gt;&lt;h5 id=&#34;操作&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#操作&#34;&gt;#&lt;/a&gt; 操作&lt;/h5&gt;&lt;ol&gt;&lt;li&gt;打开 cmd，使用 nvm ls 命令查看本地已有版本&lt;/li&gt;&lt;li&gt;使用 安装命令 nvm install v10.16.0 即可（别忘了写 v）&lt;/li&gt;&lt;li&gt;再次使用 nvm ls 命令查看本地已有版本。发现 12.15.0 和 10.16.0 均有&lt;/li&gt;&lt;li&gt;切换版本 nvm use 12.15.0&lt;/li&gt;&lt;/ol&gt;&lt;h3 id=&#34;基础命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#基础命令&#34;&gt;#&lt;/a&gt; 基础命令&lt;/h3&gt;&lt;figure class=&#34;highlight c&#34;&gt;&lt;figcaption data-lang=&#34;c&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm ls               &lt;span class=&#34;token comment&#34;&gt;// 查看已安装 node 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm install vXX      &lt;span class=&#34;token comment&#34;&gt;// 安装对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm uninstall vXX    &lt;span class=&#34;token comment&#34;&gt;// 卸载对应 vXX 版本的 node&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;nvm use xxx          &lt;span class=&#34;token comment&#34;&gt;// 选择使用 XXX 版本&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
         <category term="tools" scheme="https://pigpigletsgo.github.io/categories/tools/" />
-        <category term="nodeJs" scheme="https://pigpigletsgo.github.io/tags/nodeJs/" />
         <category term="tools" scheme="https://pigpigletsgo.github.io/tags/tools/" />
+        <category term="nodeJs" scheme="https://pigpigletsgo.github.io/tags/nodeJs/" />
         <updated>2024-01-24T10:48:46.978Z</updated>
     </entry>
     <entry>
