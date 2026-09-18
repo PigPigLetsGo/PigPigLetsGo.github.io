@@ -262,7 +262,37 @@ README.md
 public/
 .deploy_git/
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;因为已经被 &lt;code&gt;.gitignore&lt;/code&gt; 排除了。&lt;/p&gt;&lt;p&gt;现在直接运行：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git push -u origin main
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后把结果发我，我可以帮你确认 &lt;strong&gt;整个 Hexo Shoka 源码是否已经完整上传&lt;/strong&gt;&lt;/p&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后把结果发我，我可以帮你确认 &lt;strong&gt;整个 Hexo Shoka 源码是否已经完整上传&lt;/strong&gt;&lt;/p&gt;&lt;h1 id=&#34;新电脑git使用&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#新电脑git使用&#34;&gt;#&lt;/a&gt; 新电脑 git 使用&lt;/h1&gt;&lt;p&gt;我每次将博客源文件上传 github 的 hexo-shoka 时不需要先拉后推 而是直接推送对吗？&lt;/p&gt;&lt;p&gt;对，&lt;strong&gt;但有一个前提&lt;/strong&gt;：只有当远程 &lt;code&gt;hexo-shoka&lt;/code&gt; 仓库没有别人 / 其他电脑产生的新提交时，你才可以直接推送。&lt;/p&gt;&lt;p&gt;你现在是自己一个人维护这个源码仓库，而且平时都是&lt;strong&gt;当前电脑修改 → 上传 GitHub&lt;/strong&gt;，那么日常完全可以直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;更新博客&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;不需要每次：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git pull
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;你可以这样理解&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你可以这样理解&#34;&gt;#&lt;/a&gt; 你可以这样理解&lt;/h3&gt;&lt;p&gt;你的工作流程：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;修改博客
+   ↓
+git add .
+   ↓
+git commit -m &amp;quot;更新博客&amp;quot;
+   ↓
+git push
+   ↓
+GitHub：hexo-shoka
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;就够了。&lt;/p&gt;&lt;hr&gt;&lt;h3 id=&#34;️-什么时候必须先-pull&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-什么时候必须先-pull&#34;&gt;#&lt;/a&gt; ⚠️ 什么时候必须先 &lt;code&gt;pull&lt;/code&gt; ？&lt;/h3&gt;&lt;p&gt;如果出现这种情况：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;电脑A → push → GitHub
+                  ↑
+电脑B → 现在也要 push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;电脑 B 本地没有电脑 A 最新的提交，这时候直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可能会出现：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;rejected
+fetch first
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这时才需要：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git pull --rebase
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后再：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h3 id=&#34;对你来说最重要的是&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#对你来说最重要的是&#34;&gt;#&lt;/a&gt; 对你来说最重要的是&lt;/h3&gt;&lt;p&gt;你以后&lt;strong&gt;同一台电脑持续写博客&lt;/strong&gt;：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;更新博客&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;就行。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;换电脑之后&lt;/strong&gt;，第一次：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git clone git@github.com:PigPigLetsGo/hexo-shoka.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;之后在新电脑继续修改，也可以直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;更新博客&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;但是如果你在&lt;strong&gt;旧电脑和新电脑交替修改&lt;/strong&gt;，就要养成习惯：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git pull --rebase
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再开始修改 / 推送，避免两台电脑的提交发生分叉。&lt;/p&gt;&lt;p&gt;另外要注意：&lt;strong&gt; &lt;code&gt;git push&lt;/code&gt; 是上传源码到 &lt;code&gt;hexo-shoka&lt;/code&gt; ， &lt;code&gt;npx hexo d&lt;/code&gt; 才是发布网站到 &lt;code&gt;PigPigLetsGo.github.io&lt;/code&gt; 。&lt;/strong&gt; 两个操作不是一回事&lt;/p&gt;</content>
         <category term="hexo" scheme="https://pigpigletsgo.github.io/categories/hexo/" />
         <category term="shoka" scheme="https://pigpigletsgo.github.io/categories/hexo/shoka/" />
         <category term="hexo" scheme="https://pigpigletsgo.github.io/tags/hexo/" />
