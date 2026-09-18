@@ -10,11 +10,200 @@
         </author>
         <description>欢迎来我的博客空间</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 17 Sep 2026 22:31:38 +0800</pubDate>
-        <lastBuildDate>Thu, 17 Sep 2026 22:31:38 +0800</lastBuildDate>
+        <pubDate>Fri, 18 Sep 2026 08:47:16 +0800</pubDate>
+        <lastBuildDate>Fri, 18 Sep 2026 08:47:16 +0800</lastBuildDate>
         <category term="java" />
         <category term="web" />
         <category term="c" />
+        <item>
+            <guid isPermalink="true">https://pigpigletsgo.github.io/hexo/shoka/hexo-shoka%E6%8D%A2%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E6%B8%85%E5%8D%95/</guid>
+            <title>hexo-4.2.1.tgz我应该解压到哪里</title>
+            <link>https://pigpigletsgo.github.io/hexo/shoka/hexo-shoka%E6%8D%A2%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E6%B8%85%E5%8D%95/</link>
+            <category term="hexo" scheme="https://pigpigletsgo.github.io/categories/hexo/" />
+            <category term="shoka" scheme="https://pigpigletsgo.github.io/categories/hexo/shoka/" />
+            <category term="hexo" scheme="https://pigpigletsgo.github.io/tags/hexo/" />
+            <category term="shoka" scheme="https://pigpigletsgo.github.io/tags/shoka/" />
+            <pubDate>Fri, 18 Sep 2026 08:47:16 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;我换电脑后 hexo-4.2.1.tgz 我应该解压到哪里？&lt;/p&gt;&lt;p&gt;不用解压。&lt;strong&gt; &lt;code&gt;hexo-4.2.1.tgz&lt;/code&gt; 是 npm 安装包，不是让你手动解压到某个文件夹里的。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;你换电脑后，推荐这样做：&lt;/p&gt;&lt;h3 id=&#34;1-先把你的博客源码克隆下来&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-先把你的博客源码克隆下来&#34;&gt;#&lt;/a&gt; ① 先把你的博客源码克隆下来&lt;/h3&gt;&lt;p&gt;例如：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd C:\Users\你的用户名\Desktop
+git clone git@github.com:PigPigLetsGo/hexo-shoka.git
+cd hexo-shoka
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;2-安装项目依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-安装项目依赖&#34;&gt;#&lt;/a&gt; ② 安装项目依赖&lt;/h3&gt;&lt;p&gt;你的项目里已经有：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;package.json
+package-lock.json
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以正常情况下直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;就会按照 &lt;code&gt;package-lock.json&lt;/code&gt; 安装对应版本。&lt;/p&gt;&lt;hr&gt;&lt;h3 id=&#34;3-如果你要使用自己备份的-hexo-421tgz&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#3-如果你要使用自己备份的-hexo-421tgz&#34;&gt;#&lt;/a&gt; ③ 如果你要使用自己备份的 &lt;code&gt;hexo-4.2.1.tgz&lt;/code&gt;&lt;/h3&gt;&lt;p&gt;假设你把 U 盘里的：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-4.2.1.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;复制到了博客目录：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;C:\Users\你的用户名\Desktop\hexo-shoka\
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;那么&lt;strong&gt;不要解压&lt;/strong&gt;，直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install .\hexo-4.2.1.tgz --save
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;它会自动把 Hexo 安装到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-shoka\node_modules\hexo\
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h3 id=&#34;4-你的情况我更推荐这样&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#4-你的情况我更推荐这样&#34;&gt;#&lt;/a&gt; ④ 你的情况我更推荐这样&lt;/h3&gt;&lt;p&gt;因为你已经有完整的 &lt;code&gt;package.json + package-lock.json&lt;/code&gt; ，所以换电脑时：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git clone git@github.com:PigPigLetsGo/hexo-shoka.git
+cd hexo-shoka
+npm install
+npx hexo -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果显示：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo: 4.2.1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;就说明恢复好了。&lt;/p&gt;&lt;p&gt;如果 &lt;code&gt;npm install&lt;/code&gt; 因为旧依赖下载失败，再使用你备份的 &lt;code&gt;hexo-4.2.1.tgz&lt;/code&gt; 。&lt;/p&gt;&lt;hr&gt;&lt;h3 id=&#34;你可以记住一个关键点&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你可以记住一个关键点&#34;&gt;#&lt;/a&gt; 你可以记住一个关键点&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;hexo-4.2.1.tgz
+        ↓
+   不要手动解压
+        ↓
+npm install .\hexo-4.2.1.tgz
+        ↓
+node_modules\hexo\
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;而你的博客源码应该放在：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-shoka\
+├── _config.yml
+├── package.json
+├── package-lock.json
+├── source\
+├── themes\
+└── node_modules\
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;所以 &lt;code&gt;.tgz&lt;/code&gt; 只是安装包备份，不需要放进博客项目长期保存。&lt;/strong&gt; 安装成功后可以把它放回 U 盘保存。&lt;/p&gt;&lt;p&gt;另外，你之前的 &lt;strong&gt;Node.js 10.24.1&lt;/strong&gt; 和 &lt;strong&gt;hexo-cli 4.3.2&lt;/strong&gt; 也最好一起备份；这样换电脑后可以把整个环境尽可能恢复到现在这个状态&lt;/p&gt;&lt;h1 id=&#34;️-hexo-换电脑完整恢复流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#️-hexo-换电脑完整恢复流程&#34;&gt;#&lt;/a&gt; 🖥️ Hexo 换电脑完整恢复流程&lt;/h1&gt;&lt;p&gt;你的最终目标是恢复成：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Windows 10
+Node.js 10.24.1
+npm 6.14.12
+Hexo 4.2.1
+hexo-cli 4.3.2
+Shoka
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;并继续使用：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;GitHub 源码仓库
+git@github.com:PigPigLetsGo/hexo-shoka.git
+
+GitHub Pages
+git@github.com:PigPigLetsGo/PigPigLetsGo.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h2 id=&#34;一-准备-u-盘备份&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-准备-u-盘备份&#34;&gt;#&lt;/a&gt; 一、准备 U 盘备份&lt;/h2&gt;&lt;p&gt;建议 U 盘整理成：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Hexo博客完整备份
+│
+├─01-Node环境
+│   └─node-v10.24.1-x64.msi
+│
+├─02-Hexo安装包
+│   ├─hexo-4.2.1.tgz
+│   └─hexo-cli-4.3.2.tgz
+│
+├─03-版本记录
+│   ├─hexo-version.txt
+│   └─hexo-environment-packages.txt
+│
+└─04-SSH
+    ├─id_ed25519
+    └─id_ed25519.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;其中：&lt;/p&gt;&lt;p&gt;⚠️ &lt;code&gt;id_ed25519&lt;/code&gt; 是&lt;strong&gt;私钥&lt;/strong&gt;，不要上传 GitHub、不要发给别人。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;二-新电脑安装-nodejs&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-新电脑安装-nodejs&#34;&gt;#&lt;/a&gt; 二、新电脑安装 Node.js&lt;/h1&gt;&lt;p&gt;安装：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;node-v10.24.1-x64.msi
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;安装完成后打开 PowerShell：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;node -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;应该得到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;v10.24.1
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;应该得到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;6.14.12
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;三-安装-git&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-安装-git&#34;&gt;#&lt;/a&gt; 三、安装 Git&lt;/h1&gt;&lt;p&gt;安装 Git for Windows。&lt;/p&gt;&lt;p&gt;然后检查：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;例如：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git version 2.xx.x
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Git 的具体小版本不用和旧电脑完全一样。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;四-恢复-ssh&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-恢复-ssh&#34;&gt;#&lt;/a&gt; 四、恢复 SSH&lt;/h1&gt;&lt;p&gt;新电脑打开 PowerShell：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;New-Item -ItemType Directory -Force &amp;quot;$env:USERPROFILE\.ssh&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后把 U 盘里的：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;id_ed25519
+id_ed25519.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;复制到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;C:\Users\你的用户名\.ssh\
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;最终：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;C:\Users\你的用户名\.ssh\id_ed25519
+C:\Users\你的用户名\.ssh\id_ed25519.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后测试：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;ssh -T git@github.com
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;第一次可能出现：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Are you sure you want to continue connecting (yes/no/[fingerprint])?
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;输入：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;yes
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;成功应该看到类似：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Hi PigPigLetsGo! You&#39;ve successfully authenticated, but GitHub does not provide shell access.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;看到这个就说明 SSH 恢复成功。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;五-克隆你的博客源码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-克隆你的博客源码&#34;&gt;#&lt;/a&gt; 五、克隆你的博客源码&lt;/h1&gt;&lt;p&gt;例如放到桌面：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd &amp;quot;$env:USERPROFILE\Desktop&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git clone git@github.com:PigPigLetsGo/hexo-shoka.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;进入：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd hexo-shoka
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;检查：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;dir
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;应该能看到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;_config.yml
+package.json
+package-lock.json
+source
+themes
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;六-安装博客依赖&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-安装博客依赖&#34;&gt;#&lt;/a&gt; 六、安装博客依赖&lt;/h1&gt;&lt;p&gt;这是最重要的一步。&lt;/p&gt;&lt;p&gt;直接：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;因为你已经有：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;package.json
+package-lock.json
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;npm 会按照项目记录安装依赖。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;七-检查-hexo&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#七-检查-hexo&#34;&gt;#&lt;/a&gt; 七、检查 Hexo&lt;/h1&gt;&lt;p&gt;运行：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;你应该看到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo: 4.2.1
+hexo-cli: 4.3.2
+os: win32 ...
+node: 10.24.1
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这里重点检查：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo: 4.2.1
+hexo-cli: 4.3.2
+node: 10.24.1
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;八-如果-npm-install-出现依赖问题&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#八-如果-npm-install-出现依赖问题&#34;&gt;#&lt;/a&gt; 八、如果 npm install 出现依赖问题&lt;/h1&gt;&lt;p&gt;这时候再使用你备份的：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-4.2.1.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;例如把它复制到博客根目录：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-shoka\
+├── hexo-4.2.1.tgz
+├── package.json
+├── package-lock.json
+└── ...
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install .\hexo-4.2.1.tgz --save
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再检查：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo -v
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;九-恢复-hexo-cli&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#九-恢复-hexo-cli&#34;&gt;#&lt;/a&gt; 九、恢复 Hexo CLI&lt;/h1&gt;&lt;p&gt;如果新电脑没有：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-cli: 4.3.2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;可以安装：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install -g hexo-cli@4.3.2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果你备份了：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-cli-4.3.2.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;也可以离线安装：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm install -g .\hexo-cli-4.3.2.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;十-第一次生成博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十-第一次生成博客&#34;&gt;#&lt;/a&gt; 十、第一次生成博客&lt;/h1&gt;&lt;p&gt;进入博客目录：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd &amp;quot;$env:USERPROFILE\Desktop\hexo-shoka&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo clean
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;再：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo g
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;如果成功，会出现类似：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;INFO  Start processing
+INFO  Files loaded in ...
+INFO  0 files generated
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;或者生成大量页面。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;十一-启动本地博客&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十一-启动本地博客&#34;&gt;#&lt;/a&gt; 十一、启动本地博客&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;npx hexo s
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;看到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;Hexo is running at http://localhost:4000/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;浏览器打开：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;http://localhost:4000/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;检查：&lt;/p&gt;&lt;ul&gt;&lt;li&gt;首页&lt;/li&gt;&lt;li&gt;文章&lt;/li&gt;&lt;li&gt;图片&lt;/li&gt;&lt;li&gt;Shoka 主题&lt;/li&gt;&lt;li&gt;搜索&lt;/li&gt;&lt;li&gt;音乐播放器&lt;/li&gt;&lt;li&gt;Live2D&lt;/li&gt;&lt;li&gt;评论相关功能&lt;/li&gt;&lt;li&gt;其他你目前已经修改过的效果&lt;/li&gt;&lt;/ul&gt;&lt;hr&gt;&lt;h1 id=&#34;十二-确认没问题后部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十二-确认没问题后部署&#34;&gt;#&lt;/a&gt; 十二、确认没问题后部署&lt;/h1&gt;&lt;p&gt;先生成：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo clean
+npx hexo g
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;你的 &lt;code&gt;_config.yml&lt;/code&gt; 中部署仓库已经是：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git@github.com:PigPigLetsGo/PigPigLetsGo.github.io.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;所以 &lt;code&gt;hexo d&lt;/code&gt; 会把生成后的博客部署到 GitHub Pages。&lt;/p&gt;&lt;hr&gt;&lt;h1 id=&#34;十三-以后正常写博客只需要这几步&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十三-以后正常写博客只需要这几步&#34;&gt;#&lt;/a&gt; 十三、以后正常写博客只需要这几步&lt;/h1&gt;&lt;p&gt;以后换电脑恢复好以后，日常其实非常简单。&lt;/p&gt;&lt;h3 id=&#34;写文章&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#写文章&#34;&gt;#&lt;/a&gt; 写文章&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;npx hexo new &amp;quot;文章标题&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;编辑：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;source\_posts\
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;本地预览&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#本地预览&#34;&gt;#&lt;/a&gt; 本地预览&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;npx hexo s
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;发布&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#发布&#34;&gt;#&lt;/a&gt; 发布&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;npx hexo clean
+npx hexo g
+npx hexo d
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;保存源码到-github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#保存源码到-github&#34;&gt;#&lt;/a&gt; 保存源码到 GitHub&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;更新博客&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;十四-以后最重要的两个命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十四-以后最重要的两个命令&#34;&gt;#&lt;/a&gt; 十四、以后最重要的两个命令&lt;/h1&gt;&lt;p&gt;你这个项目有&lt;strong&gt;两个 GitHub 仓库&lt;/strong&gt;，不要搞混：&lt;/p&gt;&lt;h3 id=&#34;1-保存博客源码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-保存博客源码&#34;&gt;#&lt;/a&gt; ① 保存博客源码&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;更新博客&amp;quot;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;推送到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;PigPigLetsGo/hexo-shoka
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;2-发布网站&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2-发布网站&#34;&gt;#&lt;/a&gt; ② 发布网站&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;npx hexo g
+npx hexo d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;发布到：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;PigPigLetsGo/PigPigLetsGo.github.io
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;也就是说：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;                你的电脑
+                   │
+          ┌────────┴────────┐
+          ↓                 ↓
+     git push             hexo d
+          │                 │
+          ↓                 ↓
+   hexo-shoka        PigPigLetsGo.github.io
+   【源码备份】          【网站成品】
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;&lt;h1 id=&#34;十五-最后做一次完整验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#十五-最后做一次完整验证&#34;&gt;#&lt;/a&gt; 十五、最后做一次完整验证&lt;/h1&gt;&lt;p&gt;换电脑恢复完成后，建议执行这一整套：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;node -v
+npm -v
+git --version
+npx hexo -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;应该看到源码仓库：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;origin  git@github.com:PigPigLetsGo/hexo-shoka.git
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo clean
+npx hexo g
+npx hexo s
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;浏览器确认：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;http://localhost:4000/
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;确认无误后：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npx hexo d
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样你这套博客基本就实现了 **“电脑坏了也能从 GitHub + U 盘恢复”**。&lt;/p&gt;&lt;hr&gt;&lt;h2 id=&#34;你现在还差一个备份&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#你现在还差一个备份&#34;&gt;#&lt;/a&gt; ⭐ 你现在还差一个备份&lt;/h2&gt;&lt;p&gt;你刚才已经确认了所有 npm 依赖：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo 4.2.1
+hexo-autoprefixer 2.0.0
+hexo-deployer-git 2.1.0
+hexo-feed 1.1.1
+hexo-generator-archive 2.0.0
+hexo-generator-category 1.0.0
+hexo-generator-index 3.0.0
+hexo-generator-searchdb 1.4.1
+hexo-generator-tag 1.0.0
+hexo-renderer-ejs 1.0.0
+hexo-renderer-multi-markdown-it 0.1.5
+hexo-renderer-stylus 2.1.0
+hexo-server 2.0.0
+hexo-symbols-count-time 0.7.1
+quicklink 2.3.0
+stylus 0.54.8
+webpack-route-manifest 1.3.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;现在在&lt;strong&gt;旧电脑&lt;/strong&gt;再执行：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm pack hexo-cli@4.3.2
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这样你就同时有：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;hexo-4.2.1.tgz
+hexo-cli-4.3.2.tgz
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;然后再执行：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;npm list --depth=0 &amp;gt; hexo-environment-packages.txt
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这份文件也放进 U 盘。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;这样你这套 Hexo 4.2.1 环境的恢复资料就比较完整了&lt;/strong&gt;&lt;/p&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://pigpigletsgo.github.io/hexo/shoka/Hexo_GitHub_%E9%83%A8%E7%BD%B2%E4%B8%8E%E6%8E%92%E9%94%99%E7%AC%94%E8%AE%B0_%E6%9C%80%E7%BB%88%E7%89%88/</guid>
             <title>Hexo_GitHub_部署与排错笔记_最终版</title>
@@ -583,21 +772,6 @@ public class NotifyDto {
             <category term="分页" scheme="https://pigpigletsgo.github.io/tags/%E5%88%86%E9%A1%B5/" />
             <pubDate>Sun, 17 Mar 2024 20:19:23 +0800</pubDate>
             <description><![CDATA[ &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;interface&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;RouteDao&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//    根据 cid 查询总记录数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findTotalCount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; cid&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;//    根据 cid,start,pageSize 查询当前页的数据集合&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Route&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;findByPage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; cid&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; start&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; pageSize&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://pigpigletsgo.github.io/computer-science/java/%E6%A1%88%E4%BE%8BDemo/%E7%BA%AFjava%E5%88%86%E9%A1%B5/PageBean/</guid>
-            <title>PageBean</title>
-            <link>https://pigpigletsgo.github.io/computer-science/java/%E6%A1%88%E4%BE%8BDemo/%E7%BA%AFjava%E5%88%86%E9%A1%B5/PageBean/</link>
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/categories/computer-science/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/" />
-            <category term="案例Demo" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E6%A1%88%E4%BE%8BDemo/" />
-            <category term="纯java分页" scheme="https://pigpigletsgo.github.io/categories/computer-science/java/%E6%A1%88%E4%BE%8BDemo/%E7%BA%AFjava%E5%88%86%E9%A1%B5/" />
-            <category term="java" scheme="https://pigpigletsgo.github.io/tags/java/" />
-            <category term="计算机学科" scheme="https://pigpigletsgo.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AD%A6%E7%A7%91/" />
-            <category term="案例Demo" scheme="https://pigpigletsgo.github.io/tags/%E6%A1%88%E4%BE%8BDemo/" />
-            <category term="分页" scheme="https://pigpigletsgo.github.io/tags/%E5%88%86%E9%A1%B5/" />
-            <pubDate>Sun, 17 Mar 2024 20:19:23 +0800</pubDate>
-            <description><![CDATA[ &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token annotation punctuation&#34;&gt;@SuppressWarnings&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;all&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;PageBean&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; totalCount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 总记录数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; totalPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 总页数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; currentPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 当前页码&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; pageSize&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 每页显示的条数&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;private&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; list&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;span class=&#34;token comment&#34;&gt;// 每页展示的数据&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getTotalCount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; totalCount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setTotalCount&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; totalCount&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;totalCount &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; totalCount&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getTotalPage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; totalPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setTotalPage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; totalPage&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;totalPage &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; totalPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getCurrentPage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; currentPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setCurrentPage&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; currentPage&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;currentPage &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; currentPage&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;33&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getPageSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;34&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; pageSize&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;35&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;36&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;37&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setPageSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token keyword&#34;&gt;int&lt;/span&gt; pageSize&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;38&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;pageSize &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; pageSize&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;39&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;40&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;41&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;getList&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;42&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;return&lt;/span&gt; list&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;43&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;44&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;45&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token keyword&#34;&gt;public&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;setList&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;List&lt;/span&gt;&lt;span class=&#34;token generics&#34;&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;T&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;&gt;&lt;/span&gt;&lt;/span&gt; list&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;46&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token keyword&#34;&gt;this&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;list &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; list&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;47&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;48&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;49&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
     </channel>
 </rss>
