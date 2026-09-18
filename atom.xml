@@ -14,7 +14,7 @@
     <category term="c" />
     <entry>
         <id>https://pigpigletsgo.github.io/hexo/shoka/hexo-shoka%E6%8D%A2%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E6%B8%85%E5%8D%95/</id>
-        <title>hexo-4.2.1.tgz我应该解压到哪里</title>
+        <title>hexo-shoka换电脑部署清单</title>
         <link rel="alternate" href="https://pigpigletsgo.github.io/hexo/shoka/hexo-shoka%E6%8D%A2%E7%94%B5%E8%84%91%E9%83%A8%E7%BD%B2%E6%B8%85%E5%8D%95/"/>
         <content type="html">&lt;p&gt;我换电脑后 hexo-4.2.1.tgz 我应该解压到哪里？&lt;/p&gt;&lt;p&gt;不用解压。&lt;strong&gt; &lt;code&gt;hexo-4.2.1.tgz&lt;/code&gt; 是 npm 安装包，不是让你手动解压到某个文件夹里的。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;你换电脑后，推荐这样做：&lt;/p&gt;&lt;h3 id=&#34;1-先把你的博客源码克隆下来&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#1-先把你的博客源码克隆下来&#34;&gt;#&lt;/a&gt; ① 先把你的博客源码克隆下来&lt;/h3&gt;&lt;p&gt;例如：&lt;/p&gt;&lt;pre&gt;&lt;code&gt;cd C:\Users\你的用户名\Desktop
 git clone git@github.com:PigPigLetsGo/hexo-shoka.git
