@@ -14,8 +14,8 @@
             "content_html": "<p>在项目的 source 目录中创建 img 目录</p><p><img data-src=\"../../../img/image-20260918212025125.png\" alt=\"image-20260918212025125\"></p><p>设置 typora</p><p>将图片存储路径指定到 source/img 目录下，勾选对本地位置的图片应用上述规则并且勾选优先使用相对路径即可</p><p><img data-src=\"../../../img/image-20260918212058144.png\" alt=\"image-20260918212058144\"></p>",
             "tags": [
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -26,8 +26,8 @@
             "content_html": "<h1 id=\"介绍\"><a class=\"anchor\" href=\"#介绍\">#</a> 介绍</h1><p>一共有三种模式</p><p><img data-src=\"../../../img/image-20260918205201320.png\" alt=\"image-20260918205201320\"></p><p>说明：</p><ul><li>draft：草稿 (不显示到页面)</li><li>page：独立页面</li><li>post：文章</li></ul><h2 id=\"创建文章\"><a class=\"anchor\" href=\"#创建文章\">#</a> 创建文章</h2><p>命令： <code>hexo new &quot;文章&quot;</code></p><ul><li>如果不指定创建模式那么默认创建_post 目录中</li></ul><p>命令： <code>hexo new -p python/python &quot;python&quot;</code></p><ul><li>使用 - p 来指定目录 python / 为目录 python 为文章名称 &quot;python&quot; 为文章标题</li></ul><h2 id=\"文章生成编辑\"><a class=\"anchor\" href=\"#文章生成编辑\">#</a> 文章生成编辑</h2><p><span class=\"exturl\" data-url=\"aHR0cDovL3huLS1zY2FmZm9sZHNwb3N0LWpqMXVvMTdxZWViMDkyYXlzMmdxd2IubWQ=\">打开 scaffolds 目录中的 post.md</span></p><pre><code>title: {{ title }}\ndate: {{ date }}\ntags:\n</code></pre><p>内容可能是这样的，但是缺少了 categories:，我们可以在这里加上，以后生成的文章自带 categories:，或者是 sticky: 是否置顶</p><pre><code>title: {{ title }}\ndate: {{ date }}\ncategories:\ntags:\n</code></pre><h2 id=\"草稿生成\"><a class=\"anchor\" href=\"#草稿生成\">#</a> 草稿生成</h2><p>当我们想要编写一个文章时可以先在草稿中进行编写</p><p>命令： <code>hexo new draft &quot;python基础&quot;</code></p><p>此时就会在_draft 目录生成一个草稿文章</p><ul><li>可能项目没有自带_draft 目录，当我们执行命令后会自动创建或者自己手动创建</li></ul><p>当草稿写完了之后可以将草稿通过命令转移到_post 文章目录中</p><p>命令： <code>hexo publish &quot;python基础&quot;</code></p><p>此时 python 基础这个草稿文章就会从_draft 目录被转移到 _post 目录中 显示到页面上</p><h2 id=\"独立页面生成\"><a class=\"anchor\" href=\"#独立页面生成\">#</a> 独立页面生成</h2><p>什么是独立页面</p><blockquote><p><img data-src=\"../../../img/image-20260918210736712.png\" alt=\"image-20260918210736712\"></p><p>页面上的 关于，文章，友链，链接。这些都是独立页面，这些对应下面目录</p><p><img data-src=\"../../../img/image-20260918210908670.png\" alt=\"image-20260918210908670\"></p><p>也就是说当执行命令后会在 source 目录中添加一个 独立页面的目录里面生成一个.md 文件来当做一个独立的页面，我们可以自由编辑</p></blockquote><p>命令： <code>hexo new page &quot;about&quot;</code></p><ul><li>这个 source 目录自己创建的文件夹不会被当成独立页面展示到页面顶栏的 比如 img 目录就是自己手动创建存储图片的目录，它不会经过命令来创建的不会被特殊处理的</li></ul>",
             "tags": [
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -39,8 +39,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -52,8 +52,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -65,8 +65,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -78,8 +78,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -91,8 +91,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         },
         {
@@ -191,8 +191,8 @@
             "tags": [
                 "hexo",
                 "shoka",
-                "shoka",
-                "hexo"
+                "hexo",
+                "shoka"
             ]
         }
     ]
