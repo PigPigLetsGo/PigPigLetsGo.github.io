@@ -1,4 +1,4 @@
-var CONFIG = {"version":"0.2.5","hostname":"https://pigpigletsgo.github.io","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"darkmode":false,"auto_scroll":true,"js":{"valine":"gh/amehime/MiniValine@4.2.2-beta10/dist/MiniValine.min.js","chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"valine":"css/comment.css","katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"loader":{"start":true,"switch":false},"search":null,"quicklink":{"timeout":3000,"priority":true},"localSearch":{"enable":true,"path":"search.json","field":"post","format":"html","limit":10000,"content":true,"unescape":true,"preload":true,"trigger":"auto","pageSize":10},"audio":[{"title":"Their","list":["https://music.163.com/#/song?id=1858139145","https://music.163.com/#/song?id=1498522590"]},{"title":"Foreign_country","list":["https://music.163.com/#/song?id=1868553","https://music.163.com/#/song?id=4940920","https://music.163.com/#/song?id=563058284","https://music.163.com/#/song?id=1421320798","https://music.163.com/#/song?id=28009364","https://music.163.com/#/song?id=1823586231","https://music.163.com/#/song?id=533542562","https://music.163.com/#/song?id=21303923","https://music.163.com/#/song?id=456370693","https://music.163.com/#/song?id=1342949180"]},{"title":"Enjoy","list":["https://music.163.com/#/song?id=34167558"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
+var CONFIG = {"version":"0.2.5","hostname":"https://pigpigletsgo.github.io","root":"/","statics":"/","favicon":{"normal":"images/favicon.ico","hidden":"images/failure.ico"},"js":{"chart":"npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js","copy_tex":"npm/katex@0.12.0/dist/contrib/copy-tex.min.js","fancybox":"combine/npm/jquery@3.5.1/dist/jquery.min.js,npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js,npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"},"css":{"katex":"npm/katex@0.12.0/dist/katex.min.css","mermaid":"css/mermaid.css","fancybox":"combine/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"},"darkmode":false,"auto_scroll":true,"loader":{"start":true,"switch":false},"search":null,"quicklink":{"timeout":3000,"priority":true},"localSearch":{"enable":true,"path":"search.json","field":"post","format":"html","limit":10000,"content":true,"unescape":true,"preload":true,"trigger":"auto","pageSize":10},"audio":[{"title":"Their","list":["https://music.163.com/#/song?id=1858139145","https://music.163.com/#/song?id=1498522590"]},{"title":"Foreign_country","list":["https://music.163.com/#/song?id=1868553","https://music.163.com/#/song?id=4940920","https://music.163.com/#/song?id=563058284","https://music.163.com/#/song?id=1421320798","https://music.163.com/#/song?id=28009364","https://music.163.com/#/song?id=1823586231","https://music.163.com/#/song?id=533542562","https://music.163.com/#/song?id=21303923","https://music.163.com/#/song?id=456370693","https://music.163.com/#/song?id=1342949180"]},{"title":"Enjoy","list":["https://music.163.com/#/song?id=34167558"]}],"fireworks":["rgba(255,182,185,.9)","rgba(250,227,217,.9)","rgba(187,222,214,.9)","rgba(138,198,209,.9)"]};const getRndInteger = function (min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
@@ -1764,8 +1764,7 @@ const postFancybox = function(p) {
 }
 
 const postBeauty = function () {
-  loadComments();
-
+ 
   if(!$('.md'))
     return
 
@@ -2036,31 +2035,6 @@ const tabFormat = function() {
     box.appendChild(element);
     element.attr('data-ready', true)
   });
-}
-
-const loadComments = function () {
-  var element = $('#comments');
-  if (!element) {
-    goToComment.display("none")
-    return;
-  } else {
-    goToComment.display("")
-  }
-
-  if (!window.IntersectionObserver) {
-    vendorCss('valine');
-  } else {
-    var io = new IntersectionObserver(function(entries, observer) {
-      var entry = entries[0];
-      vendorCss('valine');
-      if (entry.isIntersecting || entry.intersectionRatio > 0) {
-        transition($('#comments'), 'bounceUpIn');
-        observer.disconnect();
-      }
-    });
-
-    io.observe(element);
-  }
 }
 
 const algoliaSearch = function(pjax) {
@@ -2664,18 +2638,16 @@ const localSearch = function(pjax) {
   if(!toolBtn) {
     toolBtn = siteHeader.createChild('div', {
       id: 'tool',
-      innerHTML: '<div class="item player"></div><div class="item contents"><i class="ic i-list-ol"></i></div><div class="item chat"><i class="ic i-comments"></i></div><div class="item back-to-top"><i class="ic i-arrow-up"></i><span>0%</span></div>'
+      innerHTML: '<div class="item player"></div><div class="item contents"><i class="ic i-list-ol"></i></div><div class="item back-to-top"><i class="ic i-arrow-up"></i><span>0%</span></div>'
     });
   }
   
 
   toolPlayer = toolBtn.child('.player');
   backToTop = toolBtn.child('.back-to-top');
-  goToComment = toolBtn.child('.chat');
   showContents = toolBtn.child('.contents');
 
   backToTop.addEventListener('click', backToTopHandle);
-  goToComment.addEventListener('click', goToCommentHandle);
   showContents.addEventListener('click', sideBarToggleHandle);
 
   mediaPlayer(toolPlayer)
@@ -2707,21 +2679,6 @@ const siteRefresh = function (reload) {
   vendorJs('copy_tex');
   vendorCss('mermaid');
   vendorJs('chart');
-  vendorJs('valine', function() {
-    var options = Object.assign({}, CONFIG.valine);
-    options = Object.assign(options, LOCAL.valine||{});
-    options.el = '#comments';
-    options.pathname = LOCAL.path;
-    options.pjax = pjax;
-    options.lazyload = lazyload;
-
-    new MiniValine(options);
-
-    setTimeout(function(){
-      positionInit(1);
-      postFancybox('.v');
-    }, 1000);
-  }, window.MiniValine);
 
   if(!reload) {
     $.each('script[data-pjax]', pjaxScript);
@@ -2780,7 +2737,7 @@ const siteInit = function () {
     algoliaSearch(pjax)
   }
 
-  algoliaSearch(pjax)
+  //algoliaSearch(pjax)
 
   window.addEventListener('scroll', scrollHandle)
 
